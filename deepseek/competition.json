@@ -1,0 +1,43 @@
+{
+  "week": 1,
+  "date": "2026-07-03",
+  "xu30_return": 0.5,
+  "competitors": [
+    {
+      "name": "Codex",
+      "return": 0.0,
+      "portfolio_value": 10000,
+      "initial_capital": 10000,
+      "alpha": -0.5,
+      "rank": 1,
+      "medal": "🥇"
+    },
+    {
+      "name": "Microsoft Copilot",
+      "return": 0.0,
+      "portfolio_value": 102499.75,
+      "initial_capital": 100000,
+      "alpha": -0.5,
+      "rank": 2,
+      "medal": "🥈"
+    },
+    {
+      "name": "DeepSeek AI",
+      "return": -0.17,
+      "portfolio_value": 9982.98,
+      "initial_capital": 10000.0,
+      "alpha": -0.67,
+      "rank": 3,
+      "medal": "🥉"
+    },
+    {
+      "name": "Claude AI",
+      "return": -0.18,
+      "portfolio_value": 9982.43,
+      "initial_capital": 10000,
+      "alpha": -0.68,
+      "rank": 4,
+      "medal": ""
+    }
+  ]
+}

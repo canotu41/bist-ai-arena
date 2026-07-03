@@ -1,0 +1,469 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Codex BIST AI</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #172026;
+      --muted: #5a6872;
+      --line: #d9e1e7;
+      --panel: #ffffff;
+      --paper: #f5f7f9;
+      --green: #167c57;
+      --red: #b84242;
+      --blue: #1d5f8f;
+      --gold: #9a6b12;
+      --shadow: 0 18px 45px rgba(30, 45, 58, 0.12);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--paper);
+      color: var(--ink);
+    }
+
+    header {
+      min-height: 42vh;
+      display: grid;
+      align-items: end;
+      background:
+        linear-gradient(90deg, rgba(18, 31, 41, 0.9), rgba(18, 31, 41, 0.58)),
+        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 520'%3E%3Crect width='1200' height='520' fill='%23223038'/%3E%3Cg opacity='.28' stroke='%23d7e9ee' stroke-width='2' fill='none'%3E%3Cpath d='M0 410 C120 370 180 430 300 360 S520 280 650 310 860 230 980 190 1120 220 1200 170'/%3E%3Cpath d='M0 350 C140 310 230 360 360 300 S560 210 720 240 920 160 1200 90'/%3E%3Cpath d='M0 455 L1200 455' opacity='.35'/%3E%3Cpath d='M80 0 L80 520 M220 0 L220 520 M360 0 L360 520 M500 0 L500 520 M640 0 L640 520 M780 0 L780 520 M920 0 L920 520 M1060 0 L1060 520' opacity='.16'/%3E%3Cpath d='M0 90 L1200 90 M0 170 L1200 170 M0 250 L1200 250 M0 330 L1200 330 M0 410 L1200 410' opacity='.16'/%3E%3C/g%3E%3Cg fill='%23ffffff' opacity='.8'%3E%3Ccircle cx='300' cy='360' r='6'/%3E%3Ccircle cx='650' cy='310' r='6'/%3E%3Ccircle cx='980' cy='190' r='6'/%3E%3C/g%3E%3C/svg%3E");
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+    }
+
+    .hero {
+      width: min(1180px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 48px 0 44px;
+    }
+
+    .hero h1 {
+      margin: 0;
+      font-size: clamp(42px, 7vw, 86px);
+      line-height: 0.95;
+      letter-spacing: 0;
+    }
+
+    .hero p {
+      max-width: 720px;
+      margin: 18px 0 0;
+      font-size: clamp(17px, 2vw, 22px);
+      color: rgba(255, 255, 255, 0.84);
+    }
+
+    main {
+      width: min(1180px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 24px 0 48px;
+    }
+
+    .toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      justify-content: space-between;
+      padding: 14px 0 20px;
+    }
+
+    .filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    button {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      color: var(--ink);
+      min-height: 38px;
+      padding: 0 12px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    button.active {
+      background: var(--ink);
+      color: #fff;
+      border-color: var(--ink);
+    }
+
+    .stamp {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+
+    .metric, .panel, .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+    }
+
+    .metric {
+      padding: 16px;
+      min-height: 104px;
+    }
+
+    .metric b {
+      display: block;
+      font-size: 13px;
+      color: var(--muted);
+      margin-bottom: 8px;
+    }
+
+    .metric span {
+      font-size: 28px;
+      font-weight: 800;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1.4fr 0.8fr;
+      gap: 16px;
+      align-items: start;
+    }
+
+    .panel {
+      padding: 16px;
+    }
+
+    .panel h2 {
+      margin: 0 0 12px;
+      font-size: 22px;
+    }
+
+    .cards {
+      display: grid;
+      gap: 12px;
+    }
+
+    .card {
+      padding: 14px;
+      box-shadow: none;
+    }
+
+    .card-top {
+      display: flex;
+      gap: 10px;
+      justify-content: space-between;
+      align-items: start;
+    }
+
+    .ticker {
+      font-size: 24px;
+      font-weight: 900;
+    }
+
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      min-height: 26px;
+      padding: 0 8px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 800;
+      color: #fff;
+      white-space: nowrap;
+    }
+
+    .tag.paper { background: var(--green); }
+    .tag.watch { background: var(--blue); }
+    .tag.wait { background: var(--gold); }
+
+    .score {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 8px;
+      align-items: center;
+      margin: 12px 0;
+    }
+
+    .bar {
+      height: 10px;
+      border-radius: 999px;
+      background: #e7edf1;
+      overflow: hidden;
+    }
+
+    .fill {
+      height: 100%;
+      background: linear-gradient(90deg, #1d5f8f, #167c57);
+    }
+
+    .reasons {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8px;
+      margin-top: 10px;
+    }
+
+    .mini {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 8px;
+      min-height: 76px;
+    }
+
+    .mini b {
+      display: block;
+      font-size: 12px;
+      color: var(--muted);
+      margin-bottom: 4px;
+    }
+
+    .mini span, .card p, li {
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.45;
+    }
+
+    .risk {
+      margin-top: 10px;
+      padding-top: 10px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+    }
+
+    th, td {
+      text-align: left;
+      padding: 10px 8px;
+      border-bottom: 1px solid var(--line);
+      vertical-align: top;
+    }
+
+    th {
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .notice {
+      margin-top: 16px;
+      padding: 12px;
+      border: 1px solid #efd8a2;
+      background: #fff7e3;
+      border-radius: 8px;
+      color: #60430d;
+      font-size: 14px;
+      line-height: 1.45;
+    }
+
+    @media (max-width: 860px) {
+      .metrics, .grid, .reasons {
+        grid-template-columns: 1fr;
+      }
+
+      .hero {
+        padding-top: 88px;
+      }
+
+      .ticker {
+        font-size: 21px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <section class="hero">
+      <h1>Codex BIST AI</h1>
+      <p>Haber, KAP, bilanço ve teknik teyidi birlikte okuyan; haftalık yarışma için risk kontrollü paper trading adayları üreten yerel panel.</p>
+    </section>
+  </header>
+
+  <main>
+    <section class="toolbar" aria-label="Kontroller">
+      <div class="filters">
+        <button class="active" data-filter="all">Tümü</button>
+        <button data-filter="paper">Paper portföy</button>
+        <button data-filter="watch">İzleme</button>
+        <button data-filter="wait">Teyit bekler</button>
+      </div>
+      <div class="stamp">Sürüm: Codex v0.1 | Veri modu: strateji iskeleti</div>
+    </section>
+
+    <section class="metrics" aria-label="Özet metrikler">
+      <div class="metric"><b>Haftalık aday</b><span id="paperCount">0</span></div>
+      <div class="metric"><b>Ortalama skor</b><span id="avgScore">0</span></div>
+      <div class="metric"><b>Maksimum tek hisse</b><span>%15</span></div>
+      <div class="metric"><b>Yenileme hedefi</b><span>30 dk</span></div>
+    </section>
+
+    <section class="grid">
+      <div class="panel">
+        <h2>Öneri Radarı</h2>
+        <div class="cards" id="recommendations"></div>
+      </div>
+
+      <aside class="panel">
+        <h2>Strateji Özeti</h2>
+        <table>
+          <tbody>
+            <tr><th>Öncelik</th><td>Risk, kalite, momentum</td></tr>
+            <tr><th>Skor</th><td>Temel 35, teknik 30, haber/KAP 20, likidite 15</td></tr>
+            <tr><th>Yarışma</th><td>Her hafta 5 ana aday, 5 yedek izleme adayı</td></tr>
+            <tr><th>Benchmark</th><td>XU100, XU030 ve nakit/faiz alternatifi</td></tr>
+            <tr><th>İptal</th><td>Stop, haber bozulması veya teknik teyit kaybı</td></tr>
+          </tbody>
+        </table>
+
+        <div class="notice">
+          Bu panel canlı piyasa verisine bağlı değildir. Aşağıdaki adaylar işlem tavsiyesi değil, Codex stratejisinin yarışma ve paper trading formatında nasıl çalışacağını gösteren başlangıç setidir.
+        </div>
+
+        <h2 style="margin-top:18px">Sonraki İnşa</h2>
+        <ul>
+          <li>KAP ve fiyat toplayıcıları</li>
+          <li>Otomatik skor hesaplama</li>
+          <li>Haftalık performans kayıtları</li>
+          <li>Canlı veriyle öneri güncelleme</li>
+        </ul>
+      </aside>
+    </section>
+  </main>
+
+  <script>
+    const recommendations = [
+      {
+        ticker: "THYAO",
+        name: "Türk Hava Yolları",
+        type: "paper",
+        label: "Paper portföy",
+        score: 82,
+        theme: "Likidite + global talep + relatif güç",
+        fundamental: "Yüksek ciro ölçeği, döviz geliri ve operasyonel kaldıraç nedeniyle kalite ekranında öncelikli izlenir.",
+        technical: "Trend ve hacim teyidi geldiğinde haftalık yarışma adayına dönüşür.",
+        catalyst: "Trafik verisi, filo, turizm ve petrol fiyatı haberleri ana tetikleyicidir.",
+        risk: "Yakıt maliyeti, jeopolitik haber ve ani kur oynaklığı. Teyit kaybında ağırlık düşer."
+      },
+      {
+        ticker: "BIMAS",
+        name: "BİM Mağazalar",
+        type: "paper",
+        label: "Paper portföy",
+        score: 80,
+        theme: "Defansif büyüme + marj takibi",
+        fundamental: "Nakit üretimi, mağaza büyümesi ve temel tüketim teması nedeniyle düşük beta adayıdır.",
+        technical: "Endeks zayıflığında göreli güçlü kalırsa portföy dengeleyici olarak öne çıkar.",
+        catalyst: "Enflasyon, sepet büyüklüğü, marj ve bilanço açıklamaları takip edilir.",
+        risk: "Regülasyon, fiyat baskısı ve marj daralması. Haftalık stop daha geniş değil, kontrollü tutulur."
+      },
+      {
+        ticker: "ASELS",
+        name: "Aselsan",
+        type: "paper",
+        label: "Paper portföy",
+        score: 78,
+        theme: "Savunma katalizörü + sipariş akışı",
+        fundamental: "Bakiye siparişler, ihracat ve yüksek teknoloji teması kalite puanına katkı verir.",
+        technical: "Hacimli kırılım gelirse momentum stratejisinde ana aday olur.",
+        catalyst: "Yeni sözleşme, ihracat ve savunma bütçesi haberleri skoru yükseltir.",
+        risk: "Beklenti fazlalığı ve sert kar satışı. Haber sonrası hacim teyidi şarttır."
+      },
+      {
+        ticker: "KCHOL",
+        name: "Koç Holding",
+        type: "watch",
+        label: "İzleme",
+        score: 74,
+        theme: "Holding iskontosu + portföy kalitesi",
+        fundamental: "Çeşitlendirilmiş iştirak yapısı ve büyük ölçekli varlık tabanı nedeniyle izlenir.",
+        technical: "Endekse göre güçlenme ve hacim artışı olmadan ana listeye girmez.",
+        catalyst: "İştirak bilançoları, temettü ve net aktif değer iskontosu takip edilir.",
+        risk: "Endeks betası ve iştirak kaynaklı karma risk. Sektör yoğunluğu kontrol edilir."
+      },
+      {
+        ticker: "TUPRS",
+        name: "Tüpraş",
+        type: "watch",
+        label: "İzleme",
+        score: 72,
+        theme: "Temettü + rafineri marjı",
+        fundamental: "Nakit üretimi ve temettü potansiyeli nedeniyle kalite ekranında kalır.",
+        technical: "Petrol ve rafineri marjı desteğiyle trend teyidi beklenir.",
+        catalyst: "Marj verileri, stok etkisi, temettü ve enerji haberleri izlenir.",
+        risk: "Emtia oynaklığı, stok zararı ve ani marj daralması. Pozisyon boyutu sınırlı tutulur."
+      },
+      {
+        ticker: "GARAN",
+        name: "Garanti BBVA",
+        type: "wait",
+        label: "Teyit bekler",
+        score: 66,
+        theme: "Banka momentumu + faiz hassasiyeti",
+        fundamental: "Özkaynak karlılığı ve aktif kalitesi güçlü geldiğinde hızlı skor kazanır.",
+        technical: "Banka endeksiyle birlikte hacimli teyit gelmeden yarışma listesine alınmaz.",
+        catalyst: "TCMB kararları, enflasyon, mevduat maliyeti ve bilanço ana belirleyicidir.",
+        risk: "Regülasyon, faiz oynaklığı ve sektör bazlı satış. Sadece teyitle izlenir."
+      }
+    ];
+
+    const list = document.querySelector("#recommendations");
+    const buttons = document.querySelectorAll("button[data-filter]");
+
+    function render(filter = "all") {
+      const visible = recommendations.filter(item => filter === "all" || item.type === filter);
+      list.innerHTML = visible.map(item => `
+        <article class="card" data-type="${item.type}">
+          <div class="card-top">
+            <div>
+              <div class="ticker">${item.ticker}</div>
+              <p>${item.name} · ${item.theme}</p>
+            </div>
+            <span class="tag ${item.type}">${item.label}</span>
+          </div>
+          <div class="score">
+            <div class="bar"><div class="fill" style="width:${item.score}%"></div></div>
+            <strong>${item.score}/100</strong>
+          </div>
+          <div class="reasons">
+            <div class="mini"><b>Temel</b><span>${item.fundamental}</span></div>
+            <div class="mini"><b>Teknik</b><span>${item.technical}</span></div>
+            <div class="mini"><b>Katalizör</b><span>${item.catalyst}</span></div>
+          </div>
+          <div class="risk"><strong>Risk/iptal:</strong> ${item.risk}</div>
+        </article>
+      `).join("");
+      document.querySelector("#paperCount").textContent = recommendations.filter(item => item.type === "paper").length;
+      const avg = Math.round(recommendations.reduce((sum, item) => sum + item.score, 0) / recommendations.length);
+      document.querySelector("#avgScore").textContent = avg;
+    }
+
+    buttons.forEach(button => {
+      button.addEventListener("click", () => {
+        buttons.forEach(item => item.classList.remove("active"));
+        button.classList.add("active");
+        render(button.dataset.filter);
+      });
+    });
+
+    render();
+  </script>
+</body>
+</html>

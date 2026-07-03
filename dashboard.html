@@ -1,0 +1,531 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="refresh" content="300">
+<title>BIST AI Arena — Birleşik Dashboard</title>
+<style>
+  :root {
+    --bg:#0b1120; --panel:#111a2e; --panel2:#0f1728; --line:#1e2b45;
+    --ink:#e6edf7; --muted:#8798b5; --green:#22c55e; --red:#ef4444;
+    --amber:#f59e0b; --accent:#a855f7;
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink);
+    font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif; }
+  a { color:inherit; }
+  .wrap { max-width:1200px; margin:0 auto; padding:20px 16px 60px; }
+  header { display:flex; flex-wrap:wrap; align-items:baseline; gap:12px;
+    border-bottom:1px solid var(--line); padding-bottom:14px; margin-bottom:22px; }
+  h1 { font-size:22px; margin:0; letter-spacing:.2px; }
+  h1 .spark { color:var(--accent); }
+  .sub { color:var(--muted); font-size:13px; }
+  .sub b { color:var(--ink); }
+  section { margin:30px 0; }
+  h2 { font-size:15px; text-transform:uppercase; letter-spacing:.12em;
+    color:var(--muted); margin:0 0 14px; font-weight:600; }
+  .muted { color:var(--muted); } .num { text-align:right; }
+  .nowrap { white-space:nowrap; } .pos { color:var(--green); }
+  .neg { color:var(--red); } .warn { color:var(--amber); }
+  .mono { font-family:ui-monospace,SFMono-Regular,Menlo,monospace; }
+
+  .lb-grid { display:grid; gap:14px; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); }
+  .lb-card { background:var(--panel); border:1px solid var(--line); border-left:4px solid var(--c);
+    border-radius:14px; padding:16px; }
+  .lb-card.inactive { opacity:.5; border-left-color:var(--line); }
+  .lb-top { display:flex; align-items:center; gap:8px; font-size:14px; }
+  .lb-medal { font-size:18px; } .lb-name { font-weight:600; }
+  .lb-rank { margin-left:auto; color:var(--muted); font-size:12px; }
+  .lb-ret { font-size:30px; font-weight:700; margin:8px 0 6px; letter-spacing:-.5px; }
+  .lb-meta { display:flex; justify-content:space-between; font-size:12.5px;
+    color:var(--muted); margin-top:4px; }
+
+  .scroll { overflow-x:auto; border:1px solid var(--line); border-radius:12px; }
+  table { width:100%; border-collapse:collapse; font-size:13px; min-width:520px; }
+  th,td { padding:9px 12px; text-align:left; border-bottom:1px solid var(--line); }
+  th { background:var(--panel2); color:var(--muted); font-weight:600;
+    font-size:11.5px; text-transform:uppercase; letter-spacing:.06em; position:sticky; top:0; }
+  tbody tr:hover { background:rgba(255,255,255,.02); }
+  td.reason { color:var(--muted); max-width:340px; }
+  .feed td { vertical-align:middle; }
+
+  .badge { display:inline-block; padding:2px 9px; border-radius:999px; font-size:11px; font-weight:700; }
+  .badge.buy { background:rgba(34,197,94,.15); color:var(--green); }
+  .badge.sell { background:rgba(239,68,68,.15); color:var(--red); }
+  .badge.hold { background:rgba(148,163,184,.15); color:var(--muted); }
+  .chip { display:inline-block; padding:2px 9px; border-radius:999px; font-size:11.5px;
+    font-weight:600; color:var(--c); background:color-mix(in srgb,var(--c) 16%,transparent);
+    border:1px solid color-mix(in srgb,var(--c) 35%,transparent); }
+  .mini-chip { display:inline-block; padding:1px 6px; border-radius:6px; font-size:10.5px;
+    background:var(--panel2); border:1px solid var(--line); color:var(--muted); margin:1px; }
+  .tag { font-size:11px; color:var(--muted); background:var(--panel2);
+    padding:2px 8px; border-radius:6px; }
+  .agree { font-weight:700; color:var(--accent); }
+
+  .pf-grid { display:grid; gap:14px; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); }
+  .pf-card { background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:14px; }
+  .pf-head { display:flex; align-items:center; gap:8px; margin-bottom:10px; font-size:14px; }
+  .pf-head .dot { width:9px; height:9px; border-radius:50%; background:var(--c); }
+  .pf-head .muted { margin-left:auto; }
+  table.mini { min-width:0; } table.mini th,table.mini td { padding:6px 8px; }
+
+  .rn-grid { display:grid; gap:14px; grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); }
+  .rn { background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:15px; }
+  .rn-head { display:flex; align-items:center; gap:8px; flex-wrap:wrap; margin-bottom:8px; }
+  .verdict { font-size:11px; font-weight:700; padding:2px 9px; border-radius:999px;
+    background:var(--panel2); border:1px solid var(--line); }
+  .verdict.pos { color:var(--green); } .verdict.warn { color:var(--amber); }
+  .rn-thesis { margin:6px 0; font-size:13px; line-height:1.55; }
+  .rn-risk { margin:6px 0 0; font-size:12px; color:var(--muted); }
+  .note { background:var(--panel2); border:1px solid var(--line); border-radius:12px;
+    padding:12px 14px; font-size:12.5px; color:var(--muted); }
+  .banner { background:color-mix(in srgb,var(--accent) 12%,transparent);
+    border:1px solid color-mix(in srgb,var(--accent) 30%,transparent);
+    border-radius:12px; padding:12px 14px; font-size:13px; margin-bottom:8px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1><span class="spark">◆</span> BIST AI Arena</h1>
+    <span class="sub">5 yapay zeka · BIST30 · 52 haftalık paper trading yarışı</span>
+    <span class="sub" style="margin-left:auto">Güncelleme: <b>2026-07-03 23:14</b> · her 5 dk oto-yenile</span>
+  </header>
+
+  <div class="banner">
+    <b>4 aktif yarışmacı</b> · toplam <b>16</b> işlem ·
+    XU30 varsayılan getiri: <b>%+0.50</b> ·
+    5. oyuncu <b style="color:var(--accent)">Konsensüs (Claude)</b>: 2+ AI'ın ortak seçtiği hisselerden kurulur.
+    <span class="muted">Fiyatlar şu an simüle veri; gerçek BIST/DeepSeek akışı bağlanınca canlanır.</span>
+  </div>
+
+  <section>
+    <h2>🏆 Liderlik Tablosu</h2>
+    <div class="lb-grid">
+        <div class="lb-card" style="--c:#34d399">
+          <div class="lb-top"><span class="lb-medal">🥇</span>
+            <span class="lb-name">Microsoft Copilot</span>
+            <span class="lb-rank">#1</span></div>
+          <div class="lb-ret pos">%+2.50</div>
+          <div class="lb-meta">
+            <span>Değer: <b>102,500 TL</b></span>
+            <span>Alfa: <b class="pos">%+2.00</b></span>
+          </div>
+          <div class="lb-meta"><span>Nakit: -24,988 TL</span>
+            <span>Pozisyon: 3</span></div>
+        </div>
+        <div class="lb-card" style="--c:#a855f7">
+          <div class="lb-top"><span class="lb-medal">🥈</span>
+            <span class="lb-name">Konsensüs (Claude)</span>
+            <span class="lb-rank">#2</span></div>
+          <div class="lb-ret neg">%-0.11</div>
+          <div class="lb-meta">
+            <span>Değer: <b>9,989 TL</b></span>
+            <span>Alfa: <b class="neg">%-0.61</b></span>
+          </div>
+          <div class="lb-meta"><span>Nakit: 4,410 TL</span>
+            <span>Pozisyon: 3</span></div>
+        </div>
+        <div class="lb-card" style="--c:#f59e0b">
+          <div class="lb-top"><span class="lb-medal">🥉</span>
+            <span class="lb-name">Claude AI</span>
+            <span class="lb-rank">#3</span></div>
+          <div class="lb-ret neg">%-0.18</div>
+          <div class="lb-meta">
+            <span>Değer: <b>9,982 TL</b></span>
+            <span>Alfa: <b class="neg">%-0.68</b></span>
+          </div>
+          <div class="lb-meta"><span>Nakit: 1,199 TL</span>
+            <span>Pozisyon: 8</span></div>
+        </div>
+        <div class="lb-card" style="--c:#38bdf8">
+          <div class="lb-top"><span class="lb-medal"></span>
+            <span class="lb-name">DeepSeek AI</span>
+            <span class="lb-rank">#4</span></div>
+          <div class="lb-ret neg">%-0.19</div>
+          <div class="lb-meta">
+            <span>Değer: <b>9,981 TL</b></span>
+            <span>Alfa: <b class="neg">%-0.69</b></span>
+          </div>
+          <div class="lb-meta"><span>Nakit: 532 TL</span>
+            <span>Pozisyon: 9</span></div>
+        </div><div class="lb-card inactive"><div class="lb-name">Codex</div><div class="muted">Henüz portföy üretmedi</div></div></div>
+  </section>
+
+  <section>
+    <h2>⚡ Canlı İşlem Akışı</h2>
+    <div class="scroll"><table class="feed">
+      <thead><tr><th>Zaman</th><th>AI</th><th>İşlem</th><th>Hisse</th>
+        <th class="num">Adet</th><th class="num">Fiyat</th><th>Gerekçe</th></tr></thead>
+      <tbody>
+        <tr>
+          <td class="mono nowrap">2026-07-03 23:14</td>
+          <td><span class="chip" style="--c:#a855f7">Konsensüs (Claude)</span></td>
+          <td><span class="badge buy">AL</span></td>
+          <td class="mono"><b>THYAO</b></td>
+          <td class="mono num">5</td>
+          <td class="mono num">334.00</td>
+          <td class="reason">Konsensüs: 2 AI ortak (Claude AI, Microsoft Copilot)</td>
+        </tr>
+        <tr>
+          <td class="mono nowrap">2026-07-03 23:14</td>
+          <td><span class="chip" style="--c:#a855f7">Konsensüs (Claude)</span></td>
+          <td><span class="badge buy">AL</span></td>
+          <td class="mono"><b>ASELS</b></td>
+          <td class="mono num">25</td>
+          <td class="mono num">78.50</td>
+          <td class="reason">Konsensüs: 2 AI ortak (DeepSeek AI, Microsoft Copilot)</td>
+        </tr>
+        <tr>
+          <td class="mono nowrap">2026-07-03 23:14</td>
+          <td><span class="chip" style="--c:#a855f7">Konsensüs (Claude)</span></td>
+          <td><span class="badge buy">AL</span></td>
+          <td class="mono"><b>AKBNK</b></td>
+          <td class="mono num">25</td>
+          <td class="mono num">77.85</td>
+          <td class="reason">Konsensüs: 2 AI ortak (DeepSeek AI, Claude AI)</td>
+        </tr>
+        <tr>
+          <td class="mono nowrap">2026-07-03 23:14</td>
+          <td><span class="chip" style="--c:#38bdf8">DeepSeek AI</span></td>
+          <td><span class="badge buy">AL</span></td>
+          <td class="mono"><b>AKBNK</b></td>
+          <td class="mono num">12</td>
+          <td class="mono num">77.85</td>
+          <td class="reason">DeepScore™ 83.2 (STRONG_BUY) | Sektör: Bankacılık</td>
+        </tr>
+        <tr>
+          <td class="mono nowrap">2026-07-03 22:02</td>
+          <td><span class="chip" style="--c:#38bdf8">DeepSeek AI</span></td>
+          <td><span class="badge buy">AL</span></td>
+          <td class="mono"><b>SISE</b></td>
+          <td class="mono num">8</td>
+          <td class="mono num">55.80</td>
+          <td class="reason">DeepSeek başlangıç portföyü seçimi</td>
+        </tr>
+        <tr>
+          <td class="mono nowrap">2026-07-03 22:02</td>
+          <td><span class="chip" style="--c:#38bdf8">DeepSeek AI</span></td>
+          <td><span class="badge buy">AL</span></td>
+          <td class="mono"><b>CCOLA</b></td>
+          <td class="mono num">1</td>
+          <td class="mono num">680.00</td>
+          <td class="reason">DeepSeek başlangıç portföyü seçimi</td>
+        </tr>
+        <tr>
+          <td class="mono nowrap">2026-07-03 22:02</td>
+          <td><span class="chip" style="--c:#38bdf8">DeepSeek AI</span></td>
+          <td><span class="badge buy">AL</span></td>
+          <td class="mono"><b>ASELS</b></td>
+          <td class="mono num">15</td>
+          <td class="mono num">78.50</td>
+          <td class="reason">DeepSeek başlangıç portföyü seçimi</td>
+        </tr>
+        <tr>
+          <td class="mono nowrap">2026-07-03 22:02</td>
+          <td><span class="chip" style="--c:#38bdf8">DeepSeek AI</span></td>
+          <td><span class="badge buy">AL</span></td>
+          <td class="mono"><b>SAHOL</b></td>
+          <td class="mono num">12</td>
+          <td class="mono num">92.50</td>
+          <td class="reason">DeepSeek başlangıç portföyü seçimi</td>
+        </tr>
+        <tr>
+          <td class="mono nowrap">2026-07-03 22:02</td>
+          <td><span class="chip" style="--c:#38bdf8">DeepSeek AI</span></td>
+          <td><span class="badge buy">AL</span></td>
+          <td class="mono"><b>AKSEN</b></td>
+          <td class="mono num">31</td>
+          <td class="mono num">38.20</td>
+          <td class="reason">DeepSeek başlangıç portföyü seçimi</td>
+        </tr>
+        <tr>
+          <td class="mono nowrap">2026-07-03 22:02</td>
+          <td><span class="chip" style="--c:#38bdf8">DeepSeek AI</span></td>
+          <td><span class="badge buy">AL</span></td>
+          <td class="mono"><b>PGSUS</b></td>
+          <td class="mono num">4</td>
+          <td class="mono num">280.50</td>
+          <td class="reason">DeepSeek başlangıç portföyü seçimi</td>
+        </tr>
+        <tr>
+          <td class="mono nowrap">2026-07-03 22:02</td>
+          <td><span class="chip" style="--c:#38bdf8">DeepSeek AI</span></td>
+          <td><span class="badge buy">AL</span></td>
+          <td class="mono"><b>TOASO</b></td>
+          <td class="mono num">3</td>
+          <td class="mono num">385.00</td>
+          <td class="reason">DeepSeek başlangıç portföyü seçimi</td>
+        </tr>
+        <tr>
+          <td class="mono nowrap">2026-07-03 22:02</td>
+          <td><span class="chip" style="--c:#38bdf8">DeepSeek AI</span></td>
+          <td><span class="badge buy">AL</span></td>
+          <td class="mono"><b>YKBNK</b></td>
+          <td class="mono num">50</td>
+          <td class="mono num">32.80</td>
+          <td class="reason">DeepSeek başlangıç portföyü seçimi</td>
+        </tr>
+        <tr>
+          <td class="mono nowrap">2026-07-03</td>
+          <td><span class="chip" style="--c:#f59e0b">Claude AI</span></td>
+          <td><span class="badge buy">AL</span></td>
+          <td class="mono"><b>-</b></td>
+          <td class="mono num"></td>
+          <td class="mono num">—</td>
+          <td class="reason">8 hisselik baslangic portfoyu acildi (bkz. log/2026-07-03_giris.md). Komisyon 17.57 TL.</td>
+        </tr>
+        <tr>
+          <td class="mono nowrap">—</td>
+          <td><span class="chip" style="--c:#34d399">Microsoft Copilot</span></td>
+          <td><span class="badge buy">AL</span></td>
+          <td class="mono"><b>ASELS</b></td>
+          <td class="mono num">3333.0</td>
+          <td class="mono num">10.00</td>
+          <td class="reason">Başlangıç pozisyonu (öneri motoru)</td>
+        </tr>
+        <tr>
+          <td class="mono nowrap">—</td>
+          <td><span class="chip" style="--c:#34d399">Microsoft Copilot</span></td>
+          <td><span class="badge buy">AL</span></td>
+          <td class="mono"><b>THYAO</b></td>
+          <td class="mono num">3333.0</td>
+          <td class="mono num">12.50</td>
+          <td class="reason">Başlangıç pozisyonu (öneri motoru)</td>
+        </tr>
+        <tr>
+          <td class="mono nowrap">—</td>
+          <td><span class="chip" style="--c:#34d399">Microsoft Copilot</span></td>
+          <td><span class="badge buy">AL</span></td>
+          <td class="mono"><b>ARCLK</b></td>
+          <td class="mono num">3333.0</td>
+          <td class="mono num">15.00</td>
+          <td class="reason">Başlangıç pozisyonu (öneri motoru)</td>
+        </tr></tbody></table></div>
+  </section>
+
+  <section>
+    <h2>🧩 Konsensüs Hisseleri — 2+ AI'ın Ortak Kararı</h2>
+    <div class="scroll"><table>
+      <thead><tr><th>Hisse</th><th>Şirket</th><th>Sektör</th><th class="num">Ortaklık</th>
+        <th>AI'lar</th><th class="num">DeepScore</th><th class="num">RSI</th></tr></thead>
+      <tbody><tr>
+          <td class="mono"><b>AKBNK</b></td>
+          <td>Akbank</td>
+          <td><span class="tag">Bankacılık</span></td>
+          <td class="num"><span class="agree">×2</span></td>
+          <td><span class="mini-chip">DeepSeek</span> <span class="mini-chip">Claude</span></td>
+          <td class="num mono pos">83.2</td>
+          <td class="num mono">62</td>
+        </tr><tr>
+          <td class="mono"><b>ASELS</b></td>
+          <td>Aselsan</td>
+          <td><span class="tag">Savunma</span></td>
+          <td class="num"><span class="agree">×2</span></td>
+          <td><span class="mini-chip">DeepSeek</span> <span class="mini-chip">Microsoft</span></td>
+          <td class="num mono pos">71.1</td>
+          <td class="num mono">72</td>
+        </tr><tr>
+          <td class="mono"><b>THYAO</b></td>
+          <td>Türk Hava Yolları</td>
+          <td><span class="tag">Ulaştırma</span></td>
+          <td class="num"><span class="agree">×2</span></td>
+          <td><span class="mini-chip">Claude</span> <span class="mini-chip">Microsoft</span></td>
+          <td class="num mono warn">61.4</td>
+          <td class="num mono">44</td>
+        </tr></tbody></table></div>
+  </section>
+
+  <section>
+    <h2>🔬 Claude Araştırma Paneli</h2>
+    <div class="rn-grid">
+        <div class="rn">
+          <div class="rn-head"><b class="mono">AKBNK</b>
+            <span class="muted">Akbank</span>
+            <span class="verdict pos">KONSENSÜS AL</span>
+            <span class="agree">×2</span></div>
+          <p class="rn-thesis">2 yapay zeka (DeepSeek AI, Claude AI) ortak noktada. DeepScore 83.2, F/K 3.8, ROE %22.5, 20 günlük değişim %+8.2. Teknik: güçlü yükseliş trendi (MA20&gt;MA50&gt;MA200), RSI 62 (sağlıklı momentum).</p>
+          <p class="rn-risk">⚠ Stop -%8, hedef +%20. ATR %2.8 — orta volatilite.</p>
+        </div>
+        <div class="rn">
+          <div class="rn-head"><b class="mono">ASELS</b>
+            <span class="muted">Aselsan</span>
+            <span class="verdict pos">KONSENSÜS AL</span>
+            <span class="agree">×2</span></div>
+          <p class="rn-thesis">2 yapay zeka (DeepSeek AI, Microsoft Copilot) ortak noktada. DeepScore 71.1, F/K 15.5, ROE %35.0, 20 günlük değişim %+15.2. Teknik: güçlü yükseliş trendi (MA20&gt;MA50&gt;MA200), RSI 72 (aşırı alım bölgesi).</p>
+          <p class="rn-risk">⚠ Stop -%8, hedef +%20. ATR %3.8 — yüksek volatilite.</p>
+        </div>
+        <div class="rn">
+          <div class="rn-head"><b class="mono">THYAO</b>
+            <span class="muted">Türk Hava Yolları</span>
+            <span class="verdict pos">KONSENSÜS AL</span>
+            <span class="agree">×2</span></div>
+          <p class="rn-thesis">2 yapay zeka (Claude AI, Microsoft Copilot) ortak noktada. DeepScore 61.4, F/K 5.8, ROE %14.0, 20 günlük değişim %-2.5. Teknik: nötr-pozitif (uzun vade trendinin üstünde), RSI 44 (sağlıklı momentum).</p>
+          <p class="rn-risk">⚠ Stop -%8, hedef +%20. ATR %2.6 — orta volatilite.</p>
+        </div></div>
+  </section>
+
+  <section>
+    <h2>💼 Yarışmacı Portföyleri</h2>
+    <div class="pf-grid">
+        <div class="pf-card" style="--c:#a855f7">
+          <div class="pf-head"><span class="dot"></span><b>Konsensüs (Claude)</b>
+            <span class="muted">%-0.11</span></div>
+          <div class="scroll"><table class="mini">
+            <thead><tr><th>Hisse</th><th class="num">Adet</th><th class="num">Giriş</th>
+              <th class="num">Güncel</th><th class="num">K/Z</th><th class="num">Ağ.</th></tr></thead>
+            <tbody><tr><td class="mono"><b>ASELS</b></td>
+              <td class="num mono">25</td>
+              <td class="num mono">78.50</td>
+              <td class="num mono">78.50</td>
+              <td class="num mono pos">%+0.0</td>
+              <td class="num mono">%20</td></tr><tr><td class="mono"><b>AKBNK</b></td>
+              <td class="num mono">25</td>
+              <td class="num mono">77.85</td>
+              <td class="num mono">77.85</td>
+              <td class="num mono pos">%+0.0</td>
+              <td class="num mono">%20</td></tr><tr><td class="mono"><b>THYAO</b></td>
+              <td class="num mono">5</td>
+              <td class="num mono">334.00</td>
+              <td class="num mono">334.00</td>
+              <td class="num mono pos">%+0.0</td>
+              <td class="num mono">%17</td></tr></tbody></table></div>
+        </div>
+        <div class="pf-card" style="--c:#38bdf8">
+          <div class="pf-head"><span class="dot"></span><b>DeepSeek AI</b>
+            <span class="muted">%-0.19</span></div>
+          <div class="scroll"><table class="mini">
+            <thead><tr><th>Hisse</th><th class="num">Adet</th><th class="num">Giriş</th>
+              <th class="num">Güncel</th><th class="num">K/Z</th><th class="num">Ağ.</th></tr></thead>
+            <tbody><tr><td class="mono"><b>YKBNK</b></td>
+              <td class="num mono">50</td>
+              <td class="num mono">32.80</td>
+              <td class="num mono">32.80</td>
+              <td class="num mono pos">%+0.0</td>
+              <td class="num mono">%16</td></tr><tr><td class="mono"><b>AKSEN</b></td>
+              <td class="num mono">31</td>
+              <td class="num mono">38.20</td>
+              <td class="num mono">38.20</td>
+              <td class="num mono pos">%+0.0</td>
+              <td class="num mono">%12</td></tr><tr><td class="mono"><b>ASELS</b></td>
+              <td class="num mono">15</td>
+              <td class="num mono">78.50</td>
+              <td class="num mono">78.50</td>
+              <td class="num mono pos">%+0.0</td>
+              <td class="num mono">%12</td></tr><tr><td class="mono"><b>TOASO</b></td>
+              <td class="num mono">3</td>
+              <td class="num mono">385.00</td>
+              <td class="num mono">385.00</td>
+              <td class="num mono pos">%+0.0</td>
+              <td class="num mono">%12</td></tr><tr><td class="mono"><b>PGSUS</b></td>
+              <td class="num mono">4</td>
+              <td class="num mono">280.50</td>
+              <td class="num mono">280.50</td>
+              <td class="num mono pos">%+0.0</td>
+              <td class="num mono">%11</td></tr><tr><td class="mono"><b>SAHOL</b></td>
+              <td class="num mono">12</td>
+              <td class="num mono">92.50</td>
+              <td class="num mono">92.50</td>
+              <td class="num mono pos">%+0.0</td>
+              <td class="num mono">%11</td></tr><tr><td class="mono"><b>AKBNK</b></td>
+              <td class="num mono">12</td>
+              <td class="num mono">77.85</td>
+              <td class="num mono">77.85</td>
+              <td class="num mono pos">%+0.0</td>
+              <td class="num mono">%9</td></tr><tr><td class="mono"><b>CCOLA</b></td>
+              <td class="num mono">1</td>
+              <td class="num mono">680.00</td>
+              <td class="num mono">680.00</td>
+              <td class="num mono pos">%+0.0</td>
+              <td class="num mono">%7</td></tr><tr><td class="mono"><b>SISE</b></td>
+              <td class="num mono">8</td>
+              <td class="num mono">55.80</td>
+              <td class="num mono">55.80</td>
+              <td class="num mono pos">%+0.0</td>
+              <td class="num mono">%4</td></tr></tbody></table></div>
+        </div>
+        <div class="pf-card" style="--c:#f59e0b">
+          <div class="pf-head"><span class="dot"></span><b>Claude AI</b>
+            <span class="muted">%-0.18</span></div>
+          <div class="scroll"><table class="mini">
+            <thead><tr><th>Hisse</th><th class="num">Adet</th><th class="num">Giriş</th>
+              <th class="num">Güncel</th><th class="num">K/Z</th><th class="num">Ağ.</th></tr></thead>
+            <tbody><tr><td class="mono"><b>AKBNK</b></td>
+              <td class="num mono">19</td>
+              <td class="num mono">77.85</td>
+              <td class="num mono">77.85</td>
+              <td class="num mono pos">%+0.0</td>
+              <td class="num mono">%15</td></tr><tr><td class="mono"><b>KCHOL</b></td>
+              <td class="num mono">7</td>
+              <td class="num mono">191.60</td>
+              <td class="num mono">191.60</td>
+              <td class="num mono pos">%+0.0</td>
+              <td class="num mono">%13</td></tr><tr><td class="mono"><b>GARAN</b></td>
+              <td class="num mono">9</td>
+              <td class="num mono">138.60</td>
+              <td class="num mono">138.60</td>
+              <td class="num mono pos">%+0.0</td>
+              <td class="num mono">%12</td></tr><tr><td class="mono"><b>TUPRS</b></td>
+              <td class="num mono">5</td>
+              <td class="num mono">239.90</td>
+              <td class="num mono">239.90</td>
+              <td class="num mono pos">%+0.0</td>
+              <td class="num mono">%12</td></tr><tr><td class="mono"><b>FROTO</b></td>
+              <td class="num mono">12</td>
+              <td class="num mono">86.20</td>
+              <td class="num mono">86.20</td>
+              <td class="num mono pos">%+0.0</td>
+              <td class="num mono">%10</td></tr><tr><td class="mono"><b>THYAO</b></td>
+              <td class="num mono">3</td>
+              <td class="num mono">334.00</td>
+              <td class="num mono">334.00</td>
+              <td class="num mono pos">%+0.0</td>
+              <td class="num mono">%10</td></tr><tr><td class="mono"><b>EREGL</b></td>
+              <td class="num mono">19</td>
+              <td class="num mono">41.22</td>
+              <td class="num mono">41.22</td>
+              <td class="num mono pos">%+0.0</td>
+              <td class="num mono">%8</td></tr><tr><td class="mono"><b>MGROS</b></td>
+              <td class="num mono">1</td>
+              <td class="num mono">696.50</td>
+              <td class="num mono">696.50</td>
+              <td class="num mono pos">%+0.0</td>
+              <td class="num mono">%7</td></tr></tbody></table></div>
+        </div>
+        <div class="pf-card" style="--c:#34d399">
+          <div class="pf-head"><span class="dot"></span><b>Microsoft Copilot</b>
+            <span class="muted">%+2.50</span></div>
+          <div class="scroll"><table class="mini">
+            <thead><tr><th>Hisse</th><th class="num">Adet</th><th class="num">Giriş</th>
+              <th class="num">Güncel</th><th class="num">K/Z</th><th class="num">Ağ.</th></tr></thead>
+            <tbody><tr><td class="mono"><b>ARCLK</b></td>
+              <td class="num mono">3333</td>
+              <td class="num mono">15.00</td>
+              <td class="num mono">15.30</td>
+              <td class="num mono pos">%+2.0</td>
+              <td class="num mono">%50</td></tr><tr><td class="mono"><b>THYAO</b></td>
+              <td class="num mono">3333</td>
+              <td class="num mono">12.50</td>
+              <td class="num mono">12.75</td>
+              <td class="num mono pos">%+2.0</td>
+              <td class="num mono">%42</td></tr><tr><td class="mono"><b>ASELS</b></td>
+              <td class="num mono">3333</td>
+              <td class="num mono">10.00</td>
+              <td class="num mono">10.20</td>
+              <td class="num mono pos">%+2.0</td>
+              <td class="num mono">%33</td></tr></tbody></table></div>
+        </div></div>
+  </section>
+
+  <section>
+    <div class="note">
+      Bu dashboard <code>orchestrator/run.py</code> tarafından üretilir. Her döngüde
+      deepseek ve microsoft motorları ilerletilir, tüm portföyler birleştirilir,
+      konsensüs hesaplanır ve Konsensüs (Claude) portföyü güncellenir.
+      Yatırım tavsiyesi değildir; gerçek emir gönderilmez.
+    </div>
+  </section>
+</div>
+</body>
+</html>

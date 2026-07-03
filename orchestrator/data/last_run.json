@@ -1,0 +1,12 @@
+{
+  "ts": "2026-07-03 23:14:59",
+  "active_competitors": 4,
+  "consensus_tickers": [
+    "AKBNK",
+    "ASELS",
+    "THYAO"
+  ],
+  "consensus_portfolio_value": 9988.84,
+  "consensus_return_pct": -0.11,
+  "trades_in_feed": 16
+}

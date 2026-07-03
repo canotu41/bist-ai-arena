@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Claude — BIST30 Kağıt Portföy</title>
+<style>
+  :root {
+    --bg: #0d1117;
+    --panel: #161b22;
+    --panel-2: #1c2330;
+    --border: #2a3441;
+    --text: #e6edf3;
+    --muted: #8b949e;
+    --accent: #d97757;
+    --green: #3fb950;
+    --red: #f85149;
+    --amber: #d29922;
+    --blue: #58a6ff;
+    --radius: 14px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    padding: 0 0 60px;
+  }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 20px; }
+  header {
+    background: linear-gradient(135deg, #1a1f2b 0%, #12161f 100%);
+    border-bottom: 1px solid var(--border);
+    padding: 34px 0 28px;
+  }
+  .brand { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+  .logo {
+    width: 46px; height: 46px; border-radius: 12px;
+    background: var(--accent); color: #fff; font-weight: 800; font-size: 22px;
+    display: grid; place-items: center; flex: 0 0 auto;
+  }
+  h1 { font-size: 26px; letter-spacing: -.4px; }
+  .sub { color: var(--muted); font-size: 14px; margin-top: 2px; }
+  .disclaimer {
+    margin-top: 20px; background: rgba(210,153,34,.09);
+    border: 1px solid rgba(210,153,34,.35); color: #e8d9a8;
+    padding: 12px 16px; border-radius: 10px; font-size: 13px;
+  }
+  section { margin-top: 34px; }
+  h2 { font-size: 18px; margin-bottom: 6px; letter-spacing: -.2px; }
+  h2 .em { color: var(--accent); }
+  .section-note { color: var(--muted); font-size: 13.5px; margin-bottom: 16px; }
+
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(155px,1fr)); gap: 14px; }
+  .card {
+    background: var(--panel); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 16px 18px;
+  }
+  .card .k { color: var(--muted); font-size: 12.5px; text-transform: uppercase; letter-spacing: .5px; }
+  .card .v { font-size: 24px; font-weight: 700; margin-top: 4px; }
+  .card .v.small { font-size: 18px; }
+
+  .tablewrap { overflow-x: auto; border: 1px solid var(--border); border-radius: var(--radius); }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 640px; }
+  thead th {
+    background: var(--panel-2); text-align: left; padding: 12px 14px;
+    font-size: 12px; text-transform: uppercase; letter-spacing: .5px; color: var(--muted);
+    border-bottom: 1px solid var(--border); white-space: nowrap;
+  }
+  tbody td { padding: 12px 14px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  tbody tr:last-child td { border-bottom: none; }
+  tbody tr:hover { background: rgba(255,255,255,.02); }
+  .sym { font-weight: 700; }
+  .tag {
+    display: inline-block; font-size: 11.5px; padding: 2px 8px; border-radius: 20px;
+    background: var(--panel-2); border: 1px solid var(--border); color: var(--muted);
+  }
+  .score { font-weight: 700; }
+  .score.hi { color: var(--green); }
+  .score.mid { color: var(--amber); }
+  .bar { height: 6px; border-radius: 4px; background: var(--panel-2); overflow: hidden; margin-top: 6px; width: 90px; }
+  .bar > span { display: block; height: 100%; background: var(--accent); }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  @media (max-width: 760px){ .grid2 { grid-template-columns: 1fr; } }
+  .panel {
+    background: var(--panel); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 18px 20px;
+  }
+  .panel h3 { font-size: 15px; margin-bottom: 10px; }
+  .panel ul { list-style: none; }
+  .panel li { padding: 5px 0 5px 20px; position: relative; font-size: 14px; color: #cdd6df; }
+  .panel li::before { content: "▸"; position: absolute; left: 0; color: var(--accent); }
+  .weights li::before { content: ""; }
+  .weights li { display: flex; justify-content: space-between; padding-left: 0; }
+  .weights .lbl { color: #cdd6df; }
+  .weights .pct { color: var(--muted); font-variant-numeric: tabular-nums; }
+
+  .timeline { border-left: 2px solid var(--border); margin-left: 6px; padding-left: 18px; }
+  .tl-item { position: relative; padding-bottom: 16px; }
+  .tl-item::before {
+    content: ""; position: absolute; left: -25px; top: 4px;
+    width: 10px; height: 10px; border-radius: 50%; background: var(--accent); border: 2px solid var(--bg);
+  }
+  .tl-date { font-size: 12.5px; color: var(--muted); }
+  .tl-body { font-size: 14px; margin-top: 2px; }
+
+  .empty { color: var(--muted); font-size: 14px; font-style: italic; }
+  footer { margin-top: 40px; color: var(--muted); font-size: 12.5px; text-align: center; }
+  footer a { color: var(--blue); text-decoration: none; }
+  .src { font-size: 12px; color: var(--muted); }
+  .src a { color: var(--blue); text-decoration: none; }
+  .pill-row { display:flex; gap:8px; flex-wrap:wrap; margin-top: 8px; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="brand">
+      <div class="logo">C</div>
+      <div>
+        <h1>Claude — BIST30 Kağıt Portföy</h1>
+        <div class="sub">Haber + temel + teknik analiz destekli, hipotetik haftalık yarışma · v1</div>
+      </div>
+    </div>
+    <div class="disclaimer">
+      ⚠️ <strong>Bu bir yatırım tavsiyesi değildir.</strong> Getiri garantisi yoktur, gerçek para ile emir gönderilmez.
+      Tüm işlemler 10.000 TL hipotetik sermaye ile <em>kağıt üzerinde</em> yürütülür. Eğitim ve karşılaştırma amaçlıdır.
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <!-- ÖZET KARTLAR -->
+  <section>
+    <div class="cards">
+      <div class="card"><div class="k">Başlangıç Sermaye</div><div class="v">10.000 ₺</div></div>
+      <div class="card"><div class="k">Güncel Değer</div><div class="v">9.982 ₺</div></div>
+      <div class="card"><div class="k">Getiri</div><div class="v small" style="color:var(--red)">−%0,18</div></div>
+      <div class="card"><div class="k">Nakit Tampon</div><div class="v small">1.199 ₺ · %12</div></div>
+      <div class="card"><div class="k">Benchmark (XU30)</div><div class="v small">~17.019</div></div>
+      <div class="card"><div class="k">Hafta</div><div class="v small">0 / 52</div></div>
+    </div>
+    <p class="src" style="margin-top:10px">Son güncelleme: 2026-07-03 22:00 (İstanbul) · Durum: <strong>8 pozisyon açıldı</strong>. Giriş fiyatları 1–3 Temmuz son bilinen değerlerdir (seans kapalı). −%0,18 işlem maliyetinden (17,57 ₺ komisyon) kaynaklanır.</p>
+  </section>
+
+  <!-- ÖNERİLEN PORTFÖY -->
+  <section>
+    <h2><span class="em">1.</span> Önerilen Başlangıç Portföyü</h2>
+    <p class="section-note">%90 yatırım + %10 nakit. Sektör çeşitliliği ve analist favorileri gözetildi. Tek hisse ≤ %15 (risk kuralı: max %20).</p>
+    <div class="tablewrap">
+      <table>
+        <thead>
+          <tr><th>Hisse</th><th>Sektör</th><th>Ağırlık</th><th>Tutar</th><th>Skor</th><th>Gerekçe</th></tr>
+        </thead>
+        <tbody>
+          <tr><td class="sym">AKBNK</td><td><span class="tag">Bankacılık</span></td><td>%15</td><td>1.500 ₺</td><td><span class="score hi">78</span><div class="bar"><span style="width:78%"></span></div></td><td>Son 3 ayda en çok önerilen hisse (18 kurum). Faiz indirim beklentisi banka marjları için destekleyici.</td></tr>
+          <tr><td class="sym">KCHOL</td><td><span class="tag">Holding</span></td><td>%13</td><td>1.300 ₺</td><td><span class="score hi">76</span><div class="bar"><span style="width:76%"></span></div></td><td>Yüksek getiri potansiyeli listelerinde üst sırada. Çeşitlendirilmiş holding, makro toparlanmadan geniş faydalanır.</td></tr>
+          <tr><td class="sym">GARAN</td><td><span class="tag">Bankacılık</span></td><td>%12</td><td>1.200 ₺</td><td><span class="score hi">75</span><div class="bar"><span style="width:75%"></span></div></td><td>Güçlü özkaynak kârlılığı, model portföylerde tekrar eden isim.</td></tr>
+          <tr><td class="sym">TUPRS</td><td><span class="tag">Enerji/Rafineri</span></td><td>%12</td><td>1.200 ₺</td><td><span class="score hi">74</span><div class="bar"><span style="width:74%"></span></div></td><td>Rafineri marjları ve nakit üretimi güçlü; enerji sektör tercihleri arasında.</td></tr>
+          <tr><td class="sym">MGROS</td><td><span class="tag">Perakende</span></td><td>%10</td><td>1.000 ₺</td><td><span class="score hi">72</span><div class="bar"><span style="width:72%"></span></div></td><td>Perakende iyimserliği; 15 kurum önerisi. Enflasyonda dirençli ciro.</td></tr>
+          <tr><td class="sym">FROTO</td><td><span class="tag">Otomotiv/Sanayi</span></td><td>%10</td><td>1.000 ₺</td><td><span class="score hi">71</span><div class="bar"><span style="width:71%"></span></div></td><td>15 kurum önerisi. İhracat geliri ve sağlam temettü profili.</td></tr>
+          <tr><td class="sym">THYAO</td><td><span class="tag">Ulaştırma</span></td><td>%10</td><td>1.000 ₺</td><td><span class="score hi">70</span><div class="bar"><span style="width:70%"></span></div></td><td>Yüksek işlem hacmi, güçlü yolcu trafiği trendi.</td></tr>
+          <tr><td class="sym">EREGL</td><td><span class="tag">Demir-Çelik</span></td><td>%8</td><td>800 ₺</td><td><span class="score mid">68</span><div class="bar"><span style="width:68%"></span></div></td><td>Sanayi toparlanmasına duyarlı, düşük PD/DD. Çevrimsel çeşitlilik.</td></tr>
+          <tr><td class="sym">NAKİT</td><td><span class="tag">Tampon</span></td><td>%10</td><td>1.000 ₺</td><td>—</td><td>Fırsat ve risk yönetimi için likidite rezervi.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- STRATEJİ -->
+  <section>
+    <h2><span class="em">2.</span> Strateji Özeti</h2>
+    <div class="grid2">
+      <div class="panel">
+        <h3>Skorlama Modeli (0–100)</h3>
+        <ul class="weights">
+          <li><span class="lbl">Temel analiz</span><span class="pct">%40</span></li>
+          <li><span class="lbl">Teknik analiz</span><span class="pct">%35</span></li>
+          <li><span class="lbl">Haber / katalist</span><span class="pct">%25</span></li>
+        </ul>
+        <div class="pill-row">
+          <span class="tag">70+ güçlü aday</span>
+          <span class="tag">50–70 izleme</span>
+          <span class="tag">&lt;50 uzak dur</span>
+        </div>
+      </div>
+      <div class="panel">
+        <h3>Risk Kuralları</h3>
+        <ul>
+          <li>Tek hissede maksimum %20 sermaye</li>
+          <li>Her zaman en az %10 nakit tamponu</li>
+          <li>Pozisyon başına stop (−%8/−%10) ve hedef</li>
+          <li>İşlem maliyeti varsayımı: %0,2 / işlem</li>
+          <li>Toplam açık risk ≤ sermayenin %6'sı</li>
+        </ul>
+      </div>
+    </div>
+    <div class="panel" style="margin-top:16px">
+      <h3>Karar Döngüsü (her kontrol noktasında)</h3>
+      <ul>
+        <li>KAP/haber taraması → skorların yenilenmesi</li>
+        <li>Açık pozisyonlarda stop/hedef kontrolü, gerekirse çıkış</li>
+        <li>Yeni 70+ skor + nakit varsa boyutlandırılmış giriş</li>
+        <li>Karar gerekçesi + kaynak + zaman damgası log'a yazılır</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- AÇIK POZİSYONLAR -->
+  <section>
+    <h2><span class="em">3.</span> Açık Pozisyonlar</h2>
+    <p class="section-note">Giriş fiyatları 1–3 Temmuz 2026 son bilinen değerlerdir. Her pozisyonda −%9 stop / +%18 hedef. Toplam maliyet 8.783 ₺ + 17,57 ₺ komisyon.</p>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Hisse</th><th>Sektör</th><th>Adet</th><th>Giriş ₺</th><th>Maliyet ₺</th><th>Stop</th><th>Hedef</th><th>Skor</th></tr></thead>
+        <tbody>
+          <tr><td class="sym">AKBNK</td><td><span class="tag">Bankacılık</span></td><td>19</td><td>77,85</td><td>1.479,15</td><td>70,84</td><td>91,86</td><td><span class="score hi">78</span></td></tr>
+          <tr><td class="sym">KCHOL</td><td><span class="tag">Holding</span></td><td>7</td><td>191,60</td><td>1.341,20</td><td>174,36</td><td>226,09</td><td><span class="score hi">76</span></td></tr>
+          <tr><td class="sym">GARAN</td><td><span class="tag">Bankacılık</span></td><td>9</td><td>138,60</td><td>1.247,40</td><td>126,13</td><td>163,55</td><td><span class="score hi">75</span></td></tr>
+          <tr><td class="sym">TUPRS</td><td><span class="tag">Enerji</span></td><td>5</td><td>239,90</td><td>1.199,50</td><td>218,31</td><td>283,08</td><td><span class="score hi">74</span></td></tr>
+          <tr><td class="sym">MGROS</td><td><span class="tag">Perakende</span></td><td>1</td><td>696,50</td><td>696,50</td><td>633,82</td><td>821,87</td><td><span class="score hi">72</span></td></tr>
+          <tr><td class="sym">FROTO</td><td><span class="tag">Otomotiv</span></td><td>12</td><td>86,20</td><td>1.034,40</td><td>78,44</td><td>101,72</td><td><span class="score hi">71</span></td></tr>
+          <tr><td class="sym">THYAO</td><td><span class="tag">Ulaştırma</span></td><td>3</td><td>334,00</td><td>1.002,00</td><td>303,94</td><td>394,12</td><td><span class="score hi">70</span></td></tr>
+          <tr><td class="sym">EREGL</td><td><span class="tag">Demir-Çelik</span></td><td>19</td><td>41,22</td><td>783,18</td><td>37,51</td><td>48,64</td><td><span class="score mid">68</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- HAFTALIK YARIŞMA -->
+  <section>
+    <h2><span class="em">4.</span> Haftalık Yarışma</h2>
+    <p class="section-note">Claude portföyü vs. XU30 vs. senin seçimlerin. Her hafta sonu güncellenir.</p>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Hafta</th><th>Claude</th><th>XU30</th><th>Sen</th><th>Alfa (Claude−XU30)</th><th>Not</th></tr></thead>
+        <tbody>
+          <tr><td>0 (başlangıç)</td><td>%0,0</td><td>%0,0</td><td>—</td><td>%0,0</td><td>Kuruluş</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- KARAR GÜNLÜĞÜ -->
+  <section>
+    <h2><span class="em">5.</span> Karar Günlüğü</h2>
+    <div class="timeline">
+      <div class="tl-item">
+        <div class="tl-date">2026-07-03 · 22:00 · Pozisyon girişi</div>
+        <div class="tl-body">
+          Tahsis tam adetlere çevrildi: AKBNK 19, KCHOL 7, GARAN 9, TUPRS 5, MGROS 1, FROTO 12, THYAO 3, EREGL 19.
+          Toplam maliyet 8.783 ₺ + 17,57 ₺ komisyon. Nakit 1.199 ₺ (%12). Her pozisyona −%9 stop / +%18 hedef atandı.
+          Portföy değeri 9.982 ₺ (işlem maliyetiyle −%0,18).
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-date">2026-07-03 · 21:30 · Başlangıç kurulumu</div>
+        <div class="tl-body">
+          10.000 ₺, 8 hisseye %90 yatırım + %10 nakit hedefiyle açıldı. Sektör çeşitliliği hedeflendi
+          (2 banka, holding, enerji, perakende, otomotiv, ulaştırma, demir-çelik). Piyasa bağlamı:
+          XU030 ~17.019; uzmanlar 2026 2. çeyrek bilançoları + faiz indirimi ile sürdürülebilir yükseliş bekliyor.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Veri kaynakları:
+      <a href="https://finans.mynet.com/borsa/endeks/xu030-bist-30/" target="_blank">Mynet XU030</a> ·
+      <a href="https://www.cnbce.com/gundem/14-piyasa-analisti-cnbcecoma-degerlendirdi-iste-2026nin-kazandiracak-portfoyu-h21648" target="_blank">CNBC-e analist derlemesi</a> ·
+      <a href="https://finans.cnnturk.com/finans-haberler/2026nin-kalaninda-hangi-hisseler-one-cikiyor-araci-kurumlarin-tercihleri-aciklandi-3433926" target="_blank">CNN Türk model portföy</a>
+    </p>
+    <p style="margin-top:8px">Claude · BIST30 Kağıt Portföy Projesi · Bu sayfa <strong>claude.html</strong> her kontrol noktasında güncellenir. Yatırım tavsiyesi değildir.</p>
+  </footer>
+
+</div>
+</body>
+</html>

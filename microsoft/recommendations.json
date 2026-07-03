@@ -1,0 +1,93 @@
+{
+  "recommendations": [
+    {
+      "ticker": "ASELS",
+      "company": "Aselsan",
+      "sector": "Savunma",
+      "score": 83.5,
+      "label": "AL",
+      "reasons": [
+        "Temel ve teknik veriler güçlü bir birleşim sunuyor",
+        "52 haftalık zirveye yakın fiyatlanma",
+        "RSI yükseliş ivmesi gösteriyor",
+        "Haber akışı olumlu ağırlıklı"
+      ]
+    },
+    {
+      "ticker": "THYAO",
+      "company": "Türk Hava Yolları",
+      "sector": "Ulaşım",
+      "score": 74.4,
+      "label": "BEKLE",
+      "reasons": [
+        "Pozitif ayrışma var fakat risk yönetimi gerekiyor",
+        "52 haftalık zirveye yakın fiyatlanma",
+        "RSI yükseliş ivmesi gösteriyor",
+        "Haber akışı olumlu ağırlıklı"
+      ]
+    },
+    {
+      "ticker": "ARCLK",
+      "company": "Arçelik",
+      "sector": "Dayanıklı Tüketim",
+      "score": 63.9,
+      "label": "BEKLE",
+      "reasons": [
+        "Pozitif ayrışma var fakat risk yönetimi gerekiyor"
+      ]
+    },
+    {
+      "ticker": "BIMAS",
+      "company": "BİM Birleşik Mağazalar",
+      "sector": "Perakende",
+      "score": 48.9,
+      "label": "SAT",
+      "reasons": [
+        "Momentum ve finansal görünüm zayıf",
+        "52 haftalık zirveye yakın fiyatlanma"
+      ]
+    },
+    {
+      "ticker": "KCHOL",
+      "company": "Koç Holding",
+      "sector": "Konsolide",
+      "score": 15.8,
+      "label": "SAT",
+      "reasons": [
+        "Momentum ve finansal görünüm zayıf",
+        "RSI zayıf momentum işareti veriyor",
+        "Haber akışı olumsuz ağırlıklı"
+      ]
+    }
+  ],
+  "portfolio": {
+    "week": 2,
+    "total_value": 102499.75,
+    "positions": [
+      {
+        "ticker": "ASELS",
+        "company": "Aselsan",
+        "entry_price": 10.0,
+        "quantity": 3333,
+        "weight": 0.3333333333333333,
+        "current_price": 10.2
+      },
+      {
+        "ticker": "THYAO",
+        "company": "Türk Hava Yolları",
+        "entry_price": 12.5,
+        "quantity": 3333,
+        "weight": 0.3333333333333333,
+        "current_price": 12.75
+      },
+      {
+        "ticker": "ARCLK",
+        "company": "Arçelik",
+        "entry_price": 15.0,
+        "quantity": 3333,
+        "weight": 0.3333333333333333,
+        "current_price": 15.3
+      }
+    ]
+  }
+}
