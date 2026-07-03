@@ -1,0 +1,106 @@
+{
+  "market": {
+    "score": 65,
+    "trend": "yükseliş"
+  },
+  "tickers": {
+    "AKBNK": {
+      "score": 55,
+      "note": "Teknik analiz ve fiyat hedefi var, temettü haberi nötr"
+    },
+    "GARAN": {
+      "score": 60,
+      "note": "Tahvil ihracı olumlu, teknik analiz var"
+    },
+    "ISCTR": {
+      "score": 50,
+      "note": "Sadece teknik analiz başlıkları, nötr"
+    },
+    "YKBNK": {
+      "score": 50,
+      "note": "Teknik analiz ve fiyat hedefi, nötr"
+    },
+    "VAKBN": {
+      "score": 45,
+      "note": "Hisse satışı olumsuz, kaynak haberi olumlu, net negatif"
+    },
+    "KCHOL": {
+      "score": 50,
+      "note": "Sadece teknik analiz, nötr"
+    },
+    "SAHOL": {
+      "score": 65,
+      "note": "Hedef fiyat yükseltildi, olumlu"
+    },
+    "SISE": {
+      "score": 60,
+      "note": "Hedef fiyat artışı, olumlu"
+    },
+    "THYAO": {
+      "score": 50,
+      "note": "Sadece teknik analiz, nötr"
+    },
+    "PGSUS": {
+      "score": 70,
+      "note": "Satın alma ve tahvil izni, olumlu"
+    },
+    "TUPRS": {
+      "score": 55,
+      "note": "Hedef fiyat analizi, hafif olumlu"
+    },
+    "AKSEN": {
+      "score": 60,
+      "note": "Güçlenen sinyaller, olumlu"
+    },
+    "EREGL": {
+      "score": 65,
+      "note": "AL tavsiyesi, olumlu"
+    },
+    "BIMAS": {
+      "score": 50,
+      "note": "Sadece teknik analiz, nötr"
+    },
+    "MGROS": {
+      "score": 65,
+      "note": "Hedef fiyat yükseltildi, olumlu"
+    },
+    "FROTO": {
+      "score": 55,
+      "note": "Temettü haberi, hafif olumlu"
+    },
+    "TOASO": {
+      "score": 55,
+      "note": "Temettü açıklaması, hafif olumlu"
+    },
+    "ASELS": {
+      "score": 70,
+      "note": "Jeopolitik destekle yükseliş, olumlu"
+    },
+    "TCELL": {
+      "score": 45,
+      "note": "SEC açıklaması belirsiz, hafif negatif"
+    },
+    "TTKOM": {
+      "score": 50,
+      "note": "Sadece teknik analiz, nötr"
+    },
+    "ULKER": {
+      "score": 55,
+      "note": "Temettü haberi olumlu, portföyden çıkarma olumsuz, net nötr"
+    },
+    "CCOLA": {
+      "score": 50,
+      "note": "Sadece teknik analiz, nötr"
+    },
+    "ARCLK": {
+      "score": 45,
+      "note": "Satın alma ve satış kararları, net negatif"
+    },
+    "EKGYO": {
+      "score": 60,
+      "note": "Analizde güçlü ve iskontolu, olumlu"
+    }
+  },
+  "_ts": 1783112801,
+  "_source": "deepseek-llm"
+}
