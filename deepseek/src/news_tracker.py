@@ -64,8 +64,27 @@ def scan_company_news(ticker: str) -> List[NewsItem]:
     return [NewsItem(title=item["title"], source="KAP", url=f"https://www.kap.org.tr/tr/Bildirim/{abs(hash(item['title'])) % 100000}", sentiment=item["sentiment"], impact_score=item["impact"], categories=["KAP", "şirket"], timestamp=now) for item in kap_items]
 
 
+def _llm_bundle():
+    """DeepSeek LLM haber demeti (varsa); yoksa None. Süreç başına bir kez yüklenir."""
+    try:
+        from .news_llm import get_news_bundle, deepseek_enabled
+        if not deepseek_enabled():
+            return None
+        from .fundamental_analysis import SECTOR_MAP, COMPANY_NAMES
+        return get_news_bundle(list(SECTOR_MAP.keys()), COMPANY_NAMES)
+    except Exception:
+        return None
+
+
 def get_news_sentiment_score(ticker: str) -> float:
-    """Bir hisse için toplam haber duyarlılık skoru (0-100)"""
+    """Bir hisse için toplam haber duyarlılık skoru (0-100).
+    Önce DeepSeek LLM (gerçek başlıklar), yoksa KAP havuzu."""
+    bundle = _llm_bundle()
+    if bundle:
+        entry = bundle.get("tickers", {}).get(ticker)
+        if entry and "score" in entry:
+            return round(max(0.0, min(100.0, float(entry["score"]))), 1)
+
     company_news = scan_company_news(ticker)
     if not company_news:
         return 50.0
@@ -77,7 +96,15 @@ def get_news_sentiment_score(ticker: str) -> float:
 
 
 def get_overall_market_sentiment() -> Dict[str, float]:
-    """Genel piyasa duyarlılığı"""
+    """Genel piyasa duyarlılığı (önce DeepSeek LLM, yoksa havuz)"""
+    bundle = _llm_bundle()
+    if bundle:
+        mkt = bundle.get("market", {})
+        if "score" in mkt:
+            score = round(max(0.0, min(100.0, float(mkt["score"]))), 1)
+            trend = mkt.get("trend") or ("POZİTİF" if score >= 55 else ("NEGATİF" if score < 45 else "NÖTR"))
+            return {"score": score, "trend": trend}
+
     news = scan_market_news(15)
     if not news:
         return {"score": 50.0, "trend": "NÖTR"}
