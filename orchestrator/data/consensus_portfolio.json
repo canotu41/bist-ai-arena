@@ -1,34 +1,22 @@
 {
   "name": "Konsensüs (Claude) Portföyü",
   "initial": 10000.0,
-  "cash": 4410.09,
-  "total_value": 9988.84,
+  "cash": 4329.93,
+  "total_value": 9988.68,
   "return_pct": -0.11,
-  "created": "2026-07-03 23:14",
-  "last_updated": "2026-07-03 20:31",
+  "created": "2026-07-03 23:38",
+  "last_updated": "2026-07-03 23:38",
   "positions": [
     {
       "ticker": "AKBNK",
       "name": "Akbank",
       "sector": "Bankacılık",
-      "entry": 77.85,
-      "qty": 25,
-      "current": 77.85,
-      "stop": 71.62,
-      "target": 93.42,
-      "entry_ts": "2026-07-03 23:14",
-      "agreement": 2
-    },
-    {
-      "ticker": "ASELS",
-      "name": "Aselsan",
-      "sector": "Savunma",
-      "entry": 78.5,
-      "qty": 25,
-      "current": 78.5,
-      "stop": 72.22,
-      "target": 94.2,
-      "entry_ts": "2026-07-03 23:14",
+      "entry": 73.75,
+      "qty": 27,
+      "current": 73.75,
+      "stop": 67.85,
+      "target": 88.5,
+      "entry_ts": "2026-07-03 23:38",
       "agreement": 2
     },
     {
@@ -40,37 +28,49 @@
       "current": 334.0,
       "stop": 307.28,
       "target": 400.8,
-      "entry_ts": "2026-07-03 23:14",
+      "entry_ts": "2026-07-03 23:38",
+      "agreement": 2
+    },
+    {
+      "ticker": "ASELS",
+      "name": "Aselsan",
+      "sector": "Savunma",
+      "entry": 399.5,
+      "qty": 5,
+      "current": 399.5,
+      "stop": 367.54,
+      "target": 479.4,
+      "entry_ts": "2026-07-03 23:38",
       "agreement": 2
     }
   ],
   "trades": [
     {
-      "ts": "2026-07-03 23:14",
+      "ts": "2026-07-03 23:38",
       "side": "BUY",
       "ticker": "AKBNK",
-      "qty": 25,
-      "price": 77.85,
-      "amount": 1946.25,
+      "qty": 27,
+      "price": 73.75,
+      "amount": 1991.25,
       "reason": "Konsensüs: 2 AI ortak (DeepSeek AI, Claude AI)"
     },
     {
-      "ts": "2026-07-03 23:14",
-      "side": "BUY",
-      "ticker": "ASELS",
-      "qty": 25,
-      "price": 78.5,
-      "amount": 1962.5,
-      "reason": "Konsensüs: 2 AI ortak (DeepSeek AI, Microsoft Copilot)"
-    },
-    {
-      "ts": "2026-07-03 23:14",
+      "ts": "2026-07-03 23:38",
       "side": "BUY",
       "ticker": "THYAO",
       "qty": 5,
       "price": 334.0,
       "amount": 1670.0,
       "reason": "Konsensüs: 2 AI ortak (Claude AI, Microsoft Copilot)"
+    },
+    {
+      "ts": "2026-07-03 23:38",
+      "side": "BUY",
+      "ticker": "ASELS",
+      "qty": 5,
+      "price": 399.5,
+      "amount": 1997.5,
+      "reason": "Konsensüs: 2 AI ortak (DeepSeek AI, Microsoft Copilot)"
     }
   ]
 }

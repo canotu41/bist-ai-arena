@@ -197,8 +197,15 @@ def calculate_atr(prices_high: List[float], prices_low: List[float], prices_clos
 
 
 def get_technical_data(ticker: str) -> TechnicalData:
-    """Bir hisse için teknik veri üretir (simülasyon veya API)"""
-    data = BIST30_TECHNICAL_SAMPLE.get(ticker)
+    """Bir hisse için teknik veri üretir (önce canlı Yahoo verisi, sonra örnek)."""
+    data = None
+    try:
+        from .live_data import get_live_technical
+        data = get_live_technical(ticker)
+    except Exception:
+        data = None
+    if not data:
+        data = BIST30_TECHNICAL_SAMPLE.get(ticker)
     if not data:
         data = {
             "price": 50.0, "change_1d": 0.0, "change_5d": 0.0, "change_20d": 0.0, "change_60d": 0.0,
