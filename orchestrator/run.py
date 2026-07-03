@@ -95,6 +95,8 @@ def main() -> None:
 
     html = dashboard.build_dashboard(comps, feed, consensus, notes, pf, xu30)
     DASHBOARD_HTML.write_text(html, encoding="utf-8")
+    # GitHub Pages kök adresinden (index.html) yayınlansın diye kopya
+    (ROOT / "index.html").write_text(html, encoding="utf-8")
 
     # Heartbeat
     (DATA_DIR / "last_run.json").write_text(json.dumps({
