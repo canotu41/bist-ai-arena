@@ -1,0 +1,44 @@
+name: BIST AI Arena döngüsü
+
+on:
+  schedule:
+    # UTC. İstanbul = UTC+3. Hafta içi 10:00-18:00 arası her 30 dk.
+    - cron: '0 7-15 * * 1-5'    # saat başı  -> İstanbul 10:00-18:00
+    - cron: '30 7-14 * * 1-5'   # buçuklu    -> İstanbul 10:30-17:30
+  workflow_dispatch:             # elle tetikleme (Actions sekmesinden)
+
+permissions:
+  contents: write
+
+concurrency:
+  group: arena-cycle
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Orchestrator döngüsü
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        run: python3 orchestrator/run.py
+
+      - name: Değişiklikleri commit & push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Değişiklik yok, commit atlanıyor."
+          else
+            git commit -m "arena: otomatik döngü (UTC $(date -u +%Y-%m-%dT%H:%M))"
+            git push
+          fi
