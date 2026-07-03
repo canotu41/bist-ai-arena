@@ -290,10 +290,10 @@
   "benchmark_return_pct": 0.0,
   "alpha_pct": 0.0,
   "week": 0,
-  "current_drawdown_pct": -0.18,
-  "max_drawdown_pct": -0.18,
+  "current_drawdown_pct": -0.19,
+  "max_drawdown_pct": -0.19,
   "win_rate_pct": 0.0,
   "market_regime": "SIDEWAYS",
-  "last_updated": "2026-07-03 23:38",
+  "last_updated": "2026-07-03 20:39",
   "created_date": "2026-07-03"
 }
