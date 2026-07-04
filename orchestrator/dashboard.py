@@ -233,6 +233,12 @@ def build_dashboard(comps, feed, consensus, notes, consensus_pf, xu30, health=No
     now = datetime.now().strftime("%Y-%m-%d %H:%M")
     active_n = sum(1 for c in comps if c.get("active"))
     total_trades = sum(len(c.get("trades", [])) for c in comps)
+    start_banner = ("" if total_trades else
+        '<div class="banner" style="border-color:rgba(34,197,94,.45);'
+        'background:color-mix(in srgb,var(--green) 12%,transparent)">'
+        '🏁 <b>Yarışma başlangıç çizgisi.</b> Her yapay zeka <b>50.000 TL</b> nakit ile hazır. '
+        'Pozisyonlar <b>Pazartesi (6 Temmuz)</b> seans içinde, her AI kendi taramasına göre açılacak. '
+        'Alım zorunlu değil — nakitte kalmakta özgürler.</div>')
 
     ai_tabs = "".join(_ai_tab(c, xu30, notes if c["key"] == "consensus" else None)
                       for c in _ordered(comps))
@@ -340,6 +346,7 @@ def build_dashboard(comps, feed, consensus, notes, consensus_pf, xu30, health=No
   {_tabbar(comps)}
 
   <section class="tab" id="tab-summary">
+    {start_banner}
     <div class="banner">
       <b>{active_n} aktif yarışmacı</b> · toplam <b>{total_trades}</b> işlem ·
       XU30 <b>%{xu30:+.2f}</b> · Her AI kendi stratejisiyle otomatik işlem yapar;

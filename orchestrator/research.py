@@ -13,7 +13,7 @@ from typing import Dict, List
 DATA_DIR = Path(__file__).resolve().parent / "data"
 PORTFOLIO_JSON = DATA_DIR / "consensus_portfolio.json"
 
-INITIAL_CAPITAL = 10000.0
+INITIAL_CAPITAL = 50000.0
 MAX_WEIGHT = 0.20        # tek hissede en fazla %20
 CASH_BUFFER = 0.05       # en az %5 nakit
 STOP_PCT = -0.08         # -%8 stop

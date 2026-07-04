@@ -2,98 +2,12 @@
   "_schema": "arena",
   "name": "Codex Portföyü",
   "strategy": "Önce risk: düşük volatilite (ATR≤%3.6), RSI 40-68, MA50 üstü teyitli; sıkı stop",
-  "initial": 10000.0,
-  "cash": 4196.11,
-  "total_value": 9988.41,
-  "return_pct": -0.12,
-  "created": "2026-07-04 16:42",
-  "last_updated": "2026-07-04 13:46",
-  "positions": [
-    {
-      "ticker": "AKBNK",
-      "name": "Akbank",
-      "sector": "Bankacılık",
-      "entry": 73.75,
-      "qty": 20,
-      "current": 73.75,
-      "stop": 68.59,
-      "target": 84.81,
-      "entry_ts": "2026-07-04 16:42",
-      "score": 65.9
-    },
-    {
-      "ticker": "THYAO",
-      "name": "Türk Hava Yolları",
-      "sector": "Ulaştırma",
-      "entry": 334.0,
-      "qty": 4,
-      "current": 334.0,
-      "stop": 310.62,
-      "target": 384.1,
-      "entry_ts": "2026-07-04 16:42",
-      "score": 61.9
-    },
-    {
-      "ticker": "EKGYO",
-      "name": "Emlak Konut GYO",
-      "sector": "Gayrimenkul",
-      "entry": 20.8,
-      "qty": 72,
-      "current": 20.8,
-      "stop": 19.34,
-      "target": 23.92,
-      "entry_ts": "2026-07-04 16:42",
-      "score": 60.2
-    },
-    {
-      "ticker": "EREGL",
-      "name": "Ereğli Demir Çelik",
-      "sector": "Demir-Çelik",
-      "entry": 40.1,
-      "qty": 37,
-      "current": 40.1,
-      "stop": 37.29,
-      "target": 46.11,
-      "entry_ts": "2026-07-04 13:45",
-      "score": 57.0
-    }
-  ],
-  "trades": [
-    {
-      "ts": "2026-07-04 16:42",
-      "side": "BUY",
-      "ticker": "AKBNK",
-      "qty": 20,
-      "price": 73.75,
-      "amount": 1475.0,
-      "reason": "Codex skoru 73 (>=62)"
-    },
-    {
-      "ts": "2026-07-04 16:42",
-      "side": "BUY",
-      "ticker": "THYAO",
-      "qty": 4,
-      "price": 334.0,
-      "amount": 1336.0,
-      "reason": "Codex skoru 70 (>=62)"
-    },
-    {
-      "ts": "2026-07-04 16:42",
-      "side": "BUY",
-      "ticker": "EKGYO",
-      "qty": 72,
-      "price": 20.8,
-      "amount": 1497.6,
-      "reason": "Codex skoru 66 (>=62)"
-    },
-    {
-      "ts": "2026-07-04 13:45",
-      "side": "BUY",
-      "ticker": "EREGL",
-      "qty": 37,
-      "price": 40.1,
-      "amount": 1483.7,
-      "reason": "Codex skoru 64 (>=62)"
-    }
-  ]
+  "initial": 50000.0,
+  "cash": 50000.0,
+  "total_value": 50000.0,
+  "return_pct": 0.0,
+  "created": "2026-07-04 18:24",
+  "last_updated": "2026-07-04 18:24",
+  "positions": [],
+  "trades": []
 }

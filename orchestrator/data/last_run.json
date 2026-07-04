@@ -1,5 +1,6 @@
 {
-  "ts": "2026-07-04 13:46:54",
+  "ts": "2026-07-04 18:24:56",
+  "status": "RESET — yarışma Pazartesi başlıyor",
   "health": {
     "ok": true,
     "live": 24,
@@ -9,34 +10,5 @@
     "fund_live": 24
   },
   "active_competitors": 5,
-  "consensus_tickers": [
-    "AKBNK",
-    "THYAO",
-    "YKBNK",
-    "EKGYO",
-    "EREGL",
-    "TOASO"
-  ],
-  "leaderboard": [
-    {
-      "name": "Codex",
-      "return_pct": -0.12
-    },
-    {
-      "name": "Claude AI",
-      "return_pct": -0.18
-    },
-    {
-      "name": "Konsensüs (Claude)",
-      "return_pct": -0.19
-    },
-    {
-      "name": "DeepSeek AI",
-      "return_pct": -0.19
-    },
-    {
-      "name": "Microsoft Copilot",
-      "return_pct": -0.19
-    }
-  ]
+  "budget_per_ai": 50000
 }

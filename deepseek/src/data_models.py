@@ -149,11 +149,11 @@ class Transaction:
 class PortfolioState:
     """Portföy durumu"""
     name: str = "DeepSeek BIST30 Portföy"
-    initial_capital: float = 10000.0
-    cash: float = 10000.0
+    initial_capital: float = 50000.0
+    cash: float = 50000.0
     positions: List[Position] = field(default_factory=list)
     transactions: List[Transaction] = field(default_factory=list)
-    total_value: float = 10000.0
+    total_value: float = 50000.0
     total_return_pct: float = 0.0
     benchmark_return_pct: float = 0.0
     alpha_pct: float = 0.0

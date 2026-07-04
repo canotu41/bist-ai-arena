@@ -2,119 +2,12 @@
   "_schema": "arena",
   "name": "Claude AI Portföyü",
   "strategy": "Kalite+değer, yoğun portföy: ROE≥%10 ve F/K≤35, uzun-vade trend üstü hisseler",
-  "initial": 10000.0,
-  "cash": 1018.16,
-  "total_value": 9982.07,
-  "return_pct": -0.18,
-  "created": "2026-07-04 16:42",
-  "last_updated": "2026-07-04 13:46",
-  "positions": [
-    {
-      "ticker": "AKBNK",
-      "name": "Akbank",
-      "sector": "Bankacılık",
-      "entry": 73.75,
-      "qty": 29,
-      "current": 73.75,
-      "stop": 67.11,
-      "target": 87.02,
-      "entry_ts": "2026-07-04 16:42",
-      "score": 68.5
-    },
-    {
-      "ticker": "THYAO",
-      "name": "Türk Hava Yolları",
-      "sector": "Ulaştırma",
-      "entry": 334.0,
-      "qty": 6,
-      "current": 334.0,
-      "stop": 303.94,
-      "target": 394.12,
-      "entry_ts": "2026-07-04 16:42",
-      "score": 64.4
-    },
-    {
-      "ticker": "TOASO",
-      "name": "Tofaş Oto Fabrika",
-      "sector": "Otomotiv",
-      "entry": 302.0,
-      "qty": 7,
-      "current": 302.0,
-      "stop": 274.82,
-      "target": 356.36,
-      "entry_ts": "2026-07-04 16:42",
-      "score": 59.0
-    },
-    {
-      "ticker": "YKBNK",
-      "name": "Yapı Kredi Bankası",
-      "sector": "Bankacılık",
-      "entry": 38.02,
-      "qty": 48,
-      "current": 38.02,
-      "stop": 34.6,
-      "target": 44.86,
-      "entry_ts": "2026-07-04 16:42",
-      "score": 58.0
-    },
-    {
-      "ticker": "EREGL",
-      "name": "Ereğli Demir Çelik",
-      "sector": "Demir-Çelik",
-      "entry": 40.1,
-      "qty": 22,
-      "current": 40.1,
-      "stop": 36.49,
-      "target": 47.32,
-      "entry_ts": "2026-07-04 13:45",
-      "score": 59.1
-    }
-  ],
-  "trades": [
-    {
-      "ts": "2026-07-04 16:42",
-      "side": "BUY",
-      "ticker": "AKBNK",
-      "qty": 29,
-      "price": 73.75,
-      "amount": 2138.75,
-      "reason": "Claude AI skoru 77 (>=62)"
-    },
-    {
-      "ts": "2026-07-04 16:42",
-      "side": "BUY",
-      "ticker": "THYAO",
-      "qty": 6,
-      "price": 334.0,
-      "amount": 2004.0,
-      "reason": "Claude AI skoru 74 (>=62)"
-    },
-    {
-      "ts": "2026-07-04 16:42",
-      "side": "BUY",
-      "ticker": "TOASO",
-      "qty": 7,
-      "price": 302.0,
-      "amount": 2114.0,
-      "reason": "Claude AI skoru 69 (>=62)"
-    },
-    {
-      "ts": "2026-07-04 16:42",
-      "side": "BUY",
-      "ticker": "YKBNK",
-      "qty": 48,
-      "price": 38.02,
-      "amount": 1824.96,
-      "reason": "Claude AI skoru 66 (>=62)"
-    },
-    {
-      "ts": "2026-07-04 13:45",
-      "side": "BUY",
-      "ticker": "EREGL",
-      "qty": 22,
-      "price": 40.1,
-      "amount": 882.2,
-      "reason": "Claude AI skoru 67 (>=62)"
-    }
-  ]
+  "initial": 50000.0,
+  "cash": 50000.0,
+  "total_value": 50000.0,
+  "return_pct": 0.0,
+  "created": "2026-07-04 18:24",
+  "last_updated": "2026-07-04 18:24",
+  "positions": [],
+  "trades": []
 }

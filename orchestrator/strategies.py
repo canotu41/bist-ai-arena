@@ -9,7 +9,7 @@ from __future__ import annotations
 STRATEGIES = {
     "claude": {
         "key": "claude", "name": "Claude AI", "folder": "claude",
-        "initial": 10000.0,
+        "initial": 50000.0,
         "style": "Kalite+değer, yoğun portföy: ROE≥%10 ve F/K≤35, uzun-vade trend üstü hisseler",
         "weights": {"Temel": 0.40, "Teknik": 0.35, "Haber": 0.25, "Momentum": 0.0, "Risk": 0.0},
         "buy_threshold": 62.0, "sell_threshold": 46.0,
@@ -20,7 +20,7 @@ STRATEGIES = {
     },
     "codex": {
         "key": "codex", "name": "Codex", "folder": "codex",
-        "initial": 10000.0,
+        "initial": 50000.0,
         "style": "Önce risk: düşük volatilite (ATR≤%3.6), RSI 40-68, MA50 üstü teyitli; sıkı stop",
         "weights": {"Temel": 0.35, "Teknik": 0.30, "Haber": 0.20, "Momentum": 0.0, "Risk": 0.15},
         "buy_threshold": 62.0, "sell_threshold": 48.0,
@@ -31,7 +31,7 @@ STRATEGIES = {
     },
     "microsoft": {
         "key": "microsoft", "name": "Microsoft Copilot", "folder": "microsoft",
-        "initial": 10000.0,
+        "initial": 50000.0,
         "style": "Momentum/trend takibi: 20g değişim≥%4 ve MA20>MA50 kırılım; kazananı bırakma, geniş stop",
         "weights": {"Temel": 0.20, "Teknik": 0.45, "Haber": 0.15, "Momentum": 0.20, "Risk": 0.0},
         "buy_threshold": 60.0, "sell_threshold": 45.0,
