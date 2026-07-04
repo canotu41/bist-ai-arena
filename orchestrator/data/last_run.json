@@ -1,12 +1,12 @@
 {
-  "ts": "2026-07-04 16:42:45",
+  "ts": "2026-07-04 13:45:09",
   "health": {
     "ok": true,
     "live": 24,
     "total": 24,
     "priced": 24,
-    "news_llm": false,
-    "fund_live": 24
+    "news_llm": true,
+    "fund_live": 7
   },
   "active_competitors": 5,
   "consensus_tickers": [
@@ -14,16 +14,17 @@
     "THYAO",
     "YKBNK",
     "EKGYO",
+    "EREGL",
     "TOASO"
   ],
   "leaderboard": [
     {
       "name": "Codex",
-      "return_pct": -0.09
+      "return_pct": -0.12
     },
     {
       "name": "Claude AI",
-      "return_pct": -0.16
+      "return_pct": -0.18
     },
     {
       "name": "Konsensüs (Claude)",

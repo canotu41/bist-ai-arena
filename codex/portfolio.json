@@ -3,11 +3,11 @@
   "name": "Codex Portföyü",
   "strategy": "Önce risk: düşük volatilite (ATR≤%3.6), RSI 40-68, MA50 üstü teyitli; sıkı stop",
   "initial": 10000.0,
-  "cash": 5682.78,
-  "total_value": 9991.38,
-  "return_pct": -0.09,
+  "cash": 4196.11,
+  "total_value": 9988.41,
+  "return_pct": -0.12,
   "created": "2026-07-04 16:42",
-  "last_updated": "2026-07-04 16:42",
+  "last_updated": "2026-07-04 13:45",
   "positions": [
     {
       "ticker": "AKBNK",
@@ -19,7 +19,7 @@
       "stop": 68.59,
       "target": 84.81,
       "entry_ts": "2026-07-04 16:42",
-      "score": 72.9
+      "score": 68.3
     },
     {
       "ticker": "THYAO",
@@ -31,7 +31,7 @@
       "stop": 310.62,
       "target": 384.1,
       "entry_ts": "2026-07-04 16:42",
-      "score": 69.5
+      "score": 59.1
     },
     {
       "ticker": "EKGYO",
@@ -43,7 +43,19 @@
       "stop": 19.34,
       "target": 23.92,
       "entry_ts": "2026-07-04 16:42",
-      "score": 66.0
+      "score": 67.4
+    },
+    {
+      "ticker": "EREGL",
+      "name": "Ereğli Demir Çelik",
+      "sector": "Demir-Çelik",
+      "entry": 40.1,
+      "qty": 37,
+      "current": 40.1,
+      "stop": 37.29,
+      "target": 46.11,
+      "entry_ts": "2026-07-04 13:45",
+      "score": 63.9
     }
   ],
   "trades": [
@@ -73,6 +85,15 @@
       "price": 20.8,
       "amount": 1497.6,
       "reason": "Codex skoru 66 (>=62)"
+    },
+    {
+      "ts": "2026-07-04 13:45",
+      "side": "BUY",
+      "ticker": "EREGL",
+      "qty": 37,
+      "price": 40.1,
+      "amount": 1483.7,
+      "reason": "Codex skoru 64 (>=62)"
     }
   ]
 }

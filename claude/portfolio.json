@@ -3,11 +3,11 @@
   "name": "Claude AI Portföyü",
   "strategy": "Kalite+değer, yoğun portföy: ROE≥%10 ve F/K≤35, uzun-vade trend üstü hisseler",
   "initial": 10000.0,
-  "cash": 1902.12,
-  "total_value": 9983.83,
-  "return_pct": -0.16,
+  "cash": 1018.16,
+  "total_value": 9982.07,
+  "return_pct": -0.18,
   "created": "2026-07-04 16:42",
-  "last_updated": "2026-07-04 16:42",
+  "last_updated": "2026-07-04 13:45",
   "positions": [
     {
       "ticker": "AKBNK",
@@ -19,7 +19,7 @@
       "stop": 67.11,
       "target": 87.02,
       "entry_ts": "2026-07-04 16:42",
-      "score": 77.3
+      "score": 71.4
     },
     {
       "ticker": "THYAO",
@@ -31,7 +31,7 @@
       "stop": 303.94,
       "target": 394.12,
       "entry_ts": "2026-07-04 16:42",
-      "score": 73.9
+      "score": 61.2
     },
     {
       "ticker": "TOASO",
@@ -43,7 +43,7 @@
       "stop": 274.82,
       "target": 356.36,
       "entry_ts": "2026-07-04 16:42",
-      "score": 69.0
+      "score": 59.0
     },
     {
       "ticker": "YKBNK",
@@ -55,7 +55,19 @@
       "stop": 34.6,
       "target": 44.86,
       "entry_ts": "2026-07-04 16:42",
-      "score": 66.2
+      "score": 61.0
+    },
+    {
+      "ticker": "EREGL",
+      "name": "Ereğli Demir Çelik",
+      "sector": "Demir-Çelik",
+      "entry": 40.1,
+      "qty": 22,
+      "current": 40.1,
+      "stop": 36.49,
+      "target": 47.32,
+      "entry_ts": "2026-07-04 13:45",
+      "score": 66.9
     }
   ],
   "trades": [
@@ -94,6 +106,15 @@
       "price": 38.02,
       "amount": 1824.96,
       "reason": "Claude AI skoru 66 (>=62)"
+    },
+    {
+      "ts": "2026-07-04 13:45",
+      "side": "BUY",
+      "ticker": "EREGL",
+      "qty": 22,
+      "price": 40.1,
+      "amount": 882.2,
+      "reason": "Claude AI skoru 67 (>=62)"
     }
   ]
 }
