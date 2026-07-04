@@ -23,7 +23,7 @@ from typing import Dict, Optional, List
 
 _DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 _CACHE_FILE = _DATA_DIR / "fund_cache.json"
-_CACHE_TTL = 24 * 60 * 60
+_CACHE_TTL = 14 * 24 * 60 * 60  # temel veri çeyreklik değişir; 14 gün taze sayılır
 
 _UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
        "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36")
@@ -119,14 +119,15 @@ def _fetch_financials(ticker: str) -> dict:
         return {}
 
 
-def _load_cache() -> Optional[Dict[str, dict]]:
+def _load_cache_any() -> tuple:
+    """(data, taze_mi). Dosya yoksa (None, False)."""
     try:
         raw = json.loads(_CACHE_FILE.read_text(encoding="utf-8"))
-        if time.time() - raw.get("_ts", 0) < _CACHE_TTL:
-            return raw.get("data", {})
+        data = raw.get("data", {})
+        fresh = time.time() - raw.get("_ts", 0) < _CACHE_TTL
+        return (data or None), fresh
     except Exception:
-        pass
-    return None
+        return None, False
 
 
 def _save_cache(data: Dict[str, dict]) -> None:
@@ -146,21 +147,26 @@ def get_all_live_fundamentals(tickers: List[str]) -> Dict[str, dict]:
     if not live_enabled():
         _mem = {}
         return _mem
-    cached = _load_cache()
-    if cached is not None:
+
+    cached, fresh = _load_cache_any()
+    if cached and fresh:
         _mem = cached
         return cached
 
+    # Cache eski/yok → çekmeyi dene (crumb datacenter'da engellenebilir)
     quotes = _fetch_quote_batch(tickers)
     data: Dict[str, dict] = {}
     for tk in tickers:
         rec = dict(quotes.get(tk, {}))
         fin = _fetch_financials(tk)
         rec.update({k: v for k, v in fin.items() if v is not None})
-        # sadece anlamlı (en az F/K veya ROE) kayıtları tut
-        if rec.get("fk") or rec.get("roe"):
+        if rec.get("fk") or rec.get("roe"):  # en az F/K veya ROE
             data[tk] = rec
     if data:
         _save_cache(data)
-    _mem = data
-    return data
+        _mem = data
+        return data
+
+    # Çekilemedi → eski gerçek cache varsa onu kullan (kötü curated'a düşme)
+    _mem = cached or {}
+    return _mem
