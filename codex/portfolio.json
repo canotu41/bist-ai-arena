@@ -7,7 +7,7 @@
   "total_value": 9994.05,
   "return_pct": -0.06,
   "created": "2026-07-04 09:56",
-  "last_updated": "2026-07-04 09:56",
+  "last_updated": "2026-07-04 06:57",
   "positions": [
     {
       "ticker": "AKBNK",
@@ -19,7 +19,7 @@
       "stop": 68.59,
       "target": 84.81,
       "entry_ts": "2026-07-04 09:56",
-      "score": 75.4
+      "score": 68.3
     },
     {
       "ticker": "EKGYO",
@@ -31,7 +31,7 @@
       "stop": 19.34,
       "target": 23.92,
       "entry_ts": "2026-07-04 09:56",
-      "score": 73.2
+      "score": 66.4
     }
   ],
   "trades": [

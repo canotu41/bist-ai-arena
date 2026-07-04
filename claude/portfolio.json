@@ -7,7 +7,7 @@
   "total_value": 9982.06,
   "return_pct": -0.18,
   "created": "2026-07-04 09:56",
-  "last_updated": "2026-07-04 09:56",
+  "last_updated": "2026-07-04 06:57",
   "positions": [
     {
       "ticker": "AKBNK",
@@ -19,7 +19,7 @@
       "stop": 67.11,
       "target": 87.02,
       "entry_ts": "2026-07-04 09:56",
-      "score": 80.2
+      "score": 71.4
     },
     {
       "ticker": "EKGYO",
@@ -31,7 +31,7 @@
       "stop": 18.93,
       "target": 24.54,
       "entry_ts": "2026-07-04 09:56",
-      "score": 77.5
+      "score": 69.0
     },
     {
       "ticker": "TOASO",
@@ -43,7 +43,7 @@
       "stop": 274.82,
       "target": 356.36,
       "entry_ts": "2026-07-04 09:56",
-      "score": 74.0
+      "score": 64.0
     },
     {
       "ticker": "THYAO",
@@ -55,7 +55,7 @@
       "stop": 303.94,
       "target": 394.12,
       "entry_ts": "2026-07-04 09:56",
-      "score": 70.7
+      "score": 61.2
     },
     {
       "ticker": "ASELS",
@@ -67,7 +67,7 @@
       "stop": 363.55,
       "target": 471.41,
       "entry_ts": "2026-07-04 09:56",
-      "score": 69.8
+      "score": 62.1
     },
     {
       "ticker": "YKBNK",
@@ -79,7 +79,7 @@
       "stop": 34.6,
       "target": 44.86,
       "entry_ts": "2026-07-04 09:56",
-      "score": 69.2
+      "score": 61.0
     }
   ],
   "trades": [

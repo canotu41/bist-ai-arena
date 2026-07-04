@@ -1,13 +1,13 @@
 {
-  "ts": "2026-07-04 09:56:26",
+  "ts": "2026-07-04 06:57:24",
   "active_competitors": 5,
   "consensus_tickers": [
     "AKBNK",
     "EKGYO",
     "ASELS",
     "THYAO",
-    "TOASO",
-    "YKBNK"
+    "YKBNK",
+    "TOASO"
   ],
   "leaderboard": [
     {
