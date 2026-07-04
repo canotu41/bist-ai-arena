@@ -95,18 +95,22 @@ def get_all_live_fundamentals(tickers: List[str]) -> Dict[str, dict]:
         _mem = cached
         return cached
 
-    data: Dict[str, dict] = {}
+    # BİRİKİMLİ: mevcut (eski) cache'in üstüne ekle → kısmi çekim iyi hisseleri
+    # kaybetmez; datacenter throttle'ında birkaç döngüde 24'e dolar.
+    data: Dict[str, dict] = dict(cached or {})
+    got = 0
     for i, tk in enumerate(tickers):
         rec = _fetch_one(tk)
         if rec:
             data[tk] = rec
+            got += 1
         if i < len(tickers) - 1:
-            time.sleep(0.6)  # Bigpara nazik hız (ardışık throttle'ı önler)
-    if data:
+            time.sleep(1.2)  # Bigpara nazik hız (throttle'ı önler)
+    if got:
         _save_cache(data)
         _mem = data
         return data
 
-    # çekilemedi → eski gerçek cache'i koru (kötü curated'a düşme)
+    # hiç çekilemedi → eski gerçek cache'i koru (kötü curated'a düşme)
     _mem = cached or {}
     return _mem
