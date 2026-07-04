@@ -217,7 +217,17 @@ def _tabbar(comps):
     return '<nav class="tabs">' + "".join(btns) + "</nav>"
 
 
-def build_dashboard(comps, feed, consensus, notes, consensus_pf, xu30, extra=None):
+def _health_badge(health):
+    if not health:
+        return ""
+    if health.get("ok"):
+        news = " · haber: DeepSeek LLM" if health.get("news_llm") else " · haber: havuz"
+        return (f'<span class="hbadge ok">● Canlı veri {health.get("live",0)}/{health.get("total",0)}'
+                f'{news}</span>')
+    return ('<span class="hbadge bad">⚠ VERİ ESKİ/ÖRNEK — fiyatlar güncel olmayabilir</span>')
+
+
+def build_dashboard(comps, feed, consensus, notes, consensus_pf, xu30, health=None):
     now = datetime.now().strftime("%Y-%m-%d %H:%M")
     active_n = sum(1 for c in comps if c.get("active"))
     total_trades = sum(len(c.get("trades", [])) for c in comps)
@@ -259,6 +269,9 @@ def build_dashboard(comps, feed, consensus, notes, consensus_pf, xu30, extra=Non
   .tabbtn.active {{ color:var(--ink); border-color:var(--c,var(--accent));
     background:color-mix(in srgb,var(--c,var(--accent)) 14%,var(--panel)); }}
 
+  .hbadge {{ font-size:12px; font-weight:600; padding:4px 11px; border-radius:999px; white-space:nowrap; }}
+  .hbadge.ok {{ color:var(--green); background:rgba(34,197,94,.12); border:1px solid rgba(34,197,94,.35); }}
+  .hbadge.bad {{ color:var(--red); background:rgba(239,68,68,.14); border:1px solid rgba(239,68,68,.45); }}
   .banner {{ background:color-mix(in srgb,var(--accent) 12%,transparent);
     border:1px solid color-mix(in srgb,var(--accent) 30%,transparent);
     border-radius:12px; padding:12px 14px; font-size:13px; margin:16px 0; }}
@@ -317,8 +330,9 @@ def build_dashboard(comps, feed, consensus, notes, consensus_pf, xu30, extra=Non
 <body><div class="wrap">
   <header>
     <h1><span class="spark">◆</span> BIST AI Arena</h1>
-    <span class="sub">5 yapay zeka · BIST30 · canlı veri · 52 haftalık paper trading</span>
-    <span class="sub" style="margin-left:auto">Güncelleme <b>{now}</b> · oto-yenile 5dk</span>
+    <span class="sub">5 yapay zeka · BIST30 · 52 haftalık paper trading</span>
+    <span style="margin-left:auto">{_health_badge(health)}</span>
+    <span class="sub">Güncelleme <b>{now}</b> · oto-yenile 5dk</span>
   </header>
 
   {_tabbar(comps)}

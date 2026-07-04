@@ -1,5 +1,12 @@
 {
-  "ts": "2026-07-04 06:57:24",
+  "ts": "2026-07-04 10:37:01",
+  "health": {
+    "ok": true,
+    "live": 24,
+    "total": 24,
+    "priced": 24,
+    "news_llm": true
+  },
   "active_competitors": 5,
   "consensus_tickers": [
     "AKBNK",

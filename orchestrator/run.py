@@ -63,6 +63,29 @@ def dump_snapshot() -> None:
         out.write_text("[]", encoding="utf-8")
 
 
+def data_health(snapshot: dict) -> dict:
+    """Veri tazeliği: canlı fiyat oranı + haber kaynağı."""
+    import time
+    total = len(snapshot)
+    priced = sum(1 for s in snapshot.values() if s.get("price"))
+    live = 0
+    try:
+        lc = json.loads((ROOT / "deepseek" / "data" / "live_cache.json").read_text(encoding="utf-8"))
+        live = sum(1 for v in lc.values()
+                   if isinstance(v, dict) and v.get("_source") == "live"
+                   and time.time() - v.get("_ts", 0) < 86400)
+    except Exception:
+        pass
+    news_llm = False
+    try:
+        nc = json.loads((ROOT / "deepseek" / "data" / "news_cache.json").read_text(encoding="utf-8"))
+        news_llm = nc.get("_source") == "deepseek-llm" and time.time() - nc.get("_ts", 0) < 6 * 3600
+    except Exception:
+        pass
+    ok = priced > 0 and live >= max(1, total // 2)
+    return {"ok": ok, "live": live, "total": total, "priced": priced, "news_llm": news_llm}
+
+
 def get_xu30() -> float:
     try:
         comp = json.loads((ROOT / "deepseek" / "competition.json").read_text(encoding="utf-8"))
@@ -78,6 +101,9 @@ def main() -> None:
 
     snapshot = common.load_snapshot()
     xu30 = get_xu30()
+    health = data_health(snapshot)
+    print(f"→ Veri sağlığı: {'CANLI' if health['ok'] else '⚠ DEGRADE'} "
+          f"(canlı {health['live']}/{health['total']}, haber={'LLM' if health['news_llm'] else 'havuz'})")
 
     # 3) claude / codex / microsoft — her biri kendi stratejisiyle
     print("→ claude / codex / microsoft kendi stratejileriyle ilerletiliyor...")
@@ -100,18 +126,28 @@ def main() -> None:
     # 7) dashboard
     comps = common.load_all_competitors()
     feed = common.merged_trade_feed(comps, limit=50)
-    html = dashboard.build_dashboard(comps, feed, consensus, notes, pf, xu30)
+    html = dashboard.build_dashboard(comps, feed, consensus, notes, pf, xu30, health=health)
     DASHBOARD_HTML.write_text(html, encoding="utf-8")
     (ROOT / "index.html").write_text(html, encoding="utf-8")
 
     (DATA_DIR / "last_run.json").write_text(json.dumps({
         "ts": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "health": health,
         "active_competitors": sum(1 for c in comps if c.get("active")),
         "consensus_tickers": [c["ticker"] for c in consensus],
         "leaderboard": sorted(
             [{"name": c["name"], "return_pct": c["return_pct"]} for c in comps if c.get("active")],
             key=lambda x: x["return_pct"], reverse=True),
     }, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    # Sağlık bozuksa bildirim (kanal kuruluysa; değilse sessiz no-op)
+    if not health["ok"]:
+        try:
+            from orchestrator import notify
+            notify.send("⚠ BIST AI Arena: veri DEGRADE — canlı fiyat %d/%d, döngü %s"
+                        % (health["live"], health["total"], datetime.now().strftime("%H:%M")))
+        except Exception:
+            pass
 
     print(f"✓ Dashboard yazıldı: {DASHBOARD_HTML}")
 

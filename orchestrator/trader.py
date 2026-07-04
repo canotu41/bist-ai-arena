@@ -11,6 +11,7 @@ from pathlib import Path
 from typing import Dict, List
 
 from .strategies import score_for
+from . import corp_actions
 
 ROOT = Path(__file__).resolve().parent.parent
 COMMISSION = 0.002
@@ -63,11 +64,18 @@ def run_strategy(strategy: dict, snapshot: Dict[str, dict]) -> dict:
     for tk, snap in snapshot.items():
         scored[tk] = score_for(strategy, snap.get("breakdown", {}))
 
-    # 1) mark-to-market
+    # 1) mark-to-market (+ şirket-işlemi koruması)
     for p in pf["positions"]:
         snap = snapshot.get(p["ticker"], {})
-        if snap.get("price"):
-            p["current"] = round(float(snap["price"]), 2)
+        new_price = float(snap["price"]) if snap.get("price") else None
+        if new_price:
+            r = corp_actions.anomaly_ratio(p.get("current") or p.get("entry"), new_price)
+            if r is not None:
+                corp_actions.adjust(p, r)
+                pf["trades"].append({"ts": now, "side": "ADJUST", "ticker": p["ticker"],
+                                     "qty": "", "price": round(new_price, 2), "amount": "",
+                                     "reason": corp_actions.note(p["ticker"], r)})
+            p["current"] = round(new_price, 2)
         p["score"] = scored.get(p["ticker"], p.get("score", 0))
 
     # 2) çıkışlar: stop / hedef / skor düşüşü

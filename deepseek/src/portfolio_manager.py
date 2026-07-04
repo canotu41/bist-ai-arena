@@ -134,7 +134,18 @@ def update_market_prices(portfolio: PortfolioState) -> None:
     total_value = portfolio.cash
     for pos in portfolio.positions:
         tech = get_technical_data(pos.ticker)
-        pos.current_price = tech.price
+        new_price = tech.price
+        # Şirket-işlemi koruması: BIST günlük marjı dar; tek döngü >%25 değişim
+        # bölünme/bedelsiz/veri sıçramasıdır -> bazları ölçekle, sahte stop önle.
+        old = pos.current_price or pos.entry_price
+        if old and new_price and new_price > 0:
+            r = new_price / old
+            if r < 0.75 or r > 1.30:
+                pos.entry_price = round(pos.entry_price * r, 4)
+                pos.stop_loss = round(pos.stop_loss * r, 4)
+                pos.take_profit = round(pos.take_profit * r, 4)
+                pos.quantity = pos.quantity / r
+        pos.current_price = new_price
         pos.unrealized_pnl = (pos.current_price - pos.entry_price) * pos.quantity
         pos.unrealized_pnl_pct = ((pos.current_price - pos.entry_price) / pos.entry_price) * 100
         total_value += pos.current_price * pos.quantity

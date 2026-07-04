@@ -105,11 +105,19 @@ def sync_consensus_portfolio(consensus: List[dict], snapshot: Dict[str, dict]) -
     now = _now()
     held = {p["ticker"]: p for p in pf["positions"]}
 
-    # 1) Mevcut pozisyonları güncel fiyata çek (mark-to-market)
+    # 1) Mevcut pozisyonları güncel fiyata çek (+ şirket-işlemi koruması)
+    from . import corp_actions
     for p in pf["positions"]:
         snap = snapshot.get(p["ticker"], {})
         if snap.get("price"):
-            p["current"] = round(float(snap["price"]), 2)
+            new_price = float(snap["price"])
+            r = corp_actions.anomaly_ratio(p.get("current") or p.get("entry"), new_price)
+            if r is not None:
+                corp_actions.adjust(p, r)
+                pf["trades"].append({"ts": now, "side": "ADJUST", "ticker": p["ticker"],
+                                     "qty": "", "price": round(new_price, 2), "amount": "",
+                                     "reason": corp_actions.note(p["ticker"], r)})
+            p["current"] = round(new_price, 2)
 
     # 2) Stop / hedef kontrolü
     survivors = []
