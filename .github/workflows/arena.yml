@@ -29,7 +29,23 @@ jobs:
       - name: Orchestrator döngüsü
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          ARENA_SMTP_HOST: smtp.gmail.com
+          ARENA_SMTP_PORT: '587'
+          ARENA_SMTP_USER: can.otu@gmail.com
+          ARENA_MAIL_TO: can.otu@erlau.com.tr
+          ARENA_SMTP_PASS: ${{ secrets.ARENA_SMTP_PASS }}
         run: python3 orchestrator/run.py
+
+      - name: Hata bildirimi (döngü çökerse e-posta)
+        if: failure()
+        env:
+          ARENA_SMTP_HOST: smtp.gmail.com
+          ARENA_SMTP_PORT: '587'
+          ARENA_SMTP_USER: can.otu@gmail.com
+          ARENA_MAIL_TO: can.otu@erlau.com.tr
+          ARENA_SMTP_PASS: ${{ secrets.ARENA_SMTP_PASS }}
+        run: |
+          python3 -c "from orchestrator import notify; notify.send('BIST AI Arena: GitHub Actions dongusu BASARISIZ oldu (UTC $(date -u +%FT%H:%M)). Actions loglarina bakin.')"
 
       - name: Değişiklikleri commit & push
         run: |
