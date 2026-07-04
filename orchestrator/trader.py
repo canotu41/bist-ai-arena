@@ -10,7 +10,7 @@ from datetime import datetime
 from pathlib import Path
 from typing import Dict, List
 
-from .strategies import score_for
+from .strategies import score_for, passes_filter
 from . import corp_actions
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -101,7 +101,9 @@ def run_strategy(strategy: dict, snapshot: Dict[str, dict]) -> dict:
     # 3) girişler: skor >= buy_threshold, en yüksekten
     pf["total_value"] = pf["cash"] + sum(p["current"] * p["qty"] for p in pf["positions"])
     candidates = sorted(
-        (tk for tk in snapshot if tk not in held and scored.get(tk, 0) >= strategy["buy_threshold"]),
+        (tk for tk in snapshot if tk not in held
+         and scored.get(tk, 0) >= strategy["buy_threshold"]
+         and passes_filter(strategy, snapshot[tk])),
         key=lambda t: scored[t], reverse=True,
     )
     for tk in candidates:

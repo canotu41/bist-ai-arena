@@ -82,8 +82,16 @@ def data_health(snapshot: dict) -> dict:
         news_llm = nc.get("_source") == "deepseek-llm" and time.time() - nc.get("_ts", 0) < 6 * 3600
     except Exception:
         pass
+    fund_live = 0
+    try:
+        fc = json.loads((ROOT / "deepseek" / "data" / "fund_cache.json").read_text(encoding="utf-8"))
+        if time.time() - fc.get("_ts", 0) < 48 * 3600:
+            fund_live = sum(1 for v in fc.get("data", {}).values() if v.get("fk") or v.get("roe"))
+    except Exception:
+        pass
     ok = priced > 0 and live >= max(1, total // 2)
-    return {"ok": ok, "live": live, "total": total, "priced": priced, "news_llm": news_llm}
+    return {"ok": ok, "live": live, "total": total, "priced": priced,
+            "news_llm": news_llm, "fund_live": fund_live}
 
 
 def get_xu30() -> float:

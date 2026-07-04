@@ -99,12 +99,30 @@ def normalize(value: float, lower: float, upper: float) -> float:
     return max(0.0, min(100.0, ((value - lower) / (upper - lower)) * 100.0))
 
 
+def _live_fundamentals_map() -> Dict[str, dict]:
+    """Canlı temel veri haritası (varsa); hata/kapalıysa boş."""
+    try:
+        from .live_fundamentals import get_all_live_fundamentals
+        return get_all_live_fundamentals(list(BIST30_FUNDAMENTAL.keys()))
+    except Exception:
+        return {}
+
+
 def get_fundamental_data(ticker: str) -> FundamentalData:
-    """Bir hisse için temel analiz verisi üretir"""
-    data = BIST30_FUNDAMENTAL.get(ticker)
-    if not data:
-        data = {"fk": 10.0, "pddd": 1.5, "net_profit_growth": 5.0, "debt_equity": 1.5,
-                "roe": 15.0, "ebitda_margin": 15.0, "dividend_yield": 2.0, "revenue_growth": 10.0, "current_ratio": 1.2}
+    """Bir hisse için temel analiz verisi üretir (önce canlı Yahoo, eksik alan curated)."""
+    data = dict(BIST30_FUNDAMENTAL.get(ticker) or
+                {"fk": 10.0, "pddd": 1.5, "net_profit_growth": 5.0, "debt_equity": 1.5,
+                 "roe": 15.0, "ebitda_margin": 15.0, "dividend_yield": 2.0,
+                 "revenue_growth": 10.0, "current_ratio": 1.2})
+
+    # Canlı değerlerle üzerine yaz (yalnızca gelen alanlar; gerisi curated kalır)
+    live = _live_fundamentals_map().get(ticker)
+    if live:
+        for k in ("fk", "pddd", "roe", "ebitda_margin", "debt_equity",
+                  "revenue_growth", "net_profit_growth", "dividend_yield", "current_ratio"):
+            v = live.get(k)
+            if v is not None and v == v:  # NaN değil
+                data[k] = v
 
     return FundamentalData(
         ticker=ticker,

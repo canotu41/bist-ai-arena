@@ -222,8 +222,10 @@ def _health_badge(health):
         return ""
     if health.get("ok"):
         news = " · haber: DeepSeek LLM" if health.get("news_llm") else " · haber: havuz"
+        fl = health.get("fund_live", 0)
+        fund = f" · temel: canlı {fl}" if fl else " · temel: statik"
         return (f'<span class="hbadge ok">● Canlı veri {health.get("live",0)}/{health.get("total",0)}'
-                f'{news}</span>')
+                f'{fund}{news}</span>')
     return ('<span class="hbadge bad">⚠ VERİ ESKİ/ÖRNEK — fiyatlar güncel olmayabilir</span>')
 
 
