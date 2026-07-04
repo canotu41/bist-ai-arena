@@ -1,0 +1,57 @@
+{
+  "_schema": "arena",
+  "name": "Codex Portföyü",
+  "strategy": "Önce risk, sonra kalite, sonra momentum (%35 temel / %30 teknik / %20 haber / %15 risk)",
+  "initial": 10000.0,
+  "cash": 7021.45,
+  "total_value": 9994.05,
+  "return_pct": -0.06,
+  "created": "2026-07-04 09:56",
+  "last_updated": "2026-07-04 09:56",
+  "positions": [
+    {
+      "ticker": "AKBNK",
+      "name": "Akbank",
+      "sector": "Bankacılık",
+      "entry": 73.75,
+      "qty": 20,
+      "current": 73.75,
+      "stop": 68.59,
+      "target": 84.81,
+      "entry_ts": "2026-07-04 09:56",
+      "score": 75.4
+    },
+    {
+      "ticker": "EKGYO",
+      "name": "Emlak Konut GYO",
+      "sector": "Gayrimenkul",
+      "entry": 20.8,
+      "qty": 72,
+      "current": 20.8,
+      "stop": 19.34,
+      "target": 23.92,
+      "entry_ts": "2026-07-04 09:56",
+      "score": 73.2
+    }
+  ],
+  "trades": [
+    {
+      "ts": "2026-07-04 09:56",
+      "side": "BUY",
+      "ticker": "AKBNK",
+      "qty": 20,
+      "price": 73.75,
+      "amount": 1475.0,
+      "reason": "Codex skoru 75 (>=67)"
+    },
+    {
+      "ts": "2026-07-04 09:56",
+      "side": "BUY",
+      "ticker": "EKGYO",
+      "qty": 72,
+      "price": 20.8,
+      "amount": 1497.6,
+      "reason": "Codex skoru 73 (>=67)"
+    }
+  ]
+}

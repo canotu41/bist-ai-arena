@@ -1,28 +1,141 @@
 {
-  "olusturulma_tarihi": "2026-07-03",
-  "evren": "BIST30",
-  "baslangic_sermayesi_try": 10000,
-  "benchmark": "XU030 (~17.019, 2026-06-22 referans)",
-  "durum": "pozisyonlar_acildi",
-  "islem_maliyeti_pct": 0.2,
-  "giris_fiyat_notu": "Fiyatlar 1-3 Temmuz 2026 son bilinen kapanislar/gun ici degerlerdir (seans kapaliyken cekildi). Kagit-uzeri giris bu fiyatlarla islendi.",
-  "pozisyonlar": [
-    { "sembol": "AKBNK", "sektor": "Bankacilik",       "adet": 19, "giris_fiyati": 77.85,  "maliyet_try": 1479.15, "stop": 70.84,  "hedef": 91.86,  "skor": 78 },
-    { "sembol": "KCHOL", "sektor": "Holding",           "adet": 7,  "giris_fiyati": 191.60, "maliyet_try": 1341.20, "stop": 174.36, "hedef": 226.09, "skor": 76 },
-    { "sembol": "GARAN", "sektor": "Bankacilik",        "adet": 9,  "giris_fiyati": 138.60, "maliyet_try": 1247.40, "stop": 126.13, "hedef": 163.55, "skor": 75 },
-    { "sembol": "TUPRS", "sektor": "Enerji/Rafineri",   "adet": 5,  "giris_fiyati": 239.90, "maliyet_try": 1199.50, "stop": 218.31, "hedef": 283.08, "skor": 74 },
-    { "sembol": "MGROS", "sektor": "Perakende",         "adet": 1,  "giris_fiyati": 696.50, "maliyet_try": 696.50,  "stop": 633.82, "hedef": 821.87, "skor": 72 },
-    { "sembol": "FROTO", "sektor": "Otomotiv/Sanayi",   "adet": 12, "giris_fiyati": 86.20,  "maliyet_try": 1034.40, "stop": 78.44,  "hedef": 101.72, "skor": 71 },
-    { "sembol": "THYAO", "sektor": "Ulastirma",         "adet": 3,  "giris_fiyati": 334.00, "maliyet_try": 1002.00, "stop": 303.94, "hedef": 394.12, "skor": 70 },
-    { "sembol": "EREGL", "sektor": "Demir-Celik/Sanayi","adet": 19, "giris_fiyati": 41.22,  "maliyet_try": 783.18,  "stop": 37.51,  "hedef": 48.64,  "skor": 68 }
+  "_schema": "arena",
+  "name": "Claude AI Portföyü",
+  "strategy": "Temel ağırlıklı, disiplinli swing (%40 temel / %35 teknik / %25 haber)",
+  "initial": 10000.0,
+  "cash": 1009.35,
+  "total_value": 9982.06,
+  "return_pct": -0.18,
+  "created": "2026-07-04 09:56",
+  "last_updated": "2026-07-04 09:56",
+  "positions": [
+    {
+      "ticker": "AKBNK",
+      "name": "Akbank",
+      "sector": "Bankacılık",
+      "entry": 73.75,
+      "qty": 27,
+      "current": 73.75,
+      "stop": 67.11,
+      "target": 87.02,
+      "entry_ts": "2026-07-04 09:56",
+      "score": 80.2
+    },
+    {
+      "ticker": "EKGYO",
+      "name": "Emlak Konut GYO",
+      "sector": "Gayrimenkul",
+      "entry": 20.8,
+      "qty": 96,
+      "current": 20.8,
+      "stop": 18.93,
+      "target": 24.54,
+      "entry_ts": "2026-07-04 09:56",
+      "score": 77.5
+    },
+    {
+      "ticker": "TOASO",
+      "name": "Tofaş Oto Fabrika",
+      "sector": "Otomotiv",
+      "entry": 302.0,
+      "qty": 6,
+      "current": 302.0,
+      "stop": 274.82,
+      "target": 356.36,
+      "entry_ts": "2026-07-04 09:56",
+      "score": 74.0
+    },
+    {
+      "ticker": "THYAO",
+      "name": "Türk Hava Yolları",
+      "sector": "Ulaştırma",
+      "entry": 334.0,
+      "qty": 5,
+      "current": 334.0,
+      "stop": 303.94,
+      "target": 394.12,
+      "entry_ts": "2026-07-04 09:56",
+      "score": 70.7
+    },
+    {
+      "ticker": "ASELS",
+      "name": "Aselsan",
+      "sector": "Savunma",
+      "entry": 399.5,
+      "qty": 3,
+      "current": 399.5,
+      "stop": 363.55,
+      "target": 471.41,
+      "entry_ts": "2026-07-04 09:56",
+      "score": 69.8
+    },
+    {
+      "ticker": "YKBNK",
+      "name": "Yapı Kredi Bankası",
+      "sector": "Bankacılık",
+      "entry": 38.02,
+      "qty": 8,
+      "current": 38.02,
+      "stop": 34.6,
+      "target": 44.86,
+      "entry_ts": "2026-07-04 09:56",
+      "score": 69.2
+    }
   ],
-  "toplam_maliyet_try": 8783.33,
-  "islem_komisyonu_try": 17.57,
-  "nakit_try": 1199.10,
-  "portfoy_degeri_try": 9982.43,
-  "getiri_pct": -0.18,
-  "islem_gecmisi": [
-    { "tarih": "2026-07-03", "islem": "ALIS", "detay": "8 hisselik baslangic portfoyu acildi (bkz. log/2026-07-03_giris.md). Komisyon 17.57 TL." }
-  ],
-  "son_guncelleme": "2026-07-03T22:00:00+03:00"
+  "trades": [
+    {
+      "ts": "2026-07-04 09:56",
+      "side": "BUY",
+      "ticker": "AKBNK",
+      "qty": 27,
+      "price": 73.75,
+      "amount": 1991.25,
+      "reason": "Claude AI skoru 80 (>=63)"
+    },
+    {
+      "ts": "2026-07-04 09:56",
+      "side": "BUY",
+      "ticker": "EKGYO",
+      "qty": 96,
+      "price": 20.8,
+      "amount": 1996.8,
+      "reason": "Claude AI skoru 78 (>=63)"
+    },
+    {
+      "ts": "2026-07-04 09:56",
+      "side": "BUY",
+      "ticker": "TOASO",
+      "qty": 6,
+      "price": 302.0,
+      "amount": 1812.0,
+      "reason": "Claude AI skoru 74 (>=63)"
+    },
+    {
+      "ts": "2026-07-04 09:56",
+      "side": "BUY",
+      "ticker": "THYAO",
+      "qty": 5,
+      "price": 334.0,
+      "amount": 1670.0,
+      "reason": "Claude AI skoru 71 (>=63)"
+    },
+    {
+      "ts": "2026-07-04 09:56",
+      "side": "BUY",
+      "ticker": "ASELS",
+      "qty": 3,
+      "price": 399.5,
+      "amount": 1198.5,
+      "reason": "Claude AI skoru 70 (>=63)"
+    },
+    {
+      "ts": "2026-07-04 09:56",
+      "side": "BUY",
+      "ticker": "YKBNK",
+      "qty": 8,
+      "price": 38.02,
+      "amount": 304.16,
+      "reason": "Claude AI skoru 69 (>=63)"
+    }
+  ]
 }

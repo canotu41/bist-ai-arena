@@ -1,12 +1,34 @@
 {
-  "ts": "2026-07-03 21:06:44",
-  "active_competitors": 4,
+  "ts": "2026-07-04 09:56:26",
+  "active_competitors": 5,
   "consensus_tickers": [
     "AKBNK",
+    "EKGYO",
     "ASELS",
-    "THYAO"
+    "THYAO",
+    "TOASO",
+    "YKBNK"
   ],
-  "consensus_portfolio_value": 9988.68,
-  "consensus_return_pct": -0.11,
-  "trades_in_feed": 16
+  "leaderboard": [
+    {
+      "name": "Codex",
+      "return_pct": -0.06
+    },
+    {
+      "name": "Claude AI",
+      "return_pct": -0.18
+    },
+    {
+      "name": "Konsensüs (Claude)",
+      "return_pct": -0.19
+    },
+    {
+      "name": "DeepSeek AI",
+      "return_pct": -0.19
+    },
+    {
+      "name": "Microsoft Copilot",
+      "return_pct": -0.19
+    }
+  ]
 }

@@ -1,0 +1,99 @@
+{
+  "_schema": "arena",
+  "name": "Microsoft Copilot Portföyü",
+  "strategy": "Teknik/momentum ağırlıklı (%50 teknik / %35 temel / %15 haber)",
+  "initial": 10000.0,
+  "cash": 650.59,
+  "total_value": 9981.34,
+  "return_pct": -0.19,
+  "created": "2026-07-04 09:56",
+  "last_updated": "2026-07-04 09:56",
+  "positions": [
+    {
+      "ticker": "AKBNK",
+      "name": "Akbank",
+      "sector": "Bankacılık",
+      "entry": 73.75,
+      "qty": 33,
+      "current": 73.75,
+      "stop": 66.38,
+      "target": 88.5,
+      "entry_ts": "2026-07-04 09:56",
+      "score": 77.1
+    },
+    {
+      "ticker": "EKGYO",
+      "name": "Emlak Konut GYO",
+      "sector": "Gayrimenkul",
+      "entry": 20.8,
+      "qty": 120,
+      "current": 20.8,
+      "stop": 18.72,
+      "target": 24.96,
+      "entry_ts": "2026-07-04 09:56",
+      "score": 75.4
+    },
+    {
+      "ticker": "ASELS",
+      "name": "Aselsan",
+      "sector": "Savunma",
+      "entry": 399.5,
+      "qty": 6,
+      "current": 399.5,
+      "stop": 359.55,
+      "target": 479.4,
+      "entry_ts": "2026-07-04 09:56",
+      "score": 72.1
+    },
+    {
+      "ticker": "THYAO",
+      "name": "Türk Hava Yolları",
+      "sector": "Ulaştırma",
+      "entry": 334.0,
+      "qty": 6,
+      "current": 334.0,
+      "stop": 300.6,
+      "target": 400.8,
+      "entry_ts": "2026-07-04 09:56",
+      "score": 71.5
+    }
+  ],
+  "trades": [
+    {
+      "ts": "2026-07-04 09:56",
+      "side": "BUY",
+      "ticker": "AKBNK",
+      "qty": 33,
+      "price": 73.75,
+      "amount": 2433.75,
+      "reason": "Microsoft Copilot skoru 77 (>=61)"
+    },
+    {
+      "ts": "2026-07-04 09:56",
+      "side": "BUY",
+      "ticker": "EKGYO",
+      "qty": 120,
+      "price": 20.8,
+      "amount": 2496.0,
+      "reason": "Microsoft Copilot skoru 75 (>=61)"
+    },
+    {
+      "ts": "2026-07-04 09:56",
+      "side": "BUY",
+      "ticker": "ASELS",
+      "qty": 6,
+      "price": 399.5,
+      "amount": 2397.0,
+      "reason": "Microsoft Copilot skoru 72 (>=61)"
+    },
+    {
+      "ts": "2026-07-04 09:56",
+      "side": "BUY",
+      "ticker": "THYAO",
+      "qty": 6,
+      "price": 334.0,
+      "amount": 2004.0,
+      "reason": "Microsoft Copilot skoru 72 (>=61)"
+    }
+  ]
+}
