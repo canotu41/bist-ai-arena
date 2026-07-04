@@ -7,7 +7,7 @@
   "total_value": 9982.07,
   "return_pct": -0.18,
   "created": "2026-07-04 16:42",
-  "last_updated": "2026-07-04 13:45",
+  "last_updated": "2026-07-04 13:46",
   "positions": [
     {
       "ticker": "AKBNK",
@@ -19,7 +19,7 @@
       "stop": 67.11,
       "target": 87.02,
       "entry_ts": "2026-07-04 16:42",
-      "score": 71.4
+      "score": 68.5
     },
     {
       "ticker": "THYAO",
@@ -31,7 +31,7 @@
       "stop": 303.94,
       "target": 394.12,
       "entry_ts": "2026-07-04 16:42",
-      "score": 61.2
+      "score": 64.4
     },
     {
       "ticker": "TOASO",
@@ -55,7 +55,7 @@
       "stop": 34.6,
       "target": 44.86,
       "entry_ts": "2026-07-04 16:42",
-      "score": 61.0
+      "score": 58.0
     },
     {
       "ticker": "EREGL",
@@ -67,7 +67,7 @@
       "stop": 36.49,
       "target": 47.32,
       "entry_ts": "2026-07-04 13:45",
-      "score": 66.9
+      "score": 59.1
     }
   ],
   "trades": [

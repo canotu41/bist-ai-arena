@@ -1,12 +1,12 @@
 {
-  "ts": "2026-07-04 13:45:09",
+  "ts": "2026-07-04 13:46:54",
   "health": {
     "ok": true,
     "live": 24,
     "total": 24,
     "priced": 24,
     "news_llm": true,
-    "fund_live": 7
+    "fund_live": 24
   },
   "active_competitors": 5,
   "consensus_tickers": [
