@@ -1,0 +1,118 @@
+{
+  "name": "Konsensüs (Claude) Portföyü",
+  "initial": 10000.0,
+  "cash": 526.24,
+  "total_value": 9981.09,
+  "return_pct": -0.19,
+  "created": "2026-07-04 07:57",
+  "last_updated": "2026-07-04 07:57",
+  "positions": [
+    {
+      "ticker": "AKBNK",
+      "name": "Akbank",
+      "sector": "Bankacılık",
+      "entry": 73.75,
+      "qty": 27,
+      "current": 73.75,
+      "stop": 67.85,
+      "target": 88.5,
+      "entry_ts": "2026-07-04 07:57",
+      "agreement": 4
+    },
+    {
+      "ticker": "EKGYO",
+      "name": "Emlak Konut GYO",
+      "sector": "Gayrimenkul",
+      "entry": 20.8,
+      "qty": 96,
+      "current": 20.8,
+      "stop": 19.14,
+      "target": 24.96,
+      "entry_ts": "2026-07-04 07:57",
+      "agreement": 2
+    },
+    {
+      "ticker": "TUPRS",
+      "name": "Tüpraş",
+      "sector": "Enerji",
+      "entry": 248.2,
+      "qty": 8,
+      "current": 248.2,
+      "stop": 228.34,
+      "target": 297.84,
+      "entry_ts": "2026-07-04 07:57",
+      "agreement": 2
+    },
+    {
+      "ticker": "ASELS",
+      "name": "Aselsan",
+      "sector": "Savunma",
+      "entry": 399.5,
+      "qty": 5,
+      "current": 399.5,
+      "stop": 367.54,
+      "target": 479.4,
+      "entry_ts": "2026-07-04 07:57",
+      "agreement": 2
+    },
+    {
+      "ticker": "EREGL",
+      "name": "Ereğli Demir Çelik",
+      "sector": "Demir-Çelik",
+      "entry": 40.1,
+      "qty": 37,
+      "current": 40.1,
+      "stop": 36.89,
+      "target": 48.12,
+      "entry_ts": "2026-07-04 07:57",
+      "agreement": 2
+    }
+  ],
+  "trades": [
+    {
+      "ts": "2026-07-04 07:57",
+      "side": "BUY",
+      "ticker": "AKBNK",
+      "qty": 27,
+      "price": 73.75,
+      "amount": 1991.25,
+      "reason": "Konsensüs: 4 AI ortak (DeepSeek AI, Claude AI, Codex, Microsoft Copilot)"
+    },
+    {
+      "ts": "2026-07-04 07:57",
+      "side": "BUY",
+      "ticker": "EKGYO",
+      "qty": 96,
+      "price": 20.8,
+      "amount": 1996.8,
+      "reason": "Konsensüs: 2 AI ortak (Codex, Microsoft Copilot)"
+    },
+    {
+      "ts": "2026-07-04 07:57",
+      "side": "BUY",
+      "ticker": "TUPRS",
+      "qty": 8,
+      "price": 248.2,
+      "amount": 1985.6,
+      "reason": "Konsensüs: 2 AI ortak (Claude AI, Codex)"
+    },
+    {
+      "ts": "2026-07-04 07:57",
+      "side": "BUY",
+      "ticker": "ASELS",
+      "qty": 5,
+      "price": 399.5,
+      "amount": 1997.5,
+      "reason": "Konsensüs: 2 AI ortak (DeepSeek AI, Claude AI)"
+    },
+    {
+      "ts": "2026-07-04 07:57",
+      "side": "BUY",
+      "ticker": "EREGL",
+      "qty": 37,
+      "price": 40.1,
+      "amount": 1483.7,
+      "reason": "Konsensüs: 2 AI ortak (Claude AI, Codex)"
+    }
+  ]
+}

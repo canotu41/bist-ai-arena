@@ -1,0 +1,120 @@
+{
+  "_schema": "arena",
+  "name": "Claude AI Portföyü",
+  "strategy": "Kalite+değer, yoğun portföy: ROE≥%10 ve F/K≤35, uzun-vade trend üstü hisseler",
+  "initial": 10000.0,
+  "cash": 1179.14,
+  "total_value": 9982.39,
+  "return_pct": -0.18,
+  "created": "2026-07-04 07:57",
+  "last_updated": "2026-07-04 07:57",
+  "positions": [
+    {
+      "ticker": "AKBNK",
+      "name": "Akbank",
+      "sector": "Bankacılık",
+      "entry": 73.75,
+      "qty": 29,
+      "current": 73.75,
+      "stop": 67.11,
+      "target": 87.02,
+      "entry_ts": "2026-07-04 07:57",
+      "score": 71.4
+    },
+    {
+      "ticker": "EREGL",
+      "name": "Ereğli Demir Çelik",
+      "sector": "Demir-Çelik",
+      "entry": 40.1,
+      "qty": 54,
+      "current": 40.1,
+      "stop": 36.49,
+      "target": 47.32,
+      "entry_ts": "2026-07-04 07:57",
+      "score": 65.7
+    },
+    {
+      "ticker": "TUPRS",
+      "name": "Tüpraş",
+      "sector": "Enerji",
+      "entry": 248.2,
+      "qty": 8,
+      "current": 248.2,
+      "stop": 225.86,
+      "target": 292.88,
+      "entry_ts": "2026-07-04 07:57",
+      "score": 65.4
+    },
+    {
+      "ticker": "TOASO",
+      "name": "Tofaş Oto Fabrika",
+      "sector": "Otomotiv",
+      "entry": 302.0,
+      "qty": 7,
+      "current": 302.0,
+      "stop": 274.82,
+      "target": 356.36,
+      "entry_ts": "2026-07-04 07:57",
+      "score": 64.0
+    },
+    {
+      "ticker": "ASELS",
+      "name": "Aselsan",
+      "sector": "Savunma",
+      "entry": 399.5,
+      "qty": 1,
+      "current": 399.5,
+      "stop": 363.55,
+      "target": 471.41,
+      "entry_ts": "2026-07-04 07:57",
+      "score": 62.1
+    }
+  ],
+  "trades": [
+    {
+      "ts": "2026-07-04 07:57",
+      "side": "BUY",
+      "ticker": "AKBNK",
+      "qty": 29,
+      "price": 73.75,
+      "amount": 2138.75,
+      "reason": "Claude AI skoru 71 (>=62)"
+    },
+    {
+      "ts": "2026-07-04 07:57",
+      "side": "BUY",
+      "ticker": "EREGL",
+      "qty": 54,
+      "price": 40.1,
+      "amount": 2165.4,
+      "reason": "Claude AI skoru 66 (>=62)"
+    },
+    {
+      "ts": "2026-07-04 07:57",
+      "side": "BUY",
+      "ticker": "TUPRS",
+      "qty": 8,
+      "price": 248.2,
+      "amount": 1985.6,
+      "reason": "Claude AI skoru 65 (>=62)"
+    },
+    {
+      "ts": "2026-07-04 07:57",
+      "side": "BUY",
+      "ticker": "TOASO",
+      "qty": 7,
+      "price": 302.0,
+      "amount": 2114.0,
+      "reason": "Claude AI skoru 64 (>=62)"
+    },
+    {
+      "ts": "2026-07-04 07:57",
+      "side": "BUY",
+      "ticker": "ASELS",
+      "qty": 1,
+      "price": 399.5,
+      "amount": 399.5,
+      "reason": "Claude AI skoru 62 (>=62)"
+    }
+  ]
+}

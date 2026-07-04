@@ -1,0 +1,99 @@
+{
+  "_schema": "arena",
+  "name": "Microsoft Copilot Portföyü",
+  "strategy": "Momentum/trend takibi: 20g değişim≥%4 ve MA20>MA50 kırılım; kazananı bırakma, geniş stop",
+  "initial": 10000.0,
+  "cash": 660.52,
+  "total_value": 9981.35,
+  "return_pct": -0.19,
+  "created": "2026-07-04 07:57",
+  "last_updated": "2026-07-04 07:57",
+  "positions": [
+    {
+      "ticker": "AKBNK",
+      "name": "Akbank",
+      "sector": "Bankacılık",
+      "entry": 73.75,
+      "qty": 33,
+      "current": 73.75,
+      "stop": 66.38,
+      "target": 92.19,
+      "entry_ts": "2026-07-04 07:57",
+      "score": 74.3
+    },
+    {
+      "ticker": "THYAO",
+      "name": "Türk Hava Yolları",
+      "sector": "Ulaştırma",
+      "entry": 334.0,
+      "qty": 7,
+      "current": 334.0,
+      "stop": 300.6,
+      "target": 417.5,
+      "entry_ts": "2026-07-04 07:57",
+      "score": 72.2
+    },
+    {
+      "ticker": "EKGYO",
+      "name": "Emlak Konut GYO",
+      "sector": "Gayrimenkul",
+      "entry": 20.8,
+      "qty": 120,
+      "current": 20.8,
+      "stop": 18.72,
+      "target": 26.0,
+      "entry_ts": "2026-07-04 07:57",
+      "score": 71.2
+    },
+    {
+      "ticker": "YKBNK",
+      "name": "Yapı Kredi Bankası",
+      "sector": "Bankacılık",
+      "entry": 38.02,
+      "qty": 54,
+      "current": 38.02,
+      "stop": 34.22,
+      "target": 47.53,
+      "entry_ts": "2026-07-04 07:57",
+      "score": 60.8
+    }
+  ],
+  "trades": [
+    {
+      "ts": "2026-07-04 07:57",
+      "side": "BUY",
+      "ticker": "AKBNK",
+      "qty": 33,
+      "price": 73.75,
+      "amount": 2433.75,
+      "reason": "Microsoft Copilot skoru 74 (>=60)"
+    },
+    {
+      "ts": "2026-07-04 07:57",
+      "side": "BUY",
+      "ticker": "THYAO",
+      "qty": 7,
+      "price": 334.0,
+      "amount": 2338.0,
+      "reason": "Microsoft Copilot skoru 72 (>=60)"
+    },
+    {
+      "ts": "2026-07-04 07:57",
+      "side": "BUY",
+      "ticker": "EKGYO",
+      "qty": 120,
+      "price": 20.8,
+      "amount": 2496.0,
+      "reason": "Microsoft Copilot skoru 71 (>=60)"
+    },
+    {
+      "ts": "2026-07-04 07:57",
+      "side": "BUY",
+      "ticker": "YKBNK",
+      "qty": 54,
+      "price": 38.02,
+      "amount": 2053.08,
+      "reason": "Microsoft Copilot skoru 61 (>=60)"
+    }
+  ]
+}

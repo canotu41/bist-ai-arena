@@ -1,24 +1,27 @@
 {
-  "ts": "2026-07-04 10:55:32",
+  "ts": "2026-07-04 07:57:37",
   "health": {
     "ok": true,
     "live": 24,
     "total": 24,
     "priced": 24,
-    "news_llm": true
+    "news_llm": true,
+    "fund_live": 0
   },
   "active_competitors": 5,
   "consensus_tickers": [
     "AKBNK",
-    "THYAO",
-    "YKBNK",
+    "EKGYO",
+    "TUPRS",
     "ASELS",
+    "EREGL",
+    "YKBNK",
     "TOASO"
   ],
   "leaderboard": [
     {
       "name": "Codex",
-      "return_pct": -0.03
+      "return_pct": -0.12
     },
     {
       "name": "Claude AI",

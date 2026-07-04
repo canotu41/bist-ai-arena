@@ -1,0 +1,99 @@
+{
+  "_schema": "arena",
+  "name": "Codex Portföyü",
+  "strategy": "Önce risk: düşük volatilite (ATR≤%3.6), RSI 40-68, MA50 üstü teyitli; sıkı stop",
+  "initial": 10000.0,
+  "cash": 4042.6,
+  "total_value": 9988.1,
+  "return_pct": -0.12,
+  "created": "2026-07-04 07:57",
+  "last_updated": "2026-07-04 07:57",
+  "positions": [
+    {
+      "ticker": "AKBNK",
+      "name": "Akbank",
+      "sector": "Bankacılık",
+      "entry": 73.75,
+      "qty": 20,
+      "current": 73.75,
+      "stop": 68.59,
+      "target": 84.81,
+      "entry_ts": "2026-07-04 07:57",
+      "score": 68.3
+    },
+    {
+      "ticker": "EKGYO",
+      "name": "Emlak Konut GYO",
+      "sector": "Gayrimenkul",
+      "entry": 20.8,
+      "qty": 72,
+      "current": 20.8,
+      "stop": 19.34,
+      "target": 23.92,
+      "entry_ts": "2026-07-04 07:57",
+      "score": 66.4
+    },
+    {
+      "ticker": "TUPRS",
+      "name": "Tüpraş",
+      "sector": "Enerji",
+      "entry": 248.2,
+      "qty": 6,
+      "current": 248.2,
+      "stop": 230.83,
+      "target": 285.43,
+      "entry_ts": "2026-07-04 07:57",
+      "score": 64.3
+    },
+    {
+      "ticker": "EREGL",
+      "name": "Ereğli Demir Çelik",
+      "sector": "Demir-Çelik",
+      "entry": 40.1,
+      "qty": 37,
+      "current": 40.1,
+      "stop": 37.29,
+      "target": 46.11,
+      "entry_ts": "2026-07-04 07:57",
+      "score": 62.9
+    }
+  ],
+  "trades": [
+    {
+      "ts": "2026-07-04 07:57",
+      "side": "BUY",
+      "ticker": "AKBNK",
+      "qty": 20,
+      "price": 73.75,
+      "amount": 1475.0,
+      "reason": "Codex skoru 68 (>=62)"
+    },
+    {
+      "ts": "2026-07-04 07:57",
+      "side": "BUY",
+      "ticker": "EKGYO",
+      "qty": 72,
+      "price": 20.8,
+      "amount": 1497.6,
+      "reason": "Codex skoru 66 (>=62)"
+    },
+    {
+      "ts": "2026-07-04 07:57",
+      "side": "BUY",
+      "ticker": "TUPRS",
+      "qty": 6,
+      "price": 248.2,
+      "amount": 1489.2,
+      "reason": "Codex skoru 64 (>=62)"
+    },
+    {
+      "ts": "2026-07-04 07:57",
+      "side": "BUY",
+      "ticker": "EREGL",
+      "qty": 37,
+      "price": 40.1,
+      "amount": 1483.7,
+      "reason": "Codex skoru 63 (>=62)"
+    }
+  ]
+}
