@@ -3,11 +3,34 @@
   "name": "Codex Portföyü",
   "strategy": "Önce risk: düşük volatilite (ATR≤%3.6), RSI 40-68, MA50 üstü teyitli; sıkı stop",
   "initial": 50000.0,
-  "cash": 50000.0,
-  "total_value": 50000.0,
-  "return_pct": 0.0,
+  "cash": 42555.14,
+  "total_value": 49985.14,
+  "return_pct": -0.03,
   "created": "2026-07-04 18:24",
-  "last_updated": "2026-07-04 18:24",
-  "positions": [],
-  "trades": []
+  "last_updated": "2026-07-06 08:57",
+  "positions": [
+    {
+      "ticker": "AKBNK",
+      "name": "Akbank",
+      "sector": "Bankacılık",
+      "entry": 74.3,
+      "qty": 100,
+      "current": 74.3,
+      "stop": 69.1,
+      "target": 85.44,
+      "entry_ts": "2026-07-06 08:57",
+      "score": 62.8
+    }
+  ],
+  "trades": [
+    {
+      "ts": "2026-07-06 08:57",
+      "side": "BUY",
+      "ticker": "AKBNK",
+      "qty": 100,
+      "price": 74.3,
+      "amount": 7430.0,
+      "reason": "Codex skoru 63 (>=62)"
+    }
+  ]
 }

@@ -3,11 +3,97 @@
   "name": "Microsoft Copilot Portföyü",
   "strategy": "Momentum/trend takibi: 20g değişim≥%4 ve MA20>MA50 kırılım; kazananı bırakma, geniş stop",
   "initial": 50000.0,
-  "cash": 50000.0,
-  "total_value": 50000.0,
-  "return_pct": 0.0,
+  "cash": 2485.44,
+  "total_value": 49905.16,
+  "return_pct": -0.19,
   "created": "2026-07-04 18:24",
-  "last_updated": "2026-07-04 18:24",
-  "positions": [],
-  "trades": []
+  "last_updated": "2026-07-06 08:57",
+  "positions": [
+    {
+      "ticker": "THYAO",
+      "name": "Türk Hava Yolları",
+      "sector": "Ulaştırma",
+      "entry": 348.0,
+      "qty": 35,
+      "current": 348.0,
+      "stop": 313.2,
+      "target": 435.0,
+      "entry_ts": "2026-07-06 08:57",
+      "score": 68.6
+    },
+    {
+      "ticker": "AKBNK",
+      "name": "Akbank",
+      "sector": "Bankacılık",
+      "entry": 74.3,
+      "qty": 168,
+      "current": 74.3,
+      "stop": 66.87,
+      "target": 92.88,
+      "entry_ts": "2026-07-06 08:57",
+      "score": 67.4
+    },
+    {
+      "ticker": "EREGL",
+      "name": "Ereğli Demir Çelik",
+      "sector": "Demir-Çelik",
+      "entry": 41.08,
+      "qty": 304,
+      "current": 41.08,
+      "stop": 36.97,
+      "target": 51.35,
+      "entry_ts": "2026-07-06 08:57",
+      "score": 64.0
+    },
+    {
+      "ticker": "EKGYO",
+      "name": "Emlak Konut GYO",
+      "sector": "Gayrimenkul",
+      "entry": 21.0,
+      "qty": 489,
+      "current": 21.0,
+      "stop": 18.9,
+      "target": 26.25,
+      "entry_ts": "2026-07-06 08:57",
+      "score": 62.3
+    }
+  ],
+  "trades": [
+    {
+      "ts": "2026-07-06 08:57",
+      "side": "BUY",
+      "ticker": "THYAO",
+      "qty": 35,
+      "price": 348.0,
+      "amount": 12180.0,
+      "reason": "Microsoft Copilot skoru 69 (>=60)"
+    },
+    {
+      "ts": "2026-07-06 08:57",
+      "side": "BUY",
+      "ticker": "AKBNK",
+      "qty": 168,
+      "price": 74.3,
+      "amount": 12482.4,
+      "reason": "Microsoft Copilot skoru 67 (>=60)"
+    },
+    {
+      "ts": "2026-07-06 08:57",
+      "side": "BUY",
+      "ticker": "EREGL",
+      "qty": 304,
+      "price": 41.08,
+      "amount": 12488.32,
+      "reason": "Microsoft Copilot skoru 64 (>=60)"
+    },
+    {
+      "ts": "2026-07-06 08:57",
+      "side": "BUY",
+      "ticker": "EKGYO",
+      "qty": 489,
+      "price": 21.0,
+      "amount": 10269.0,
+      "reason": "Microsoft Copilot skoru 62 (>=60)"
+    }
+  ]
 }
