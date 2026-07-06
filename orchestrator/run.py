@@ -94,6 +94,55 @@ def data_health(snapshot: dict) -> dict:
             "news_llm": news_llm, "fund_live": fund_live}
 
 
+def notify_new_trades(comps) -> None:
+    """Bu döngüde yapılan yeni AL/SAT işlemlerini e-posta ile bildirir.
+    Watermark (son bildirilen ts) ile tekrar gönderimi önler. İlk kurulumda
+    geçmiş işlemler gönderilmez, filigran sessizce ayarlanır."""
+    state_file = DATA_DIR / "notify_state.json"
+    try:
+        watermark = json.loads(state_file.read_text(encoding="utf-8")).get("last_ts")
+    except Exception:
+        watermark = None
+
+    all_trades = []
+    for c in comps:
+        for t in c.get("trades", []):
+            ts = str(t.get("ts") or "")
+            if ts:
+                all_trades.append((ts, c["name"], t))
+    if not all_trades:
+        return
+    max_ts = max(ts for ts, _, _ in all_trades)
+
+    DATA_DIR.mkdir(exist_ok=True)
+    if watermark is None:  # ilk kez: geçmişi gönderme, sadece filigranı kur
+        state_file.write_text(json.dumps({"last_ts": max_ts}), encoding="utf-8")
+        return
+
+    new = [(ts, name, t) for ts, name, t in all_trades
+           if ts > watermark and str(t.get("side", "")).upper().startswith(("BUY", "SELL"))]
+    if new:
+        lines = ["BIST AI Arena — yeni işlemler:", ""]
+        for ts, name, t in sorted(new, key=lambda x: x[0]):
+            side = str(t.get("side", "")).upper()
+            tag = "SAT (yarim)" if "PARTIAL" in side else ("AL" if side.startswith("BUY") else "SAT")
+            price = t.get("price", "")
+            price_s = f"{price:.2f}" if isinstance(price, (int, float)) and price else str(price or "-")
+            lines.append(f"[{tag}]  {name}  {t.get('ticker','?')} x{t.get('qty','')} @ {price_s} TL")
+            reason = str(t.get("reason", "")).strip()
+            if reason:
+                lines.append(f"       {reason[:90]}")
+        lines += ["", "Panel: https://canotu41.github.io/bist-ai-arena/"]
+        try:
+            from orchestrator import notify
+            notify.send("\n".join(lines), subject=f"BIST AI Arena — {len(new)} yeni islem")
+            print(f"→ {len(new)} yeni işlem bildirimi e-postası gönderildi")
+        except Exception as e:
+            print(f"✗ işlem bildirimi hatası: {e}")
+
+    state_file.write_text(json.dumps({"last_ts": max_ts}), encoding="utf-8")
+
+
 def get_xu30() -> float:
     try:
         comp = json.loads((ROOT / "deepseek" / "competition.json").read_text(encoding="utf-8"))
@@ -134,6 +183,7 @@ def main() -> None:
     # 7) dashboard
     comps = common.load_all_competitors()
     feed = common.merged_trade_feed(comps, limit=50)
+    notify_new_trades(comps)  # yeni AL/SAT işlemlerini e-posta ile bildir
     html = dashboard.build_dashboard(comps, feed, consensus, notes, pf, xu30, health=health)
     DASHBOARD_HTML.write_text(html, encoding="utf-8")
     (ROOT / "index.html").write_text(html, encoding="utf-8")
