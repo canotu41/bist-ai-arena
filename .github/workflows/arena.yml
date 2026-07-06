@@ -1,13 +1,12 @@
 name: BIST AI Arena döngüsü
 
 on:
-  schedule:
-    # UTC. İstanbul = UTC+3. Hafta içi ~10:00-18:00 arası her 30 dk.
-    # NOT: saat-başı (:00/:30) dilimleri GitHub'da en çok düşen dilimlerdir;
-    # güvenilirlik için :07/:37 kullanılır (GitHub önerisi).
-    - cron: '7 7-15 * * 1-5'    # -> İstanbul 10:07-18:07
-    - cron: '37 7-14 * * 1-5'   # -> İstanbul 10:37-17:37
-  workflow_dispatch:             # elle tetikleme (Actions sekmesinden)
+  # ZAMANLAMA: GitHub'ın içsel cron'u bu repoda güvenilir ateşlemiyor.
+  # Bunun yerine claude.ai bulut rutinleri (Anthropic zamanlayıcı) hafta içi
+  # İstanbul 10:07-18:07 arası :07 ve :37'de bu iş akışını tetikler
+  # (gh workflow run -> workflow_dispatch). GitHub Actions tüm secret'larıyla
+  # (DeepSeek LLM, SMTP) asıl döngüyü çalıştırır.
+  workflow_dispatch:
 
 permissions:
   contents: write
