@@ -94,15 +94,27 @@ def data_health(snapshot: dict) -> dict:
             "news_llm": news_llm, "fund_live": fund_live}
 
 
+_STATE_FILE = DATA_DIR / "notify_state.json"
+
+
+def _load_state() -> dict:
+    try:
+        return json.loads(_STATE_FILE.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+
+def _save_state(state: dict) -> None:
+    DATA_DIR.mkdir(exist_ok=True)
+    _STATE_FILE.write_text(json.dumps(state, ensure_ascii=False), encoding="utf-8")
+
+
 def notify_new_trades(comps) -> None:
     """Bu döngüde yapılan yeni AL/SAT işlemlerini e-posta ile bildirir.
     Watermark (son bildirilen ts) ile tekrar gönderimi önler. İlk kurulumda
     geçmiş işlemler gönderilmez, filigran sessizce ayarlanır."""
-    state_file = DATA_DIR / "notify_state.json"
-    try:
-        watermark = json.loads(state_file.read_text(encoding="utf-8")).get("last_ts")
-    except Exception:
-        watermark = None
+    state = _load_state()
+    watermark = state.get("last_ts")
 
     all_trades = []
     for c in comps:
@@ -114,9 +126,9 @@ def notify_new_trades(comps) -> None:
         return
     max_ts = max(ts for ts, _, _ in all_trades)
 
-    DATA_DIR.mkdir(exist_ok=True)
     if watermark is None:  # ilk kez: geçmişi gönderme, sadece filigranı kur
-        state_file.write_text(json.dumps({"last_ts": max_ts}), encoding="utf-8")
+        state["last_ts"] = max_ts
+        _save_state(state)
         return
 
     new = [(ts, name, t) for ts, name, t in all_trades
@@ -140,7 +152,57 @@ def notify_new_trades(comps) -> None:
         except Exception as e:
             print(f"✗ işlem bildirimi hatası: {e}")
 
-    state_file.write_text(json.dumps({"last_ts": max_ts}), encoding="utf-8")
+    state["last_ts"] = max_ts
+    _save_state(state)
+
+
+def maybe_send_daily_summary(comps, xu30) -> None:
+    """Seans kapanışından sonra (İstanbul >=18:00) günde bir kez gün sonu özeti."""
+    from datetime import timedelta
+    ist = datetime.utcnow() + timedelta(hours=3)   # Actions UTC -> İstanbul
+    if ist.hour < 18:
+        return
+    today = ist.strftime("%Y-%m-%d")
+    state = _load_state()
+    if state.get("last_summary_date") == today:
+        return
+
+    active = [c for c in comps if c.get("active")]
+    if not active:
+        return
+    ranked = sorted(active, key=lambda c: c["return_pct"], reverse=True)
+
+    lines = [f"BIST AI Arena — Gun Sonu Ozeti ({today})", ""]
+    lines.append("SIRALAMA (getiriye gore):")
+    for i, c in enumerate(ranked, 1):
+        alpha = round(c["return_pct"] - xu30, 2)
+        pnl_tl = c["value"] - c["initial"]
+        lines.append(
+            f"  {i}. {c['name']}: %{c['return_pct']:+.2f}  "
+            f"(K/Z {pnl_tl:+,.0f} TL)  Deger {c['value']:,.0f}  "
+            f"Nakit {c['cash']:,.0f}  {len(c['positions'])} pozisyon")
+    lines += ["", "PORTFOYLER:"]
+    for c in ranked:
+        invested = c["value"] - c["cash"]
+        lines.append(f"— {c['name']}  |  yatirilan {invested:,.0f} TL  |  nakit {c['cash']:,.0f} TL")
+        if not c["positions"]:
+            lines.append("     (pozisyon yok — nakitte)")
+            continue
+        for p in sorted(c["positions"], key=lambda x: x["weight_pct"], reverse=True):
+            lines.append(
+                f"     {p['ticker']:<6} {p['qty']:g} adet  giris {p['entry']:.2f}  "
+                f"guncel {p['current']:.2f}  K/Z %{p['pnl_pct']:+.1f}  (agirlik %{p['weight_pct']:.0f})")
+    lines += ["", "Panel: https://canotu41.github.io/bist-ai-arena/"]
+
+    try:
+        from orchestrator import notify
+        notify.send("\n".join(lines), subject=f"BIST AI Arena — Gun Sonu Ozeti {today}")
+        print("→ gün sonu özeti e-postası gönderildi")
+    except Exception as e:
+        print(f"✗ gün sonu özeti hatası: {e}")
+
+    state["last_summary_date"] = today
+    _save_state(state)
 
 
 def get_xu30() -> float:
@@ -183,7 +245,8 @@ def main() -> None:
     # 7) dashboard
     comps = common.load_all_competitors()
     feed = common.merged_trade_feed(comps, limit=50)
-    notify_new_trades(comps)  # yeni AL/SAT işlemlerini e-posta ile bildir
+    notify_new_trades(comps)                 # yeni AL/SAT işlemlerini e-posta ile bildir
+    maybe_send_daily_summary(comps, xu30)    # seans kapanışı sonrası günde 1 kez özet
     html = dashboard.build_dashboard(comps, feed, consensus, notes, pf, xu30, health=health)
     DASHBOARD_HTML.write_text(html, encoding="utf-8")
     (ROOT / "index.html").write_text(html, encoding="utf-8")
