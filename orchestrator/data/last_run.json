@@ -1,12 +1,12 @@
 {
-  "ts": "2026-07-06 13:37:59",
+  "ts": "2026-07-06 14:08:19",
   "health": {
     "ok": true,
     "live": 24,
     "total": 24,
     "priced": 24,
     "news_llm": true,
-    "fund_live": 24
+    "fund_live": 0
   },
   "active_competitors": 5,
   "consensus_tickers": [
@@ -20,19 +20,19 @@
     },
     {
       "name": "Codex",
-      "return_pct": -0.14
+      "return_pct": -0.22
     },
     {
       "name": "Konsensüs (Claude)",
-      "return_pct": -0.16
+      "return_pct": -0.26
     },
     {
       "name": "Claude AI",
-      "return_pct": -0.17
+      "return_pct": -0.29
     },
     {
       "name": "Microsoft Copilot",
-      "return_pct": -0.71
+      "return_pct": -0.73
     }
   ]
 }
