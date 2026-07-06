@@ -1,11 +1,11 @@
 {
   "name": "Konsensüs (Claude) Portföyü",
   "initial": 50000.0,
-  "cash": 40023.89,
-  "total_value": 49980.09,
-  "return_pct": -0.04,
+  "cash": 30267.42,
+  "total_value": 49907.02,
+  "return_pct": -0.19,
   "created": "2026-07-04 18:24",
-  "last_updated": "2026-07-06 08:57",
+  "last_updated": "2026-07-06 10:17",
   "positions": [
     {
       "ticker": "AKBNK",
@@ -13,11 +13,23 @@
       "sector": "Bankacılık",
       "entry": 74.3,
       "qty": 134,
-      "current": 74.3,
+      "current": 73.9,
       "stop": 68.36,
       "target": 89.16,
       "entry_ts": "2026-07-06 08:57",
       "agreement": 3
+    },
+    {
+      "ticker": "THYAO",
+      "name": "Türk Hava Yolları",
+      "sector": "Ulaştırma",
+      "entry": 347.75,
+      "qty": 28,
+      "current": 347.75,
+      "stop": 319.93,
+      "target": 417.3,
+      "entry_ts": "2026-07-06 10:17",
+      "agreement": 2
     }
   ],
   "trades": [
@@ -29,6 +41,15 @@
       "price": 74.3,
       "amount": 9956.2,
       "reason": "Konsensüs: 3 AI ortak (Claude AI, Codex, Microsoft Copilot)"
+    },
+    {
+      "ts": "2026-07-06 10:17",
+      "side": "BUY",
+      "ticker": "THYAO",
+      "qty": 28,
+      "price": 347.75,
+      "amount": 9737.0,
+      "reason": "Konsensüs: 2 AI ortak (Claude AI, Microsoft Copilot)"
     }
   ]
 }
