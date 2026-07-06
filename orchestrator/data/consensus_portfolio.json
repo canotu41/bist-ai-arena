@@ -2,10 +2,10 @@
   "name": "Konsensüs (Claude) Portföyü",
   "initial": 50000.0,
   "cash": 30267.42,
-  "total_value": 49868.32,
-  "return_pct": -0.26,
+  "total_value": 49882.32,
+  "return_pct": -0.24,
   "created": "2026-07-04 18:24",
-  "last_updated": "2026-07-06 14:08",
+  "last_updated": "2026-07-06 14:38",
   "positions": [
     {
       "ticker": "AKBNK",
@@ -25,7 +25,7 @@
       "sector": "Ulaştırma",
       "entry": 347.75,
       "qty": 28,
-      "current": 349.0,
+      "current": 349.5,
       "stop": 319.93,
       "target": 417.3,
       "entry_ts": "2026-07-06 10:17",
