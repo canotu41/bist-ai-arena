@@ -1,5 +1,5 @@
 {
-  "ts": "2026-07-07 11:08:48",
+  "ts": "2026-07-07 11:37:50",
   "health": {
     "ok": true,
     "live": 24,
@@ -24,11 +24,11 @@
     },
     {
       "name": "Microsoft Copilot",
-      "return_pct": 0.2
+      "return_pct": 0.27
     },
     {
       "name": "Codex",
-      "return_pct": 0.1
+      "return_pct": 0.12
     },
     {
       "name": "DeepSeek AI",
