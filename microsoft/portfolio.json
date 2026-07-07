@@ -4,10 +4,10 @@
   "strategy": "Momentum/trend takibi: 20g değişim≥%4 ve MA20>MA50 kırılım; kazananı bırakma, geniş stop",
   "initial": 50000.0,
   "cash": 2485.44,
-  "total_value": 49652.46,
-  "return_pct": -0.7,
+  "total_value": 49474.08,
+  "return_pct": -1.05,
   "created": "2026-07-04 18:24",
-  "last_updated": "2026-07-07 09:37",
+  "last_updated": "2026-07-07 10:08",
   "positions": [
     {
       "ticker": "THYAO",
@@ -15,7 +15,7 @@
       "sector": "Ulaştırma",
       "entry": 348.0,
       "qty": 35,
-      "current": 348.5,
+      "current": 349.0,
       "stop": 313.2,
       "target": 435.0,
       "entry_ts": "2026-07-06 08:57",
@@ -39,11 +39,11 @@
       "sector": "Demir-Çelik",
       "entry": 41.08,
       "qty": 304,
-      "current": 41.12,
+      "current": 40.54,
       "stop": 36.97,
       "target": 51.35,
       "entry_ts": "2026-07-06 08:57",
-      "score": 67.9
+      "score": 66.0
     },
     {
       "ticker": "EKGYO",
@@ -51,7 +51,7 @@
       "sector": "Gayrimenkul",
       "entry": 21.0,
       "qty": 489,
-      "current": 20.56,
+      "current": 20.52,
       "stop": 18.9,
       "target": 26.25,
       "entry_ts": "2026-07-06 08:57",
