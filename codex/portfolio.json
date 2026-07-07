@@ -7,7 +7,7 @@
   "total_value": 49965.14,
   "return_pct": -0.07,
   "created": "2026-07-04 18:24",
-  "last_updated": "2026-07-07 08:08",
+  "last_updated": "2026-07-07 08:37",
   "positions": [
     {
       "ticker": "AKBNK",
@@ -19,7 +19,7 @@
       "stop": 69.1,
       "target": 85.44,
       "entry_ts": "2026-07-06 08:57",
-      "score": 62.2
+      "score": 53.2
     }
   ],
   "trades": [
