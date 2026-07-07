@@ -4,10 +4,10 @@
   "strategy": "Momentum/trend takibi: 20g değişim≥%4 ve MA20>MA50 kırılım; kazananı bırakma, geniş stop",
   "initial": 50000.0,
   "cash": 2485.44,
-  "total_value": 49718.44,
-  "return_pct": -0.56,
+  "total_value": 49795.73,
+  "return_pct": -0.41,
   "created": "2026-07-04 18:24",
-  "last_updated": "2026-07-06 15:08",
+  "last_updated": "2026-07-07 07:38",
   "positions": [
     {
       "ticker": "THYAO",
@@ -15,11 +15,11 @@
       "sector": "Ulaştırma",
       "entry": 348.0,
       "qty": 35,
-      "current": 350.5,
+      "current": 348.25,
       "stop": 313.2,
       "target": 435.0,
       "entry_ts": "2026-07-06 08:57",
-      "score": 71.7
+      "score": 66.3
     },
     {
       "ticker": "AKBNK",
@@ -27,11 +27,11 @@
       "sector": "Bankacılık",
       "entry": 74.3,
       "qty": 168,
-      "current": 73.5,
+      "current": 74.1,
       "stop": 66.87,
       "target": 92.88,
       "entry_ts": "2026-07-06 08:57",
-      "score": 53.9
+      "score": 66.5
     },
     {
       "ticker": "EREGL",
@@ -39,11 +39,11 @@
       "sector": "Demir-Çelik",
       "entry": 41.08,
       "qty": 304,
-      "current": 41.36,
+      "current": 41.22,
       "stop": 36.97,
       "target": 51.35,
       "entry_ts": "2026-07-06 08:57",
-      "score": 68.2
+      "score": 65.6
     },
     {
       "ticker": "EKGYO",
@@ -51,7 +51,7 @@
       "sector": "Gayrimenkul",
       "entry": 21.0,
       "qty": 489,
-      "current": 20.54,
+      "current": 20.74,
       "stop": 18.9,
       "target": 26.25,
       "entry_ts": "2026-07-06 08:57",
