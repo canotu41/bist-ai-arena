@@ -1,7 +1,7 @@
 {
   "market": {
     "score": 45,
-    "trend": "Karışık, satıcılı başlangıç"
+    "trend": "Karışık, hafif negatif"
   },
   "tickers": {
     "AKBNK": {
@@ -10,7 +10,7 @@
     },
     "GARAN": {
       "score": 55,
-      "note": "Hafif pozitif, tahvil ihracı ve tahmin"
+      "note": "Hafif pozitif, tahvil ihracı ve teknik analiz"
     },
     "ISCTR": {
       "score": 50,
@@ -18,19 +18,19 @@
     },
     "YKBNK": {
       "score": 50,
-      "note": "Nötr, teknik analiz ve tahmin"
+      "note": "Nötr, teknik analiz ve tahmin haberleri"
     },
     "VAKBN": {
       "score": 45,
       "note": "Hafif negatif, hisse satışı haberi"
     },
     "KCHOL": {
-      "score": 55,
-      "note": "Hafif pozitif, temettü kararı"
+      "score": 50,
+      "note": "Nötr, teknik analiz ve tahmin haberleri"
     },
     "SAHOL": {
       "score": 50,
-      "note": "Nötr, teknik analiz"
+      "note": "Nötr, teknik analiz haberleri"
     },
     "SISE": {
       "score": 55,
@@ -46,31 +46,31 @@
     },
     "TUPRS": {
       "score": 50,
-      "note": "Nötr, teknik analiz ve tahmin"
+      "note": "Nötr, teknik analiz ve tahmin haberleri"
     },
     "AKSEN": {
       "score": 55,
       "note": "Hafif pozitif, hedef fiyat değişimi"
     },
     "EREGL": {
-      "score": 35,
-      "note": "Negatif, satış haberi"
+      "score": 40,
+      "note": "Negatif, BofA satış haberi"
     },
     "BIMAS": {
       "score": 50,
-      "note": "Nötr, bedelsiz sermaye artırımı"
+      "note": "Nötr, teknik analiz ve tahmin haberleri"
     },
     "MGROS": {
-      "score": 60,
-      "note": "Pozitif, güçlü görünüm ve tahmin"
+      "score": 55,
+      "note": "Hafif pozitif, güçlü görünüm"
     },
     "FROTO": {
-      "score": 55,
-      "note": "Hafif pozitif, hedef fiyat açıklaması"
+      "score": 50,
+      "note": "Nötr, teknik analiz ve hedef fiyat"
     },
     "TOASO": {
       "score": 55,
-      "note": "Hafif pozitif, temettü açıklaması"
+      "note": "Hafif pozitif, temettü ve güçlü bilanço"
     },
     "ASELS": {
       "score": 60,
@@ -82,25 +82,25 @@
     },
     "TTKOM": {
       "score": 50,
-      "note": "Nötr, teknik analiz ve tahmin"
+      "note": "Nötr, teknik analiz ve tahmin haberleri"
     },
     "ULKER": {
-      "score": 60,
-      "note": "Pozitif, temettü ve bilanço beğenisi"
+      "score": 55,
+      "note": "Hafif pozitif, temettü ve olumlu bilanço"
     },
     "CCOLA": {
       "score": 50,
-      "note": "Nötr, teknik analiz ve tahmin"
+      "note": "Nötr, teknik analiz ve tahmin haberleri"
     },
     "ARCLK": {
       "score": 45,
-      "note": "Hafif negatif, hisse satışı"
+      "note": "Hafif negatif, satış kararı"
     },
     "EKGYO": {
       "score": 55,
       "note": "Hafif pozitif, operasyonel güçlü"
     }
   },
-  "_ts": 1783494518,
+  "_ts": 1783505340,
   "_source": "deepseek-llm"
 }
