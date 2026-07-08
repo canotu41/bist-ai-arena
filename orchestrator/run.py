@@ -85,7 +85,7 @@ def data_health(snapshot: dict) -> dict:
     fund_live = 0
     try:
         fc = json.loads((ROOT / "deepseek" / "data" / "fund_cache.json").read_text(encoding="utf-8"))
-        if time.time() - fc.get("_ts", 0) < 48 * 3600:
+        if time.time() - fc.get("_ts", 0) < 15 * 24 * 3600:  # 14g cache TTL ile uyumlu
             fund_live = sum(1 for v in fc.get("data", {}).values() if v.get("fk") or v.get("roe"))
     except Exception:
         pass
