@@ -1,5 +1,5 @@
 {
-  "ts": "2026-07-08 10:09:04",
+  "ts": "2026-07-08 10:37:44",
   "health": {
     "ok": true,
     "live": 24,
@@ -20,19 +20,19 @@
     },
     {
       "name": "Codex",
-      "return_pct": -0.74
+      "return_pct": -0.86
     },
     {
       "name": "Konsensüs (Claude)",
-      "return_pct": -1.5
+      "return_pct": -1.65
     },
     {
       "name": "Claude AI",
-      "return_pct": -1.9
+      "return_pct": -2.15
     },
     {
       "name": "Microsoft Copilot",
-      "return_pct": -2.96
+      "return_pct": -3.36
     }
   ]
 }
