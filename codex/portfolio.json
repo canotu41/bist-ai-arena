@@ -4,10 +4,10 @@
   "strategy": "Önce risk: düşük volatilite (ATR≤%3.6), RSI 40-68, MA50 üstü teyitli; sıkı stop",
   "initial": 50000.0,
   "cash": 35093.25,
-  "total_value": 49600.75,
-  "return_pct": -0.8,
+  "total_value": 49533.25,
+  "return_pct": -0.93,
   "created": "2026-07-04 18:24",
-  "last_updated": "2026-07-08 14:08",
+  "last_updated": "2026-07-08 14:37",
   "positions": [
     {
       "ticker": "AKBNK",
@@ -15,11 +15,11 @@
       "sector": "Bankacılık",
       "entry": 74.3,
       "qty": 100,
-      "current": 71.65,
+      "current": 71.25,
       "stop": 69.1,
       "target": 85.44,
       "entry_ts": "2026-07-06 08:57",
-      "score": 61.3
+      "score": 62.5
     },
     {
       "ticker": "THYAO",
@@ -27,7 +27,7 @@
       "sector": "Ulaştırma",
       "entry": 338.5,
       "qty": 22,
-      "current": 333.75,
+      "current": 332.5,
       "stop": 314.81,
       "target": 389.27,
       "entry_ts": "2026-07-08 08:37",
