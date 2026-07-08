@@ -3,11 +3,11 @@
   "name": "Claude AI Portföyü",
   "strategy": "Kalite+değer, yoğun portföy: ROE≥%10 ve F/K≤35, uzun-vade trend üstü hisseler",
   "initial": 50000.0,
-  "cash": 28179.8,
-  "total_value": 49533.65,
-  "return_pct": -0.93,
+  "cash": 19123.96,
+  "total_value": 49326.02,
+  "return_pct": -1.35,
   "created": "2026-07-04 18:24",
-  "last_updated": "2026-07-08 07:37",
+  "last_updated": "2026-07-08 08:37",
   "positions": [
     {
       "ticker": "AKBNK",
@@ -15,11 +15,11 @@
       "sector": "Bankacılık",
       "entry": 74.3,
       "qty": 148,
-      "current": 72.7,
+      "current": 72.1,
       "stop": 67.61,
       "target": 87.67,
       "entry_ts": "2026-07-06 08:57",
-      "score": 53.6
+      "score": 63.1
     },
     {
       "ticker": "THYAO",
@@ -27,11 +27,23 @@
       "sector": "Ulaştırma",
       "entry": 347.75,
       "qty": 31,
-      "current": 341.75,
+      "current": 338.5,
       "stop": 316.45,
       "target": 410.34,
       "entry_ts": "2026-07-06 10:17",
-      "score": 58.0
+      "score": 66.7
+    },
+    {
+      "ticker": "YKBNK",
+      "name": "Yapı Kredi Bankası",
+      "sector": "Bankacılık",
+      "entry": 37.04,
+      "qty": 244,
+      "current": 37.04,
+      "stop": 33.71,
+      "target": 43.71,
+      "entry_ts": "2026-07-08 08:37",
+      "score": 64.3
     }
   ],
   "trades": [
@@ -52,6 +64,15 @@
       "price": 347.75,
       "amount": 10780.25,
       "reason": "Claude AI skoru 62 (>=62)"
+    },
+    {
+      "ts": "2026-07-08 08:37",
+      "side": "BUY",
+      "ticker": "YKBNK",
+      "qty": 244,
+      "price": 37.04,
+      "amount": 9037.76,
+      "reason": "Claude AI skoru 64 (>=62)"
     }
   ]
 }
