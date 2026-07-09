@@ -4,10 +4,10 @@
   "strategy": "Momentum/trend takibi: 20g değişim≥%4 ve MA20>MA50 kırılım; kazananı bırakma, geniş stop",
   "initial": 50000.0,
   "cash": 2446.08,
-  "total_value": 48111.27,
-  "return_pct": -3.78,
+  "total_value": 48093.95,
+  "return_pct": -3.81,
   "created": "2026-07-04 18:24",
-  "last_updated": "2026-07-09 13:38",
+  "last_updated": "2026-07-09 14:08",
   "positions": [
     {
       "ticker": "THYAO",
@@ -15,11 +15,11 @@
       "sector": "Ulaştırma",
       "entry": 348.0,
       "qty": 35,
-      "current": 337.25,
+      "current": 338.25,
       "stop": 313.2,
       "target": 435.0,
       "entry_ts": "2026-07-06 08:57",
-      "score": 78.4
+      "score": 77.7
     },
     {
       "ticker": "AKBNK",
@@ -27,7 +27,7 @@
       "sector": "Bankacılık",
       "entry": 74.3,
       "qty": 168,
-      "current": 70.2,
+      "current": 70.3,
       "stop": 66.87,
       "target": 92.88,
       "entry_ts": "2026-07-06 08:57",
@@ -39,11 +39,11 @@
       "sector": "Demir-Çelik",
       "entry": 41.08,
       "qty": 304,
-      "current": 39.36,
+      "current": 39.28,
       "stop": 36.97,
       "target": 51.35,
       "entry_ts": "2026-07-06 08:57",
-      "score": 58.3
+      "score": 59.1
     },
     {
       "ticker": "AKSEN",
@@ -51,7 +51,7 @@
       "sector": "Enerji",
       "entry": 89.15,
       "qty": 112,
-      "current": 90.2,
+      "current": 89.8,
       "stop": 80.24,
       "target": 111.44,
       "entry_ts": "2026-07-08 09:37",
