@@ -4,10 +4,10 @@
   "strategy": "Önce risk: düşük volatilite (ATR≤%3.6), RSI 40-68, MA50 üstü teyitli; sıkı stop",
   "initial": 50000.0,
   "cash": 35093.25,
-  "total_value": 49497.75,
-  "return_pct": -1.0,
+  "total_value": 49472.75,
+  "return_pct": -1.05,
   "created": "2026-07-04 18:24",
-  "last_updated": "2026-07-09 08:37",
+  "last_updated": "2026-07-09 09:08",
   "positions": [
     {
       "ticker": "AKBNK",
@@ -15,7 +15,7 @@
       "sector": "Bankacılık",
       "entry": 74.3,
       "qty": 100,
-      "current": 70.95,
+      "current": 70.7,
       "stop": 69.1,
       "target": 85.44,
       "entry_ts": "2026-07-06 08:57",
