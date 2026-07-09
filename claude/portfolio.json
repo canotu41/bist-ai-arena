@@ -4,10 +4,10 @@
   "strategy": "Kalite+değer, yoğun portföy: ROE≥%10 ve F/K≤35, uzun-vade trend üstü hisseler",
   "initial": 50000.0,
   "cash": 19123.96,
-  "total_value": 48958.64,
-  "return_pct": -2.08,
+  "total_value": 48859.45,
+  "return_pct": -2.28,
   "created": "2026-07-04 18:24",
-  "last_updated": "2026-07-09 10:18",
+  "last_updated": "2026-07-09 10:43",
   "positions": [
     {
       "ticker": "AKBNK",
@@ -15,7 +15,7 @@
       "sector": "Bankacılık",
       "entry": 74.3,
       "qty": 148,
-      "current": 70.7,
+      "current": 70.6,
       "stop": 67.61,
       "target": 87.67,
       "entry_ts": "2026-07-06 08:57",
@@ -27,11 +27,11 @@
       "sector": "Ulaştırma",
       "entry": 347.75,
       "qty": 31,
-      "current": 339.0,
+      "current": 336.75,
       "stop": 316.45,
       "target": 410.34,
       "entry_ts": "2026-07-06 10:17",
-      "score": 66.7
+      "score": 69.2
     },
     {
       "ticker": "YKBNK",
@@ -39,7 +39,7 @@
       "sector": "Bankacılık",
       "entry": 37.04,
       "qty": 244,
-      "current": 36.32,
+      "current": 36.26,
       "stop": 33.71,
       "target": 43.71,
       "entry_ts": "2026-07-08 08:37",

@@ -1,106 +1,106 @@
 {
   "market": {
     "score": 35,
-    "trend": "düşüş eğilimi"
+    "trend": "Düşüş eğilimi, yukarı adım kuralı devrede"
   },
   "tickers": {
     "AKBNK": {
       "score": 50,
-      "note": "Teknik analiz başlıkları nötr"
+      "note": "Nötr; teknik analiz ve fiyat hedefi var, belirgin haber yok"
     },
     "GARAN": {
-      "score": 55,
-      "note": "Finansman atağı olumlu, teknik analiz nötr"
+      "score": 60,
+      "note": "Pozitif; 2 milyar dolarlık tahvil başvurusu"
     },
     "ISCTR": {
       "score": 50,
-      "note": "Teknik analiz başlıkları nötr"
+      "note": "Nötr; sadece teknik analiz haberleri"
     },
     "YKBNK": {
       "score": 50,
-      "note": "Teknik analiz başlıkları nötr"
+      "note": "Nötr; sadece teknik analiz ve tahminler"
     },
     "VAKBN": {
-      "score": 45,
-      "note": "Hisse satışı olumsuz, hedef fiyat yükselmesi olumlu"
+      "score": 55,
+      "note": "Hafif pozitif; hisse satışı olumsuz ama hedef fiyat yükseldi"
     },
     "KCHOL": {
       "score": 50,
-      "note": "Teknik analiz başlıkları nötr"
+      "note": "Nötr; sadece teknik analiz"
     },
     "SAHOL": {
       "score": 50,
-      "note": "Teknik analiz başlıkları nötr"
+      "note": "Nötr; sadece teknik analiz"
     },
     "SISE": {
-      "score": 55,
-      "note": "Hedef fiyat artışı olumlu"
+      "score": 60,
+      "note": "Pozitif; hedef fiyat artışı"
     },
     "THYAO": {
-      "score": 55,
-      "note": "Trafik sonuçları olumlu"
+      "score": 65,
+      "note": "Pozitif; yolcu sayısı ve hedef fiyat"
     },
     "PGSUS": {
-      "score": 60,
-      "note": "Satın alma ve tahvil izni olumlu"
+      "score": 70,
+      "note": "Pozitif; satın alma ve tahvil izni"
     },
     "TUPRS": {
-      "score": 50,
-      "note": "Teknik analiz ve tahmin başlıkları nötr"
+      "score": 55,
+      "note": "Hafif pozitif; marj analizi ve hedef fiyat"
     },
     "AKSEN": {
-      "score": 55,
-      "note": "Hedef fiyat değişimi ve FAVÖK artışı olumlu"
+      "score": 60,
+      "note": "Pozitif; hedef fiyat değişimi ve FAVÖK artışı"
     },
     "EREGL": {
       "score": 30,
-      "note": "Sert satış haberi olumsuz"
+      "note": "Negatif; BofA'dan sert satış"
     },
     "BIMAS": {
-      "score": 55,
-      "note": "Pay geri alımı olumlu"
+      "score": 60,
+      "note": "Pozitif; pay geri alımı"
     },
     "MGROS": {
-      "score": 55,
-      "note": "Güçlü görünüm ve hedef fiyat olumlu"
+      "score": 65,
+      "note": "Pozitif; güçlü görünüm, 900 TL potansiyeli"
     },
     "FROTO": {
       "score": 50,
-      "note": "Teknik analiz başlıkları nötr"
+      "note": "Nötr; sadece teknik analiz"
     },
     "TOASO": {
       "score": 55,
-      "note": "Temettü açıklaması ve güçlü bilanço olumlu"
+      "note": "Hafif pozitif; temettü açıklaması"
     },
     "ASELS": {
       "score": 30,
-      "note": "Jeopolitik etkilerle sert düşüş olumsuz"
+      "note": "Negatif; jeopolitik etkilerle sert düşüş"
     },
     "TCELL": {
-      "score": 50,
-      "note": "Teknik analiz başlıkları nötr"
+      "score": 45,
+      "note": "Hafif negatif; SEC açıklaması belirsizlik yaratabilir"
     },
     "TTKOM": {
       "score": 50,
-      "note": "Teknik analiz başlıkları nötr"
+      "note": "Nötr; sadece teknik analiz"
     },
     "ULKER": {
-      "score": 55,
-      "note": "Temettü ve olumlu bilanço beklentisi"
+      "score": 65,
+      "note": "Pozitif; temettü ve olumlu bilanço beklentisi"
     },
     "CCOLA": {
       "score": 50,
-      "note": "Teknik analiz başlıkları nötr"
+      "note": "Nötr; sadece teknik analiz"
     },
     "ARCLK": {
-      "score": 45,
-      "note": "Hisse satışı olumsuz, satın alma nötr"
+      "score": 55,
+      "note": "Hafif pozitif; satın alma ve satış kararları"
     },
     "EKGYO": {
-      "score": 55,
-      "note": "Operasyonel güçlü ve iskontolu değerleme olumlu"
+      "score": 60,
+      "note": "Pozitif; operasyonel güçlü, iskontolu değerleme"
     }
   },
-  "_ts": 1783582691,
+  "_ts": 1783593778,
   "_source": "deepseek-llm"
 }
