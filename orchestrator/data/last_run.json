@@ -1,5 +1,5 @@
 {
-  "ts": "2026-07-13 07:09:28",
+  "ts": "2026-07-13 07:38:03",
   "health": {
     "ok": true,
     "live": 24,
@@ -10,8 +10,7 @@
   },
   "active_competitors": 5,
   "consensus_tickers": [
-    "THYAO",
-    "AKBNK"
+    "THYAO"
   ],
   "leaderboard": [
     {
@@ -20,19 +19,19 @@
     },
     {
       "name": "Codex",
-      "return_pct": -0.93
+      "return_pct": -1.33
     },
     {
       "name": "Konsensüs (Claude)",
-      "return_pct": -1.75
+      "return_pct": -2.6
     },
     {
       "name": "Microsoft Copilot",
-      "return_pct": -2.7
+      "return_pct": -3.62
     },
     {
       "name": "Claude AI",
-      "return_pct": -2.94
+      "return_pct": -4.43
     }
   ]
 }
