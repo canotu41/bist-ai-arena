@@ -4,10 +4,10 @@
   "strategy": "Önce risk: düşük volatilite (ATR≤%3.6), RSI 40-68, MA50 üstü teyitli; sıkı stop",
   "initial": 50000.0,
   "cash": 41954.5,
-  "total_value": 49308.0,
-  "return_pct": -1.38,
+  "total_value": 49286.0,
+  "return_pct": -1.43,
   "created": "2026-07-04 18:24",
-  "last_updated": "2026-07-13 13:37",
+  "last_updated": "2026-07-13 15:09",
   "positions": [
     {
       "ticker": "THYAO",
@@ -15,7 +15,7 @@
       "sector": "Ulaştırma",
       "entry": 338.5,
       "qty": 22,
-      "current": 334.25,
+      "current": 333.25,
       "stop": 314.81,
       "target": 389.27,
       "entry_ts": "2026-07-08 08:37",
