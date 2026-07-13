@@ -3,11 +3,11 @@
   "name": "Claude AI Portföyü",
   "strategy": "Kalite+değer, yoğun portföy: ROE≥%10 ve F/K≤35, uzun-vade trend üstü hisseler",
   "initial": 50000.0,
-  "cash": 19123.96,
-  "total_value": 48736.82,
-  "return_pct": -2.53,
+  "cash": 8461.98,
+  "total_value": 48531.34,
+  "return_pct": -2.94,
   "created": "2026-07-04 18:24",
-  "last_updated": "2026-07-10 14:38",
+  "last_updated": "2026-07-13 07:09",
   "positions": [
     {
       "ticker": "AKBNK",
@@ -15,7 +15,7 @@
       "sector": "Bankacılık",
       "entry": 74.3,
       "qty": 148,
-      "current": 69.5,
+      "current": 68.75,
       "stop": 67.61,
       "target": 87.67,
       "entry_ts": "2026-07-06 08:57",
@@ -39,11 +39,23 @@
       "sector": "Bankacılık",
       "entry": 37.04,
       "qty": 244,
-      "current": 35.44,
+      "current": 35.14,
       "stop": 33.71,
       "target": 43.71,
       "entry_ts": "2026-07-08 08:37",
       "score": 66.1
+    },
+    {
+      "ticker": "CCOLA",
+      "name": "Coca-Cola İçecek",
+      "sector": "Gıda",
+      "entry": 84.45,
+      "qty": 126,
+      "current": 84.45,
+      "stop": 76.85,
+      "target": 99.65,
+      "entry_ts": "2026-07-13 07:09",
+      "score": 62.2
     }
   ],
   "trades": [
@@ -73,6 +85,15 @@
       "price": 37.04,
       "amount": 9037.76,
       "reason": "Claude AI skoru 64 (>=62)"
+    },
+    {
+      "ts": "2026-07-13 07:09",
+      "side": "BUY",
+      "ticker": "CCOLA",
+      "qty": 126,
+      "price": 84.45,
+      "amount": 10640.7,
+      "reason": "Claude AI skoru 62 (>=62)"
     }
   ]
 }
