@@ -4,10 +4,10 @@
   "strategy": "Kalite+değer, yoğun portföy: ROE≥%10 ve F/K≤35, uzun-vade trend üstü hisseler",
   "initial": 50000.0,
   "cash": 18446.77,
-  "total_value": 47657.11,
-  "return_pct": -4.69,
+  "total_value": 47673.17,
+  "return_pct": -4.65,
   "created": "2026-07-04 18:24",
-  "last_updated": "2026-07-13 09:37",
+  "last_updated": "2026-07-13 10:38",
   "positions": [
     {
       "ticker": "THYAO",
@@ -27,7 +27,7 @@
       "sector": "Bankacılık",
       "entry": 37.04,
       "qty": 244,
-      "current": 34.36,
+      "current": 34.4,
       "stop": 33.71,
       "target": 43.71,
       "entry_ts": "2026-07-08 08:37",
@@ -39,11 +39,11 @@
       "sector": "Gıda",
       "entry": 84.45,
       "qty": 126,
-      "current": 82.5,
+      "current": 82.55,
       "stop": 76.85,
       "target": 99.65,
       "entry_ts": "2026-07-13 07:09",
-      "score": 59.4
+      "score": 58.1
     }
   ],
   "trades": [

@@ -1,106 +1,106 @@
 {
   "market": {
-    "score": 65,
-    "trend": "yükseliş"
+    "score": 55,
+    "trend": "Karışık, hafif pozitif"
   },
   "tickers": {
     "AKBNK": {
       "score": 50,
-      "note": "Teknik analiz ve fiyat hedefi var, net yön belirtisi yok"
+      "note": "Teknik analiz ve tahmin haberleri nötr"
     },
     "GARAN": {
       "score": 60,
-      "note": "Finansman atağı ve tahvil ihracı olumlu"
+      "note": "2 milyar dolarlık tahvil başvurusu pozitif"
     },
     "ISCTR": {
       "score": 50,
-      "note": "Teknik analizler var, net yön belirtisi yok"
+      "note": "Teknik analiz haberleri nötr"
     },
     "YKBNK": {
       "score": 50,
-      "note": "Teknik analiz ve tahmin var, net yön belirtisi yok"
+      "note": "Tahmin ve veri haberleri nötr"
     },
     "VAKBN": {
       "score": 45,
-      "note": "Geri alım olumlu ama Varlık Fonu satışı olumsuz"
+      "note": "Geri alım pozitif ama Varlık Fonu satışı negatif"
     },
     "KCHOL": {
-      "score": 60,
-      "note": "Geçmiş kazanç ve fiyat hedefi olumlu"
+      "score": 55,
+      "note": "Geçmiş kazanç vurgusu hafif pozitif"
     },
     "SAHOL": {
       "score": 50,
-      "note": "Teknik analiz ve fiyat hedefi var, net yön belirtisi yok"
+      "note": "Teknik analiz haberleri nötr"
     },
     "SISE": {
-      "score": 65,
-      "note": "Hedef fiyat artışı olumlu"
+      "score": 60,
+      "note": "Hedef fiyat artışı pozitif"
     },
     "THYAO": {
       "score": 55,
-      "note": "Trafik sonuçları olumlu, teknik analiz nötr"
+      "note": "Haziran trafik sonuçları hafif pozitif"
     },
     "PGSUS": {
-      "score": 60,
-      "note": "Satın alma ve tahvil ihracı olumlu"
+      "score": 65,
+      "note": "Satın alma ve tahvil izni pozitif"
     },
     "TUPRS": {
       "score": 50,
-      "note": "Bilanço beklentisi ve teknik analiz var, net yön belirtisi yok"
+      "note": "Bilanço beklentisi ve teknik analiz nötr"
     },
     "AKSEN": {
       "score": 60,
-      "note": "Hedef fiyat değişimi ve FAVÖK artış beklentisi olumlu"
+      "note": "Hedef fiyat artışı ve FAVÖK beklentisi pozitif"
     },
     "EREGL": {
       "score": 35,
-      "note": "BofA satış tavsiyesi olumsuz"
+      "note": "BofA'dan sert satış haberi negatif"
     },
     "BIMAS": {
       "score": 55,
-      "note": "Pay geri alım olumlu, teknik analiz nötr"
+      "note": "Pay geri alımı hafif pozitif"
     },
     "MGROS": {
-      "score": 65,
-      "note": "Güçlü görünüm ve fiyat hedefi olumlu"
+      "score": 60,
+      "note": "Güçlü görünüm ve 900 TL potansiyeli pozitif"
     },
     "FROTO": {
-      "score": 60,
-      "note": "Temettü kararı ve hedef fiyat artışı olumlu"
+      "score": 55,
+      "note": "Temettü kararı ve hedef fiyat haberleri hafif pozitif"
     },
     "TOASO": {
-      "score": 65,
-      "note": "Hedef fiyat değişimi ve güçlü bilanço olumlu"
+      "score": 55,
+      "note": "Hedef fiyat değişiklikleri ve güçlü bilanço hafif pozitif"
     },
     "ASELS": {
       "score": 30,
-      "note": "Düşüş ve satış baskısı olumsuz"
+      "note": "Düşüş haberi ve satış baskısı negatif"
     },
     "TCELL": {
-      "score": 50,
-      "note": "Teknik analiz var, SEC açıklaması nötr"
+      "score": 55,
+      "note": "Temettü kararı hafif pozitif, SEC açıklaması nötr"
     },
     "TTKOM": {
       "score": 50,
-      "note": "Teknik analiz ve fiyat hedefi var, net yön belirtisi yok"
+      "note": "Teknik analiz ve tahmin haberleri nötr"
     },
     "ULKER": {
-      "score": 60,
-      "note": "Temettü dağıtımı ve bilanço beğenisi olumlu"
+      "score": 55,
+      "note": "Temettü dağıtımı ve bilanço beğenisi hafif pozitif"
     },
     "CCOLA": {
-      "score": 65,
-      "note": "Geçmiş getiri ve fiyat hedefi olumlu"
+      "score": 60,
+      "note": "Geçmiş getiri vurgusu ve tahmin pozitif"
     },
     "ARCLK": {
       "score": 60,
-      "note": "Satın alma ve tam kontrol olumlu"
+      "note": "Beko Europe'da tam kontrol pozitif"
     },
     "EKGYO": {
-      "score": 55,
-      "note": "Kar payı ödemesi olumlu, teknik analiz nötr"
+      "score": 50,
+      "note": "Temettü ödemesi ve tahmin nötr"
     }
   },
-  "_ts": 1783926560,
+  "_ts": 1783939100,
   "_source": "deepseek-llm"
 }
