@@ -3,8 +3,18 @@ Self-contained HTML (inline CSS/JS, harici kaynak yok)."""
 from __future__ import annotations
 
 import html
-from datetime import datetime
+from datetime import datetime, timedelta
 from typing import Dict, List
+
+
+def _to_ist(ts_str) -> str:
+    """UTC 'YYYY-MM-DD HH:MM' damgasını İstanbul (TSİ, UTC+3) gösterimine çevirir."""
+    s = str(ts_str or "").strip()
+    try:
+        dt = datetime.strptime(s[:16], "%Y-%m-%d %H:%M") + timedelta(hours=3)
+        return dt.strftime("%m-%d %H:%M")
+    except Exception:
+        return s or "—"
 
 AI_COLORS = {
     "consensus": "#a855f7", "deepseek": "#38bdf8", "claude": "#f59e0b",
@@ -84,7 +94,7 @@ def _trade_feed(feed):
         price = t.get("price", "")
         price_s = _num(price) if isinstance(price, (int, float)) and price else _esc(price or "—")
         rows.append(f"""<tr>
-          <td class="mono nowrap">{_esc(t.get('ts') or '—')}</td>
+          <td class="mono nowrap">{_to_ist(t.get('ts'))}</td>
           <td>{_chip(t.get('who',''), t.get('who_key',''))}</td>
           <td>{_side_badge(t.get('side',''))}</td>
           <td class="mono"><b>{_esc(t.get('ticker','—'))}</b></td>
@@ -152,7 +162,7 @@ def _ai_trades(comp):
     for t in trades:
         price = t.get("price", "")
         price_s = _num(price) if isinstance(price, (int, float)) and price else _esc(price or "—")
-        rows.append(f"""<tr><td class="mono nowrap">{_esc(t.get('ts') or '—')}</td>
+        rows.append(f"""<tr><td class="mono nowrap">{_to_ist(t.get('ts'))}</td>
           <td>{_side_badge(t.get('side',''))}</td><td class="mono"><b>{_esc(t.get('ticker','—'))}</b></td>
           <td class="num mono">{_esc(t.get('qty',''))}</td><td class="num mono">{price_s}</td>
           <td class="reason">{_esc(t.get('reason',''))}</td></tr>""")
@@ -230,7 +240,7 @@ def _health_badge(health):
 
 
 def build_dashboard(comps, feed, consensus, notes, consensus_pf, xu30, health=None):
-    now = datetime.now().strftime("%Y-%m-%d %H:%M")
+    now = (datetime.utcnow() + timedelta(hours=3)).strftime("%Y-%m-%d %H:%M")  # İstanbul (TSİ)
     active_n = sum(1 for c in comps if c.get("active"))
     total_trades = sum(len(c.get("trades", [])) for c in comps)
     start_banner = ("" if total_trades else
@@ -340,7 +350,7 @@ def build_dashboard(comps, feed, consensus, notes, consensus_pf, xu30, health=No
     <h1><span class="spark">◆</span> BIST AI Arena</h1>
     <span class="sub">5 yapay zeka · BIST30 · 52 haftalık paper trading</span>
     <span style="margin-left:auto">{_health_badge(health)}</span>
-    <span class="sub">Güncelleme <b>{now}</b> · oto-yenile 5dk</span>
+    <span class="sub">Güncelleme <b>{now} TSİ</b> · oto-yenile 5dk</span>
   </header>
 
   {_tabbar(comps)}
