@@ -4,10 +4,10 @@
   "strategy": "Kalite+değer, seçici al + uzun tut (ROE≥%10, F/K≤35, trend üstü); backtest-kalibre",
   "initial": 50000.0,
   "cash": 28198.33,
-  "total_value": 49739.63,
-  "return_pct": -0.52,
+  "total_value": 49720.83,
+  "return_pct": -0.56,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-07-14 13:09",
+  "last_updated": "2026-07-14 13:38",
   "positions": [
     {
       "ticker": "CCOLA",
@@ -15,7 +15,7 @@
       "sector": "Gıda",
       "entry": 83.65,
       "qty": 131,
-      "current": 83.3,
+      "current": 83.5,
       "stop": 75.29,
       "target": 166.46,
       "entry_ts": "2026-07-14 09:15",
@@ -27,11 +27,11 @@
       "sector": "Otomotiv",
       "entry": 300.0,
       "qty": 36,
-      "current": 295.25,
+      "current": 294.0,
       "stop": 270.0,
       "target": 597.0,
       "entry_ts": "2026-07-14 09:15",
-      "score": 65.9
+      "score": 66.6
     }
   ],
   "trades": [
