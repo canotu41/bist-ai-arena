@@ -3,11 +3,55 @@
   "name": "Claude AI Portföyü",
   "strategy": "Kalite+değer, seçici al + uzun tut (ROE≥%10, F/K≤35, trend üstü); backtest-kalibre",
   "initial": 50000.0,
-  "cash": 50000.0,
-  "total_value": 50000.0,
-  "return_pct": 0.0,
+  "cash": 28198.33,
+  "total_value": 49956.48,
+  "return_pct": -0.09,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-07-14 12:11",
-  "positions": [],
-  "trades": []
+  "last_updated": "2026-07-14 09:15",
+  "positions": [
+    {
+      "ticker": "CCOLA",
+      "name": "Coca-Cola İçecek",
+      "sector": "Gıda",
+      "entry": 83.65,
+      "qty": 131,
+      "current": 83.65,
+      "stop": 75.29,
+      "target": 166.46,
+      "entry_ts": "2026-07-14 09:15",
+      "score": 66.8
+    },
+    {
+      "ticker": "TOASO",
+      "name": "Tofaş Oto Fabrika",
+      "sector": "Otomotiv",
+      "entry": 300.0,
+      "qty": 36,
+      "current": 300.0,
+      "stop": 270.0,
+      "target": 597.0,
+      "entry_ts": "2026-07-14 09:15",
+      "score": 65.9
+    }
+  ],
+  "trades": [
+    {
+      "ts": "2026-07-14 09:15",
+      "side": "BUY",
+      "ticker": "CCOLA",
+      "qty": 131,
+      "price": 83.65,
+      "amount": 10958.15,
+      "reason": "Claude AI skoru 67 (>=65)"
+    },
+    {
+      "ts": "2026-07-14 09:15",
+      "side": "BUY",
+      "ticker": "TOASO",
+      "qty": 36,
+      "price": 300.0,
+      "amount": 10800.0,
+      "reason": "Claude AI skoru 66 (>=65)"
+    }
+  ]
 }

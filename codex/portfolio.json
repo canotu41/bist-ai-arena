@@ -3,11 +3,55 @@
   "name": "Codex Portföyü",
   "strategy": "Önce risk: düşük vol (ATR≤%3.6), RSI 40-68, MA50 üstü; seçici, uzun tut; backtest-kalibre",
   "initial": 50000.0,
-  "cash": 50000.0,
-  "total_value": 50000.0,
-  "return_pct": 0.0,
+  "cash": 35036.03,
+  "total_value": 49970.13,
+  "return_pct": -0.06,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-07-14 12:11",
-  "positions": [],
-  "trades": []
+  "last_updated": "2026-07-14 09:15",
+  "positions": [
+    {
+      "ticker": "TCELL",
+      "name": "Turkcell",
+      "sector": "Telekom",
+      "entry": 110.2,
+      "qty": 68,
+      "current": 110.2,
+      "stop": 99.18,
+      "target": 154.28,
+      "entry_ts": "2026-07-14 09:15",
+      "score": 65.2
+    },
+    {
+      "ticker": "THYAO",
+      "name": "Türk Hava Yolları",
+      "sector": "Ulaştırma",
+      "entry": 323.5,
+      "qty": 23,
+      "current": 323.5,
+      "stop": 291.15,
+      "target": 452.9,
+      "entry_ts": "2026-07-14 09:15",
+      "score": 62.3
+    }
+  ],
+  "trades": [
+    {
+      "ts": "2026-07-14 09:15",
+      "side": "BUY",
+      "ticker": "TCELL",
+      "qty": 68,
+      "price": 110.2,
+      "amount": 7493.6,
+      "reason": "Codex skoru 65 (>=62)"
+    },
+    {
+      "ts": "2026-07-14 09:15",
+      "side": "BUY",
+      "ticker": "THYAO",
+      "qty": 23,
+      "price": 323.5,
+      "amount": 7440.5,
+      "reason": "Codex skoru 62 (>=62)"
+    }
+  ]
 }

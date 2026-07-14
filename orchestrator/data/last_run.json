@@ -1,6 +1,5 @@
 {
-  "ts": "2026-07-14 12:11:34",
-  "status": "RESET — yarışma Pazartesi başlıyor",
+  "ts": "2026-07-14 09:15:02",
   "health": {
     "ok": true,
     "live": 24,
@@ -10,5 +9,27 @@
     "fund_live": 24
   },
   "active_competitors": 5,
-  "budget_per_ai": 50000
+  "consensus_tickers": [],
+  "leaderboard": [
+    {
+      "name": "Konsensüs (Claude)",
+      "return_pct": 0.0
+    },
+    {
+      "name": "DeepSeek AI",
+      "return_pct": 0.0
+    },
+    {
+      "name": "Microsoft Copilot",
+      "return_pct": 0.0
+    },
+    {
+      "name": "Codex",
+      "return_pct": -0.06
+    },
+    {
+      "name": "Claude AI",
+      "return_pct": -0.09
+    }
+  ]
 }
