@@ -1,5 +1,5 @@
 {
-  "ts": "2026-07-14 10:08:33",
+  "ts": "2026-07-14 10:38:13",
   "health": {
     "ok": true,
     "live": 24,
@@ -25,11 +25,11 @@
     },
     {
       "name": "Codex",
-      "return_pct": -0.12
+      "return_pct": -0.18
     },
     {
       "name": "Claude AI",
-      "return_pct": -0.27
+      "return_pct": -0.42
     }
   ]
 }
