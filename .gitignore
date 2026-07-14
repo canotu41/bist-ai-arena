@@ -5,3 +5,4 @@ __pycache__/
 venv/
 scratchpad/
 orchestrator/.secrets/
+orchestrator/data/hist_cache.json

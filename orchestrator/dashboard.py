@@ -227,6 +227,41 @@ def _tabbar(comps):
     return '<nav class="tabs">' + "".join(btns) + "</nav>"
 
 
+def _backtest_panel(bt):
+    if not bt:
+        return ""
+    cal = bt.get("calibrated", {})
+    bench = bt.get("benchmark_xu100", 0)
+    names = {"claude": "Claude AI", "codex": "Codex",
+             "microsoft": "Microsoft Copilot", "deepseek": "DeepSeek AI"}
+    rows = []
+    for k, n in names.items():
+        c = cal.get(k)
+        if not c:
+            continue
+        rc = "pos" if c["total_return"] >= 0 else "neg"
+        ac = "pos" if c["alpha"] >= 0 else "neg"
+        stop_s = "yok" if c["stop"] <= -0.9 else f"{c['stop']:+.0%}"
+        tgt_s = "yok" if c["target"] >= 0.99 else f"{c['target']:+.0%}"
+        rows.append(
+            f"<tr><td>{_esc(n)}</td>"
+            f"<td class='mono'>al {c['buy']:.0f} · stop {stop_s} · hedef {tgt_s}</td>"
+            f"<td class='num mono {rc}'>%{c['total_return']:+.1f}</td>"
+            f"<td class='num mono {ac}'>%{c['alpha']:+.1f}</td>"
+            f"<td class='num mono'>%{c['max_drawdown']:.1f}</td>"
+            f"<td class='num mono'>%{c['win_rate']:.0f}</td>"
+            f"<td class='num mono'>{c['trades']}</td></tr>")
+    return f"""<h3>🔬 Kriterler — 2 Yıllık Backtest (kalibre)</h3>
+      <div class="note">Kriterler ~{bt.get('period_days','?')} günlük GERÇEK geçmiş veriyle
+      kalibre edildi. Benchmark <b>XU100: %{bench:+.1f}</b> (endeksi tut-bekle).
+      Backtest teknik/momentum/risk + giriş-çıkış mekaniğini doğrular
+      (temel=sabit, haber=nötr varsayıldı; in-sample). Eğitim amaçlı, yatırım tavsiyesi değildir.</div>
+      <div class="scroll"><table><thead><tr><th>AI</th><th>Kalibre kriter</th>
+        <th class="num">2y Getiri</th><th class="num">Alfa</th><th class="num">Maks Düşüş</th>
+        <th class="num">İsabet</th><th class="num">İşlem</th></tr></thead>
+        <tbody>{''.join(rows)}</tbody></table></div>"""
+
+
 def _health_badge(health):
     if not health:
         return ""
@@ -239,7 +274,7 @@ def _health_badge(health):
     return ('<span class="hbadge bad">⚠ VERİ ESKİ/ÖRNEK — fiyatlar güncel olmayabilir</span>')
 
 
-def build_dashboard(comps, feed, consensus, notes, consensus_pf, xu30, health=None):
+def build_dashboard(comps, feed, consensus, notes, consensus_pf, xu30, health=None, backtest=None):
     now = (datetime.utcnow() + timedelta(hours=3)).strftime("%Y-%m-%d %H:%M")  # İstanbul (TSİ)
     active_n = sum(1 for c in comps if c.get("active"))
     total_trades = sum(len(c.get("trades", [])) for c in comps)
@@ -369,6 +404,7 @@ def build_dashboard(comps, feed, consensus, notes, consensus_pf, xu30, health=No
     {_trade_feed(feed)}
     <h3>🧩 Konsensüs hisseleri — 2+ AI ortak</h3>
     {_consensus_table(consensus)}
+    {_backtest_panel(backtest)}
   </section>
 
   {ai_tabs}

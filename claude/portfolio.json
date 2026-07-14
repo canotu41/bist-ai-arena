@@ -1,96 +1,13 @@
 {
   "_schema": "arena",
   "name": "Claude AI Portföyü",
-  "strategy": "Kalite+değer, yoğun portföy: ROE≥%10 ve F/K≤35, uzun-vade trend üstü hisseler",
+  "strategy": "Kalite+değer, seçici al + uzun tut (ROE≥%10, F/K≤35, trend üstü); backtest-kalibre",
   "initial": 50000.0,
-  "cash": 18446.77,
-  "total_value": 47158.26,
-  "return_pct": -5.68,
-  "created": "2026-07-04 18:24",
-  "last_updated": "2026-07-14 07:37",
-  "positions": [
-    {
-      "ticker": "THYAO",
-      "name": "Türk Hava Yolları",
-      "sector": "Ulaştırma",
-      "entry": 347.75,
-      "qty": 31,
-      "current": 324.75,
-      "stop": 316.45,
-      "target": 410.34,
-      "entry_ts": "2026-07-06 10:17",
-      "score": 62.9
-    },
-    {
-      "ticker": "YKBNK",
-      "name": "Yapı Kredi Bankası",
-      "sector": "Bankacılık",
-      "entry": 37.04,
-      "qty": 244,
-      "current": 33.86,
-      "stop": 33.71,
-      "target": 43.71,
-      "entry_ts": "2026-07-08 08:37",
-      "score": 63.7
-    },
-    {
-      "ticker": "CCOLA",
-      "name": "Coca-Cola İçecek",
-      "sector": "Gıda",
-      "entry": 84.45,
-      "qty": 126,
-      "current": 82.4,
-      "stop": 76.85,
-      "target": 99.65,
-      "entry_ts": "2026-07-13 07:09",
-      "score": 58.1
-    }
-  ],
-  "trades": [
-    {
-      "ts": "2026-07-06 08:57",
-      "side": "BUY",
-      "ticker": "AKBNK",
-      "qty": 148,
-      "price": 74.3,
-      "amount": 10996.4,
-      "reason": "Claude AI skoru 65 (>=62)"
-    },
-    {
-      "ts": "2026-07-06 10:17",
-      "side": "BUY",
-      "ticker": "THYAO",
-      "qty": 31,
-      "price": 347.75,
-      "amount": 10780.25,
-      "reason": "Claude AI skoru 62 (>=62)"
-    },
-    {
-      "ts": "2026-07-08 08:37",
-      "side": "BUY",
-      "ticker": "YKBNK",
-      "qty": 244,
-      "price": 37.04,
-      "amount": 9037.76,
-      "reason": "Claude AI skoru 64 (>=62)"
-    },
-    {
-      "ts": "2026-07-13 07:09",
-      "side": "BUY",
-      "ticker": "CCOLA",
-      "qty": 126,
-      "price": 84.45,
-      "amount": 10640.7,
-      "reason": "Claude AI skoru 62 (>=62)"
-    },
-    {
-      "ts": "2026-07-13 07:38",
-      "side": "SELL",
-      "ticker": "AKBNK",
-      "qty": 148,
-      "price": 67.6,
-      "amount": 10004.8,
-      "reason": "STOP-LOSS (%-9.0)"
-    }
-  ]
+  "cash": 50000.0,
+  "total_value": 50000.0,
+  "return_pct": 0.0,
+  "created": "2026-07-14 12:11",
+  "last_updated": "2026-07-14 12:11",
+  "positions": [],
+  "trades": []
 }

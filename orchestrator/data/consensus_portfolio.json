@@ -1,52 +1,11 @@
 {
   "name": "Konsensüs (Claude) Portföyü",
   "initial": 50000.0,
-  "cash": 39307.7,
-  "total_value": 48400.7,
-  "return_pct": -3.2,
-  "created": "2026-07-04 18:24",
-  "last_updated": "2026-07-14 07:37",
-  "positions": [
-    {
-      "ticker": "THYAO",
-      "name": "Türk Hava Yolları",
-      "sector": "Ulaştırma",
-      "entry": 347.75,
-      "qty": 28,
-      "current": 324.75,
-      "stop": 319.93,
-      "target": 417.3,
-      "entry_ts": "2026-07-06 10:17",
-      "agreement": 2
-    }
-  ],
-  "trades": [
-    {
-      "ts": "2026-07-06 08:57",
-      "side": "BUY",
-      "ticker": "AKBNK",
-      "qty": 134,
-      "price": 74.3,
-      "amount": 9956.2,
-      "reason": "Konsensüs: 3 AI ortak (Claude AI, Codex, Microsoft Copilot)"
-    },
-    {
-      "ts": "2026-07-06 10:17",
-      "side": "BUY",
-      "ticker": "THYAO",
-      "qty": 28,
-      "price": 347.75,
-      "amount": 9737.0,
-      "reason": "Konsensüs: 2 AI ortak (Claude AI, Microsoft Copilot)"
-    },
-    {
-      "ts": "2026-07-13 07:38",
-      "side": "SELL",
-      "ticker": "AKBNK",
-      "qty": 134,
-      "price": 67.6,
-      "amount": 9058.4,
-      "reason": "STOP-LOSS (%-9.0)"
-    }
-  ]
+  "cash": 50000.0,
+  "total_value": 50000.0,
+  "return_pct": 0.0,
+  "created": "2026-07-14 12:11",
+  "last_updated": "2026-07-14 12:11",
+  "positions": [],
+  "trades": []
 }

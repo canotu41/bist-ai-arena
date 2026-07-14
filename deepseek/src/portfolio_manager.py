@@ -23,8 +23,8 @@ LOG_DIR = ROOT / "log"
 LEARNED_LESSONS = {
     "max_single_position_pct": 0.20,
     "min_cash_buffer_pct": 0.05,
-    "stop_loss_pct": -0.08,
-    "take_profit_pct": 0.20,
+    "stop_loss_pct": -0.10,   # backtest-kalibre: geniş stop, kazananı erken satma
+    "take_profit_pct": 0.35,  # backtest-kalibre: yüksek hedef, trendi bırak
     "trailing_stop_activation_pct": 0.10,
     "trailing_stop_distance_pct": -0.05,
     "max_positions": 10,
@@ -255,7 +255,7 @@ def find_entry_opportunities(portfolio: PortfolioState, snapshots: List[CompanyS
             continue
         if snap.signal not in (SignalType.STRONG_BUY, SignalType.BUY):
             continue
-        if snap.deepscore < 72:
+        if snap.deepscore < 62:  # backtest-kalibre giriş eşiği (eski 72 ulaşılamıyordu)
             continue
         if len(portfolio.positions) >= max_positions:
             break

@@ -1,117 +1,13 @@
 {
   "_schema": "arena",
   "name": "Microsoft Copilot Portföyü",
-  "strategy": "Momentum/trend takibi: 20g değişim≥%4 ve MA20>MA50 kırılım; kazananı bırakma, geniş stop",
+  "strategy": "Momentum/trend: 20g değişim≥%4, MA20>MA50 kırılım; kazananı bırak; backtest-kalibre (alfa ~%-2)",
   "initial": 50000.0,
-  "cash": 2446.08,
-  "total_value": 47947.85,
-  "return_pct": -4.1,
-  "created": "2026-07-04 18:24",
-  "last_updated": "2026-07-14 07:37",
-  "positions": [
-    {
-      "ticker": "THYAO",
-      "name": "Türk Hava Yolları",
-      "sector": "Ulaştırma",
-      "entry": 348.0,
-      "qty": 35,
-      "current": 324.75,
-      "stop": 313.2,
-      "target": 435.0,
-      "entry_ts": "2026-07-06 08:57",
-      "score": 62.4
-    },
-    {
-      "ticker": "AKBNK",
-      "name": "Akbank",
-      "sector": "Bankacılık",
-      "entry": 74.3,
-      "qty": 168,
-      "current": 67.9,
-      "stop": 66.87,
-      "target": 92.88,
-      "entry_ts": "2026-07-06 08:57",
-      "score": 46.5
-    },
-    {
-      "ticker": "EREGL",
-      "name": "Ereğli Demir Çelik",
-      "sector": "Demir-Çelik",
-      "entry": 41.08,
-      "qty": 304,
-      "current": 40.98,
-      "stop": 36.97,
-      "target": 51.35,
-      "entry_ts": "2026-07-06 08:57",
-      "score": 61.8
-    },
-    {
-      "ticker": "AKSEN",
-      "name": "Aksa Enerji",
-      "sector": "Enerji",
-      "entry": 89.15,
-      "qty": 112,
-      "current": 91.7,
-      "stop": 80.24,
-      "target": 111.44,
-      "entry_ts": "2026-07-08 09:37",
-      "score": 63.9
-    }
-  ],
-  "trades": [
-    {
-      "ts": "2026-07-06 08:57",
-      "side": "BUY",
-      "ticker": "THYAO",
-      "qty": 35,
-      "price": 348.0,
-      "amount": 12180.0,
-      "reason": "Microsoft Copilot skoru 69 (>=60)"
-    },
-    {
-      "ts": "2026-07-06 08:57",
-      "side": "BUY",
-      "ticker": "AKBNK",
-      "qty": 168,
-      "price": 74.3,
-      "amount": 12482.4,
-      "reason": "Microsoft Copilot skoru 67 (>=60)"
-    },
-    {
-      "ts": "2026-07-06 08:57",
-      "side": "BUY",
-      "ticker": "EREGL",
-      "qty": 304,
-      "price": 41.08,
-      "amount": 12488.32,
-      "reason": "Microsoft Copilot skoru 64 (>=60)"
-    },
-    {
-      "ts": "2026-07-06 08:57",
-      "side": "BUY",
-      "ticker": "EKGYO",
-      "qty": 489,
-      "price": 21.0,
-      "amount": 10269.0,
-      "reason": "Microsoft Copilot skoru 62 (>=60)"
-    },
-    {
-      "ts": "2026-07-08 09:37",
-      "side": "SELL",
-      "ticker": "EKGYO",
-      "qty": 489,
-      "price": 20.42,
-      "amount": 9985.38,
-      "reason": "SKOR düştü (44 < 45)"
-    },
-    {
-      "ts": "2026-07-08 09:37",
-      "side": "BUY",
-      "ticker": "AKSEN",
-      "qty": 112,
-      "price": 89.15,
-      "amount": 9984.8,
-      "reason": "Microsoft Copilot skoru 72 (>=60)"
-    }
-  ]
+  "cash": 50000.0,
+  "total_value": 50000.0,
+  "return_pct": 0.0,
+  "created": "2026-07-14 12:11",
+  "last_updated": "2026-07-14 12:11",
+  "positions": [],
+  "trades": []
 }

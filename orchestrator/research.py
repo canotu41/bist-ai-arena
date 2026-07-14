@@ -16,8 +16,8 @@ PORTFOLIO_JSON = DATA_DIR / "consensus_portfolio.json"
 INITIAL_CAPITAL = 50000.0
 MAX_WEIGHT = 0.20        # tek hissede en fazla %20
 CASH_BUFFER = 0.05       # en az %5 nakit
-STOP_PCT = -0.08         # -%8 stop
-TARGET_PCT = 0.20        # +%20 hedef
+STOP_PCT = -0.15         # backtest-kalibre: geniş stop
+TARGET_PCT = 0.40        # backtest-kalibre: yüksek hedef (kazananı bırak)
 COMMISSION = 0.002       # %0.2 işlem maliyeti
 MIN_TICKET = 300.0
 

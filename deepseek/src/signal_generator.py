@@ -212,12 +212,13 @@ def calculate_deepscore(ticker: str, tech: TechnicalData, fund: FundamentalData,
 def determine_signal(deepscore: float, market_regime: MarketRegime) -> SignalType:
     """DeepScore'a göre sinyal belirler"""
     # Piyasa rejimine göre eşikler
+    # backtest-kalibre eşikler (eski değerler gerçek skor dağılımında ulaşılamıyordu)
     if market_regime == MarketRegime.BULL:
-        thresholds = {"strong_buy": 78, "buy": 68, "sell": 35}
+        thresholds = {"strong_buy": 66, "buy": 60, "sell": 40}
     elif market_regime == MarketRegime.BEAR:
-        thresholds = {"strong_buy": 82, "buy": 72, "sell": 40}
+        thresholds = {"strong_buy": 72, "buy": 65, "sell": 40}
     else:
-        thresholds = {"strong_buy": 75, "buy": 65, "sell": 35}
+        thresholds = {"strong_buy": 68, "buy": 62, "sell": 40}
 
     if deepscore >= thresholds["strong_buy"]:
         return SignalType.STRONG_BUY

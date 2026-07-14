@@ -1,0 +1,101 @@
+{
+  "period_days": 499,
+  "benchmark_xu100": 45.8,
+  "generated": "2026-07-14 11:57",
+  "base": {
+    "claude": {
+      "total_return": 9.7,
+      "alpha": -36.1,
+      "max_drawdown": -19.5,
+      "sharpe": 0.35,
+      "win_rate": 40.0,
+      "trades": 16,
+      "final_value": 54827.0,
+      "buy": 61.0
+    },
+    "codex": {
+      "total_return": 22.8,
+      "alpha": -23.0,
+      "max_drawdown": -16.6,
+      "sharpe": 0.67,
+      "win_rate": 53.8,
+      "trades": 21,
+      "final_value": 61402.0,
+      "buy": 59.0
+    },
+    "microsoft": {
+      "total_return": 23.7,
+      "alpha": -22.1,
+      "max_drawdown": -18.4,
+      "sharpe": 0.63,
+      "win_rate": 37.0,
+      "trades": 32,
+      "final_value": 61873.0,
+      "buy": 68.0
+    },
+    "deepseek": {
+      "total_return": 6.2,
+      "alpha": -39.6,
+      "max_drawdown": -2.8,
+      "sharpe": 0.91,
+      "win_rate": 66.7,
+      "trades": 3,
+      "final_value": 53081.0,
+      "buy": 72
+    }
+  },
+  "calibrated": {
+    "claude": {
+      "buy": 64.6,
+      "sell": 40.0,
+      "stop": -0.1,
+      "target": 0.99,
+      "total_return": 19.1,
+      "alpha": -26.7,
+      "max_drawdown": -18.2,
+      "sharpe": 0.56,
+      "win_rate": 0.0,
+      "trades": 10,
+      "final_value": 59558.0
+    },
+    "codex": {
+      "buy": 62.2,
+      "sell": 40.0,
+      "stop": -0.1,
+      "target": 0.4,
+      "total_return": 26.0,
+      "alpha": -19.8,
+      "max_drawdown": -18.3,
+      "sharpe": 0.75,
+      "win_rate": 38.9,
+      "trades": 25,
+      "final_value": 63014.0
+    },
+    "microsoft": {
+      "buy": 69.8,
+      "sell": 40.0,
+      "stop": -0.1,
+      "target": 0.4,
+      "total_return": 44.4,
+      "alpha": -1.4,
+      "max_drawdown": -18.2,
+      "sharpe": 1.03,
+      "win_rate": 46.4,
+      "trades": 33,
+      "final_value": 72204.0
+    },
+    "deepseek": {
+      "buy": 63.8,
+      "sell": 40.0,
+      "stop": -0.1,
+      "target": 0.3,
+      "total_return": 39.2,
+      "alpha": -6.6,
+      "max_drawdown": -13.4,
+      "sharpe": 0.99,
+      "win_rate": 43.8,
+      "trades": 39,
+      "final_value": 69598.0
+    }
+  }
+}

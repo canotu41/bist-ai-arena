@@ -205,12 +205,38 @@ def maybe_send_daily_summary(comps, xu30) -> None:
     _save_state(state)
 
 
-def get_xu30() -> float:
+def _fetch_xu100() -> float:
+    """XU100 endeksinin güncel değeri (Yahoo, anahtarsız). Hata=0."""
+    import urllib.request
+    url = "https://query1.finance.yahoo.com/v8/finance/chart/XU100.IS?range=5d&interval=1d"
     try:
-        comp = json.loads((ROOT / "deepseek" / "competition.json").read_text(encoding="utf-8"))
-        return float(comp.get("xu30_return", 0.5))
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=12) as r:
+            d = json.load(r)
+        return float(d["chart"]["result"][0]["meta"]["regularMarketPrice"])
     except Exception:
-        return 0.5
+        return 0.0
+
+
+def get_xu30() -> float:
+    """Gerçek benchmark: yarışma başından bu yana XU100 getirisi (%).
+    Başlangıç değeri data/benchmark.json'da (reset'te kurulur); yoksa şimdi kur."""
+    bfile = DATA_DIR / "benchmark.json"
+    cur = _fetch_xu100()
+    try:
+        b = json.loads(bfile.read_text(encoding="utf-8"))
+        start = float(b.get("start_value", 0))
+    except Exception:
+        start = 0.0
+    if start <= 0:
+        if cur > 0:
+            DATA_DIR.mkdir(exist_ok=True)
+            bfile.write_text(json.dumps({"start_value": cur,
+                "start_date": datetime.utcnow().strftime("%Y-%m-%d")}), encoding="utf-8")
+        return 0.0
+    if cur <= 0:
+        return 0.0
+    return round((cur / start - 1) * 100, 2)
 
 
 def main() -> None:
@@ -247,7 +273,12 @@ def main() -> None:
     feed = common.merged_trade_feed(comps, limit=50)
     notify_new_trades(comps)                 # yeni AL/SAT işlemlerini e-posta ile bildir
     maybe_send_daily_summary(comps, xu30)    # seans kapanışı sonrası günde 1 kez özet
-    html = dashboard.build_dashboard(comps, feed, consensus, notes, pf, xu30, health=health)
+    try:
+        backtest = json.loads((DATA_DIR / "backtest_results.json").read_text(encoding="utf-8"))
+    except Exception:
+        backtest = None
+    html = dashboard.build_dashboard(comps, feed, consensus, notes, pf, xu30,
+                                     health=health, backtest=backtest)
     DASHBOARD_HTML.write_text(html, encoding="utf-8")
     (ROOT / "index.html").write_text(html, encoding="utf-8")
 

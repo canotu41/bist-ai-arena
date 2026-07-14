@@ -1,54 +1,13 @@
 {
   "_schema": "arena",
   "name": "Codex Portföyü",
-  "strategy": "Önce risk: düşük volatilite (ATR≤%3.6), RSI 40-68, MA50 üstü teyitli; sıkı stop",
+  "strategy": "Önce risk: düşük vol (ATR≤%3.6), RSI 40-68, MA50 üstü; seçici, uzun tut; backtest-kalibre",
   "initial": 50000.0,
-  "cash": 41954.5,
-  "total_value": 49099.0,
-  "return_pct": -1.8,
-  "created": "2026-07-04 18:24",
-  "last_updated": "2026-07-14 07:37",
-  "positions": [
-    {
-      "ticker": "THYAO",
-      "name": "Türk Hava Yolları",
-      "sector": "Ulaştırma",
-      "entry": 338.5,
-      "qty": 22,
-      "current": 324.75,
-      "stop": 314.81,
-      "target": 389.27,
-      "entry_ts": "2026-07-08 08:37",
-      "score": 62.0
-    }
-  ],
-  "trades": [
-    {
-      "ts": "2026-07-06 08:57",
-      "side": "BUY",
-      "ticker": "AKBNK",
-      "qty": 100,
-      "price": 74.3,
-      "amount": 7430.0,
-      "reason": "Codex skoru 63 (>=62)"
-    },
-    {
-      "ts": "2026-07-08 08:37",
-      "side": "BUY",
-      "ticker": "THYAO",
-      "qty": 22,
-      "price": 338.5,
-      "amount": 7447.0,
-      "reason": "Codex skoru 64 (>=62)"
-    },
-    {
-      "ts": "2026-07-13 07:09",
-      "side": "SELL",
-      "ticker": "AKBNK",
-      "qty": 100,
-      "price": 68.75,
-      "amount": 6875.0,
-      "reason": "STOP-LOSS (%-7.5)"
-    }
-  ]
+  "cash": 50000.0,
+  "total_value": 50000.0,
+  "return_pct": 0.0,
+  "created": "2026-07-14 12:11",
+  "last_updated": "2026-07-14 12:11",
+  "positions": [],
+  "trades": []
 }

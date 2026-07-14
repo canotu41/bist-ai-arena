@@ -142,11 +142,14 @@ def score_fundamental(data: FundamentalData) -> float:
     """Temel analiz skoru hesaplar (0-100)"""
     score = 0.0
 
-    # F/K: Düşük iyidir (3-15 arası)
-    score += normalize(data.fk_ratio, 15.0, 3.0) * 0.20
+    # F/K: düşük iyidir; gerçek BIST aralığı ~5-45. Aykırı (negatif ya da >60,
+    # zarar/near-sıfır kâr) değerleri sınırla ki eksen bozulmasın (ör. EREGL F/K 598).
+    fk = data.fk_ratio if 0 < data.fk_ratio <= 60 else 60.0
+    score += normalize(fk, 45.0, 5.0) * 0.20
 
-    # PD/DD: Düşük iyidir (0.5-3.0 arası)
-    score += normalize(data.pddd_ratio, 3.0, 0.5) * 0.15
+    # PD/DD: düşük iyidir; aykırıları sınırla (ör. THYAO 21)
+    pddd = min(data.pddd_ratio, 8.0) if data.pddd_ratio > 0 else 8.0
+    score += normalize(pddd, 6.0, 0.5) * 0.15
 
     # Net kâr büyümesi: Yüksek iyidir (-10 ile +30 arası)
     score += normalize(data.net_profit_growth_qoq, -10.0, 30.0) * 0.15

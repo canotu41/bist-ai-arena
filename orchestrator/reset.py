@@ -29,7 +29,8 @@ def main() -> None:
     for p in [ROOT / "claude" / "portfolio.json", ROOT / "codex" / "portfolio.json",
               ROOT / "microsoft" / "portfolio.json", ROOT / "deepseek" / "portfolio.json",
               ROOT / "deepseek" / "competition.json",
-              DATA_DIR / "consensus_portfolio.json", DATA_DIR / "last_run.json"]:
+              DATA_DIR / "consensus_portfolio.json", DATA_DIR / "last_run.json",
+              DATA_DIR / "benchmark.json", DATA_DIR / "notify_state.json"]:
         if p.exists():
             p.unlink()
 
@@ -64,7 +65,13 @@ def main() -> None:
     consensus = consensus_mod.compute_consensus(base, snapshot)   # boş
     notes = research.generate_research(consensus)                 # boş
     feed = common.merged_trade_feed(comps, 50)                    # boş
-    html = dashboard.build_dashboard(comps, feed, consensus, notes, cpf, 0.0, health=health)
+    try:
+        backtest = json.loads((DATA_DIR / "backtest_results.json").read_text(encoding="utf-8"))
+    except Exception:
+        backtest = None
+    xu30 = run.get_xu30()  # benchmark başlangıcını (XU100) kurar, 0 döner
+    html = dashboard.build_dashboard(comps, feed, consensus, notes, cpf, xu30,
+                                     health=health, backtest=backtest)
     (ROOT / "dashboard.html").write_text(html, encoding="utf-8")
     (ROOT / "index.html").write_text(html, encoding="utf-8")
 
