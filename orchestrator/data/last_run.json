@@ -1,5 +1,5 @@
 {
-  "ts": "2026-07-14 13:38:06",
+  "ts": "2026-07-14 14:08:24",
   "health": {
     "ok": true,
     "live": 24,
@@ -11,6 +11,10 @@
   "active_competitors": 5,
   "consensus_tickers": [],
   "leaderboard": [
+    {
+      "name": "Codex",
+      "return_pct": 0.03
+    },
     {
       "name": "Konsensüs (Claude)",
       "return_pct": 0.0
@@ -24,12 +28,8 @@
       "return_pct": 0.0
     },
     {
-      "name": "Codex",
-      "return_pct": -0.1
-    },
-    {
       "name": "Claude AI",
-      "return_pct": -0.56
+      "return_pct": -0.55
     }
   ]
 }
