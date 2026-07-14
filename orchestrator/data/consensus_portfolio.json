@@ -2,10 +2,10 @@
   "name": "Konsensüs (Claude) Portföyü",
   "initial": 50000.0,
   "cash": 39307.7,
-  "total_value": 48638.7,
-  "return_pct": -2.72,
+  "total_value": 48645.7,
+  "return_pct": -2.71,
   "created": "2026-07-04 18:24",
-  "last_updated": "2026-07-13 15:09",
+  "last_updated": "2026-07-14 07:08",
   "positions": [
     {
       "ticker": "THYAO",
@@ -13,7 +13,7 @@
       "sector": "Ulaştırma",
       "entry": 347.75,
       "qty": 28,
-      "current": 333.25,
+      "current": 333.5,
       "stop": 319.93,
       "target": 417.3,
       "entry_ts": "2026-07-06 10:17",
