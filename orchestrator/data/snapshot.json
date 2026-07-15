@@ -384,6 +384,30 @@
     "net_profit_growth": 6.0
   },
   {
+    "ticker": "AKBNK",
+    "company": "Akbank",
+    "sector": "Bankacılık",
+    "deepscore": 54.2,
+    "signal": "WEAK_HOLD",
+    "breakdown": {
+      "Temel": 64.4,
+      "Teknik": 59.0,
+      "Haber": 55.0,
+      "Momentum": 14.0,
+      "Risk": 50.0
+    },
+    "price": 69.1,
+    "rsi": 15.0,
+    "change_20d": -10.38,
+    "ma20": 75.8,
+    "ma50": 71.6,
+    "ma200": 71.71,
+    "atr_pct": 3.64,
+    "fk": 6.12,
+    "roe": 20.7,
+    "net_profit_growth": 15.2
+  },
+  {
     "ticker": "EREGL",
     "company": "Ereğli Demir Çelik",
     "sector": "Demir-Çelik",
@@ -406,54 +430,6 @@
     "fk": 598.17,
     "roe": 0.2,
     "net_profit_growth": 14.0
-  },
-  {
-    "ticker": "AKBNK",
-    "company": "Akbank",
-    "sector": "Bankacılık",
-    "deepscore": 53.3,
-    "signal": "WEAK_HOLD",
-    "breakdown": {
-      "Temel": 64.4,
-      "Teknik": 59.0,
-      "Haber": 50.0,
-      "Momentum": 14.0,
-      "Risk": 50.0
-    },
-    "price": 69.1,
-    "rsi": 15.0,
-    "change_20d": -10.38,
-    "ma20": 75.8,
-    "ma50": 71.6,
-    "ma200": 71.71,
-    "atr_pct": 3.64,
-    "fk": 6.12,
-    "roe": 20.7,
-    "net_profit_growth": 15.2
-  },
-  {
-    "ticker": "VAKBN",
-    "company": "VakıfBank",
-    "sector": "Bankacılık",
-    "deepscore": 50.5,
-    "signal": "WEAK_HOLD",
-    "breakdown": {
-      "Temel": 61.0,
-      "Teknik": 47.0,
-      "Haber": 55.0,
-      "Momentum": 21.0,
-      "Risk": 50.0
-    },
-    "price": 31.6,
-    "rsi": 39.2,
-    "change_20d": -7.71,
-    "ma20": 32.76,
-    "ma50": 32.17,
-    "ma200": 31.54,
-    "atr_pct": 3.22,
-    "fk": 4.86,
-    "roe": 19.6,
-    "net_profit_growth": 10.2
   },
   {
     "ticker": "ISCTR",
@@ -502,6 +478,30 @@
     "fk": 8.2,
     "roe": -12.1,
     "net_profit_growth": 3.0
+  },
+  {
+    "ticker": "VAKBN",
+    "company": "VakıfBank",
+    "sector": "Bankacılık",
+    "deepscore": 49.5,
+    "signal": "WEAK_HOLD",
+    "breakdown": {
+      "Temel": 61.0,
+      "Teknik": 47.0,
+      "Haber": 50.0,
+      "Momentum": 21.0,
+      "Risk": 50.0
+    },
+    "price": 31.6,
+    "rsi": 39.2,
+    "change_20d": -7.71,
+    "ma20": 32.76,
+    "ma50": 32.17,
+    "ma200": 31.54,
+    "atr_pct": 3.22,
+    "fk": 4.86,
+    "roe": 19.6,
+    "net_profit_growth": 10.2
   },
   {
     "ticker": "ASELS",
