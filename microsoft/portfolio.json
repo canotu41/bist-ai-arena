@@ -3,11 +3,34 @@
   "name": "Microsoft Copilot Portföyü",
   "strategy": "Momentum/trend: 20g değişim≥%4, MA20>MA50 kırılım; kazananı bırak; backtest-kalibre (alfa ~%-2)",
   "initial": 50000.0,
-  "cash": 50000.0,
-  "total_value": 50000.0,
-  "return_pct": 0.0,
+  "cash": 37547.14,
+  "total_value": 49975.14,
+  "return_pct": -0.05,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-07-15 07:38",
-  "positions": [],
-  "trades": []
+  "last_updated": "2026-07-15 08:37",
+  "positions": [
+    {
+      "ticker": "AKSEN",
+      "name": "Aksa Enerji",
+      "sector": "Enerji",
+      "entry": 95.6,
+      "qty": 130,
+      "current": 95.6,
+      "stop": 86.04,
+      "target": 133.84,
+      "entry_ts": "2026-07-15 08:37",
+      "score": 70.6
+    }
+  ],
+  "trades": [
+    {
+      "ts": "2026-07-15 08:37",
+      "side": "BUY",
+      "ticker": "AKSEN",
+      "qty": 130,
+      "price": 95.6,
+      "amount": 12428.0,
+      "reason": "Microsoft Copilot skoru 71 (>=70)"
+    }
+  ]
 }
