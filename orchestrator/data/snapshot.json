@@ -27,12 +27,12 @@
     "ticker": "BIMAS",
     "company": "BİM Mağazalar",
     "sector": "Perakende",
-    "deepscore": 62.2,
+    "deepscore": 61.3,
     "signal": "HOLD",
     "breakdown": {
       "Temel": 51.6,
       "Teknik": 77.0,
-      "Haber": 65.0,
+      "Haber": 60.0,
       "Momentum": 52.0,
       "Risk": 57.0
     },
@@ -46,30 +46,6 @@
     "fk": 18.29,
     "roe": 12.4,
     "net_profit_growth": 8.5
-  },
-  {
-    "ticker": "TOASO",
-    "company": "Tofaş Oto Fabrika",
-    "sector": "Otomotiv",
-    "deepscore": 60.8,
-    "signal": "HOLD",
-    "breakdown": {
-      "Temel": 61.6,
-      "Teknik": 77.0,
-      "Haber": 60.0,
-      "Momentum": 28.0,
-      "Risk": 50.0
-    },
-    "price": 295.0,
-    "rsi": 14.1,
-    "change_20d": -8.95,
-    "ma20": 314.73,
-    "ma50": 306.49,
-    "ma200": 283.51,
-    "atr_pct": 3.4,
-    "fk": 12.21,
-    "roe": 21.0,
-    "net_profit_growth": 18.0
   },
   {
     "ticker": "CCOLA",
@@ -120,6 +96,54 @@
     "net_profit_growth": -5.2
   },
   {
+    "ticker": "TOASO",
+    "company": "Tofaş Oto Fabrika",
+    "sector": "Otomotiv",
+    "deepscore": 59.9,
+    "signal": "HOLD",
+    "breakdown": {
+      "Temel": 61.6,
+      "Teknik": 77.0,
+      "Haber": 55.0,
+      "Momentum": 28.0,
+      "Risk": 50.0
+    },
+    "price": 295.0,
+    "rsi": 14.1,
+    "change_20d": -8.95,
+    "ma20": 314.73,
+    "ma50": 306.49,
+    "ma200": 283.51,
+    "atr_pct": 3.4,
+    "fk": 12.21,
+    "roe": 21.0,
+    "net_profit_growth": 18.0
+  },
+  {
+    "ticker": "YKBNK",
+    "company": "Yapı Kredi Bankası",
+    "sector": "Bankacılık",
+    "deepscore": 59.0,
+    "signal": "HOLD",
+    "breakdown": {
+      "Temel": 66.9,
+      "Teknik": 84.0,
+      "Haber": 50.0,
+      "Momentum": 14.0,
+      "Risk": 35.0
+    },
+    "price": 33.96,
+    "rsi": 7.9,
+    "change_20d": -16.15,
+    "ma20": 39.36,
+    "ma50": 37.25,
+    "ma200": 36.33,
+    "atr_pct": 4.03,
+    "fk": 5.74,
+    "roe": 20.6,
+    "net_profit_growth": 18.5
+  },
+  {
     "ticker": "EKGYO",
     "company": "Emlak Konut GYO",
     "sector": "Gayrimenkul",
@@ -142,30 +166,6 @@
     "fk": 21.91,
     "roe": 2.5,
     "net_profit_growth": 25.0
-  },
-  {
-    "ticker": "AKSEN",
-    "company": "Aksa Enerji",
-    "sector": "Enerji",
-    "deepscore": 58.2,
-    "signal": "HOLD",
-    "breakdown": {
-      "Temel": 48.9,
-      "Teknik": 69.0,
-      "Haber": 60.0,
-      "Momentum": 100.0,
-      "Risk": 25.0
-    },
-    "price": 95.6,
-    "rsi": 77.0,
-    "change_20d": 16.94,
-    "ma20": 85.64,
-    "ma50": 82.96,
-    "ma200": 69.43,
-    "atr_pct": 3.23,
-    "fk": 24.42,
-    "roe": 6.3,
-    "net_profit_growth": 20.0
   },
   {
     "ticker": "SAHOL",
@@ -192,30 +192,6 @@
     "net_profit_growth": 10.5
   },
   {
-    "ticker": "YKBNK",
-    "company": "Yapı Kredi Bankası",
-    "sector": "Bankacılık",
-    "deepscore": 57.1,
-    "signal": "HOLD",
-    "breakdown": {
-      "Temel": 66.9,
-      "Teknik": 84.0,
-      "Haber": 40.0,
-      "Momentum": 14.0,
-      "Risk": 35.0
-    },
-    "price": 33.96,
-    "rsi": 7.9,
-    "change_20d": -16.15,
-    "ma20": 39.36,
-    "ma50": 37.25,
-    "ma200": 36.33,
-    "atr_pct": 4.03,
-    "fk": 5.74,
-    "roe": 20.6,
-    "net_profit_growth": 18.5
-  },
-  {
     "ticker": "GARAN",
     "company": "Garanti BBVA",
     "sector": "Bankacılık",
@@ -238,6 +214,54 @@
     "fk": 4.73,
     "roe": 26.3,
     "net_profit_growth": 12.8
+  },
+  {
+    "ticker": "AKSEN",
+    "company": "Aksa Enerji",
+    "sector": "Enerji",
+    "deepscore": 56.5,
+    "signal": "HOLD",
+    "breakdown": {
+      "Temel": 48.9,
+      "Teknik": 69.0,
+      "Haber": 55.0,
+      "Momentum": 100.0,
+      "Risk": 20.0
+    },
+    "price": 95.6,
+    "rsi": 77.0,
+    "change_20d": 16.94,
+    "ma20": 85.64,
+    "ma50": 82.96,
+    "ma200": 69.43,
+    "atr_pct": 3.23,
+    "fk": 24.42,
+    "roe": 6.3,
+    "net_profit_growth": 20.0
+  },
+  {
+    "ticker": "EREGL",
+    "company": "Ereğli Demir Çelik",
+    "sector": "Demir-Çelik",
+    "deepscore": 56.3,
+    "signal": "HOLD",
+    "breakdown": {
+      "Temel": 41.2,
+      "Teknik": 76.0,
+      "Haber": 55.0,
+      "Momentum": 77.0,
+      "Risk": 35.0
+    },
+    "price": 41.88,
+    "rsi": 59.8,
+    "change_20d": 3.92,
+    "ma20": 40.54,
+    "ma50": 39.77,
+    "ma200": 30.63,
+    "atr_pct": 3.48,
+    "fk": 598.17,
+    "roe": 0.2,
+    "net_profit_growth": 14.0
   },
   {
     "ticker": "FROTO",
@@ -387,12 +411,12 @@
     "ticker": "AKBNK",
     "company": "Akbank",
     "sector": "Bankacılık",
-    "deepscore": 54.2,
+    "deepscore": 53.3,
     "signal": "WEAK_HOLD",
     "breakdown": {
       "Temel": 64.4,
       "Teknik": 59.0,
-      "Haber": 55.0,
+      "Haber": 50.0,
       "Momentum": 14.0,
       "Risk": 50.0
     },
@@ -408,28 +432,28 @@
     "net_profit_growth": 15.2
   },
   {
-    "ticker": "EREGL",
-    "company": "Ereğli Demir Çelik",
-    "sector": "Demir-Çelik",
-    "deepscore": 53.4,
+    "ticker": "VAKBN",
+    "company": "VakıfBank",
+    "sector": "Bankacılık",
+    "deepscore": 50.5,
     "signal": "WEAK_HOLD",
     "breakdown": {
-      "Temel": 41.2,
-      "Teknik": 76.0,
-      "Haber": 40.0,
-      "Momentum": 77.0,
-      "Risk": 35.0
+      "Temel": 61.0,
+      "Teknik": 47.0,
+      "Haber": 55.0,
+      "Momentum": 21.0,
+      "Risk": 50.0
     },
-    "price": 41.88,
-    "rsi": 59.8,
-    "change_20d": 3.92,
-    "ma20": 40.54,
-    "ma50": 39.77,
-    "ma200": 30.63,
-    "atr_pct": 3.48,
-    "fk": 598.17,
-    "roe": 0.2,
-    "net_profit_growth": 14.0
+    "price": 31.6,
+    "rsi": 39.2,
+    "change_20d": -7.71,
+    "ma20": 32.76,
+    "ma50": 32.17,
+    "ma200": 31.54,
+    "atr_pct": 3.22,
+    "fk": 4.86,
+    "roe": 19.6,
+    "net_profit_growth": 10.2
   },
   {
     "ticker": "ISCTR",
@@ -480,39 +504,15 @@
     "net_profit_growth": 3.0
   },
   {
-    "ticker": "VAKBN",
-    "company": "VakıfBank",
-    "sector": "Bankacılık",
-    "deepscore": 49.5,
-    "signal": "WEAK_HOLD",
-    "breakdown": {
-      "Temel": 61.0,
-      "Teknik": 47.0,
-      "Haber": 50.0,
-      "Momentum": 21.0,
-      "Risk": 50.0
-    },
-    "price": 31.6,
-    "rsi": 39.2,
-    "change_20d": -7.71,
-    "ma20": 32.76,
-    "ma50": 32.17,
-    "ma200": 31.54,
-    "atr_pct": 3.22,
-    "fk": 4.86,
-    "roe": 19.6,
-    "net_profit_growth": 10.2
-  },
-  {
     "ticker": "ASELS",
     "company": "Aselsan",
     "sector": "Savunma",
-    "deepscore": 48.3,
+    "deepscore": 47.4,
     "signal": "WEAK_HOLD",
     "breakdown": {
       "Temel": 37.6,
       "Teknik": 71.0,
-      "Haber": 65.0,
+      "Haber": 60.0,
       "Momentum": 14.0,
       "Risk": 25.0
     },

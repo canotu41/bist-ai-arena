@@ -7,7 +7,7 @@
   "total_value": 50070.13,
   "return_pct": 0.14,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-07-15 15:09",
+  "last_updated": "2026-07-16 07:09",
   "positions": [
     {
       "ticker": "TCELL",
@@ -43,7 +43,7 @@
       "stop": 343.35,
       "target": 534.1,
       "entry_ts": "2026-07-14 10:38",
-      "score": 62.7
+      "score": 61.7
     }
   ],
   "trades": [
