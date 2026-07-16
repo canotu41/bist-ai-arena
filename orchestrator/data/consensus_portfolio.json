@@ -1,11 +1,11 @@
 {
   "name": "Konsensüs (Claude) Portföyü",
   "initial": 50000.0,
-  "cash": 39996.03,
-  "total_value": 49993.03,
-  "return_pct": -0.01,
+  "cash": 9896.07,
+  "total_value": 50186.45,
+  "return_pct": 0.37,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-07-16 07:09",
+  "last_updated": "2026-07-16 07:38",
   "positions": [
     {
       "ticker": "BIMAS",
@@ -13,10 +13,46 @@
       "sector": "Perakende",
       "entry": 384.0,
       "qty": 26,
-      "current": 384.5,
+      "current": 394.25,
       "stop": 326.4,
       "target": 537.6,
       "entry_ts": "2026-07-14 15:08",
+      "agreement": 2
+    },
+    {
+      "ticker": "CCOLA",
+      "name": "Coca-Cola İçecek",
+      "sector": "Gıda",
+      "entry": 84.9,
+      "qty": 118,
+      "current": 84.9,
+      "stop": 72.17,
+      "target": 118.86,
+      "entry_ts": "2026-07-16 07:38",
+      "agreement": 3
+    },
+    {
+      "ticker": "TCELL",
+      "name": "Turkcell",
+      "sector": "Telekom",
+      "entry": 111.0,
+      "qty": 90,
+      "current": 111.0,
+      "stop": 94.35,
+      "target": 155.4,
+      "entry_ts": "2026-07-16 07:38",
+      "agreement": 2
+    },
+    {
+      "ticker": "EREGL",
+      "name": "Ereğli Demir Çelik",
+      "sector": "Demir-Çelik",
+      "entry": 43.24,
+      "qty": 232,
+      "current": 43.24,
+      "stop": 36.75,
+      "target": 60.54,
+      "entry_ts": "2026-07-16 07:38",
       "agreement": 2
     }
   ],
@@ -29,6 +65,33 @@
       "price": 384.0,
       "amount": 9984.0,
       "reason": "Konsensüs: 2 AI ortak (Claude AI, Codex)"
+    },
+    {
+      "ts": "2026-07-16 07:38",
+      "side": "BUY",
+      "ticker": "CCOLA",
+      "qty": 118,
+      "price": 84.9,
+      "amount": 10018.2,
+      "reason": "Konsensüs: 3 AI ortak (DeepSeek AI, Claude AI, Microsoft Copilot)"
+    },
+    {
+      "ts": "2026-07-16 07:38",
+      "side": "BUY",
+      "ticker": "TCELL",
+      "qty": 90,
+      "price": 111.0,
+      "amount": 9990.0,
+      "reason": "Konsensüs: 2 AI ortak (DeepSeek AI, Codex)"
+    },
+    {
+      "ts": "2026-07-16 07:38",
+      "side": "BUY",
+      "ticker": "EREGL",
+      "qty": 232,
+      "price": 43.24,
+      "amount": 10031.68,
+      "reason": "Konsensüs: 2 AI ortak (DeepSeek AI, Microsoft Copilot)"
     }
   ]
 }

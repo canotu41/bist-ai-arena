@@ -1,5 +1,5 @@
 {
-  "ts": "2026-07-16 07:09:44",
+  "ts": "2026-07-16 07:38:01",
   "health": {
     "ok": true,
     "live": 24,
@@ -10,28 +10,31 @@
   },
   "active_competitors": 5,
   "consensus_tickers": [
-    "BIMAS"
+    "CCOLA",
+    "BIMAS",
+    "TCELL",
+    "EREGL"
   ],
   "leaderboard": [
     {
       "name": "Codex",
-      "return_pct": 0.14
-    },
-    {
-      "name": "DeepSeek AI",
-      "return_pct": 0.0
-    },
-    {
-      "name": "Konsensüs (Claude)",
-      "return_pct": -0.01
-    },
-    {
-      "name": "Microsoft Copilot",
-      "return_pct": -0.05
+      "return_pct": 0.7
     },
     {
       "name": "Claude AI",
-      "return_pct": -0.36
+      "return_pct": 0.63
+    },
+    {
+      "name": "Konsensüs (Claude)",
+      "return_pct": 0.37
+    },
+    {
+      "name": "Microsoft Copilot",
+      "return_pct": 0.12
+    },
+    {
+      "name": "DeepSeek AI",
+      "return_pct": -0.19
     }
   ]
 }

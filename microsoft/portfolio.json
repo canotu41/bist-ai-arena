@@ -3,11 +3,11 @@
   "name": "Microsoft Copilot Portföyü",
   "strategy": "Momentum/trend: 20g değişim≥%4, MA20>MA50 kırılım; kazananı bırak; backtest-kalibre (alfa ~%-2)",
   "initial": 50000.0,
-  "cash": 37547.14,
-  "total_value": 49975.14,
-  "return_pct": -0.05,
+  "cash": 12520.53,
+  "total_value": 50061.69,
+  "return_pct": 0.12,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-07-16 07:09",
+  "last_updated": "2026-07-16 07:38",
   "positions": [
     {
       "ticker": "AKSEN",
@@ -15,11 +15,35 @@
       "sector": "Enerji",
       "entry": 95.6,
       "qty": 130,
-      "current": 95.6,
+      "current": 96.65,
       "stop": 86.04,
       "target": 133.84,
       "entry_ts": "2026-07-15 08:37",
-      "score": 69.1
+      "score": 67.3
+    },
+    {
+      "ticker": "CCOLA",
+      "name": "Coca-Cola İçecek",
+      "sector": "Gıda",
+      "entry": 84.9,
+      "qty": 147,
+      "current": 84.9,
+      "stop": 76.41,
+      "target": 118.86,
+      "entry_ts": "2026-07-16 07:38",
+      "score": 76.2
+    },
+    {
+      "ticker": "EREGL",
+      "name": "Ereğli Demir Çelik",
+      "sector": "Demir-Çelik",
+      "entry": 43.24,
+      "qty": 289,
+      "current": 43.24,
+      "stop": 38.92,
+      "target": 60.54,
+      "entry_ts": "2026-07-16 07:38",
+      "score": 74.7
     }
   ],
   "trades": [
@@ -31,6 +55,24 @@
       "price": 95.6,
       "amount": 12428.0,
       "reason": "Microsoft Copilot skoru 71 (>=70)"
+    },
+    {
+      "ts": "2026-07-16 07:38",
+      "side": "BUY",
+      "ticker": "CCOLA",
+      "qty": 147,
+      "price": 84.9,
+      "amount": 12480.3,
+      "reason": "Microsoft Copilot skoru 76 (>=70)"
+    },
+    {
+      "ts": "2026-07-16 07:38",
+      "side": "BUY",
+      "ticker": "EREGL",
+      "qty": 289,
+      "price": 43.24,
+      "amount": 12496.36,
+      "reason": "Microsoft Copilot skoru 75 (>=70)"
     }
   ]
 }
