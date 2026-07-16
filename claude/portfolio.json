@@ -3,11 +3,11 @@
   "name": "Claude AI Portföyü",
   "strategy": "Kalite+değer, seçici al + uzun tut (ROE≥%10, F/K≤35, trend üstü); backtest-kalibre",
   "initial": 50000.0,
-  "cash": 17424.83,
-  "total_value": 51256.43,
-  "return_pct": 2.51,
+  "cash": 6159.87,
+  "total_value": 51204.15,
+  "return_pct": 2.41,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-07-16 14:10",
+  "last_updated": "2026-07-16 14:38",
   "positions": [
     {
       "ticker": "CCOLA",
@@ -15,7 +15,7 @@
       "sector": "Gıda",
       "entry": 83.65,
       "qty": 131,
-      "current": 89.6,
+      "current": 89.8,
       "stop": 75.29,
       "target": 166.46,
       "entry_ts": "2026-07-14 09:15",
@@ -39,11 +39,23 @@
       "sector": "Perakende",
       "entry": 384.0,
       "qty": 28,
-      "current": 397.25,
+      "current": 395.25,
       "stop": 345.6,
       "target": 764.16,
       "entry_ts": "2026-07-14 15:08",
-      "score": 60.8
+      "score": 60.1
+    },
+    {
+      "ticker": "VAKBN",
+      "name": "VakıfBank",
+      "sector": "Bankacılık",
+      "entry": 31.58,
+      "qty": 356,
+      "current": 31.58,
+      "stop": 28.42,
+      "target": 62.84,
+      "entry_ts": "2026-07-16 14:38",
+      "score": 70.2
     }
   ],
   "trades": [
@@ -73,6 +85,15 @@
       "price": 384.0,
       "amount": 10752.0,
       "reason": "Claude AI skoru 66 (>=65)"
+    },
+    {
+      "ts": "2026-07-16 14:38",
+      "side": "BUY",
+      "ticker": "VAKBN",
+      "qty": 356,
+      "price": 31.58,
+      "amount": 11242.48,
+      "reason": "Claude AI skoru 70 (>=65)"
     }
   ]
 }
