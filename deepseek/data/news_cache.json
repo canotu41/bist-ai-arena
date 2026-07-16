@@ -6,7 +6,7 @@
   "tickers": {
     "AKBNK": {
       "score": 50,
-      "note": "Teknik analizler nötr"
+      "note": "Teknik analizler nötr, fiyat hedefi var"
     },
     "GARAN": {
       "score": 65,
@@ -21,12 +21,12 @@
       "note": "Teknik analizler nötr"
     },
     "VAKBN": {
-      "score": 55,
-      "note": "Geri alım pozitif, TVF satışı negatif"
+      "score": 60,
+      "note": "Geri alım ve yeni kaynak pozitif"
     },
     "KCHOL": {
-      "score": 60,
-      "note": "Geçmiş kazanç vurgusu pozitif"
+      "score": 55,
+      "note": "Geçmiş kazanç vurgusu hafif pozitif"
     },
     "SAHOL": {
       "score": 50,
@@ -57,7 +57,7 @@
       "note": "Temettü kararı pozitif"
     },
     "BIMAS": {
-      "score": 60,
+      "score": 55,
       "note": "Pay geri alımı pozitif"
     },
     "MGROS": {
@@ -73,8 +73,8 @@
       "note": "Hedef fiyat değişiklikleri pozitif"
     },
     "ASELS": {
-      "score": 60,
-      "note": "Jeopolitik destekle yükseliş pozitif"
+      "score": 40,
+      "note": "Düşüş haberi negatif"
     },
     "TCELL": {
       "score": 50,
@@ -89,18 +89,18 @@
       "note": "Temettü ve olumlu bilanço beklentisi pozitif"
     },
     "CCOLA": {
-      "score": 60,
-      "note": "Geçmiş getiri vurgusu pozitif"
+      "score": 50,
+      "note": "Teknik analizler nötr"
     },
     "ARCLK": {
       "score": 45,
-      "note": "Satın alma ve satış kararları karışık"
+      "note": "Satış kararı belirsizlik yaratabilir"
     },
     "EKGYO": {
       "score": 50,
-      "note": "Temettü kararı nötr"
+      "note": "Temettü haberi nötr"
     }
   },
-  "_ts": 1784185780,
+  "_ts": 1784198291,
   "_source": "deepseek-llm"
 }
