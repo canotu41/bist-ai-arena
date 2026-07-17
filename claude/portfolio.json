@@ -4,10 +4,10 @@
   "strategy": "Kalite+değer, seçici al + uzun tut (ROE≥%10, F/K≤35, trend üstü); backtest-kalibre",
   "initial": 50000.0,
   "cash": 6159.87,
-  "total_value": 50616.36,
-  "return_pct": 1.23,
+  "total_value": 50728.04,
+  "return_pct": 1.46,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-07-17 13:37",
+  "last_updated": "2026-07-17 14:09",
   "positions": [
     {
       "ticker": "CCOLA",
@@ -15,11 +15,11 @@
       "sector": "Gıda",
       "entry": 83.65,
       "qty": 131,
-      "current": 87.75,
+      "current": 87.95,
       "stop": 75.29,
       "target": 166.46,
       "entry_ts": "2026-07-14 09:15",
-      "score": 67.3
+      "score": 66.0
     },
     {
       "ticker": "TOASO",
@@ -27,7 +27,7 @@
       "sector": "Otomotiv",
       "entry": 300.0,
       "qty": 36,
-      "current": 307.25,
+      "current": 308.25,
       "stop": 270.0,
       "target": 597.0,
       "entry_ts": "2026-07-14 09:15",
@@ -39,11 +39,11 @@
       "sector": "Perakende",
       "entry": 384.0,
       "qty": 28,
-      "current": 387.5,
+      "current": 388.25,
       "stop": 345.6,
       "target": 764.16,
       "entry_ts": "2026-07-14 15:08",
-      "score": 62.2
+      "score": 59.7
     },
     {
       "ticker": "VAKBN",
@@ -51,11 +51,11 @@
       "sector": "Bankacılık",
       "entry": 31.58,
       "qty": 356,
-      "current": 31.04,
+      "current": 31.12,
       "stop": 28.42,
       "target": 62.84,
       "entry_ts": "2026-07-16 14:38",
-      "score": 56.9
+      "score": 59.4
     }
   ],
   "trades": [

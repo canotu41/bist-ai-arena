@@ -1,15 +1,15 @@
 {
   "market": {
-    "score": 55,
-    "trend": "Karışık, hafif pozitif"
+    "score": 45,
+    "trend": "karışık, düşüş eğilimi"
   },
   "tickers": {
     "AKBNK": {
       "score": 50,
-      "note": "Teknik analizler nötr, tahminler var"
+      "note": "Teknik analizler nötr, fiyat hedefi var"
     },
     "GARAN": {
-      "score": 70,
+      "score": 65,
       "note": "Tahvil ihracı ve AL önerisi pozitif"
     },
     "ISCTR": {
@@ -17,90 +17,90 @@
       "note": "Hedef fiyat düşürüldü, negatif"
     },
     "YKBNK": {
-      "score": 45,
-      "note": "BofA satışı negatif, teknik analiz nötr"
+      "score": 35,
+      "note": "BofA satışı ve teknik analizler negatif"
     },
     "VAKBN": {
-      "score": 60,
-      "note": "Geri alım pozitif, TVF satışı negatif, net hafif pozitif"
+      "score": 70,
+      "note": "Geri alım ve yeni kaynak pozitif"
     },
     "KCHOL": {
-      "score": 55,
-      "note": "Bilanço tarihi açıklandı, teknik analiz nötr"
+      "score": 50,
+      "note": "Bilanço tarihi ve teknik analiz nötr"
     },
     "SAHOL": {
-      "score": 55,
-      "note": "Bilanço açıklandı, teknik analiz nötr"
+      "score": 50,
+      "note": "Teknik analiz ve bilanço nötr"
     },
     "SISE": {
-      "score": 65,
-      "note": "Hedef fiyat güncellendi, pozitif"
+      "score": 60,
+      "note": "Hedef fiyat güncellemesi pozitif"
     },
     "THYAO": {
-      "score": 55,
-      "note": "Fiyat tahminleri var, teknik analiz nötr"
+      "score": 50,
+      "note": "Teknik analiz ve fiyat tahminleri nötr"
     },
     "PGSUS": {
-      "score": 70,
-      "note": "Tahvil ihracı izni ve satın alma haberi pozitif"
+      "score": 65,
+      "note": "Tahvil izni ve satın alma pozitif"
     },
     "TUPRS": {
-      "score": 55,
-      "note": "Marj analizi ve hedef fiyat, teknik analiz nötr"
+      "score": 50,
+      "note": "Teknik analiz ve marj analizi nötr"
     },
     "AKSEN": {
-      "score": 60,
-      "note": "Hedef fiyat listesinde, dört göstergede öne çıkmış"
+      "score": 55,
+      "note": "Hedef fiyat ve dört göstergede öne çıkma pozitif"
     },
     "EREGL": {
       "score": 55,
-      "note": "Temettü kararı pozitif, teknik analiz nötr"
+      "note": "Temettü kararı pozitif"
     },
     "BIMAS": {
-      "score": 60,
-      "note": "Bedelsiz sermaye artırımı pozitif"
+      "score": 50,
+      "note": "Bedelsiz sermaye artırımı nötr"
     },
     "MGROS": {
       "score": 65,
-      "note": "Güçlü görünüm, 900 TL hedefi pozitif"
+      "note": "Güçlü görünüm ve hedef fiyat pozitif"
     },
     "FROTO": {
-      "score": 45,
-      "note": "Yönetimde ayrılık negatif, temettü kararı nötr"
+      "score": 40,
+      "note": "Yönetim ayrılığı negatif"
     },
     "TOASO": {
       "score": 55,
-      "note": "Hedef fiyat değişiklikleri, net nötr"
+      "note": "Hedef fiyat değişimi ve güçlü bilanço pozitif"
     },
     "ASELS": {
       "score": 70,
-      "note": "Jeopolitik destekle yükseliş, pozitif"
+      "note": "Jeopolitik destekle yükseliş pozitif"
     },
     "TCELL": {
-      "score": 50,
-      "note": "SEC açıklaması nötr, teknik analiz nötr"
+      "score": 45,
+      "note": "SEC açıklaması belirsizlik yaratıyor"
     },
     "TTKOM": {
       "score": 50,
-      "note": "Teknik analizler nötr, bilanço tarihi açıklandı"
+      "note": "Teknik analiz ve bilanço tarihi nötr"
     },
     "ULKER": {
-      "score": 65,
-      "note": "Temettü dağıtımı ve bilanço beğenisi pozitif"
+      "score": 60,
+      "note": "Temettü ve bilanço beğenisi pozitif"
     },
     "CCOLA": {
-      "score": 55,
-      "note": "Teknik analiz ve tahminler nötr-pozitif"
+      "score": 50,
+      "note": "Teknik analiz ve fiyat hedefi nötr"
     },
     "ARCLK": {
-      "score": 50,
-      "note": "Satın alma ve satış haberleri karışık, net nötr"
+      "score": 45,
+      "note": "Satın alma ve satış kararları karışık"
     },
     "EKGYO": {
-      "score": 55,
-      "note": "Temettü ödemesi ve tahminler nötr-pozitif"
+      "score": 50,
+      "note": "Temettü ve teknik analiz nötr"
     }
   },
-  "_ts": 1784284691,
+  "_ts": 1784297374,
   "_source": "deepseek-llm"
 }
