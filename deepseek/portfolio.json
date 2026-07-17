@@ -15,9 +15,9 @@
       "take_profit": 114.62,
       "trailing_stop_active": false,
       "trailing_stop_level": 0.0,
-      "current_price": 88.85,
-      "unrealized_pnl": 462.14999999999867,
-      "unrealized_pnl_pct": 4.652532391048279,
+      "current_price": 88.5,
+      "unrealized_pnl": 421.19999999999936,
+      "unrealized_pnl_pct": 4.240282685512361,
       "days_held": 0,
       "deepscore_at_entry": 67.1
     },
@@ -33,9 +33,9 @@
       "take_profit": 149.85,
       "trailing_stop_active": false,
       "trailing_stop_level": 0.0,
-      "current_price": 110.8,
-      "unrealized_pnl": -18.000000000000256,
-      "unrealized_pnl_pct": -0.18018018018018275,
+      "current_price": 110.6,
+      "unrealized_pnl": -36.00000000000051,
+      "unrealized_pnl_pct": -0.3603603603603655,
       "days_held": 0,
       "deepscore_at_entry": 64.6
     },
@@ -51,9 +51,9 @@
       "take_profit": 58.37,
       "trailing_stop_active": false,
       "trailing_stop_level": 0.0,
-      "current_price": 42.94,
-      "unrealized_pnl": -69.30000000000098,
-      "unrealized_pnl_pct": -0.6938020351526463,
+      "current_price": 43.08,
+      "unrealized_pnl": -36.96000000000085,
+      "unrealized_pnl_pct": -0.37002775208141464,
       "days_held": 0,
       "deepscore_at_entry": 64.3
     },
@@ -69,9 +69,9 @@
       "take_profit": 532.24,
       "trailing_stop_active": false,
       "trailing_stop_level": 0.0,
-      "current_price": 390.5,
-      "unrealized_pnl": -93.75,
-      "unrealized_pnl_pct": -0.9511731135066582,
+      "current_price": 391.25,
+      "unrealized_pnl": -75.0,
+      "unrealized_pnl_pct": -0.7609384908053266,
       "days_held": 0,
       "deepscore_at_entry": 62.9
     },
@@ -161,8 +161,8 @@
       "deepscore": 62.0
     }
   ],
-  "total_value": 50265.399999999994,
-  "total_return_pct": 0.53,
+  "total_value": 50257.53999999999,
+  "total_return_pct": 0.52,
   "benchmark_return_pct": 0.0,
   "alpha_pct": 0.0,
   "week": 0,
@@ -170,6 +170,6 @@
   "max_drawdown_pct": 0.0,
   "win_rate_pct": 0.0,
   "market_regime": "BEAR",
-  "last_updated": "2026-07-17 09:08",
+  "last_updated": "2026-07-17 09:37",
   "created_date": "2026-07-06"
 }
