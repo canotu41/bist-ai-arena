@@ -1,11 +1,11 @@
 {
   "name": "Konsensüs (Claude) Portföyü",
   "initial": 50000.0,
-  "cash": 9896.07,
-  "total_value": 49850.85,
-  "return_pct": -0.3,
+  "cash": 2513.33,
+  "total_value": 50099.11,
+  "return_pct": 0.2,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-07-20 07:09",
+  "last_updated": "2026-07-20 07:38",
   "positions": [
     {
       "ticker": "BIMAS",
@@ -13,7 +13,7 @@
       "sector": "Perakende",
       "entry": 384.0,
       "qty": 26,
-      "current": 386.0,
+      "current": 387.0,
       "stop": 326.4,
       "target": 537.6,
       "entry_ts": "2026-07-14 15:08",
@@ -25,7 +25,7 @@
       "sector": "Gıda",
       "entry": 84.9,
       "qty": 118,
-      "current": 87.55,
+      "current": 88.15,
       "stop": 72.17,
       "target": 118.86,
       "entry_ts": "2026-07-16 07:38",
@@ -37,7 +37,7 @@
       "sector": "Telekom",
       "entry": 111.0,
       "qty": 90,
-      "current": 108.5,
+      "current": 108.8,
       "stop": 94.35,
       "target": 155.4,
       "entry_ts": "2026-07-16 07:38",
@@ -49,10 +49,22 @@
       "sector": "Demir-Çelik",
       "entry": 43.24,
       "qty": 232,
-      "current": 42.34,
+      "current": 42.94,
       "stop": 36.75,
       "target": 60.54,
       "entry_ts": "2026-07-16 07:38",
+      "agreement": 2
+    },
+    {
+      "ticker": "TOASO",
+      "name": "Tofaş Oto Fabrika",
+      "sector": "Otomotiv",
+      "entry": 307.0,
+      "qty": 24,
+      "current": 307.0,
+      "stop": 260.95,
+      "target": 429.8,
+      "entry_ts": "2026-07-20 07:38",
       "agreement": 2
     }
   ],
@@ -92,6 +104,15 @@
       "price": 43.24,
       "amount": 10031.68,
       "reason": "Konsensüs: 2 AI ortak (DeepSeek AI, Microsoft Copilot)"
+    },
+    {
+      "ts": "2026-07-20 07:38",
+      "side": "BUY",
+      "ticker": "TOASO",
+      "qty": 24,
+      "price": 307.0,
+      "amount": 7368.0,
+      "reason": "Konsensüs: 2 AI ortak (Claude AI, Codex)"
     }
   ]
 }
