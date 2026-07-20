@@ -15,9 +15,9 @@
       "take_profit": 114.62,
       "trailing_stop_active": false,
       "trailing_stop_level": 0.0,
-      "current_price": 89.7,
-      "unrealized_pnl": 561.5999999999997,
-      "unrealized_pnl_pct": 5.65371024734982,
+      "current_price": 89.45,
+      "unrealized_pnl": 532.3499999999997,
+      "unrealized_pnl_pct": 5.359246171967016,
       "days_held": 0,
       "deepscore_at_entry": 67.1
     },
@@ -33,9 +33,9 @@
       "take_profit": 149.85,
       "trailing_stop_active": false,
       "trailing_stop_level": 0.0,
-      "current_price": 110.8,
-      "unrealized_pnl": -18.000000000000256,
-      "unrealized_pnl_pct": -0.18018018018018275,
+      "current_price": 110.7,
+      "unrealized_pnl": -26.999999999999744,
+      "unrealized_pnl_pct": -0.27027027027026773,
       "days_held": 0,
       "deepscore_at_entry": 64.6
     },
@@ -51,9 +51,9 @@
       "take_profit": 58.37,
       "trailing_stop_active": false,
       "trailing_stop_level": 0.0,
-      "current_price": 43.66,
-      "unrealized_pnl": 97.01999999999876,
-      "unrealized_pnl_pct": 0.9713228492136785,
+      "current_price": 43.64,
+      "unrealized_pnl": 92.39999999999966,
+      "unrealized_pnl_pct": 0.9250693802035119,
       "days_held": 0,
       "deepscore_at_entry": 64.3
     },
@@ -69,9 +69,9 @@
       "take_profit": 532.24,
       "trailing_stop_active": false,
       "trailing_stop_level": 0.0,
-      "current_price": 399.0,
-      "unrealized_pnl": 118.75,
-      "unrealized_pnl_pct": 1.2048192771084338,
+      "current_price": 398.75,
+      "unrealized_pnl": 112.5,
+      "unrealized_pnl_pct": 1.14140773620799,
       "days_held": 0,
       "deepscore_at_entry": 62.9
     },
@@ -87,9 +87,9 @@
       "take_profit": 59.62,
       "trailing_stop_active": false,
       "trailing_stop_level": 0.0,
-      "current_price": 44.8,
-      "unrealized_pnl": 110.0800000000001,
-      "unrealized_pnl_pct": 1.449275362318842,
+      "current_price": 44.86,
+      "unrealized_pnl": 120.40000000000049,
+      "unrealized_pnl_pct": 1.5851449275362386,
       "days_held": 0,
       "deepscore_at_entry": 62.0
     }
@@ -161,8 +161,8 @@
       "deepscore": 62.0
     }
   ],
-  "total_value": 50774.630000000005,
-  "total_return_pct": 1.55,
+  "total_value": 50735.83,
+  "total_return_pct": 1.47,
   "benchmark_return_pct": 0.0,
   "alpha_pct": 0.0,
   "week": 0,
@@ -170,6 +170,6 @@
   "max_drawdown_pct": -0.98,
   "win_rate_pct": 0.0,
   "market_regime": "SIDEWAYS",
-  "last_updated": "2026-07-20 12:14",
+  "last_updated": "2026-07-20 12:38",
   "created_date": "2026-07-06"
 }
