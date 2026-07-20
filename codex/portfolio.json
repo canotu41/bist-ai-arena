@@ -4,10 +4,10 @@
   "strategy": "Önce risk: düşük vol (ATR≤%3.6), RSI 40-68, MA50 üstü; seçici, uzun tut; backtest-kalibre",
   "initial": 50000.0,
   "cash": 12954.05,
-  "total_value": 50415.65,
-  "return_pct": 0.83,
+  "total_value": 50352.55,
+  "return_pct": 0.71,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-07-20 13:38",
+  "last_updated": "2026-07-20 14:11",
   "positions": [
     {
       "ticker": "TCELL",
@@ -15,7 +15,7 @@
       "sector": "Telekom",
       "entry": 110.2,
       "qty": 68,
-      "current": 110.2,
+      "current": 109.5,
       "stop": 99.18,
       "target": 154.28,
       "entry_ts": "2026-07-14 09:15",
@@ -27,7 +27,7 @@
       "sector": "Ulaştırma",
       "entry": 323.5,
       "qty": 23,
-      "current": 327.0,
+      "current": 326.75,
       "stop": 291.15,
       "target": 452.9,
       "entry_ts": "2026-07-14 09:15",
@@ -39,7 +39,7 @@
       "sector": "Perakende",
       "entry": 381.5,
       "qty": 19,
-      "current": 398.0,
+      "current": 398.75,
       "stop": 343.35,
       "target": 534.1,
       "entry_ts": "2026-07-14 10:38",
@@ -63,11 +63,11 @@
       "sector": "Otomotiv",
       "entry": 307.0,
       "qty": 24,
-      "current": 302.75,
+      "current": 301.75,
       "stop": 276.3,
       "target": 429.8,
       "entry_ts": "2026-07-20 07:38",
-      "score": 64.1
+      "score": 55.1
     }
   ],
   "trades": [
