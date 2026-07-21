@@ -15,9 +15,9 @@
       "take_profit": 114.62,
       "trailing_stop_active": false,
       "trailing_stop_level": 0.0,
-      "current_price": 92.1,
-      "unrealized_pnl": 842.3999999999987,
-      "unrealized_pnl_pct": 8.480565371024722,
+      "current_price": 92.25,
+      "unrealized_pnl": 859.9499999999994,
+      "unrealized_pnl_pct": 8.65724381625441,
       "days_held": 0,
       "deepscore_at_entry": 67.1
     },
@@ -33,9 +33,9 @@
       "take_profit": 149.85,
       "trailing_stop_active": false,
       "trailing_stop_level": 0.0,
-      "current_price": 111.1,
-      "unrealized_pnl": 8.999999999999488,
-      "unrealized_pnl_pct": 0.09009009009008498,
+      "current_price": 111.4,
+      "unrealized_pnl": 36.00000000000051,
+      "unrealized_pnl_pct": 0.3603603603603655,
       "days_held": 0,
       "deepscore_at_entry": 64.6
     },
@@ -51,9 +51,9 @@
       "take_profit": 58.37,
       "trailing_stop_active": false,
       "trailing_stop_level": 0.0,
-      "current_price": 42.44,
-      "unrealized_pnl": -184.80000000000098,
-      "unrealized_pnl_pct": -1.8501387604070403,
+      "current_price": 42.24,
+      "unrealized_pnl": -231.0,
+      "unrealized_pnl_pct": -2.3126734505087883,
       "days_held": 0,
       "deepscore_at_entry": 64.3
     },
@@ -69,9 +69,9 @@
       "take_profit": 532.24,
       "trailing_stop_active": false,
       "trailing_stop_level": 0.0,
-      "current_price": 393.0,
-      "unrealized_pnl": -31.25,
-      "unrealized_pnl_pct": -0.31705770450221943,
+      "current_price": 392.25,
+      "unrealized_pnl": -50.0,
+      "unrealized_pnl_pct": -0.507292327203551,
       "days_held": 0,
       "deepscore_at_entry": 62.9
     },
@@ -161,8 +161,8 @@
       "deepscore": 62.0
     }
   ],
-  "total_value": 50375.41,
-  "total_return_pct": 0.75,
+  "total_value": 50355.01000000001,
+  "total_return_pct": 0.71,
   "benchmark_return_pct": 0.0,
   "alpha_pct": 0.0,
   "week": 0,
@@ -170,6 +170,6 @@
   "max_drawdown_pct": -0.98,
   "win_rate_pct": 0.0,
   "market_regime": "SIDEWAYS",
-  "last_updated": "2026-07-21 14:37",
+  "last_updated": "2026-07-21 15:10",
   "created_date": "2026-07-06"
 }
