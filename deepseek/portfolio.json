@@ -15,9 +15,9 @@
       "take_profit": 114.62,
       "trailing_stop_active": false,
       "trailing_stop_level": 0.0,
-      "current_price": 91.5,
-      "unrealized_pnl": 772.1999999999994,
-      "unrealized_pnl_pct": 7.773851590106,
+      "current_price": 91.6,
+      "unrealized_pnl": 783.8999999999987,
+      "unrealized_pnl_pct": 7.891637220259115,
       "days_held": 0,
       "deepscore_at_entry": 67.1
     },
@@ -51,9 +51,9 @@
       "take_profit": 58.37,
       "trailing_stop_active": false,
       "trailing_stop_level": 0.0,
-      "current_price": 43.36,
-      "unrealized_pnl": 27.71999999999941,
-      "unrealized_pnl_pct": 0.2775208140610486,
+      "current_price": 43.24,
+      "unrealized_pnl": 0.0,
+      "unrealized_pnl_pct": 0.0,
       "days_held": 0,
       "deepscore_at_entry": 64.3
     },
@@ -69,9 +69,9 @@
       "take_profit": 532.24,
       "trailing_stop_active": false,
       "trailing_stop_level": 0.0,
-      "current_price": 392.75,
-      "unrealized_pnl": -37.5,
-      "unrealized_pnl_pct": -0.3804692454026633,
+      "current_price": 391.25,
+      "unrealized_pnl": -75.0,
+      "unrealized_pnl_pct": -0.7609384908053266,
       "days_held": 0,
       "deepscore_at_entry": 62.9
     },
@@ -87,9 +87,9 @@
       "take_profit": 59.62,
       "trailing_stop_active": false,
       "trailing_stop_level": 0.0,
-      "current_price": 43.7,
-      "unrealized_pnl": -79.11999999999892,
-      "unrealized_pnl_pct": -1.0416666666666525,
+      "current_price": 43.48,
+      "unrealized_pnl": -116.95999999999995,
+      "unrealized_pnl_pct": -1.5398550724637676,
       "days_held": 0,
       "deepscore_at_entry": 62.0
     }
@@ -161,8 +161,8 @@
       "deepscore": 62.0
     }
   ],
-  "total_value": 50561.48000000001,
-  "total_return_pct": 1.12,
+  "total_value": 50470.119999999995,
+  "total_return_pct": 0.94,
   "benchmark_return_pct": 0.0,
   "alpha_pct": 0.0,
   "week": 0,
@@ -170,6 +170,6 @@
   "max_drawdown_pct": -0.98,
   "win_rate_pct": 0.0,
   "market_regime": "SIDEWAYS",
-  "last_updated": "2026-07-21 11:37",
+  "last_updated": "2026-07-21 12:12",
   "created_date": "2026-07-06"
 }
