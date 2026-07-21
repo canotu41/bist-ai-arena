@@ -4,10 +4,10 @@
   "strategy": "Kalite+değer, seçici al + uzun tut (ROE≥%10, F/K≤35, trend üstü); backtest-kalibre",
   "initial": 50000.0,
   "cash": 6159.87,
-  "total_value": 50990.11,
-  "return_pct": 1.98,
+  "total_value": 51105.91,
+  "return_pct": 2.21,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-07-21 08:37",
+  "last_updated": "2026-07-21 09:09",
   "positions": [
     {
       "ticker": "CCOLA",
@@ -15,7 +15,7 @@
       "sector": "Gıda",
       "entry": 83.65,
       "qty": 131,
-      "current": 91.2,
+      "current": 91.4,
       "stop": 75.29,
       "target": 166.46,
       "entry_ts": "2026-07-14 09:15",
@@ -27,11 +27,11 @@
       "sector": "Otomotiv",
       "entry": 300.0,
       "qty": 36,
-      "current": 302.0,
+      "current": 303.5,
       "stop": 270.0,
       "target": 597.0,
       "entry_ts": "2026-07-14 09:15",
-      "score": 65.3
+      "score": 69.5
     },
     {
       "ticker": "BIMAS",
@@ -51,7 +51,7 @@
       "sector": "Bankacılık",
       "entry": 31.58,
       "qty": 356,
-      "current": 30.84,
+      "current": 30.94,
       "stop": 28.42,
       "target": 62.84,
       "entry_ts": "2026-07-16 14:38",
