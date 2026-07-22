@@ -3,11 +3,11 @@
   "name": "Microsoft Copilot Portföyü",
   "strategy": "Momentum/trend: 20g değişim≥%4, MA20>MA50 kırılım; kazananı bırak; backtest-kalibre (alfa ~%-2)",
   "initial": 50000.0,
-  "cash": 12520.53,
-  "total_value": 52380.64,
-  "return_pct": 4.76,
+  "cash": 3216.96,
+  "total_value": 52771.11,
+  "return_pct": 5.54,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-07-21 15:10",
+  "last_updated": "2026-07-22 07:10",
   "positions": [
     {
       "ticker": "AKSEN",
@@ -15,11 +15,11 @@
       "sector": "Enerji",
       "entry": 95.6,
       "qty": 130,
-      "current": 108.4,
+      "current": 111.3,
       "stop": 86.04,
       "target": 133.84,
       "entry_ts": "2026-07-15 08:37",
-      "score": 69.6
+      "score": 68.8
     },
     {
       "ticker": "CCOLA",
@@ -27,11 +27,11 @@
       "sector": "Gıda",
       "entry": 84.9,
       "qty": 147,
-      "current": 92.25,
+      "current": 92.35,
       "stop": 76.41,
       "target": 118.86,
       "entry_ts": "2026-07-16 07:38",
-      "score": 77.1
+      "score": 75.7
     },
     {
       "ticker": "EREGL",
@@ -39,11 +39,23 @@
       "sector": "Demir-Çelik",
       "entry": 43.24,
       "qty": 289,
-      "current": 42.24,
+      "current": 42.3,
       "stop": 38.92,
       "target": 60.54,
       "entry_ts": "2026-07-16 07:38",
-      "score": 77.5
+      "score": 76.2
+    },
+    {
+      "ticker": "TUPRS",
+      "name": "Tüpraş",
+      "sector": "Enerji",
+      "entry": 309.5,
+      "qty": 30,
+      "current": 309.5,
+      "stop": 278.55,
+      "target": 433.3,
+      "entry_ts": "2026-07-22 07:10",
+      "score": 71.0
     }
   ],
   "trades": [
@@ -73,6 +85,15 @@
       "price": 43.24,
       "amount": 12496.36,
       "reason": "Microsoft Copilot skoru 75 (>=70)"
+    },
+    {
+      "ts": "2026-07-22 07:10",
+      "side": "BUY",
+      "ticker": "TUPRS",
+      "qty": 30,
+      "price": 309.5,
+      "amount": 9285.0,
+      "reason": "Microsoft Copilot skoru 71 (>=70)"
     }
   ]
 }
