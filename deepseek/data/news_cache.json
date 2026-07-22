@@ -1,106 +1,106 @@
 {
   "market": {
-    "score": 45,
-    "trend": "karışık, satış baskısı var"
+    "score": 55,
+    "trend": "Karışık, yükseliş eğilimi ağırlıklı"
   },
   "tickers": {
     "AKBNK": {
       "score": 50,
-      "note": "nötr, teknik analiz ve tahmin haberleri"
+      "note": "Nötr; sadece teknik analiz ve tahmin haberleri var."
     },
     "GARAN": {
-      "score": 55,
-      "note": "pozitif, 2 milyar dolarlık tahvil başvurusu"
+      "score": 60,
+      "note": "Pozitif; 2 milyar dolarlık tahvil başvurusu finansman atağı olarak değerlendiriliyor."
     },
     "ISCTR": {
-      "score": 35,
-      "note": "negatif, Bank of America hedef fiyat düşürdü"
+      "score": 40,
+      "note": "Negatif; Bank of America hedef fiyat düşürdü."
     },
     "YKBNK": {
-      "score": 40,
-      "note": "negatif, BofA satış yaptı"
+      "score": 35,
+      "note": "Negatif; BofA'dan yüklü satış haberi var."
     },
     "VAKBN": {
-      "score": 65,
-      "note": "pozitif, geri alım ve yeni kaynak"
+      "score": 70,
+      "note": "Pozitif; geri alım ve 1,2 milyar dolarlık yeni kaynak."
     },
     "KCHOL": {
       "score": 50,
-      "note": "nötr, bilanço tarihi açıklandı"
+      "note": "Nötr; bilanço tarihi açıklandı, teknik analiz var."
     },
     "SAHOL": {
       "score": 50,
-      "note": "nötr, teknik analiz haberleri"
+      "note": "Nötr; sadece teknik analiz ve tahmin haberleri."
     },
     "SISE": {
       "score": 60,
-      "note": "pozitif, hedef fiyat artışı"
+      "note": "Pozitif; hedef fiyat 58 TL'ye güncellendi."
     },
     "THYAO": {
-      "score": 55,
-      "note": "pozitif, yeni fiyat tahminleri"
+      "score": 50,
+      "note": "Nötr; teknik analiz ve TradingView yorumu."
     },
     "PGSUS": {
       "score": 65,
-      "note": "pozitif, tahvil ihracı izni ve hedef artışı"
+      "note": "Pozitif; hedef artışı ve 250 milyon dolarlık tahvil izni."
     },
     "TUPRS": {
       "score": 50,
-      "note": "nötr, marj analizi"
+      "note": "Nötr; ürün marjları analizi ve teknik analiz."
     },
     "AKSEN": {
-      "score": 60,
-      "note": "pozitif, hedef fiyat değişimi ve FAVÖK artışı"
+      "score": 65,
+      "note": "Pozitif; hedef fiyat değişimi ve FAVÖK artışı beklentisi."
     },
     "EREGL": {
       "score": 50,
-      "note": "nötr, KAP haberleri"
+      "note": "Nötr; KAP haberleri ve teknik analiz."
     },
     "BIMAS": {
       "score": 50,
-      "note": "nötr, teknik analiz ve tahmin"
+      "note": "Nötr; teknik analiz ve KAP haberleri."
     },
     "MGROS": {
       "score": 60,
-      "note": "pozitif, güçlü görünüm"
+      "note": "Pozitif; hisse 900 TL'yi aşabilir yorumu."
     },
     "FROTO": {
-      "score": 40,
-      "note": "negatif, üretime ara verme"
+      "score": 45,
+      "note": "Hafif negatif; üretime ara verme ve temettü kararı nötr."
     },
     "TOASO": {
-      "score": 50,
-      "note": "nötr, hedef fiyat değişiklikleri"
+      "score": 55,
+      "note": "Hafif pozitif; temettü açıklaması ve hedef fiyat değişimi."
     },
     "ASELS": {
-      "score": 65,
-      "note": "pozitif, jeopolitik destekle yükseliş"
+      "score": 70,
+      "note": "Pozitif; jeopolitik destekle güçlü yükseliş."
     },
     "TCELL": {
       "score": 50,
-      "note": "nötr, teknik analiz"
+      "note": "Nötr; teknik analiz ve SEC açıklaması."
     },
     "TTKOM": {
       "score": 50,
-      "note": "nötr, bilanço tarihi"
+      "note": "Nötr; teknik analiz ve bilanço tarihi."
     },
     "ULKER": {
       "score": 60,
-      "note": "pozitif, temettü dağıtımı"
+      "note": "Pozitif; temettü dağıtımı ve bilanço beğenisi."
     },
     "CCOLA": {
       "score": 50,
-      "note": "nötr, teknik analiz"
+      "note": "Nötr; teknik analiz ve tahmin."
     },
     "ARCLK": {
       "score": 45,
-      "note": "negatif, hisse satışı"
+      "note": "Hafif negatif; Hitachi'deki pay satışı ve satın alma haberleri karışık."
     },
     "EKGYO": {
       "score": 55,
-      "note": "pozitif, güçlü operasyonel görünüm"
+      "note": "Hafif pozitif; operasyonel güçlü ve iskontolu değerleme."
     }
   },
-  "_ts": 1784716691,
+  "_ts": 1784727509,
   "_source": "deepseek-llm"
 }

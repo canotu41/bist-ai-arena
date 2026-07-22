@@ -1,5 +1,5 @@
 {
-  "ts": "2026-07-22 13:11:27",
+  "ts": "2026-07-22 13:38:29",
   "health": {
     "ok": true,
     "live": 24,
@@ -24,19 +24,19 @@
     },
     {
       "name": "Claude AI",
-      "return_pct": 1.52
+      "return_pct": 1.58
     },
     {
       "name": "Konsensüs (Claude)",
-      "return_pct": 0.85
+      "return_pct": 0.74
     },
     {
       "name": "DeepSeek AI",
-      "return_pct": 0.61
+      "return_pct": 0.48
     },
     {
       "name": "Codex",
-      "return_pct": 0.19
+      "return_pct": 0.21
     }
   ]
 }
