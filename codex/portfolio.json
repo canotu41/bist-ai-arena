@@ -4,10 +4,10 @@
   "strategy": "Önce risk: düşük vol (ATR≤%3.6), RSI 40-68, MA50 üstü; seçici, uzun tut; backtest-kalibre",
   "initial": 50000.0,
   "cash": 12954.05,
-  "total_value": 50388.2,
-  "return_pct": 0.78,
+  "total_value": 50267.5,
+  "return_pct": 0.53,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-07-22 07:37",
+  "last_updated": "2026-07-22 08:38",
   "positions": [
     {
       "ticker": "TCELL",
@@ -15,7 +15,7 @@
       "sector": "Telekom",
       "entry": 110.2,
       "qty": 68,
-      "current": 112.2,
+      "current": 111.8,
       "stop": 99.18,
       "target": 154.28,
       "entry_ts": "2026-07-14 09:15",
@@ -39,11 +39,11 @@
       "sector": "Perakende",
       "entry": 381.5,
       "qty": 19,
-      "current": 395.0,
+      "current": 393.5,
       "stop": 343.35,
       "target": 534.1,
       "entry_ts": "2026-07-14 10:38",
-      "score": 57.6
+      "score": 58.2
     },
     {
       "ticker": "KCHOL",
@@ -51,11 +51,11 @@
       "sector": "Holding",
       "entry": 195.3,
       "qty": 38,
-      "current": 204.1,
+      "current": 204.6,
       "stop": 175.77,
       "target": 273.42,
       "entry_ts": "2026-07-16 08:38",
-      "score": 58.8
+      "score": 61.8
     },
     {
       "ticker": "TOASO",
@@ -63,7 +63,7 @@
       "sector": "Otomotiv",
       "entry": 307.0,
       "qty": 24,
-      "current": 301.0,
+      "current": 297.5,
       "stop": 276.3,
       "target": 429.8,
       "entry_ts": "2026-07-20 07:38",
