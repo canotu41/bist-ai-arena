@@ -1,106 +1,106 @@
 {
   "market": {
     "score": 55,
-    "trend": "Karışık, yükseliş eğilimi ağırlıklı"
+    "trend": "Karışık, pozitif eğilim"
   },
   "tickers": {
     "AKBNK": {
       "score": 50,
-      "note": "Nötr; sadece teknik analiz ve tahmin haberleri var."
+      "note": "Nötr; teknik analiz ve tahmin var, net yön yok"
     },
     "GARAN": {
       "score": 60,
-      "note": "Pozitif; 2 milyar dolarlık tahvil başvurusu finansman atağı olarak değerlendiriliyor."
+      "note": "Pozitif; 2 milyar dolarlık tahvil başvurusu finansman atağı"
     },
     "ISCTR": {
       "score": 40,
-      "note": "Negatif; Bank of America hedef fiyat düşürdü."
+      "note": "Negatif; Bank of America hedef fiyat düşürdü"
     },
     "YKBNK": {
-      "score": 35,
-      "note": "Negatif; BofA'dan yüklü satış haberi var."
+      "score": 50,
+      "note": "Nötr; teknik analiz ve tahmin var, net yön yok"
     },
     "VAKBN": {
-      "score": 70,
-      "note": "Pozitif; geri alım ve 1,2 milyar dolarlık yeni kaynak."
+      "score": 65,
+      "note": "Pozitif; 1,2 milyar dolar kaynak ve hedef fiyat yükseldi"
     },
     "KCHOL": {
       "score": 50,
-      "note": "Nötr; bilanço tarihi açıklandı, teknik analiz var."
+      "note": "Nötr; bilanço tarihi açıklandı, teknik analiz var"
     },
     "SAHOL": {
       "score": 50,
-      "note": "Nötr; sadece teknik analiz ve tahmin haberleri."
+      "note": "Nötr; teknik analiz ve tahmin var"
     },
     "SISE": {
-      "score": 60,
-      "note": "Pozitif; hedef fiyat 58 TL'ye güncellendi."
+      "score": 55,
+      "note": "Hafif pozitif; hedef fiyat 58 TL'ye güncellendi"
     },
     "THYAO": {
-      "score": 50,
-      "note": "Nötr; teknik analiz ve TradingView yorumu."
+      "score": 65,
+      "note": "Pozitif; 1. çeyrek kârı beklentileri aştı"
     },
     "PGSUS": {
-      "score": 65,
-      "note": "Pozitif; hedef artışı ve 250 milyon dolarlık tahvil izni."
+      "score": 60,
+      "note": "Pozitif; yurt dışı tahvil izni ve hedef artışı"
     },
     "TUPRS": {
       "score": 50,
-      "note": "Nötr; ürün marjları analizi ve teknik analiz."
+      "note": "Nötr; marj analizi ve tahmin var"
     },
     "AKSEN": {
-      "score": 65,
-      "note": "Pozitif; hedef fiyat değişimi ve FAVÖK artışı beklentisi."
+      "score": 60,
+      "note": "Pozitif; hedef fiyat değişti, FAVÖK artışı bekleniyor"
     },
     "EREGL": {
       "score": 50,
-      "note": "Nötr; KAP haberleri ve teknik analiz."
+      "note": "Nötr; KAP haberleri ve teknik analiz var"
     },
     "BIMAS": {
       "score": 50,
-      "note": "Nötr; teknik analiz ve KAP haberleri."
+      "note": "Nötr; KAP haberleri ve tahmin var"
     },
     "MGROS": {
       "score": 60,
-      "note": "Pozitif; hisse 900 TL'yi aşabilir yorumu."
+      "note": "Pozitif; güçlü görünüm, hisse 900 TL'yi aşabilir"
     },
     "FROTO": {
-      "score": 45,
-      "note": "Hafif negatif; üretime ara verme ve temettü kararı nötr."
+      "score": 50,
+      "note": "Nötr; teknik analiz ve tahmin var"
     },
     "TOASO": {
-      "score": 55,
-      "note": "Hafif pozitif; temettü açıklaması ve hedef fiyat değişimi."
+      "score": 60,
+      "note": "Pozitif; temettü açıklaması ve güçlü bilanço"
     },
     "ASELS": {
-      "score": 70,
-      "note": "Pozitif; jeopolitik destekle güçlü yükseliş."
+      "score": 65,
+      "note": "Pozitif; jeopolitik destekle güçlü yükseldi"
     },
     "TCELL": {
-      "score": 50,
-      "note": "Nötr; teknik analiz ve SEC açıklaması."
+      "score": 45,
+      "note": "Hafif negatif; SEC açıklaması ihtilaflı madenler"
     },
     "TTKOM": {
       "score": 50,
-      "note": "Nötr; teknik analiz ve bilanço tarihi."
+      "note": "Nötr; teknik analiz ve tahmin var"
     },
     "ULKER": {
       "score": 60,
-      "note": "Pozitif; temettü dağıtımı ve bilanço beğenisi."
+      "note": "Pozitif; temettü dağıtımı ve bilanço beğenildi"
     },
     "CCOLA": {
       "score": 50,
-      "note": "Nötr; teknik analiz ve tahmin."
+      "note": "Nötr; teknik analiz ve tahmin var"
     },
     "ARCLK": {
-      "score": 45,
-      "note": "Hafif negatif; Hitachi'deki pay satışı ve satın alma haberleri karışık."
+      "score": 55,
+      "note": "Hafif pozitif; satın alma ve hisse satışı kararları"
     },
     "EKGYO": {
-      "score": 55,
-      "note": "Hafif pozitif; operasyonel güçlü ve iskontolu değerleme."
+      "score": 60,
+      "note": "Pozitif; operasyonel güçlü, değerleme iskontolu"
     }
   },
-  "_ts": 1784727509,
+  "_ts": 1784790536,
   "_source": "deepseek-llm"
 }
