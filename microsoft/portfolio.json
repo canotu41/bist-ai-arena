@@ -4,10 +4,10 @@
   "strategy": "Momentum/trend: 20g değişim≥%4, MA20>MA50 kırılım; kazananı bırak; backtest-kalibre (alfa ~%-2)",
   "initial": 50000.0,
   "cash": 2806.94,
-  "total_value": 53156.12,
-  "return_pct": 6.31,
+  "total_value": 52639.66,
+  "return_pct": 5.28,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-07-23 11:38",
+  "last_updated": "2026-07-23 12:37",
   "positions": [
     {
       "ticker": "AKSEN",
@@ -15,11 +15,11 @@
       "sector": "Enerji",
       "entry": 95.6,
       "qty": 130,
-      "current": 109.2,
+      "current": 106.0,
       "stop": 86.04,
       "target": 133.84,
       "entry_ts": "2026-07-15 08:37",
-      "score": 69.1
+      "score": 73.2
     },
     {
       "ticker": "CCOLA",
@@ -27,11 +27,11 @@
       "sector": "Gıda",
       "entry": 84.9,
       "qty": 147,
-      "current": 91.0,
+      "current": 90.7,
       "stop": 76.41,
       "target": 118.86,
       "entry_ts": "2026-07-16 07:38",
-      "score": 75.1
+      "score": 76.4
     },
     {
       "ticker": "EREGL",
@@ -39,7 +39,7 @@
       "sector": "Demir-Çelik",
       "entry": 43.24,
       "qty": 289,
-      "current": 44.52,
+      "current": 44.28,
       "stop": 38.92,
       "target": 60.54,
       "entry_ts": "2026-07-16 07:38",
@@ -51,7 +51,7 @@
       "sector": "Enerji",
       "entry": 309.5,
       "qty": 30,
-      "current": 316.75,
+      "current": 317.25,
       "stop": 278.55,
       "target": 433.3,
       "entry_ts": "2026-07-22 07:10",
@@ -63,11 +63,11 @@
       "sector": "Holding",
       "entry": 204.6,
       "qty": 2,
-      "current": 203.7,
+      "current": 202.7,
       "stop": 184.14,
       "target": 286.44,
       "entry_ts": "2026-07-22 08:38",
-      "score": 70.3
+      "score": 68.3
     }
   ],
   "trades": [
