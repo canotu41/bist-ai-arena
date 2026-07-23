@@ -4,10 +4,10 @@
   "strategy": "Önce risk: düşük vol (ATR≤%3.6), RSI 40-68, MA50 üstü; seçici, uzun tut; backtest-kalibre",
   "initial": 50000.0,
   "cash": 12954.05,
-  "total_value": 50383.7,
-  "return_pct": 0.77,
+  "total_value": 50266.4,
+  "return_pct": 0.53,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-07-23 07:09",
+  "last_updated": "2026-07-23 07:37",
   "positions": [
     {
       "ticker": "TCELL",
@@ -15,11 +15,11 @@
       "sector": "Telekom",
       "entry": 110.2,
       "qty": 68,
-      "current": 111.0,
+      "current": 110.0,
       "stop": 99.18,
       "target": 154.28,
       "entry_ts": "2026-07-14 09:15",
-      "score": 65.1
+      "score": 64.8
     },
     {
       "ticker": "THYAO",
@@ -27,11 +27,11 @@
       "sector": "Ulaştırma",
       "entry": 323.5,
       "qty": 23,
-      "current": 321.0,
+      "current": 317.25,
       "stop": 291.15,
       "target": 452.9,
       "entry_ts": "2026-07-14 09:15",
-      "score": 63.1
+      "score": 62.5
     },
     {
       "ticker": "BIMAS",
@@ -39,11 +39,11 @@
       "sector": "Perakende",
       "entry": 381.5,
       "qty": 19,
-      "current": 399.75,
+      "current": 399.0,
       "stop": 343.35,
       "target": 534.1,
       "entry_ts": "2026-07-14 10:38",
-      "score": 57.9
+      "score": 55.8
     },
     {
       "ticker": "KCHOL",
@@ -51,11 +51,11 @@
       "sector": "Holding",
       "entry": 195.3,
       "qty": 38,
-      "current": 204.3,
+      "current": 204.7,
       "stop": 175.77,
       "target": 273.42,
       "entry_ts": "2026-07-16 08:38",
-      "score": 60.0
+      "score": 61.8
     },
     {
       "ticker": "TOASO",
@@ -63,7 +63,7 @@
       "sector": "Otomotiv",
       "entry": 307.0,
       "qty": 24,
-      "current": 297.5,
+      "current": 299.0,
       "stop": 276.3,
       "target": 429.8,
       "entry_ts": "2026-07-20 07:38",
