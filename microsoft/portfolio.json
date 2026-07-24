@@ -4,10 +4,10 @@
   "strategy": "Momentum/trend: 20g değişim≥%4, MA20>MA50 kırılım; kazananı bırak; backtest-kalibre (alfa ~%-2)",
   "initial": 50000.0,
   "cash": 2806.94,
-  "total_value": 51611.34,
-  "return_pct": 3.22,
+  "total_value": 51526.94,
+  "return_pct": 3.05,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-07-24 14:11",
+  "last_updated": "2026-07-24 14:37",
   "positions": [
     {
       "ticker": "AKSEN",
@@ -15,7 +15,7 @@
       "sector": "Enerji",
       "entry": 95.6,
       "qty": 130,
-      "current": 103.8,
+      "current": 103.7,
       "stop": 86.04,
       "target": 133.84,
       "entry_ts": "2026-07-15 08:37",
@@ -39,7 +39,7 @@
       "sector": "Demir-Çelik",
       "entry": 43.24,
       "qty": 289,
-      "current": 43.1,
+      "current": 42.9,
       "stop": 38.92,
       "target": 60.54,
       "entry_ts": "2026-07-16 07:38",
@@ -51,7 +51,7 @@
       "sector": "Enerji",
       "entry": 309.5,
       "qty": 30,
-      "current": 305.75,
+      "current": 305.25,
       "stop": 278.55,
       "target": 433.3,
       "entry_ts": "2026-07-22 07:10",
@@ -63,11 +63,11 @@
       "sector": "Holding",
       "entry": 204.6,
       "qty": 2,
-      "current": 196.6,
+      "current": 197.3,
       "stop": 184.14,
       "target": 286.44,
       "entry_ts": "2026-07-22 08:38",
-      "score": 67.0
+      "score": 69.0
     }
   ],
   "trades": [
