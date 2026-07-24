@@ -1,16 +1,16 @@
 {
   "market": {
-    "score": 55,
-    "trend": "Hafif pozitif, direnç seviyesi test ediliyor"
+    "score": 45,
+    "trend": "Karışık, hafif negatif"
   },
   "tickers": {
     "AKBNK": {
-      "score": 60,
-      "note": "Teknik analiz ve temettü haberi olumlu"
+      "score": 50,
+      "note": "Teknik analizler nötr, tahminler var"
     },
     "GARAN": {
-      "score": 65,
-      "note": "Finansman atağı ve tahvil başvurusu pozitif"
+      "score": 55,
+      "note": "Finansman atağı olumlu, teknik analizler nötr"
     },
     "ISCTR": {
       "score": 40,
@@ -18,89 +18,89 @@
     },
     "YKBNK": {
       "score": 45,
-      "note": "BofA satış haberi negatif"
+      "note": "BofA satış haberi negatif, tahminler nötr"
     },
     "VAKBN": {
-      "score": 70,
-      "note": "Yeni kaynak ve hedef fiyat yükseltmesi pozitif"
+      "score": 60,
+      "note": "Yeni kaynak ve hedef fiyat yükseltmesi olumlu"
     },
     "KCHOL": {
-      "score": 55,
-      "note": "Teknik analiz ve bilanço tarihi nötr-pozitif"
+      "score": 50,
+      "note": "Teknik analizler nötr, bilanço tarihi açıklandı"
     },
     "SAHOL": {
       "score": 50,
       "note": "Teknik analizler nötr"
     },
     "SISE": {
-      "score": 65,
-      "note": "Hedef fiyat yükseltildi, pozitif"
+      "score": 55,
+      "note": "Hedef fiyat yükseltildi, olumlu"
     },
     "THYAO": {
-      "score": 55,
-      "note": "Teknik analizler nötr-pozitif"
+      "score": 50,
+      "note": "Teknik analizler nötr"
     },
     "PGSUS": {
-      "score": 70,
-      "note": "Hedef artışı ve tahvil izni pozitif"
+      "score": 60,
+      "note": "Hedef artışı ve tahvil izni olumlu"
     },
     "TUPRS": {
-      "score": 55,
-      "note": "Teknik analiz ve marj analizi nötr-pozitif"
+      "score": 50,
+      "note": "Teknik analizler nötr, marj analizi var"
     },
     "AKSEN": {
-      "score": 65,
-      "note": "Hedef fiyat değişimi ve FAVÖK artış beklentisi pozitif"
+      "score": 55,
+      "note": "Hedef fiyat değişimi ve güçlenme haberi olumlu"
     },
     "EREGL": {
       "score": 50,
-      "note": "Teknik analiz nötr"
+      "note": "Teknik analizler nötr"
     },
     "BIMAS": {
-      "score": 55,
-      "note": "Teknik analiz ve KAP haberleri nötr"
+      "score": 50,
+      "note": "Teknik analizler nötr"
     },
     "MGROS": {
-      "score": 65,
-      "note": "Güçlü görünüm ve hedef fiyat pozitif"
+      "score": 55,
+      "note": "Güçlü görünüm ve hedef fiyat olumlu"
     },
     "FROTO": {
-      "score": 55,
-      "note": "Teknik analizler nötr-pozitif"
+      "score": 50,
+      "note": "Teknik analizler nötr"
     },
     "TOASO": {
-      "score": 60,
-      "note": "Hedef fiyat değişimi ve temettü haberi pozitif"
+      "score": 50,
+      "note": "Hedef fiyat değişiklikleri nötr"
     },
     "ASELS": {
-      "score": 70,
-      "note": "Jeopolitik destekle güçlü yükseliş, pozitif"
+      "score": 60,
+      "note": "Jeopolitik destekle yükseliş olumlu"
     },
     "TCELL": {
       "score": 50,
-      "note": "Teknik analizler ve SEC açıklaması nötr"
+      "note": "Teknik analizler nötr, SEC açıklaması var"
     },
     "TTKOM": {
-      "score": 55,
-      "note": "Teknik analizler nötr-pozitif"
+      "score": 50,
+      "note": "Teknik analizler nötr"
     },
     "ULKER": {
-      "score": 65,
-      "note": "Temettü ve bilanço beğenisi pozitif"
+      "score": 55,
+      "note": "Temettü ve bilanço beğenisi olumlu"
     },
     "CCOLA": {
-      "score": 55,
-      "note": "Teknik analiz nötr"
+      "score": 50,
+      "note": "Teknik analizler nötr"
     },
     "ARCLK": {
-      "score": 60,
-      "note": "Satın alma ve hisse satışı kararları nötr-pozitif"
+      "score": 50,
+      "note": "KAP haberleri nötr"
     },
     "EKGYO": {
-      "score": 60,
-      "note": "Operasyonel güçlü ve iskontolu değerleme pozitif"
+      "score": 55,
+      "note": "Operasyonel güçlü ve iskontolu değerleme olumlu"
     }
   },
-  "_ts": 1784889491,
+  "_ts": 1784902313,
   "_source": "deepseek-llm"
 }
