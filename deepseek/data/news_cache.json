@@ -6,101 +6,101 @@
   "tickers": {
     "AKBNK": {
       "score": 50,
-      "note": "Teknik analizler nötr, tahminler var"
+      "note": "Teknik analiz ve fiyat hedefi var, net yön yok"
     },
     "GARAN": {
       "score": 55,
-      "note": "Finansman atağı olumlu, teknik analizler nötr"
+      "note": "Finansman atağı ve tahvil başvurusu pozitif"
     },
     "ISCTR": {
-      "score": 40,
-      "note": "BofA hedef fiyat düşürdü, negatif"
+      "score": 50,
+      "note": "Teknik analizler var, net sinyal yok"
     },
     "YKBNK": {
-      "score": 45,
-      "note": "BofA satış haberi negatif, tahminler nötr"
+      "score": 50,
+      "note": "Teknik analiz ve fiyat hedefi var, net yön yok"
     },
     "VAKBN": {
-      "score": 60,
-      "note": "Yeni kaynak ve hedef fiyat yükseltmesi olumlu"
+      "score": 40,
+      "note": "Varlık Fonu hisse satışı negatif, kaynak haberi pozitif"
     },
     "KCHOL": {
-      "score": 50,
-      "note": "Teknik analizler nötr, bilanço tarihi açıklandı"
+      "score": 60,
+      "note": "HSBC hedef fiyat yükseltmesi pozitif"
     },
     "SAHOL": {
       "score": 50,
-      "note": "Teknik analizler nötr"
+      "note": "Bilanço ve teknik analiz var, net yön yok"
     },
     "SISE": {
-      "score": 55,
-      "note": "Hedef fiyat yükseltildi, olumlu"
+      "score": 60,
+      "note": "Hedef fiyat yükseltmesi pozitif"
     },
     "THYAO": {
       "score": 50,
-      "note": "Teknik analizler nötr"
+      "note": "Teknik analiz ve yorumlar var, net yön yok"
     },
     "PGSUS": {
-      "score": 60,
-      "note": "Hedef artışı ve tahvil izni olumlu"
+      "score": 65,
+      "note": "Tahvil ihracı izni ve hedef artışı pozitif"
     },
     "TUPRS": {
       "score": 50,
-      "note": "Teknik analizler nötr, marj analizi var"
+      "note": "Teknik analiz ve marj analizi var, net yön yok"
     },
     "AKSEN": {
-      "score": 55,
-      "note": "Hedef fiyat değişimi ve güçlenme haberi olumlu"
+      "score": 60,
+      "note": "Hedef fiyat değişimi ve güçlenme sinyali pozitif"
     },
     "EREGL": {
       "score": 50,
-      "note": "Teknik analizler nötr"
+      "note": "Teknik analiz ve KAP haberleri var, net yön yok"
     },
     "BIMAS": {
       "score": 50,
-      "note": "Teknik analizler nötr"
+      "note": "Teknik analiz ve fiyat hedefi var, net yön yok"
     },
     "MGROS": {
-      "score": 55,
-      "note": "Güçlü görünüm ve hedef fiyat olumlu"
+      "score": 60,
+      "note": "Güçlü görünüm ve hedef fiyat yükseltmesi pozitif"
     },
     "FROTO": {
-      "score": 50,
-      "note": "Teknik analizler nötr"
+      "score": 55,
+      "note": "Yatırım planı ve hedef fiyat haberleri pozitif"
     },
     "TOASO": {
-      "score": 50,
-      "note": "Hedef fiyat değişiklikleri nötr"
+      "score": 55,
+      "note": "Hedef fiyat değişimi ve temettü haberi pozitif"
     },
     "ASELS": {
       "score": 60,
-      "note": "Jeopolitik destekle yükseliş olumlu"
+      "note": "Jeopolitik destekle yükseliş ve fiyat hedefi pozitif"
     },
     "TCELL": {
-      "score": 50,
-      "note": "Teknik analizler nötr, SEC açıklaması var"
+      "score": 60,
+      "note": "Temettü kararı ve hedef fiyat yükseltmesi pozitif"
     },
     "TTKOM": {
       "score": 50,
-      "note": "Teknik analizler nötr"
+      "note": "Teknik analizler var, net yön yok"
     },
     "ULKER": {
       "score": 55,
-      "note": "Temettü ve bilanço beğenisi olumlu"
+      "note": "Temettü dağıtımı pozitif"
     },
     "CCOLA": {
       "score": 50,
-      "note": "Teknik analizler nötr"
+      "note": "Teknik analiz ve fiyat hedefi var, net yön yok"
     },
     "ARCLK": {
-      "score": 50,
-      "note": "KAP haberleri nötr"
+      "score": 45,
+      "note": "Satın alma ve hisse satışı kararları karışık"
     },
     "EKGYO": {
       "score": 55,
-      "note": "Operasyonel güçlü ve iskontolu değerleme olumlu"
+      "note": "Operasyonel güçlü ve iskontolu değerleme pozitif"
     }
   },
-  "_ts": 1784902313,
+  "_ts": 1785136725,
   "_source": "deepseek-llm"
 }
