@@ -1,106 +1,106 @@
 {
   "market": {
-    "score": 50,
-    "trend": "nötr"
+    "score": 55,
+    "trend": "Hafif pozitif"
   },
   "tickers": {
     "AKBNK": {
       "score": 50,
-      "note": "Teknik analiz ve tahmin var, önemli haber yok"
+      "note": "Nötr; tahmin ve teknik analiz var, önemli haber yok"
     },
     "GARAN": {
-      "score": 55,
-      "note": "2 milyar dolarlık tahvil başvurusu olumlu"
+      "score": 60,
+      "note": "Pozitif; 2 milyar dolarlık tahvil başvurusu"
     },
     "ISCTR": {
       "score": 50,
-      "note": "Teknik analizler var, önemli haber yok"
+      "note": "Nötr; sadece teknik analiz haberleri"
     },
     "YKBNK": {
-      "score": 40,
-      "note": "BofA satışı negatif"
+      "score": 45,
+      "note": "Hafif negatif; BofA satışı var"
     },
     "VAKBN": {
-      "score": 60,
-      "note": "1.2 milyar dolar kaynak ve güçlenen görünüm olumlu"
+      "score": 65,
+      "note": "Pozitif; yeni kaynak ve güçlenen görünüm"
     },
     "KCHOL": {
-      "score": 55,
-      "note": "HSBC hedef fiyat yükseltmesi olumlu"
+      "score": 60,
+      "note": "Pozitif; HSBC hedef fiyat yükseltti"
     },
     "SAHOL": {
-      "score": 50,
-      "note": "Teknik analiz ve bilanço var, net yön yok"
+      "score": 55,
+      "note": "Hafif pozitif; bilanço ve tahmin var"
     },
     "SISE": {
-      "score": 55,
-      "note": "Hedef fiyat güncellemesi olumlu"
+      "score": 60,
+      "note": "Pozitif; hedef fiyat yükseltildi"
     },
     "THYAO": {
       "score": 55,
-      "note": "Bedelsiz potansiyeli olumlu"
+      "note": "Hafif pozitif; bedelsiz potansiyeli"
     },
     "PGSUS": {
-      "score": 60,
-      "note": "Satın alma ve tahvil izni olumlu"
+      "score": 65,
+      "note": "Pozitif; hedef artışı ve tahvil izni"
     },
     "TUPRS": {
-      "score": 35,
-      "note": "Hisse çakıldı, marj analizi var"
+      "score": 40,
+      "note": "Negatif; hisse çakıldı, marj analizi var"
     },
     "AKSEN": {
-      "score": 55,
-      "note": "Hedef fiyat değişimi ve güçlenme olumlu"
+      "score": 60,
+      "note": "Pozitif; hedef fiyat değişimi ve güçlenme"
     },
     "EREGL": {
-      "score": 35,
-      "note": "BofA satışı negatif"
+      "score": 40,
+      "note": "Negatif; BofA satışı"
     },
     "BIMAS": {
       "score": 55,
-      "note": "Bedelsiz sermaye artırımı olumlu"
+      "note": "Hafif pozitif; bedelsiz sermaye artırımı"
     },
     "MGROS": {
-      "score": 55,
-      "note": "Güçlü görünüm ve hedef fiyat olumlu"
+      "score": 60,
+      "note": "Pozitif; güçlü görünüm, hedef 900 TL"
     },
     "FROTO": {
-      "score": 50,
-      "note": "Yatırım planı ve hedef fiyat var, net yön yok"
+      "score": 55,
+      "note": "Hafif pozitif; yatırım planı ve hedef fiyat"
     },
     "TOASO": {
-      "score": 50,
-      "note": "Hedef fiyat değişimi ve temettü var"
+      "score": 55,
+      "note": "Hafif pozitif; hedef fiyat değişimi"
     },
     "ASELS": {
-      "score": 60,
-      "note": "Jeopolitik destekle yükseliş olumlu"
+      "score": 65,
+      "note": "Pozitif; jeopolitik destekle yükseliş"
     },
     "TCELL": {
-      "score": 55,
-      "note": "Hedef fiyat yükseltmesi olumlu"
+      "score": 60,
+      "note": "Pozitif; hedef fiyat 150 TL"
     },
     "TTKOM": {
       "score": 50,
-      "note": "Teknik analiz ve tahmin var, önemli haber yok"
+      "note": "Nötr; teknik analiz ve tahmin var"
     },
     "ULKER": {
-      "score": 55,
-      "note": "Temettü dağıtımı olumlu"
+      "score": 60,
+      "note": "Pozitif; temettü dağıtımı"
     },
     "CCOLA": {
       "score": 50,
-      "note": "Teknik analiz ve tahmin var, önemli haber yok"
+      "note": "Nötr; teknik analiz ve tahmin var"
     },
     "ARCLK": {
-      "score": 50,
-      "note": "Satın alma ve hisse satışı var, net yön yok"
+      "score": 55,
+      "note": "Hafif pozitif; satın alma ve hisse satışı"
     },
     "EKGYO": {
       "score": 55,
-      "note": "Operasyonel güçlü ve iskontolu değerleme olumlu"
+      "note": "Hafif pozitif; operasyonel güçlü, iskontolu"
     }
   },
-  "_ts": 1785224297,
+  "_ts": 1785237346,
   "_source": "deepseek-llm"
 }
