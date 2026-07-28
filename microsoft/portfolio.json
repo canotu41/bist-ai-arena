@@ -4,10 +4,10 @@
   "strategy": "Momentum/trend: 20g değişim≥%4, MA20>MA50 kırılım; kazananı bırak; backtest-kalibre (alfa ~%-2)",
   "initial": 50000.0,
   "cash": 2806.94,
-  "total_value": 51374.81,
-  "return_pct": 2.75,
+  "total_value": 52113.7,
+  "return_pct": 4.23,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-07-27 15:15",
+  "last_updated": "2026-07-28 07:38",
   "positions": [
     {
       "ticker": "AKSEN",
@@ -15,11 +15,11 @@
       "sector": "Enerji",
       "entry": 95.6,
       "qty": 130,
-      "current": 106.9,
+      "current": 108.1,
       "stop": 86.04,
       "target": 133.84,
       "entry_ts": "2026-07-15 08:37",
-      "score": 68.6
+      "score": 67.9
     },
     {
       "ticker": "CCOLA",
@@ -27,11 +27,11 @@
       "sector": "Gıda",
       "entry": 84.9,
       "qty": 147,
-      "current": 88.65,
+      "current": 91.3,
       "stop": 76.41,
       "target": 118.86,
       "entry_ts": "2026-07-16 07:38",
-      "score": 76.7
+      "score": 75.1
     },
     {
       "ticker": "EREGL",
@@ -39,11 +39,11 @@
       "sector": "Demir-Çelik",
       "entry": 43.24,
       "qty": 289,
-      "current": 43.18,
+      "current": 43.34,
       "stop": 38.92,
       "target": 60.54,
       "entry_ts": "2026-07-16 07:38",
-      "score": 69.0
+      "score": 66.7
     },
     {
       "ticker": "TUPRS",
@@ -51,11 +51,11 @@
       "sector": "Enerji",
       "entry": 309.5,
       "qty": 30,
-      "current": 292.25,
+      "current": 297.0,
       "stop": 278.55,
       "target": 433.3,
       "entry_ts": "2026-07-22 07:10",
-      "score": 63.9
+      "score": 62.4
     },
     {
       "ticker": "KCHOL",
@@ -63,11 +63,11 @@
       "sector": "Holding",
       "entry": 204.6,
       "qty": 2,
-      "current": 196.4,
+      "current": 198.7,
       "stop": 184.14,
       "target": 286.44,
       "entry_ts": "2026-07-22 08:38",
-      "score": 68.5
+      "score": 67.7
     }
   ],
   "trades": [
