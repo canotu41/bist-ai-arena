@@ -5,102 +5,102 @@
   },
   "tickers": {
     "AKBNK": {
-      "score": 50,
-      "note": "Nötr; tahmin ve teknik analiz var, özel haber yok"
+      "score": 60,
+      "note": "Bilanço sonrası hedef fiyat ve tavsiyeler, teknik analizler olumlu"
     },
     "GARAN": {
-      "score": 60,
-      "note": "Pozitif; 2 milyar dolarlık tahvil başvurusu finansman atağı"
+      "score": 65,
+      "note": "Finansman atağı ve tahvil ihracı, 2027 fiyat hedefi var"
     },
     "ISCTR": {
       "score": 50,
-      "note": "Nötr; sadece teknik analiz başlıkları"
+      "note": "Teknik analizler nötr, belirgin bir haber yok"
     },
     "YKBNK": {
-      "score": 65,
-      "note": "Pozitif; net kar beklentileri aştı, ikiye katladı"
+      "score": 70,
+      "note": "Net kar beklentileri aştı, 2027 fiyat hedefi var"
     },
     "VAKBN": {
-      "score": 55,
-      "note": "Karışık; yeni kaynak ve güçlü görünüm var, ancak hisse satışı var"
+      "score": 75,
+      "note": "Yeni kaynak ve güçlenen görünüm, hisse satışı hafif olumsuz"
     },
     "KCHOL": {
-      "score": 60,
-      "note": "Pozitif; HSBC hedef fiyat yükseltti"
+      "score": 55,
+      "note": "Bilanço tarihi açıklandı, teknik analizler nötr"
     },
     "SAHOL": {
       "score": 50,
-      "note": "Nötr; sadece teknik analiz ve tahmin"
+      "note": "Teknik analizler nötr, belirgin bir haber yok"
     },
     "SISE": {
-      "score": 55,
-      "note": "Hafif pozitif; hedef fiyat güncellendi"
+      "score": 60,
+      "note": "Hedef fiyat güncellendi, teknik analizler olumlu"
     },
     "THYAO": {
       "score": 55,
-      "note": "Hafif pozitif; bedelsiz sermaye artırımı potansiyeli"
+      "note": "Bedelsiz sermaye artırımı potansiyeli, teknik analizler nötr"
     },
     "PGSUS": {
-      "score": 65,
-      "note": "Pozitif; satın alma, tahvil izni ve yeni hedef"
+      "score": 70,
+      "note": "Satın alma ve tahvil ihracı, yeni hedef 235 TL"
     },
     "TUPRS": {
-      "score": 30,
-      "note": "Negatif; hisseler çakıldı"
+      "score": 35,
+      "note": "Hisseler çakıldı, olumsuz haber"
     },
     "AKSEN": {
       "score": 55,
-      "note": "Hafif pozitif; sinyaller güçleniyor"
+      "note": "2027 fiyat hedefi var, sinyaller güçleniyor"
     },
     "EREGL": {
-      "score": 35,
-      "note": "Negatif; BofA sert satış"
+      "score": 40,
+      "note": "BofA'dan sert satış, olumsuz"
     },
     "BIMAS": {
       "score": 50,
-      "note": "Nötr; hisse devir bildirimi var"
+      "note": "Hisse devir bildirimi, teknik analizler nötr"
     },
     "MGROS": {
-      "score": 60,
-      "note": "Pozitif; güçlü görünüm, 900 TL aşabilir"
+      "score": 65,
+      "note": "Güçlü görünüm, 900 TL aşabilir, 2027 hedefi var"
     },
     "FROTO": {
       "score": 50,
-      "note": "Nötr; sadece teknik analiz"
+      "note": "Teknik analizler nötr, yatırım planı var"
     },
     "TOASO": {
       "score": 55,
-      "note": "Hafif pozitif; hedef fiyat değişikliği ve temettü"
+      "note": "Hedef fiyat değişti, temettü ödemesi var"
     },
     "ASELS": {
       "score": 65,
-      "note": "Pozitif; jeopolitik destekle güçlü yükseldi"
+      "note": "Jeopolitik destekle yükseldi, teknik analizler olumlu"
     },
     "TCELL": {
-      "score": 55,
-      "note": "Hafif pozitif; hedef fiyat 150 TL aşması bekleniyor"
+      "score": 60,
+      "note": "Hedef fiyat 150 TL, SEC açıklaması nötr"
     },
     "TTKOM": {
       "score": 50,
-      "note": "Nötr; bilanço tarihi açıklandı"
+      "note": "Bilanço tarihi açıklandı, teknik analizler nötr"
     },
     "ULKER": {
-      "score": 60,
-      "note": "Pozitif; temettü dağıtımı ve bilanço beğenildi"
+      "score": 65,
+      "note": "Temettü dağıtımı, bilanço beğenildi"
     },
     "CCOLA": {
       "score": 50,
-      "note": "Nötr; sadece teknik analiz ve tahmin"
+      "note": "Teknik analizler nötr, 2027 hedefi var"
     },
     "ARCLK": {
-      "score": 50,
-      "note": "Nötr; satın alma ve hisse satışı var"
+      "score": 45,
+      "note": "Satın alma ve hisse satışı, belirsizlik"
     },
     "EKGYO": {
-      "score": 55,
-      "note": "Hafif pozitif; hedef fiyat ve operasyonel güçlü"
+      "score": 60,
+      "note": "Hedef fiyat 32,84 TL, operasyonel güçlü"
     }
   },
-  "_ts": 1785308949,
+  "_ts": 1785319782,
   "_source": "deepseek-llm"
 }
