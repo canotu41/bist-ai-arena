@@ -33,9 +33,9 @@
       "take_profit": 149.85,
       "trailing_stop_active": false,
       "trailing_stop_level": 0.0,
-      "current_price": 101.7,
-      "unrealized_pnl": -836.9999999999998,
-      "unrealized_pnl_pct": -8.378378378378375,
+      "current_price": 101.4,
+      "unrealized_pnl": -863.9999999999995,
+      "unrealized_pnl_pct": -8.648648648648644,
       "days_held": 0,
       "deepscore_at_entry": 64.6
     },
@@ -69,9 +69,9 @@
       "take_profit": 532.24,
       "trailing_stop_active": false,
       "trailing_stop_level": 0.0,
-      "current_price": 392.0,
-      "unrealized_pnl": -56.25,
-      "unrealized_pnl_pct": -0.570703868103995,
+      "current_price": 392.75,
+      "unrealized_pnl": -37.5,
+      "unrealized_pnl_pct": -0.3804692454026633,
       "days_held": 0,
       "deepscore_at_entry": 62.9
     },
@@ -87,9 +87,9 @@
       "take_profit": 59.62,
       "trailing_stop_active": false,
       "trailing_stop_level": 0.0,
-      "current_price": 41.82,
-      "unrealized_pnl": -402.47999999999934,
-      "unrealized_pnl_pct": -5.298913043478253,
+      "current_price": 41.78,
+      "unrealized_pnl": -409.3599999999992,
+      "unrealized_pnl_pct": -5.389492753623179,
       "days_held": 0,
       "deepscore_at_entry": 62.0
     }
@@ -161,15 +161,15 @@
       "deepscore": 62.0
     }
   ],
-  "total_value": 49344.69,
-  "total_return_pct": -1.31,
+  "total_value": 49329.56,
+  "total_return_pct": -1.34,
   "benchmark_return_pct": 0.0,
   "alpha_pct": 0.0,
   "week": 0,
-  "current_drawdown_pct": -1.31,
+  "current_drawdown_pct": -1.34,
   "max_drawdown_pct": -2.01,
   "win_rate_pct": 0.0,
   "market_regime": "BEAR",
-  "last_updated": "2026-07-30 10:38",
+  "last_updated": "2026-07-30 11:11",
   "created_date": "2026-07-06"
 }
