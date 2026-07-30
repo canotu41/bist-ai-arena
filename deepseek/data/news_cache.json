@@ -1,106 +1,106 @@
 {
   "market": {
-    "score": 60,
-    "trend": "pozitif"
+    "score": 55,
+    "trend": "Hafif pozitif"
   },
   "tickers": {
     "AKBNK": {
-      "score": 55,
-      "note": "Teknik analiz ve fiyat hedefi var, nötr-pozitif"
+      "score": 50,
+      "note": "Teknik analiz ve fiyat hedefi var, nötr"
     },
     "GARAN": {
-      "score": 60,
-      "note": "Finansman atağı ve fiyat hedefi, pozitif"
+      "score": 55,
+      "note": "Finansman atağı ve tahvil başvurusu hafif pozitif"
     },
     "ISCTR": {
       "score": 50,
-      "note": "Sadece teknik analiz, nötr"
+      "note": "Teknik analizler var, nötr"
     },
     "YKBNK": {
       "score": 50,
-      "note": "Teknik analiz ve fiyat hedefi, nötr"
+      "note": "Teknik analiz ve fiyat hedefi var, nötr"
     },
     "VAKBN": {
-      "score": 65,
-      "note": "Geri alım ve yeni kaynak, pozitif"
+      "score": 60,
+      "note": "Geri alım ve yeni kaynak pozitif"
     },
     "KCHOL": {
-      "score": 55,
-      "note": "Bilanço tarihi açıklandı, nötr-pozitif"
+      "score": 50,
+      "note": "Teknik analiz ve bilanço tarihi var, nötr"
     },
     "SAHOL": {
-      "score": 55,
-      "note": "Bilanço açıklandı, nötr-pozitif"
+      "score": 50,
+      "note": "Teknik analiz ve bilanço açıklaması var, nötr"
     },
     "SISE": {
-      "score": 60,
-      "note": "Hedef fiyat güncellendi, pozitif"
+      "score": 55,
+      "note": "Hedef fiyat güncellemesi hafif pozitif"
     },
     "THYAO": {
-      "score": 60,
-      "note": "Bedelsiz potansiyeli, pozitif"
+      "score": 55,
+      "note": "Bedelsiz sermaye artırımı potansiyeli hafif pozitif"
     },
     "PGSUS": {
-      "score": 70,
-      "note": "Satın alma ve tahvil izni, pozitif"
+      "score": 65,
+      "note": "Satın alma, tahvil izni ve hedef fiyat yükseltmesi pozitif"
     },
     "TUPRS": {
-      "score": 40,
-      "note": "Hisseler çakıldı, negatif"
+      "score": 35,
+      "note": "Hisse çakıldı, negatif"
     },
     "AKSEN": {
-      "score": 60,
-      "note": "Hedef fiyat değişti, FAVÖK artışı bekleniyor, pozitif"
+      "score": 55,
+      "note": "Hedef fiyat değişimi ve FAVÖK artışı hafif pozitif"
     },
     "EREGL": {
       "score": 50,
-      "note": "Sadece teknik analiz, nötr"
+      "note": "Teknik analizler ve KAP haberi var, nötr"
     },
     "BIMAS": {
       "score": 55,
-      "note": "Bedelsiz sermaye artırımı, nötr-pozitif"
+      "note": "Pay geri alımı hafif pozitif"
     },
     "MGROS": {
-      "score": 65,
-      "note": "Güçlü görünüm, 900 TL aşabilir, pozitif"
+      "score": 60,
+      "note": "Güçlü görünüm ve hedef fiyat aşımı potansiyeli pozitif"
     },
     "FROTO": {
       "score": 50,
-      "note": "Sadece teknik analiz, nötr"
+      "note": "Teknik analizler ve yatırım planı var, nötr"
     },
     "TOASO": {
-      "score": 55,
-      "note": "Hedef fiyat değişti, temettü, nötr-pozitif"
+      "score": 50,
+      "note": "Hedef fiyat değişiklikleri var, nötr"
     },
     "ASELS": {
-      "score": 65,
-      "note": "Jeopolitik destekle yükseldi, pozitif"
+      "score": 60,
+      "note": "Jeopolitik destekle güçlü yükseliş pozitif"
     },
     "TCELL": {
       "score": 50,
-      "note": "Sadece teknik analiz, nötr"
+      "note": "Teknik analizler ve SEC açıklaması var, nötr"
     },
     "TTKOM": {
       "score": 50,
-      "note": "Sadece teknik analiz, nötr"
+      "note": "Teknik analizler ve fiyat hedefi var, nötr"
     },
     "ULKER": {
       "score": 60,
-      "note": "Temettü ve bilanço beğenildi, pozitif"
+      "note": "Temettü dağıtımı ve bilanço beğenisi pozitif"
     },
     "CCOLA": {
       "score": 50,
-      "note": "Sadece teknik analiz, nötr"
+      "note": "Teknik analiz ve fiyat hedefi var, nötr"
     },
     "ARCLK": {
       "score": 55,
-      "note": "Satın alma ve satış kararı, nötr-pozitif"
+      "note": "Hedef fiyat koruması ve satın alma/satış kararları hafif pozitif"
     },
     "EKGYO": {
-      "score": 60,
-      "note": "Hedef fiyat ve iskontolu değerleme, pozitif"
+      "score": 55,
+      "note": "Hedef fiyat belirlemesi ve iskontolu değerleme hafif pozitif"
     }
   },
-  "_ts": 1785395564,
+  "_ts": 1785407885,
   "_source": "deepseek-llm"
 }
