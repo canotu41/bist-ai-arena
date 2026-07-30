@@ -1,106 +1,106 @@
 {
   "market": {
-    "score": 55,
-    "trend": "Hafif pozitif"
+    "score": 60,
+    "trend": "pozitif"
   },
   "tickers": {
     "AKBNK": {
-      "score": 60,
-      "note": "Bilanço sonrası hedef fiyat ve tavsiyeler olumlu"
+      "score": 55,
+      "note": "Teknik analiz ve fiyat hedefi var, nötr-pozitif"
     },
     "GARAN": {
-      "score": 65,
-      "note": "2 milyar dolarlık tahvil başvurusu ve fiyat hedefi var"
+      "score": 60,
+      "note": "Finansman atağı ve fiyat hedefi, pozitif"
     },
     "ISCTR": {
       "score": 50,
-      "note": "Teknik analizler nötr"
+      "note": "Sadece teknik analiz, nötr"
     },
     "YKBNK": {
-      "score": 70,
-      "note": "Net kar ikiye katladı, beklentiler aştı"
+      "score": 50,
+      "note": "Teknik analiz ve fiyat hedefi, nötr"
     },
     "VAKBN": {
-      "score": 75,
-      "note": "1.2 milyar dolar yeni kaynak ve güçlenen görünüm"
+      "score": 65,
+      "note": "Geri alım ve yeni kaynak, pozitif"
     },
     "KCHOL": {
       "score": 55,
-      "note": "Bilanço tarihi açıklandı, teknik analizler nötr"
+      "note": "Bilanço tarihi açıklandı, nötr-pozitif"
     },
     "SAHOL": {
-      "score": 50,
-      "note": "Teknik analizler nötr"
+      "score": 55,
+      "note": "Bilanço açıklandı, nötr-pozitif"
     },
     "SISE": {
       "score": 60,
-      "note": "Hedef fiyat 58 TL'ye güncellendi"
+      "note": "Hedef fiyat güncellendi, pozitif"
     },
     "THYAO": {
-      "score": 55,
-      "note": "Bedelsiz sermaye artırımı potansiyeli gündemde"
+      "score": 60,
+      "note": "Bedelsiz potansiyeli, pozitif"
     },
     "PGSUS": {
       "score": 70,
-      "note": "Satın alma ve tahvil ihracı olumlu, hedef 235 TL"
+      "note": "Satın alma ve tahvil izni, pozitif"
     },
     "TUPRS": {
-      "score": 35,
-      "note": "Hisse çakıldı, negatif haber"
+      "score": 40,
+      "note": "Hisseler çakıldı, negatif"
     },
     "AKSEN": {
       "score": 60,
-      "note": "Hedef fiyat listesinde ve yüksek getiri sağlayan hisseler arasında"
+      "note": "Hedef fiyat değişti, FAVÖK artışı bekleniyor, pozitif"
     },
     "EREGL": {
-      "score": 40,
-      "note": "BofA'dan sert satış haberi negatif"
+      "score": 50,
+      "note": "Sadece teknik analiz, nötr"
     },
     "BIMAS": {
-      "score": 50,
-      "note": "Hisse devir bildirimi nötr"
+      "score": 55,
+      "note": "Bedelsiz sermaye artırımı, nötr-pozitif"
     },
     "MGROS": {
       "score": 65,
-      "note": "Güçlü görünüm, 900 TL'yi aşabilir"
+      "note": "Güçlü görünüm, 900 TL aşabilir, pozitif"
     },
     "FROTO": {
       "score": 50,
-      "note": "Teknik analizler nötr"
+      "note": "Sadece teknik analiz, nötr"
     },
     "TOASO": {
       "score": 55,
-      "note": "Hedef fiyat değişiklikleri ve temettü ödemesi"
+      "note": "Hedef fiyat değişti, temettü, nötr-pozitif"
     },
     "ASELS": {
-      "score": 70,
-      "note": "Jeopolitik destekle güçlü yükseldi"
+      "score": 65,
+      "note": "Jeopolitik destekle yükseldi, pozitif"
     },
     "TCELL": {
-      "score": 60,
-      "note": "Hedef fiyat 150 TL'yi aşması bekleniyor"
+      "score": 50,
+      "note": "Sadece teknik analiz, nötr"
     },
     "TTKOM": {
       "score": 50,
-      "note": "Teknik analizler nötr"
+      "note": "Sadece teknik analiz, nötr"
     },
     "ULKER": {
-      "score": 65,
-      "note": "Temettü dağıtımı ve bilanço beğenildi"
+      "score": 60,
+      "note": "Temettü ve bilanço beğenildi, pozitif"
     },
     "CCOLA": {
       "score": 50,
-      "note": "Teknik analizler nötr"
+      "note": "Sadece teknik analiz, nötr"
     },
     "ARCLK": {
       "score": 55,
-      "note": "Satın alma ve hisse satışı kararı"
+      "note": "Satın alma ve satış kararı, nötr-pozitif"
     },
     "EKGYO": {
       "score": 60,
-      "note": "Hedef fiyat 32,84 TL ve operasyonel güçlü"
+      "note": "Hedef fiyat ve iskontolu değerleme, pozitif"
     }
   },
-  "_ts": 1785332300,
+  "_ts": 1785395564,
   "_source": "deepseek-llm"
 }
