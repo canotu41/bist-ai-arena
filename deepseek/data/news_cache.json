@@ -1,7 +1,7 @@
 {
   "market": {
-    "score": 45,
-    "trend": "Karışık, satıcılı başlangıç"
+    "score": 55,
+    "trend": "yukarı adım kuralı ve kapanış yükselişi pozitif"
   },
   "tickers": {
     "AKBNK": {
@@ -17,8 +17,8 @@
       "note": "Teknik analizler nötr"
     },
     "YKBNK": {
-      "score": 50,
-      "note": "Teknik analizler nötr"
+      "score": 60,
+      "note": "Hedef fiyat revizyonu ve AL tavsiyesi pozitif"
     },
     "VAKBN": {
       "score": 65,
@@ -30,10 +30,10 @@
     },
     "SAHOL": {
       "score": 50,
-      "note": "Teknik analiz ve komite haberleri nötr"
+      "note": "Teknik analiz ve komiteler nötr"
     },
     "SISE": {
-      "score": 55,
+      "score": 60,
       "note": "Hedef fiyat güncellemesi ve temettü pozitif"
     },
     "THYAO": {
@@ -42,19 +42,19 @@
     },
     "PGSUS": {
       "score": 70,
-      "note": "Satın alma, tahvil ihracı ve hedef fiyat pozitif"
+      "note": "Satın alma ve tahvil ihracı pozitif"
     },
     "TUPRS": {
-      "score": 35,
-      "note": "Hisselerde çakılma negatif"
+      "score": 40,
+      "note": "Hissede çakılma negatif"
     },
     "AKSEN": {
       "score": 60,
-      "note": "Hedef fiyat ve FAVÖK artışı pozitif"
+      "note": "Hedef fiyat değişimi ve FAVÖK artışı pozitif"
     },
     "EREGL": {
       "score": 40,
-      "note": "BofA satış tavsiyesi negatif"
+      "note": "Sert satış haberi negatif"
     },
     "BIMAS": {
       "score": 60,
@@ -77,8 +77,8 @@
       "note": "Jeopolitik destekle yükseliş pozitif"
     },
     "TCELL": {
-      "score": 50,
-      "note": "Teknik analizler nötr"
+      "score": 55,
+      "note": "Temettü kararı pozitif"
     },
     "TTKOM": {
       "score": 50,
@@ -93,14 +93,14 @@
       "note": "Teknik analizler nötr"
     },
     "ARCLK": {
-      "score": 55,
-      "note": "Satın alma ve satış kararları karışık"
+      "score": 50,
+      "note": "KAP duyuruları nötr"
     },
     "EKGYO": {
       "score": 55,
-      "note": "Hedef fiyat ve iskonto pozitif"
+      "note": "Hedef fiyat ve analiz pozitif"
     }
   },
-  "_ts": 1785483500,
+  "_ts": 1785496291,
   "_source": "deepseek-llm"
 }
