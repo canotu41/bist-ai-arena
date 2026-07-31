@@ -4,10 +4,10 @@
   "strategy": "Momentum/trend: 20g değişim≥%4, MA20>MA50 kırılım; kazananı bırak; backtest-kalibre (alfa ~%-2)",
   "initial": 50000.0,
   "cash": 2806.94,
-  "total_value": 49263.95,
-  "return_pct": -1.47,
+  "total_value": 49342.18,
+  "return_pct": -1.32,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-07-31 08:38",
+  "last_updated": "2026-07-31 09:10",
   "positions": [
     {
       "ticker": "AKSEN",
@@ -15,7 +15,7 @@
       "sector": "Enerji",
       "entry": 95.6,
       "qty": 130,
-      "current": 94.5,
+      "current": 93.6,
       "stop": 86.04,
       "target": 133.84,
       "entry_ts": "2026-07-15 08:37",
@@ -27,11 +27,11 @@
       "sector": "Gıda",
       "entry": 84.9,
       "qty": 147,
-      "current": 88.65,
+      "current": 89.1,
       "stop": 76.41,
       "target": 118.86,
       "entry_ts": "2026-07-16 07:38",
-      "score": 66.7
+      "score": 68.3
     },
     {
       "ticker": "EREGL",
@@ -39,11 +39,11 @@
       "sector": "Demir-Çelik",
       "entry": 43.24,
       "qty": 289,
-      "current": 41.84,
+      "current": 42.06,
       "stop": 38.92,
       "target": 60.54,
       "entry_ts": "2026-07-16 07:38",
-      "score": 60.3
+      "score": 63.7
     },
     {
       "ticker": "TUPRS",
@@ -51,7 +51,7 @@
       "sector": "Enerji",
       "entry": 309.5,
       "qty": 30,
-      "current": 288.75,
+      "current": 291.0,
       "stop": 278.55,
       "target": 433.3,
       "entry_ts": "2026-07-22 07:10",
@@ -63,11 +63,11 @@
       "sector": "Holding",
       "entry": 204.6,
       "qty": 2,
-      "current": 193.1,
+      "current": 192.1,
       "stop": 184.14,
       "target": 286.44,
       "entry_ts": "2026-07-22 08:38",
-      "score": 61.1
+      "score": 62.4
     }
   ],
   "trades": [
