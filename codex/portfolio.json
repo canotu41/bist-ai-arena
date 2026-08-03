@@ -4,10 +4,10 @@
   "strategy": "Önce risk: düşük vol (ATR≤%3.6), RSI 40-68, MA50 üstü; seçici, uzun tut; backtest-kalibre",
   "initial": 50000.0,
   "cash": 19570.79,
-  "total_value": 48423.29,
-  "return_pct": -3.15,
+  "total_value": 48466.94,
+  "return_pct": -3.07,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-08-03 09:12",
+  "last_updated": "2026-08-03 09:38",
   "positions": [
     {
       "ticker": "TCELL",
@@ -19,7 +19,7 @@
       "stop": 99.18,
       "target": 154.28,
       "entry_ts": "2026-07-14 09:15",
-      "score": 49.2
+      "score": 48.6
     },
     {
       "ticker": "THYAO",
@@ -27,11 +27,11 @@
       "sector": "Ulaştırma",
       "entry": 323.5,
       "qty": 23,
-      "current": 318.0,
+      "current": 317.75,
       "stop": 291.15,
       "target": 452.9,
       "entry_ts": "2026-07-14 09:15",
-      "score": 53.4
+      "score": 51.6
     },
     {
       "ticker": "BIMAS",
@@ -39,7 +39,7 @@
       "sector": "Perakende",
       "entry": 381.5,
       "qty": 19,
-      "current": 381.5,
+      "current": 383.5,
       "stop": 343.35,
       "target": 534.1,
       "entry_ts": "2026-07-14 10:38",
@@ -51,7 +51,7 @@
       "sector": "Holding",
       "entry": 195.3,
       "qty": 38,
-      "current": 194.6,
+      "current": 194.9,
       "stop": 175.77,
       "target": 273.42,
       "entry_ts": "2026-07-16 08:38",
