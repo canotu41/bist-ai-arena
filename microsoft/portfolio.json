@@ -4,10 +4,10 @@
   "strategy": "Momentum/trend: 20g değişim≥%4, MA20>MA50 kırılım; kazananı bırak; backtest-kalibre (alfa ~%-2)",
   "initial": 50000.0,
   "cash": 13635.01,
-  "total_value": 49294.46,
-  "return_pct": -1.41,
+  "total_value": 49085.61,
+  "return_pct": -1.83,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-08-07 13:41",
+  "last_updated": "2026-08-07 14:22",
   "positions": [
     {
       "ticker": "AKSEN",
@@ -15,7 +15,7 @@
       "sector": "Enerji",
       "entry": 95.6,
       "qty": 130,
-      "current": 93.5,
+      "current": 92.25,
       "stop": 86.04,
       "target": 133.84,
       "entry_ts": "2026-07-15 08:37",
@@ -27,7 +27,7 @@
       "sector": "Gıda",
       "entry": 84.9,
       "qty": 147,
-      "current": 89.2,
+      "current": 88.8,
       "stop": 76.41,
       "target": 118.86,
       "entry_ts": "2026-07-16 07:38",
@@ -39,7 +39,7 @@
       "sector": "Enerji",
       "entry": 309.5,
       "qty": 30,
-      "current": 320.25,
+      "current": 320.75,
       "stop": 278.55,
       "target": 433.3,
       "entry_ts": "2026-07-22 07:10",
@@ -51,7 +51,7 @@
       "sector": "Holding",
       "entry": 204.6,
       "qty": 2,
-      "current": 197.9,
+      "current": 198.0,
       "stop": 184.14,
       "target": 286.44,
       "entry_ts": "2026-07-22 08:38",
@@ -63,11 +63,11 @@
       "sector": "Perakende",
       "entry": 379.25,
       "qty": 1,
-      "current": 388.75,
+      "current": 386.0,
       "stop": 341.32,
       "target": 530.95,
       "entry_ts": "2026-08-03 15:17",
-      "score": 68.9
+      "score": 66.9
     }
   ],
   "trades": [
