@@ -18,19 +18,19 @@
     },
     "YKBNK": {
       "score": 50,
-      "note": "Nötr haberler"
+      "note": "Nötr teknik analizler"
     },
     "VAKBN": {
-      "score": 60,
-      "note": "Yeni kaynak ve güçlenen görünüm"
+      "score": 75,
+      "note": "Yeni kaynak ve hedef fiyat yükselişi"
     },
     "KCHOL": {
-      "score": 55,
-      "note": "Bilanço analizi ve teknik analiz"
+      "score": 60,
+      "note": "Bilanço analizi ve özel durum açıklaması"
     },
     "SAHOL": {
-      "score": 55,
-      "note": "Al sinyalleri ve teknik analiz"
+      "score": 50,
+      "note": "Nötr teknik analiz ve genel bilgi formu"
     },
     "SISE": {
       "score": 65,
@@ -42,27 +42,27 @@
     },
     "PGSUS": {
       "score": 75,
-      "note": "Satın alma, tahvil ihracı ve hedef fiyat artışı"
+      "note": "Satın alma ve tahvil ihracı izni"
     },
     "TUPRS": {
       "score": 70,
-      "note": "Rekor tazeleme ve teknik analiz"
+      "note": "Rekor tazeleme ve hedef fiyat"
     },
     "AKSEN": {
       "score": 65,
-      "note": "Hedef fiyat değişimi ve FAVÖK artışı"
+      "note": "Hedef fiyat değişimi ve FAVÖK artışı beklentisi"
     },
     "EREGL": {
-      "score": 80,
-      "note": "Net kârda yüzde 415 artış"
+      "score": 60,
+      "note": "Kâr artışı ve teknik analiz"
     },
     "BIMAS": {
-      "score": 60,
+      "score": 65,
       "note": "Pay geri alım programı tamamlandı"
     },
     "MGROS": {
-      "score": 65,
-      "note": "Hedef fiyat güncellendi"
+      "score": 70,
+      "note": "Hedef fiyat güncellendi, 800 TL üzeri"
     },
     "FROTO": {
       "score": 70,
@@ -70,23 +70,23 @@
     },
     "TOASO": {
       "score": 60,
-      "note": "Temettü açıklaması ve yükseliş sinyalleri"
+      "note": "Temettü açıklaması ve yükseliş sinyali"
     },
     "ASELS": {
-      "score": 70,
+      "score": 75,
       "note": "Jeopolitik destekle güçlü yükseliş"
     },
     "TCELL": {
       "score": 50,
-      "note": "Nötr haberler"
+      "note": "Nötr teknik analiz ve SEC açıklaması"
     },
     "TTKOM": {
       "score": 50,
-      "note": "Nötr haberler"
+      "note": "Nötr teknik analiz ve bilanço tarihi"
     },
     "ULKER": {
-      "score": 65,
-      "note": "Temettü dağıtımı ve hedef fiyat"
+      "score": 70,
+      "note": "Temettü dağıtımı ve olumlu bilanço beklentisi"
     },
     "CCOLA": {
       "score": 50,
@@ -97,10 +97,10 @@
       "note": "Satın alma ve hisse satışı kararları"
     },
     "EKGYO": {
-      "score": 55,
+      "score": 60,
       "note": "Hedef fiyat belirlendi"
     }
   },
-  "_ts": 1786099098,
+  "_ts": 1786110091,
   "_source": "deepseek-llm"
 }

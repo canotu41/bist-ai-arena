@@ -1,7 +1,7 @@
 {
   "name": "DeepSeek BIST30 Portföy",
   "initial_capital": 50000.0,
-  "cash": 2480.1900000000032,
+  "cash": 2453.970000000001,
   "positions": [
     {
       "ticker": "CCOLA",
@@ -15,29 +15,11 @@
       "take_profit": 114.62,
       "trailing_stop_active": false,
       "trailing_stop_level": 0.0,
-      "current_price": 89.65,
-      "unrealized_pnl": 555.75,
-      "unrealized_pnl_pct": 5.5948174322732624,
+      "current_price": 89.2,
+      "unrealized_pnl": 503.0999999999997,
+      "unrealized_pnl_pct": 5.064782096584213,
       "days_held": 0,
       "deepscore_at_entry": 67.1
-    },
-    {
-      "ticker": "EREGL",
-      "company_name": "Ereğli Demir Çelik",
-      "sector": "Demir-Çelik",
-      "entry_price": 43.24,
-      "quantity": 231,
-      "entry_date": "2026-07-16 07:37",
-      "cost_basis": 9988.44,
-      "stop_loss": 38.92,
-      "take_profit": 58.37,
-      "trailing_stop_active": false,
-      "trailing_stop_level": 0.0,
-      "current_price": 39.02,
-      "unrealized_pnl": -974.8199999999997,
-      "unrealized_pnl_pct": -9.759481961147083,
-      "days_held": 0,
-      "deepscore_at_entry": 64.3
     },
     {
       "ticker": "BIMAS",
@@ -69,9 +51,9 @@
       "take_profit": 59.62,
       "trailing_stop_active": false,
       "trailing_stop_level": 0.0,
-      "current_price": 41.66,
-      "unrealized_pnl": -430.0,
-      "unrealized_pnl_pct": -5.661231884057971,
+      "current_price": 41.42,
+      "unrealized_pnl": -471.2799999999991,
+      "unrealized_pnl_pct": -6.204710144927525,
       "days_held": 0,
       "deepscore_at_entry": 62.0
     },
@@ -87,9 +69,9 @@
       "take_profit": 265.28,
       "trailing_stop_active": false,
       "trailing_stop_level": 0.0,
-      "current_price": 199.6,
-      "unrealized_pnl": 71.29999999999987,
-      "unrealized_pnl_pct": 1.5776081424936357,
+      "current_price": 197.9,
+      "unrealized_pnl": 32.20000000000013,
+      "unrealized_pnl_pct": 0.7124681933842268,
       "days_held": 0,
       "deepscore_at_entry": 62.4
     },
@@ -110,6 +92,24 @@
       "unrealized_pnl_pct": -3.3333333333333375,
       "days_held": 0,
       "deepscore_at_entry": 66.9
+    },
+    {
+      "ticker": "TUPRS",
+      "company_name": "Tüpraş",
+      "sector": "Enerji",
+      "entry_price": 320.25,
+      "quantity": 28,
+      "entry_date": "2026-08-07 13:41",
+      "cost_basis": 8967.0,
+      "stop_loss": 288.23,
+      "take_profit": 432.34,
+      "trailing_stop_active": false,
+      "trailing_stop_level": 0.0,
+      "current_price": 320.25,
+      "unrealized_pnl": 0.0,
+      "unrealized_pnl_pct": 0.0,
+      "days_held": 0,
+      "deepscore_at_entry": 67.4
     }
   ],
   "transactions": [
@@ -216,17 +216,43 @@
       "reason": "DeepScore™ 66.9 (BUY) | Sektör: Bankacılık",
       "signal_type": "BUY",
       "deepscore": 66.9
+    },
+    {
+      "id": "A29488B5",
+      "timestamp": "2026-08-07 13:41",
+      "type": "SELL",
+      "ticker": "EREGL",
+      "quantity": 231,
+      "price": 38.86,
+      "total_amount": 8976.66,
+      "commission": 17.95,
+      "reason": "STOP-LOSS tetiklendi: %-10.13 düşüş (limit: %-10.0)",
+      "signal_type": "SELL",
+      "deepscore": 0.0
+    },
+    {
+      "id": "AD2CD61E",
+      "timestamp": "2026-08-07 13:41",
+      "type": "BUY",
+      "ticker": "TUPRS",
+      "quantity": 28,
+      "price": 320.25,
+      "total_amount": 8967.0,
+      "commission": 17.93,
+      "reason": "DeepScore™ 67.4 (BUY) | Sektör: Enerji",
+      "signal_type": "BUY",
+      "deepscore": 67.4
     }
   ],
-  "total_value": 47796.33000000001,
-  "total_return_pct": -4.41,
+  "total_value": 47590.46000000001,
+  "total_return_pct": -4.82,
   "benchmark_return_pct": 0.0,
   "alpha_pct": 0.0,
   "week": 0,
-  "current_drawdown_pct": -4.41,
+  "current_drawdown_pct": -4.75,
   "max_drawdown_pct": -4.81,
   "win_rate_pct": 0.0,
   "market_regime": "SIDEWAYS",
-  "last_updated": "2026-08-07 12:46",
+  "last_updated": "2026-08-07 13:41",
   "created_date": "2026-07-06"
 }
