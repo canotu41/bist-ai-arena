@@ -3,35 +3,23 @@
   "name": "Microsoft Copilot Portföyü",
   "strategy": "Momentum/trend: 20g değişim≥%4, MA20>MA50 kırılım; kazananı bırak; backtest-kalibre (alfa ~%-2)",
   "initial": 50000.0,
-  "cash": 13635.01,
-  "total_value": 49573.36,
-  "return_pct": -0.85,
+  "cash": 24442.35,
+  "total_value": 48652.3,
+  "return_pct": -2.7,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-08-10 13:43",
+  "last_updated": "2026-08-10 14:41",
   "positions": [
-    {
-      "ticker": "AKSEN",
-      "name": "Aksa Enerji",
-      "sector": "Enerji",
-      "entry": 95.6,
-      "qty": 130,
-      "current": 89.7,
-      "stop": 86.04,
-      "target": 133.84,
-      "entry_ts": "2026-07-15 08:37",
-      "score": 51.8
-    },
     {
       "ticker": "CCOLA",
       "name": "Coca-Cola İçecek",
       "sector": "Gıda",
       "entry": 84.9,
       "qty": 147,
-      "current": 90.8,
+      "current": 89.95,
       "stop": 76.41,
       "target": 118.86,
       "entry_ts": "2026-07-16 07:38",
-      "score": 73.9
+      "score": 72.3
     },
     {
       "ticker": "TUPRS",
@@ -39,11 +27,11 @@
       "sector": "Enerji",
       "entry": 309.5,
       "qty": 30,
-      "current": 337.75,
+      "current": 339.75,
       "stop": 278.55,
       "target": 433.3,
       "entry_ts": "2026-07-22 07:10",
-      "score": 79.5
+      "score": 81.3
     },
     {
       "ticker": "KCHOL",
@@ -51,11 +39,11 @@
       "sector": "Holding",
       "entry": 204.6,
       "qty": 2,
-      "current": 204.5,
+      "current": 204.9,
       "stop": 184.14,
       "target": 286.44,
       "entry_ts": "2026-07-22 08:38",
-      "score": 74.7
+      "score": 73.1
     },
     {
       "ticker": "BIMAS",
@@ -63,11 +51,11 @@
       "sector": "Perakende",
       "entry": 379.25,
       "qty": 1,
-      "current": 388.25,
+      "current": 385.0,
       "stop": 341.32,
       "target": 530.95,
       "entry_ts": "2026-08-03 15:17",
-      "score": 68.2
+      "score": 66.8
     }
   ],
   "trades": [
@@ -133,6 +121,15 @@
       "price": 38.86,
       "amount": 11230.54,
       "reason": "STOP-LOSS (%-10.1)"
+    },
+    {
+      "ts": "2026-08-10 14:41",
+      "side": "SELL",
+      "ticker": "AKSEN",
+      "qty": 130,
+      "price": 83.3,
+      "amount": 10829.0,
+      "reason": "STOP-LOSS (%-12.9)"
     }
   ]
 }
