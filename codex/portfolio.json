@@ -4,10 +4,10 @@
   "strategy": "Önce risk: düşük vol (ATR≤%3.6), RSI 40-68, MA50 üstü; seçici, uzun tut; backtest-kalibre",
   "initial": 50000.0,
   "cash": 6389.48,
-  "total_value": 48821.43,
-  "return_pct": -2.36,
+  "total_value": 48798.68,
+  "return_pct": -2.4,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-08-10 11:39",
+  "last_updated": "2026-08-10 12:17",
   "positions": [
     {
       "ticker": "TCELL",
@@ -15,11 +15,11 @@
       "sector": "Telekom",
       "entry": 110.2,
       "qty": 68,
-      "current": 106.1,
+      "current": 106.0,
       "stop": 99.18,
       "target": 154.28,
       "entry_ts": "2026-07-14 09:15",
-      "score": 63.1
+      "score": 52.3
     },
     {
       "ticker": "THYAO",
@@ -27,11 +27,11 @@
       "sector": "Ulaştırma",
       "entry": 323.5,
       "qty": 23,
-      "current": 305.75,
+      "current": 306.0,
       "stop": 291.15,
       "target": 452.9,
       "entry_ts": "2026-07-14 09:15",
-      "score": 48.5
+      "score": 54.8
     },
     {
       "ticker": "BIMAS",
@@ -51,11 +51,11 @@
       "sector": "Holding",
       "entry": 195.3,
       "qty": 38,
-      "current": 204.3,
+      "current": 204.4,
       "stop": 175.77,
       "target": 273.42,
       "entry_ts": "2026-07-16 08:38",
-      "score": 62.0
+      "score": 63.2
     },
     {
       "ticker": "GARAN",
@@ -63,7 +63,7 @@
       "sector": "Bankacılık",
       "entry": 132.0,
       "qty": 55,
-      "current": 127.6,
+      "current": 127.3,
       "stop": 118.8,
       "target": 184.8,
       "entry_ts": "2026-08-04 12:39",
@@ -75,7 +75,7 @@
       "sector": "Perakende",
       "entry": 655.0,
       "qty": 9,
-      "current": 667.0,
+      "current": 666.0,
       "stop": 589.5,
       "target": 917.0,
       "entry_ts": "2026-08-10 07:14",
