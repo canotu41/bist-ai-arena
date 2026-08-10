@@ -1,106 +1,106 @@
 {
   "market": {
-    "score": 65,
-    "trend": "Pozitif"
+    "score": 55,
+    "trend": "Karışık; rekor haberleri ve likidite endişeleri"
   },
   "tickers": {
     "AKBNK": {
-      "score": 55,
-      "note": "Teknik analiz ve temettü haberleri nötr-pozitif"
+      "score": 50,
+      "note": "Teknik analiz ve konsensüs tahminleri nötr"
     },
     "GARAN": {
-      "score": 70,
-      "note": "Finansman atağı ve hedef fiyat artışı"
+      "score": 60,
+      "note": "Finansman atağı ve tahvil başvurusu pozitif"
     },
     "ISCTR": {
       "score": 45,
-      "note": "Hedef fiyat düşüşü"
+      "note": "Hedef fiyat düşürüldü, 'AL' korundu"
     },
     "YKBNK": {
       "score": 50,
-      "note": "Nötr teknik analizler"
+      "note": "Teknik analiz ve fiyat hedefi nötr"
     },
     "VAKBN": {
-      "score": 75,
-      "note": "Yeni kaynak ve hedef fiyat yükselişi"
+      "score": 65,
+      "note": "Yeni kaynak ve güçlenen görünüm pozitif"
     },
     "KCHOL": {
       "score": 60,
-      "note": "Bilanço analizi ve özel durum açıklaması"
+      "note": "Bilanço analizi ve satın alma pozitif"
     },
     "SAHOL": {
-      "score": 50,
-      "note": "Nötr teknik analiz ve genel bilgi formu"
+      "score": 55,
+      "note": "Teknik analiz ve 'al' sinyalleri hafif pozitif"
     },
     "SISE": {
-      "score": 65,
+      "score": 70,
       "note": "Hedef fiyat yükseltildi"
     },
     "THYAO": {
-      "score": 70,
-      "note": "Rekor yolcu ve sefer sayısı"
+      "score": 40,
+      "note": "BofA satış önerisi ve özel durum açıklaması negatif"
     },
     "PGSUS": {
-      "score": 75,
-      "note": "Satın alma ve tahvil ihracı izni"
+      "score": 65,
+      "note": "Tahvil ihracı ve satın alma pozitif"
     },
     "TUPRS": {
-      "score": 70,
-      "note": "Rekor tazeleme ve hedef fiyat"
+      "score": 75,
+      "note": "Rekor ve hedef fiyat yükseltmesi çok pozitif"
     },
     "AKSEN": {
-      "score": 65,
-      "note": "Hedef fiyat değişimi ve FAVÖK artışı beklentisi"
+      "score": 60,
+      "note": "Güçlenen göstergeler ve fiyat hedefi pozitif"
     },
     "EREGL": {
-      "score": 60,
-      "note": "Kâr artışı ve teknik analiz"
+      "score": 80,
+      "note": "Net kâr artışı çok pozitif"
     },
     "BIMAS": {
-      "score": 65,
-      "note": "Pay geri alım programı tamamlandı"
+      "score": 60,
+      "note": "Geri alım programı tamamlandı pozitif"
     },
     "MGROS": {
-      "score": 70,
-      "note": "Hedef fiyat güncellendi, 800 TL üzeri"
+      "score": 65,
+      "note": "Hedef fiyat güncellendi pozitif"
     },
     "FROTO": {
-      "score": 70,
-      "note": "Büyük yatırım hamlesi"
+      "score": 55,
+      "note": "Satın alma pozitif, marj zayıflığı negatif"
     },
     "TOASO": {
       "score": 60,
-      "note": "Temettü açıklaması ve yükseliş sinyali"
+      "note": "Temettü açıklaması pozitif"
     },
     "ASELS": {
-      "score": 75,
-      "note": "Jeopolitik destekle güçlü yükseliş"
+      "score": 50,
+      "note": "Teknik analiz ve genel değerlendirme nötr"
     },
     "TCELL": {
-      "score": 50,
-      "note": "Nötr teknik analiz ve SEC açıklaması"
+      "score": 65,
+      "note": "Temettü kararı ve hedef fiyat pozitif"
     },
     "TTKOM": {
       "score": 50,
-      "note": "Nötr teknik analiz ve bilanço tarihi"
+      "note": "Teknik analiz ve bilanço tarihi nötr"
     },
     "ULKER": {
-      "score": 70,
-      "note": "Temettü dağıtımı ve olumlu bilanço beklentisi"
+      "score": 65,
+      "note": "Temettü ve bilanço beğenisi pozitif"
     },
     "CCOLA": {
       "score": 50,
-      "note": "Nötr teknik analizler"
+      "note": "Teknik analiz ve fiyat hedefi nötr"
     },
     "ARCLK": {
       "score": 55,
-      "note": "Satın alma ve hisse satışı kararları"
+      "note": "Satın alma ve satış kararları dengeli"
     },
     "EKGYO": {
-      "score": 60,
-      "note": "Hedef fiyat belirlendi"
+      "score": 50,
+      "note": "Teknik analiz ve fiyat hedefi nötr"
     }
   },
-  "_ts": 1786110091,
+  "_ts": 1786346058,
   "_source": "deepseek-llm"
 }
