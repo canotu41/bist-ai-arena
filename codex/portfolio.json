@@ -4,10 +4,10 @@
   "strategy": "Önce risk: düşük vol (ATR≤%3.6), RSI 40-68, MA50 üstü; seçici, uzun tut; backtest-kalibre",
   "initial": 50000.0,
   "cash": 6389.48,
-  "total_value": 48452.83,
-  "return_pct": -3.09,
+  "total_value": 47759.23,
+  "return_pct": -4.48,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-08-10 18:39",
+  "last_updated": "2026-08-11 07:38",
   "positions": [
     {
       "ticker": "TCELL",
@@ -15,11 +15,11 @@
       "sector": "Telekom",
       "entry": 110.2,
       "qty": 68,
-      "current": 105.3,
+      "current": 103.2,
       "stop": 99.18,
       "target": 154.28,
       "entry_ts": "2026-07-14 09:15",
-      "score": 54.1
+      "score": 51.7
     },
     {
       "ticker": "THYAO",
@@ -27,7 +27,7 @@
       "sector": "Ulaştırma",
       "entry": 323.5,
       "qty": 23,
-      "current": 303.0,
+      "current": 298.75,
       "stop": 291.15,
       "target": 452.9,
       "entry_ts": "2026-07-14 09:15",
@@ -39,11 +39,11 @@
       "sector": "Perakende",
       "entry": 381.5,
       "qty": 19,
-      "current": 384.25,
+      "current": 377.5,
       "stop": 343.35,
       "target": 534.1,
       "entry_ts": "2026-07-14 10:38",
-      "score": 53.9
+      "score": 64.8
     },
     {
       "ticker": "KCHOL",
@@ -51,11 +51,11 @@
       "sector": "Holding",
       "entry": 195.3,
       "qty": 38,
-      "current": 203.9,
+      "current": 201.8,
       "stop": 175.77,
       "target": 273.42,
       "entry_ts": "2026-07-16 08:38",
-      "score": 61.2
+      "score": 63.4
     },
     {
       "ticker": "GARAN",
@@ -63,11 +63,11 @@
       "sector": "Bankacılık",
       "entry": 132.0,
       "qty": 55,
-      "current": 126.6,
+      "current": 124.6,
       "stop": 118.8,
       "target": 184.8,
       "entry_ts": "2026-08-04 12:39",
-      "score": 64.9
+      "score": 64.3
     },
     {
       "ticker": "MGROS",
@@ -75,11 +75,11 @@
       "sector": "Perakende",
       "entry": 655.0,
       "qty": 9,
-      "current": 658.0,
+      "current": 643.0,
       "stop": 589.5,
       "target": 917.0,
       "entry_ts": "2026-08-10 07:14",
-      "score": 60.7
+      "score": 62.5
     }
   ],
   "trades": [
