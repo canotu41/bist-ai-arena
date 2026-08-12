@@ -3,11 +3,11 @@
   "name": "Codex Portföyü",
   "strategy": "Önce risk: düşük vol (ATR≤%3.6), RSI 40-68, MA50 üstü; seçici, uzun tut; backtest-kalibre",
   "initial": 50000.0,
-  "cash": 6389.48,
-  "total_value": 47741.53,
-  "return_pct": -4.52,
+  "cash": 11621.49,
+  "total_value": 47216.4,
+  "return_pct": -5.57,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-08-11 14:38",
+  "last_updated": "2026-08-12 07:38",
   "positions": [
     {
       "ticker": "TCELL",
@@ -15,11 +15,11 @@
       "sector": "Telekom",
       "entry": 110.2,
       "qty": 68,
-      "current": 102.9,
+      "current": 102.3,
       "stop": 99.18,
       "target": 154.28,
       "entry_ts": "2026-07-14 09:15",
-      "score": 52.7
+      "score": 50.7
     },
     {
       "ticker": "THYAO",
@@ -27,11 +27,11 @@
       "sector": "Ulaştırma",
       "entry": 323.5,
       "qty": 23,
-      "current": 301.0,
+      "current": 301.75,
       "stop": 291.15,
       "target": 452.9,
       "entry_ts": "2026-07-14 09:15",
-      "score": 42.9
+      "score": 44.0
     },
     {
       "ticker": "BIMAS",
@@ -39,11 +39,11 @@
       "sector": "Perakende",
       "entry": 381.5,
       "qty": 19,
-      "current": 378.75,
+      "current": 374.25,
       "stop": 343.35,
       "target": 534.1,
       "entry_ts": "2026-07-14 10:38",
-      "score": 56.8
+      "score": 54.8
     },
     {
       "ticker": "KCHOL",
@@ -51,11 +51,11 @@
       "sector": "Holding",
       "entry": 195.3,
       "qty": 38,
-      "current": 199.7,
+      "current": 200.5,
       "stop": 175.77,
       "target": 273.42,
       "entry_ts": "2026-07-16 08:38",
-      "score": 65.6
+      "score": 62.4
     },
     {
       "ticker": "GARAN",
@@ -63,23 +63,11 @@
       "sector": "Bankacılık",
       "entry": 132.0,
       "qty": 55,
-      "current": 126.2,
+      "current": 126.7,
       "stop": 118.8,
       "target": 184.8,
       "entry_ts": "2026-08-04 12:39",
       "score": 64.9
-    },
-    {
-      "ticker": "MGROS",
-      "name": "Migros",
-      "sector": "Perakende",
-      "entry": 655.0,
-      "qty": 9,
-      "current": 634.0,
-      "stop": 589.5,
-      "target": 917.0,
-      "entry_ts": "2026-08-10 07:14",
-      "score": 61.1
     }
   ],
   "trades": [
@@ -154,6 +142,15 @@
       "price": 655.0,
       "amount": 5895.0,
       "reason": "Codex skoru 63 (>=62)"
+    },
+    {
+      "ts": "2026-08-12 07:38",
+      "side": "SELL",
+      "ticker": "MGROS",
+      "qty": 9,
+      "price": 582.5,
+      "amount": 5242.5,
+      "reason": "STOP-LOSS (%-11.1)"
     }
   ]
 }
