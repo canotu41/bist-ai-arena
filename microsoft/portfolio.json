@@ -4,10 +4,10 @@
   "strategy": "Momentum/trend: 20g değişim≥%4, MA20>MA50 kırılım; kazananı bırak; backtest-kalibre (alfa ~%-2)",
   "initial": 50000.0,
   "cash": 24442.35,
-  "total_value": 48116.05,
-  "return_pct": -3.77,
+  "total_value": 48070.8,
+  "return_pct": -3.86,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-08-13 10:39",
+  "last_updated": "2026-08-13 11:39",
   "positions": [
     {
       "ticker": "CCOLA",
@@ -27,7 +27,7 @@
       "sector": "Enerji",
       "entry": 309.5,
       "qty": 30,
-      "current": 348.0,
+      "current": 346.5,
       "stop": 278.55,
       "target": 433.3,
       "entry_ts": "2026-07-22 07:10",
@@ -39,7 +39,7 @@
       "sector": "Holding",
       "entry": 204.6,
       "qty": 2,
-      "current": 204.4,
+      "current": 203.9,
       "stop": 184.14,
       "target": 286.44,
       "entry_ts": "2026-07-22 08:38",
@@ -51,11 +51,11 @@
       "sector": "Perakende",
       "entry": 379.25,
       "qty": 1,
-      "current": 374.0,
+      "current": 374.75,
       "stop": 341.32,
       "target": 530.95,
       "entry_ts": "2026-08-03 15:17",
-      "score": 50.6
+      "score": 50.1
     }
   ],
   "trades": [

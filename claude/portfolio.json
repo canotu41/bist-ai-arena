@@ -4,10 +4,10 @@
   "strategy": "Kalite+değer, seçici al + uzun tut (ROE≥%10, F/K≤35, trend üstü); backtest-kalibre",
   "initial": 50000.0,
   "cash": 5019.86,
-  "total_value": 48937.72,
-  "return_pct": -2.12,
+  "total_value": 48862.38,
+  "return_pct": -2.28,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-08-13 10:39",
+  "last_updated": "2026-08-13 11:39",
   "positions": [
     {
       "ticker": "CCOLA",
@@ -27,11 +27,11 @@
       "sector": "Perakende",
       "entry": 384.0,
       "qty": 28,
-      "current": 374.0,
+      "current": 374.75,
       "stop": 345.6,
       "target": 764.16,
       "entry_ts": "2026-07-14 15:08",
-      "score": 54.5
+      "score": 53.8
     },
     {
       "ticker": "VAKBN",
@@ -39,11 +39,11 @@
       "sector": "Bankacılık",
       "entry": 31.58,
       "qty": 356,
-      "current": 30.86,
+      "current": 30.72,
       "stop": 28.42,
       "target": 62.84,
       "entry_ts": "2026-07-16 14:38",
-      "score": 64.9
+      "score": 64.2
     },
     {
       "ticker": "THYAO",
@@ -51,7 +51,7 @@
       "sector": "Ulaştırma",
       "entry": 321.0,
       "qty": 3,
-      "current": 308.0,
+      "current": 307.5,
       "stop": 288.9,
       "target": 638.79,
       "entry_ts": "2026-07-23 07:09",
@@ -63,7 +63,7 @@
       "sector": "Enerji",
       "entry": 323.75,
       "qty": 30,
-      "current": 348.0,
+      "current": 346.5,
       "stop": 291.38,
       "target": 644.26,
       "entry_ts": "2026-08-07 10:38",
