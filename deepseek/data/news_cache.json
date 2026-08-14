@@ -9,12 +9,12 @@
       "note": "Nötr haberler"
     },
     "GARAN": {
-      "score": 55,
-      "note": "Temettü sonrası fiyat güncellemesi"
+      "score": 50,
+      "note": "Nötr haberler"
     },
     "ISCTR": {
       "score": 50,
-      "note": "Teknik analiz haberleri"
+      "note": "Nötr haberler"
     },
     "YKBNK": {
       "score": 50,
@@ -22,11 +22,11 @@
     },
     "VAKBN": {
       "score": 60,
-      "note": "Geri alım ve pozitif ayrışma"
+      "note": "Geri alım ve pozitif bilanço analizi"
     },
     "KCHOL": {
-      "score": 55,
-      "note": "Bilanço tarihi açıklandı"
+      "score": 50,
+      "note": "Nötr haberler"
     },
     "SAHOL": {
       "score": 60,
@@ -37,70 +37,70 @@
       "note": "Hedef fiyat güncellendi"
     },
     "THYAO": {
-      "score": 55,
-      "note": "Bilanço açıklandı"
+      "score": 50,
+      "note": "Nötr haberler"
     },
     "PGSUS": {
       "score": 60,
       "note": "Tahvil ihracı izni ve hedef fiyat"
     },
     "TUPRS": {
-      "score": 65,
+      "score": 60,
       "note": "Hedef fiyat yükseldi"
     },
     "AKSEN": {
       "score": 60,
-      "note": "İşlem hacmi artışı"
+      "note": "Bilanço sonrası hedef yükseltme"
     },
     "EREGL": {
-      "score": 55,
-      "note": "Temettü tarihi açıklandı"
+      "score": 50,
+      "note": "Nötr haberler"
     },
     "BIMAS": {
       "score": 60,
       "note": "Geri alım tamamlandı"
     },
     "MGROS": {
-      "score": 45,
-      "note": "Düşüş nedeni sorgulanıyor"
+      "score": 40,
+      "note": "Düşüş haberi"
     },
     "FROTO": {
       "score": 60,
       "note": "Yatırım hamlesi"
     },
     "TOASO": {
-      "score": 55,
-      "note": "Temettü açıklaması"
+      "score": 50,
+      "note": "Nötr haberler"
     },
     "ASELS": {
       "score": 50,
       "note": "Nötr haberler"
     },
     "TCELL": {
-      "score": 55,
-      "note": "Temettü kararı"
+      "score": 50,
+      "note": "Nötr haberler"
     },
     "TTKOM": {
       "score": 50,
-      "note": "Bilanço tarihi açıklandı"
+      "note": "Nötr haberler"
     },
     "ULKER": {
       "score": 60,
-      "note": "Temettü ve bilanço beğenildi"
+      "note": "Temettü ve olumlu bilanço"
     },
     "CCOLA": {
       "score": 60,
       "note": "Hedef fiyat yükseltildi"
     },
     "ARCLK": {
-      "score": 55,
-      "note": "Satın alma ve satış kararları"
+      "score": 50,
+      "note": "Nötr haberler"
     },
     "EKGYO": {
-      "score": 60,
-      "note": "Hedef fiyat ve iskontolu değerleme"
+      "score": 50,
+      "note": "Nötr haberler"
     }
   },
-  "_ts": 1786693574,
+  "_ts": 1786707987,
   "_source": "deepseek-llm"
 }
