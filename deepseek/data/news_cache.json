@@ -18,34 +18,34 @@
     },
     "YKBNK": {
       "score": 50,
-      "note": "Teknik analiz haberleri"
+      "note": "Nötr haberler"
     },
     "VAKBN": {
-      "score": 65,
+      "score": 60,
       "note": "Geri alım ve pozitif ayrışma"
     },
     "KCHOL": {
-      "score": 50,
-      "note": "Teknik analiz haberleri"
+      "score": 55,
+      "note": "Bilanço tarihi açıklandı"
     },
     "SAHOL": {
       "score": 60,
-      "note": "Kâra geçiş haberi"
+      "note": "Kâra geçti"
     },
     "SISE": {
       "score": 60,
-      "note": "Hedef fiyat güncellemesi"
+      "note": "Hedef fiyat güncellendi"
     },
     "THYAO": {
-      "score": 40,
-      "note": "Satış tavsiyesi"
+      "score": 55,
+      "note": "Bilanço açıklandı"
     },
     "PGSUS": {
       "score": 60,
-      "note": "Tahvil ihracı ve satın alma"
+      "note": "Tahvil ihracı izni ve hedef fiyat"
     },
     "TUPRS": {
-      "score": 60,
+      "score": 65,
       "note": "Hedef fiyat yükseldi"
     },
     "AKSEN": {
@@ -54,14 +54,14 @@
     },
     "EREGL": {
       "score": 55,
-      "note": "Kâr artışı ve hisse yükselişi"
+      "note": "Temettü tarihi açıklandı"
     },
     "BIMAS": {
       "score": 60,
-      "note": "Geri alım programı tamamlandı"
+      "note": "Geri alım tamamlandı"
     },
     "MGROS": {
-      "score": 40,
+      "score": 45,
       "note": "Düşüş nedeni sorgulanıyor"
     },
     "FROTO": {
@@ -86,21 +86,21 @@
     },
     "ULKER": {
       "score": 60,
-      "note": "Temettü ve bilanço beğenisi"
+      "note": "Temettü ve bilanço beğenildi"
     },
     "CCOLA": {
       "score": 60,
       "note": "Hedef fiyat yükseltildi"
     },
     "ARCLK": {
-      "score": 50,
+      "score": 55,
       "note": "Satın alma ve satış kararları"
     },
     "EKGYO": {
       "score": 60,
-      "note": "Güçlü operasyonel ve iskontolu değerleme"
+      "note": "Hedef fiyat ve iskontolu değerleme"
     }
   },
-  "_ts": 1786628492,
+  "_ts": 1786693574,
   "_source": "deepseek-llm"
 }
