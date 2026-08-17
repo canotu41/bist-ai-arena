@@ -4,10 +4,10 @@
   "strategy": "Momentum/trend: 20g değişim≥%4, MA20>MA50 kırılım; kazananı bırak; backtest-kalibre (alfa ~%-2)",
   "initial": 50000.0,
   "cash": 24442.35,
-  "total_value": 48041.6,
-  "return_pct": -3.92,
+  "total_value": 47999.0,
+  "return_pct": -4.0,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-08-17 08:39",
+  "last_updated": "2026-08-17 09:38",
   "positions": [
     {
       "ticker": "CCOLA",
@@ -15,11 +15,11 @@
       "sector": "Gıda",
       "entry": 84.9,
       "qty": 147,
-      "current": 80.95,
+      "current": 80.65,
       "stop": 76.41,
       "target": 118.86,
       "entry_ts": "2026-07-16 07:38",
-      "score": 49.2
+      "score": 60.5
     },
     {
       "ticker": "TUPRS",
@@ -51,11 +51,11 @@
       "sector": "Perakende",
       "entry": 379.25,
       "qty": 1,
-      "current": 375.5,
+      "current": 377.0,
       "stop": 341.32,
       "target": 530.95,
       "entry_ts": "2026-08-03 15:17",
-      "score": 59.6
+      "score": 58.7
     }
   ],
   "trades": [
