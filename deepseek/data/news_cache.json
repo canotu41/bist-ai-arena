@@ -1,16 +1,16 @@
 {
   "market": {
-    "score": 55,
-    "trend": "Yükseliş ve rekorlar, jeopolitik belirsizliklerle dengeleniyor"
+    "score": 75,
+    "trend": "Pozitif"
   },
   "tickers": {
     "AKBNK": {
-      "score": 50,
-      "note": "Teknik analiz ve tahminler nötr"
+      "score": 55,
+      "note": "Teknik analiz ve tahminler nötr-pozitif"
     },
     "GARAN": {
       "score": 60,
-      "note": "Finansman atağı ve tahvil başvurusu pozitif"
+      "note": "Finansman atağı ve tahminler pozitif"
     },
     "ISCTR": {
       "score": 50,
@@ -26,19 +26,19 @@
     },
     "KCHOL": {
       "score": 60,
-      "note": "Temettü kararı ve bilanço analizi pozitif"
+      "note": "Temettü kararı ve bilanço tarihi pozitif"
     },
     "SAHOL": {
-      "score": 55,
-      "note": "Bilanço ve tahminler hafif pozitif"
+      "score": 50,
+      "note": "Teknik analizler nötr"
     },
     "SISE": {
       "score": 60,
       "note": "Hedef fiyat güncellemesi pozitif"
     },
     "THYAO": {
-      "score": 55,
-      "note": "Analizler ve tahminler hafif pozitif"
+      "score": 60,
+      "note": "Detaylı analiz ve teknik görünüm pozitif"
     },
     "PGSUS": {
       "score": 65,
@@ -46,10 +46,10 @@
     },
     "TUPRS": {
       "score": 45,
-      "note": "Çakılma haberi negatif, rekor haberi pozitif, karışık"
+      "note": "Karışık haberler: çakılma ve rekor"
     },
     "AKSEN": {
-      "score": 60,
+      "score": 65,
       "note": "Bilanço sonrası hedef yükseltmeleri pozitif"
     },
     "EREGL": {
@@ -57,36 +57,36 @@
       "note": "BofA satış önerisi negatif"
     },
     "BIMAS": {
-      "score": 55,
-      "note": "Bedelsiz sermaye artırımı hafif pozitif"
+      "score": 60,
+      "note": "Geri alım programı tamamlandı pozitif"
     },
     "MGROS": {
-      "score": 45,
-      "note": "Düşüş haberi negatif, güçlü görünüm pozitif, karışık"
+      "score": 55,
+      "note": "Karışık: düşüş haberi ve güçlü görünüm"
     },
     "FROTO": {
       "score": 60,
-      "note": "Pay alımı ve temettü pozitif"
+      "note": "Pay alımı ve temettü kararı pozitif"
     },
     "TOASO": {
-      "score": 55,
-      "note": "Temettü açıklaması hafif pozitif"
+      "score": 60,
+      "note": "Temettü açıklaması pozitif"
     },
     "ASELS": {
-      "score": 50,
-      "note": "Teknik analiz ve tahminler nötr"
+      "score": 65,
+      "note": "Jeopolitik destekle yükseliş pozitif"
     },
     "TCELL": {
-      "score": 55,
-      "note": "Temettü kararı hafif pozitif"
+      "score": 50,
+      "note": "Teknik analiz ve gelir dağılımı nötr"
     },
     "TTKOM": {
       "score": 50,
       "note": "Teknik analiz ve tahminler nötr"
     },
     "ULKER": {
-      "score": 60,
-      "note": "Temettü ve bilanço beğenisi pozitif"
+      "score": 65,
+      "note": "Temettü ve hedef fiyatlar pozitif"
     },
     "CCOLA": {
       "score": 60,
@@ -101,6 +101,6 @@
       "note": "Operasyonel güçlü, değerleme iskontolu"
     }
   },
-  "_ts": 1786966942,
+  "_ts": 1787038709,
   "_source": "deepseek-llm"
 }
