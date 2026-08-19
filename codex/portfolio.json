@@ -4,10 +4,10 @@
   "strategy": "Önce risk: düşük vol (ATR≤%3.6), RSI 40-68, MA50 üstü; seçici, uzun tut; backtest-kalibre",
   "initial": 50000.0,
   "cash": 11621.49,
-  "total_value": 48959.29,
-  "return_pct": -2.08,
+  "total_value": 48855.84,
+  "return_pct": -2.29,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-08-19 13:38",
+  "last_updated": "2026-08-19 14:38",
   "positions": [
     {
       "ticker": "TCELL",
@@ -15,7 +15,7 @@
       "sector": "Telekom",
       "entry": 110.2,
       "qty": 68,
-      "current": 104.8,
+      "current": 104.1,
       "stop": 99.18,
       "target": 154.28,
       "entry_ts": "2026-07-14 09:15",
@@ -27,11 +27,11 @@
       "sector": "Ulaştırma",
       "entry": 323.5,
       "qty": 23,
-      "current": 302.0,
+      "current": 301.0,
       "stop": 291.15,
       "target": 452.9,
       "entry_ts": "2026-07-14 09:15",
-      "score": 56.9
+      "score": 46.7
     },
     {
       "ticker": "BIMAS",
@@ -39,7 +39,7 @@
       "sector": "Perakende",
       "entry": 381.5,
       "qty": 19,
-      "current": 415.5,
+      "current": 413.75,
       "stop": 343.35,
       "target": 534.1,
       "entry_ts": "2026-07-14 10:38",
@@ -51,7 +51,7 @@
       "sector": "Holding",
       "entry": 195.3,
       "qty": 38,
-      "current": 213.3,
+      "current": 213.6,
       "stop": 175.77,
       "target": 273.42,
       "entry_ts": "2026-07-16 08:38",
@@ -63,11 +63,11 @@
       "sector": "Bankacılık",
       "entry": 132.0,
       "qty": 55,
-      "current": 132.1,
+      "current": 131.9,
       "stop": 118.8,
       "target": 184.8,
       "entry_ts": "2026-08-04 12:39",
-      "score": 65.9
+      "score": 62.3
     }
   ],
   "trades": [
