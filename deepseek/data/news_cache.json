@@ -1,106 +1,106 @@
 {
   "market": {
-    "score": 45,
-    "trend": "Karışık, hafif negatif"
+    "score": 55,
+    "trend": "Karışık, hafif pozitif"
   },
   "tickers": {
     "AKBNK": {
       "score": 50,
-      "note": "Teknik analiz başlıkları nötr"
+      "note": "Nötr haberler, teknik analizler"
     },
     "GARAN": {
-      "score": 60,
+      "score": 55,
       "note": "Finansman atağı ve tahvil başvurusu pozitif"
     },
     "ISCTR": {
       "score": 50,
-      "note": "Teknik analiz başlıkları nötr"
+      "note": "Nötr teknik analizler"
     },
     "YKBNK": {
-      "score": 55,
-      "note": "Sermaye piyasası aracı bildirimi hafif pozitif"
+      "score": 50,
+      "note": "Nötr haberler"
     },
     "VAKBN": {
-      "score": 70,
-      "note": "Geri alım ve yeni kaynak pozitif"
+      "score": 60,
+      "note": "AL sinyali ve yeni kaynak pozitif"
     },
     "KCHOL": {
       "score": 55,
-      "note": "Bilanço açıklaması hafif pozitif"
+      "note": "Bilanço analizi pozitif"
     },
     "SAHOL": {
-      "score": 50,
-      "note": "Teknik analiz başlıkları nötr"
+      "score": 65,
+      "note": "Net kâr beklentiyi aştı"
     },
     "SISE": {
-      "score": 30,
-      "note": "Bilanço sonrası sert düşüş negatif"
+      "score": 40,
+      "note": "Bilanço sonrası sert düşüş, hedef fiyat geriledi"
     },
     "THYAO": {
-      "score": 60,
-      "note": "Detaylı analiz ve pozitif yorumlar"
+      "score": 35,
+      "note": "Kâr beklentiyi karşılamadı, %25 düşüş"
     },
     "PGSUS": {
-      "score": 65,
-      "note": "Tahvil ihracı izni ve fiyat tahminleri pozitif"
+      "score": 55,
+      "note": "Tahvil ihracı izni ve satın alma pozitif"
     },
     "TUPRS": {
-      "score": 45,
-      "note": "Rekor ve çakılma haberleri karışık"
+      "score": 60,
+      "note": "Rekor tazeleme ve pozitif haberler"
     },
     "AKSEN": {
-      "score": 60,
-      "note": "Hedef yükseltmeleri pozitif"
+      "score": 50,
+      "note": "Nötr bilanço tahmini"
     },
     "EREGL": {
-      "score": 55,
-      "note": "Bank of America yönelimi hafif pozitif"
+      "score": 45,
+      "note": "BofA satışı negatif, ama analist ilgisi var"
     },
     "BIMAS": {
-      "score": 60,
-      "note": "Geri alım programının tamamlanması pozitif"
+      "score": 70,
+      "note": "Kâr ikiye katlandı, güçlü sonuçlar"
     },
     "MGROS": {
-      "score": 40,
-      "note": "Hisse düşüşü negatif"
+      "score": 35,
+      "note": "Hisse düşüşü ve negatif haberler"
     },
     "FROTO": {
-      "score": 60,
-      "note": "Koç Holding'in pay alımı pozitif"
+      "score": 55,
+      "note": "Yatırım hamlesi pozitif, marj zayıflığı negatif"
     },
     "TOASO": {
-      "score": 55,
-      "note": "Temettü açıklaması hafif pozitif"
+      "score": 50,
+      "note": "Nötr, hedef fiyat değişiklikleri"
     },
     "ASELS": {
-      "score": 70,
+      "score": 65,
       "note": "Jeopolitik destekle güçlü yükseliş"
     },
     "TCELL": {
       "score": 50,
-      "note": "Teknik analiz başlıkları nötr"
+      "note": "Nötr haberler"
     },
     "TTKOM": {
       "score": 50,
-      "note": "Bilanço tahmini nötr"
+      "note": "Nötr bilanço tahmini"
     },
     "ULKER": {
-      "score": 75,
-      "note": "Güçlü 2Ç kazancı ve temettü pozitif"
+      "score": 70,
+      "note": "Güçlü 2Ç kazancı, %5.5 sıçrama"
     },
     "CCOLA": {
-      "score": 60,
-      "note": "Teknik göstergeler ve hedef fiyatlar pozitif"
+      "score": 30,
+      "note": "2.1 milyar TL ceza şoku negatif"
     },
     "ARCLK": {
-      "score": 60,
-      "note": "AL tavsiyesi ve hedef fiyat pozitif"
+      "score": 55,
+      "note": "AL tavsiyesi ve satın alma pozitif"
     },
     "EKGYO": {
       "score": 55,
-      "note": "Operasyonel güçlü ve iskontolu değerleme hafif pozitif"
+      "note": "Operasyonel güçlü, değerleme iskontolu"
     }
   },
-  "_ts": 1787225889,
+  "_ts": 1787557089,
   "_source": "deepseek-llm"
 }

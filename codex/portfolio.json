@@ -3,11 +3,11 @@
   "name": "Codex Portföyü",
   "strategy": "Önce risk: düşük vol (ATR≤%3.6), RSI 40-68, MA50 üstü; seçici, uzun tut; backtest-kalibre",
   "initial": 50000.0,
-  "cash": 11621.49,
-  "total_value": 49153.89,
-  "return_pct": -1.69,
+  "cash": 5947.36,
+  "total_value": 49463.01,
+  "return_pct": -1.07,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-08-21 14:38",
+  "last_updated": "2026-08-24 07:38",
   "positions": [
     {
       "ticker": "TCELL",
@@ -15,11 +15,11 @@
       "sector": "Telekom",
       "entry": 110.2,
       "qty": 68,
-      "current": 104.5,
+      "current": 105.2,
       "stop": 99.18,
       "target": 154.28,
       "entry_ts": "2026-07-14 09:15",
-      "score": 60.7
+      "score": 59.5
     },
     {
       "ticker": "THYAO",
@@ -27,11 +27,11 @@
       "sector": "Ulaştırma",
       "entry": 323.5,
       "qty": 23,
-      "current": 300.5,
+      "current": 303.5,
       "stop": 291.15,
       "target": 452.9,
       "entry_ts": "2026-07-14 09:15",
-      "score": 52.7
+      "score": 54.4
     },
     {
       "ticker": "BIMAS",
@@ -39,11 +39,11 @@
       "sector": "Perakende",
       "entry": 381.5,
       "qty": 19,
-      "current": 416.0,
+      "current": 412.75,
       "stop": 343.35,
       "target": 534.1,
       "entry_ts": "2026-07-14 10:38",
-      "score": 60.9
+      "score": 63.8
     },
     {
       "ticker": "KCHOL",
@@ -51,11 +51,11 @@
       "sector": "Holding",
       "entry": 195.3,
       "qty": 38,
-      "current": 222.8,
+      "current": 224.0,
       "stop": 175.77,
       "target": 273.42,
       "entry_ts": "2026-07-16 08:38",
-      "score": 53.4
+      "score": 60.4
     },
     {
       "ticker": "GARAN",
@@ -63,11 +63,23 @@
       "sector": "Bankacılık",
       "entry": 132.0,
       "qty": 55,
-      "current": 129.9,
+      "current": 133.9,
       "stop": 118.8,
       "target": 184.8,
       "entry_ts": "2026-08-04 12:39",
-      "score": 70.2
+      "score": 64.3
+    },
+    {
+      "ticker": "AKBNK",
+      "name": "Akbank",
+      "sector": "Bankacılık",
+      "entry": 72.6,
+      "qty": 78,
+      "current": 72.6,
+      "stop": 65.34,
+      "target": 101.64,
+      "entry_ts": "2026-08-24 07:38",
+      "score": 64.0
     }
   ],
   "trades": [
@@ -151,6 +163,15 @@
       "price": 582.5,
       "amount": 5242.5,
       "reason": "STOP-LOSS (%-11.1)"
+    },
+    {
+      "ts": "2026-08-24 07:38",
+      "side": "BUY",
+      "ticker": "AKBNK",
+      "qty": 78,
+      "price": 72.6,
+      "amount": 5662.8,
+      "reason": "Codex skoru 64 (>=62)"
     }
   ]
 }
