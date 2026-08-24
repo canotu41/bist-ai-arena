@@ -4,10 +4,10 @@
   "strategy": "Momentum/trend: 20g değişim≥%4, MA20>MA50 kırılım; kazananı bırak; backtest-kalibre (alfa ~%-2)",
   "initial": 50000.0,
   "cash": 24442.35,
-  "total_value": 49234.7,
-  "return_pct": -1.53,
+  "total_value": 49281.8,
+  "return_pct": -1.44,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-08-24 11:38",
+  "last_updated": "2026-08-24 12:41",
   "positions": [
     {
       "ticker": "CCOLA",
@@ -15,11 +15,11 @@
       "sector": "Gıda",
       "entry": 84.9,
       "qty": 147,
-      "current": 80.2,
+      "current": 80.6,
       "stop": 76.41,
       "target": 118.86,
       "entry_ts": "2026-07-16 07:38",
-      "score": 47.2
+      "score": 50.5
     },
     {
       "ticker": "TUPRS",
@@ -27,7 +27,7 @@
       "sector": "Enerji",
       "entry": 309.5,
       "qty": 30,
-      "current": 405.0,
+      "current": 404.75,
       "stop": 278.55,
       "target": 433.3,
       "entry_ts": "2026-07-22 07:10",
@@ -39,11 +39,11 @@
       "sector": "Holding",
       "entry": 204.6,
       "qty": 2,
-      "current": 221.6,
+      "current": 220.5,
       "stop": 184.14,
       "target": 286.44,
       "entry_ts": "2026-07-22 08:38",
-      "score": 75.4
+      "score": 76.7
     },
     {
       "ticker": "BIMAS",
@@ -51,7 +51,7 @@
       "sector": "Perakende",
       "entry": 379.25,
       "qty": 1,
-      "current": 409.75,
+      "current": 407.75,
       "stop": 341.32,
       "target": 530.95,
       "entry_ts": "2026-08-03 15:17",
