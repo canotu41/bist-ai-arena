@@ -1,40 +1,40 @@
 {
   "market": {
-    "score": 50,
-    "trend": "karışık"
+    "score": 45,
+    "trend": "negatif"
   },
   "tickers": {
     "AKBNK": {
       "score": 50,
-      "note": "Nötr başlıklar"
+      "note": "Teknik analiz ve tahminler nötr"
     },
     "GARAN": {
       "score": 60,
-      "note": "Finansman atağı olumlu"
+      "note": "Finansman atağı pozitif"
     },
     "ISCTR": {
       "score": 50,
-      "note": "Nötr başlıklar"
+      "note": "Teknik analizler nötr"
     },
     "YKBNK": {
       "score": 50,
-      "note": "Nötr başlıklar"
+      "note": "Teknik analiz ve tahminler nötr"
     },
     "VAKBN": {
-      "score": 70,
-      "note": "AL sinyali ve yeni kaynak olumlu"
+      "score": 65,
+      "note": "Geri alım ve yeni kaynak pozitif"
     },
     "KCHOL": {
-      "score": 50,
-      "note": "Nötr başlıklar"
+      "score": 55,
+      "note": "Bilanço analizi pozitif"
     },
     "SAHOL": {
-      "score": 65,
-      "note": "Net kâr beklentiyi aştı"
+      "score": 50,
+      "note": "Teknik analizler nötr"
     },
     "SISE": {
-      "score": 30,
-      "note": "Bilanço sonrası sert düşüş"
+      "score": 35,
+      "note": "Bilanço sonrası düşüş negatif"
     },
     "THYAO": {
       "score": 30,
@@ -42,65 +42,65 @@
     },
     "PGSUS": {
       "score": 60,
-      "note": "Tahvil ihracı izni olumlu"
+      "note": "Tahvil ihracı ve satın alma pozitif"
     },
     "TUPRS": {
-      "score": 65,
-      "note": "Rekor tazeleme olumlu"
+      "score": 70,
+      "note": "Rekor tazeleme pozitif"
     },
     "AKSEN": {
-      "score": 50,
-      "note": "Nötr başlıklar"
+      "score": 55,
+      "note": "Bilanço tahmini pozitif"
     },
     "EREGL": {
       "score": 40,
-      "note": "BofA satış önerisi olumsuz"
+      "note": "Sert satış haberi negatif"
     },
     "BIMAS": {
       "score": 70,
-      "note": "Kâr ikiye katlandı"
+      "note": "Kâr ikiye katlandı pozitif"
     },
     "MGROS": {
-      "score": 55,
-      "note": "Güçlü görünüm, düşüş sorusu"
+      "score": 30,
+      "note": "Düşüş haberleri negatif"
     },
     "FROTO": {
-      "score": 50,
-      "note": "Yatırım olumlu, marj zayıflığı olumsuz"
+      "score": 65,
+      "note": "Yatırım hamlesi pozitif"
     },
     "TOASO": {
-      "score": 50,
-      "note": "Nötr başlıklar"
+      "score": 55,
+      "note": "Hedef fiyat değişiklikleri pozitif"
     },
     "ASELS": {
       "score": 65,
-      "note": "Jeopolitik destekle yükseliş"
+      "note": "Jeopolitik destekle yükseliş pozitif"
     },
     "TCELL": {
       "score": 50,
-      "note": "Nötr başlıklar"
+      "note": "Teknik analizler nötr"
     },
     "TTKOM": {
       "score": 50,
-      "note": "Nötr başlıklar"
+      "note": "Bilanço tahmini nötr"
     },
     "ULKER": {
-      "score": 70,
-      "note": "Güçlü 2Ç kazancı, sıçrama"
+      "score": 60,
+      "note": "Yükseliş ve bilanço pozitif"
     },
     "CCOLA": {
-      "score": 30,
-      "note": "Ceza şoku olumsuz"
+      "score": 35,
+      "note": "Ceza haberi negatif"
     },
     "ARCLK": {
       "score": 60,
-      "note": "AL tavsiyesi olumlu"
+      "note": "Satın alma ve AL tavsiyesi pozitif"
     },
     "EKGYO": {
       "score": 50,
-      "note": "Nötr başlıklar"
+      "note": "Analizler nötr"
     }
   },
-  "_ts": 1787582318,
+  "_ts": 1787643528,
   "_source": "deepseek-llm"
 }
