@@ -25,8 +25,8 @@
       "note": "Geri alım ve yeni kaynak pozitif"
     },
     "KCHOL": {
-      "score": 55,
-      "note": "Bilanço analizi pozitif"
+      "score": 50,
+      "note": "Bilanço analizi nötr"
     },
     "SAHOL": {
       "score": 50,
@@ -34,7 +34,7 @@
     },
     "SISE": {
       "score": 35,
-      "note": "Bilanço sonrası düşüş negatif"
+      "note": "Bilanço sonrası sert düşüş"
     },
     "THYAO": {
       "score": 30,
@@ -50,19 +50,19 @@
     },
     "AKSEN": {
       "score": 55,
-      "note": "Bilanço tahmini pozitif"
+      "note": "Bilanço tahmini ve işlem artışı pozitif"
     },
     "EREGL": {
       "score": 40,
-      "note": "Sert satış haberi negatif"
+      "note": "BofA satışı negatif"
     },
     "BIMAS": {
       "score": 70,
       "note": "Kâr ikiye katlandı pozitif"
     },
     "MGROS": {
-      "score": 30,
-      "note": "Düşüş haberleri negatif"
+      "score": 35,
+      "note": "Düşüş nedeni belirsiz negatif"
     },
     "FROTO": {
       "score": 65,
@@ -73,8 +73,8 @@
       "note": "Hedef fiyat değişiklikleri pozitif"
     },
     "ASELS": {
-      "score": 65,
-      "note": "Jeopolitik destekle yükseliş pozitif"
+      "score": 70,
+      "note": "Jeopolitik destekle güçlü yükseliş"
     },
     "TCELL": {
       "score": 50,
@@ -86,10 +86,10 @@
     },
     "ULKER": {
       "score": 60,
-      "note": "Yükseliş ve bilanço pozitif"
+      "note": "Yükseliş nedeni pozitif"
     },
     "CCOLA": {
-      "score": 35,
+      "score": 40,
       "note": "Ceza haberi negatif"
     },
     "ARCLK": {
@@ -98,9 +98,9 @@
     },
     "EKGYO": {
       "score": 50,
-      "note": "Analizler nötr"
+      "note": "Analiz nötr"
     }
   },
-  "_ts": 1787643528,
+  "_ts": 1787657914,
   "_source": "deepseek-llm"
 }
