@@ -4,10 +4,10 @@
   "strategy": "Önce risk: düşük vol (ATR≤%3.6), RSI 40-68, MA50 üstü; seçici, uzun tut; backtest-kalibre",
   "initial": 50000.0,
   "cash": 5947.36,
-  "total_value": 48701.81,
-  "return_pct": -2.6,
+  "total_value": 48855.66,
+  "return_pct": -2.29,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-08-25 12:39",
+  "last_updated": "2026-08-25 13:40",
   "positions": [
     {
       "ticker": "TCELL",
@@ -27,11 +27,11 @@
       "sector": "Ulaştırma",
       "entry": 323.5,
       "qty": 23,
-      "current": 301.25,
+      "current": 302.0,
       "stop": 291.15,
       "target": 452.9,
       "entry_ts": "2026-07-14 09:15",
-      "score": 48.9
+      "score": 51.0
     },
     {
       "ticker": "BIMAS",
@@ -39,7 +39,7 @@
       "sector": "Perakende",
       "entry": 381.5,
       "qty": 19,
-      "current": 412.5,
+      "current": 414.0,
       "stop": 343.35,
       "target": 534.1,
       "entry_ts": "2026-07-14 10:38",
@@ -51,11 +51,11 @@
       "sector": "Holding",
       "entry": 195.3,
       "qty": 38,
-      "current": 213.0,
+      "current": 215.7,
       "stop": 175.77,
       "target": 273.42,
       "entry_ts": "2026-07-16 08:38",
-      "score": 61.2
+      "score": 59.7
     },
     {
       "ticker": "GARAN",
@@ -63,7 +63,7 @@
       "sector": "Bankacılık",
       "entry": 132.0,
       "qty": 55,
-      "current": 132.7,
+      "current": 132.8,
       "stop": 118.8,
       "target": 184.8,
       "entry_ts": "2026-08-04 12:39",
