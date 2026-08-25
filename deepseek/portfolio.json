@@ -33,9 +33,9 @@
       "take_profit": 532.24,
       "trailing_stop_active": false,
       "trailing_stop_level": 0.0,
-      "current_price": 411.5,
-      "unrealized_pnl": 431.25,
-      "unrealized_pnl_pct": 4.375396322130628,
+      "current_price": 412.5,
+      "unrealized_pnl": 456.25,
+      "unrealized_pnl_pct": 4.629042485732404,
       "days_held": 0,
       "deepscore_at_entry": 62.9
     },
@@ -51,9 +51,9 @@
       "take_profit": 265.28,
       "trailing_stop_active": false,
       "trailing_stop_level": 0.0,
-      "current_price": 213.6,
-      "unrealized_pnl": 393.29999999999984,
-      "unrealized_pnl_pct": 8.702290076335876,
+      "current_price": 213.0,
+      "unrealized_pnl": 379.5,
+      "unrealized_pnl_pct": 8.396946564885496,
       "days_held": 0,
       "deepscore_at_entry": 62.4
     },
@@ -69,9 +69,9 @@
       "take_profit": 178.2,
       "trailing_stop_active": false,
       "trailing_stop_level": 0.0,
-      "current_price": 132.5,
-      "unrealized_pnl": 17.0,
-      "unrealized_pnl_pct": 0.3787878787878788,
+      "current_price": 132.7,
+      "unrealized_pnl": 23.799999999999613,
+      "unrealized_pnl_pct": 0.5303030303030216,
       "days_held": 0,
       "deepscore_at_entry": 66.9
     },
@@ -105,9 +105,9 @@
       "take_profit": 41.72,
       "trailing_stop_active": false,
       "trailing_stop_level": 0.0,
-      "current_price": 31.6,
-      "unrealized_pnl": 154.7000000000006,
-      "unrealized_pnl_pct": 2.2653721682847987,
+      "current_price": 31.52,
+      "unrealized_pnl": 137.0200000000002,
+      "unrealized_pnl_pct": 2.0064724919093884,
       "days_held": 0,
       "deepscore_at_entry": 63.0
     }
@@ -270,7 +270,7 @@
       "deepscore": 63.0
     }
   ],
-  "total_value": 48745.44,
+  "total_value": 48745.76,
   "total_return_pct": -2.51,
   "benchmark_return_pct": 0.0,
   "alpha_pct": 0.0,
@@ -279,6 +279,6 @@
   "max_drawdown_pct": -5.72,
   "win_rate_pct": 0.0,
   "market_regime": "SIDEWAYS",
-  "last_updated": "2026-08-25 11:38",
+  "last_updated": "2026-08-25 12:39",
   "created_date": "2026-07-06"
 }
