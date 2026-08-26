@@ -3,11 +3,11 @@
   "name": "Microsoft Copilot Portföyü",
   "strategy": "Momentum/trend: 20g değişim≥%4, MA20>MA50 kırılım; kazananı bırak; backtest-kalibre (alfa ~%-2)",
   "initial": 50000.0,
-  "cash": 36032.12,
-  "total_value": 48249.37,
-  "return_pct": -3.5,
+  "cash": 23948.0,
+  "total_value": 48245.25,
+  "return_pct": -3.51,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-08-26 10:39",
+  "last_updated": "2026-08-26 11:41",
   "positions": [
     {
       "ticker": "TUPRS",
@@ -15,7 +15,7 @@
       "sector": "Enerji",
       "entry": 309.5,
       "qty": 30,
-      "current": 378.75,
+      "current": 379.5,
       "stop": 278.55,
       "target": 433.3,
       "entry_ts": "2026-07-22 07:10",
@@ -27,11 +27,11 @@
       "sector": "Holding",
       "entry": 204.6,
       "qty": 2,
-      "current": 217.5,
+      "current": 216.5,
       "stop": 184.14,
       "target": 286.44,
       "entry_ts": "2026-07-22 08:38",
-      "score": 64.2
+      "score": 66.4
     },
     {
       "ticker": "BIMAS",
@@ -39,11 +39,23 @@
       "sector": "Perakende",
       "entry": 379.25,
       "qty": 1,
-      "current": 419.75,
+      "current": 419.25,
       "stop": 341.32,
       "target": 530.95,
       "entry_ts": "2026-08-03 15:17",
       "score": 63.5
+    },
+    {
+      "ticker": "ASELS",
+      "name": "Aselsan",
+      "sector": "Savunma",
+      "entry": 402.0,
+      "qty": 30,
+      "current": 402.0,
+      "stop": 361.8,
+      "target": 562.8,
+      "entry_ts": "2026-08-26 11:41",
+      "score": 70.0
     }
   ],
   "trades": [
@@ -127,6 +139,15 @@
       "price": 79.0,
       "amount": 11613.0,
       "reason": "SKOR düştü (37 < 40)"
+    },
+    {
+      "ts": "2026-08-26 11:41",
+      "side": "BUY",
+      "ticker": "ASELS",
+      "qty": 30,
+      "price": 402.0,
+      "amount": 12060.0,
+      "reason": "Microsoft Copilot skoru 70 (>=70)"
     }
   ]
 }
