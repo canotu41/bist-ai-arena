@@ -3,35 +3,23 @@
   "name": "Microsoft Copilot Portföyü",
   "strategy": "Momentum/trend: 20g değişim≥%4, MA20>MA50 kırılım; kazananı bırak; backtest-kalibre (alfa ~%-2)",
   "initial": 50000.0,
-  "cash": 24442.35,
-  "total_value": 48216.75,
-  "return_pct": -3.57,
+  "cash": 36032.12,
+  "total_value": 48173.72,
+  "return_pct": -3.65,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-08-26 08:38",
+  "last_updated": "2026-08-26 09:38",
   "positions": [
-    {
-      "ticker": "CCOLA",
-      "name": "Coca-Cola İçecek",
-      "sector": "Gıda",
-      "entry": 84.9,
-      "qty": 147,
-      "current": 78.9,
-      "stop": 76.41,
-      "target": 118.86,
-      "entry_ts": "2026-07-16 07:38",
-      "score": 44.7
-    },
     {
       "ticker": "TUPRS",
       "name": "Tüpraş",
       "sector": "Enerji",
       "entry": 309.5,
       "qty": 30,
-      "current": 377.5,
+      "current": 376.25,
       "stop": 278.55,
       "target": 433.3,
       "entry_ts": "2026-07-22 07:10",
-      "score": 67.2
+      "score": 72.8
     },
     {
       "ticker": "KCHOL",
@@ -43,7 +31,7 @@
       "stop": 184.14,
       "target": 286.44,
       "entry_ts": "2026-07-22 08:38",
-      "score": 75.8
+      "score": 63.4
     },
     {
       "ticker": "BIMAS",
@@ -51,11 +39,11 @@
       "sector": "Perakende",
       "entry": 379.25,
       "qty": 1,
-      "current": 416.5,
+      "current": 419.5,
       "stop": 341.32,
       "target": 530.95,
       "entry_ts": "2026-08-03 15:17",
-      "score": 70.1
+      "score": 62.7
     }
   ],
   "trades": [
@@ -130,6 +118,15 @@
       "price": 83.3,
       "amount": 10829.0,
       "reason": "STOP-LOSS (%-12.9)"
+    },
+    {
+      "ts": "2026-08-26 09:38",
+      "side": "SELL",
+      "ticker": "CCOLA",
+      "qty": 147,
+      "price": 79.0,
+      "amount": 11613.0,
+      "reason": "SKOR düştü (37 < 40)"
     }
   ]
 }
