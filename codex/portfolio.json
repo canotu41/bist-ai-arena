@@ -3,11 +3,11 @@
   "name": "Codex Portföyü",
   "strategy": "Önce risk: düşük vol (ATR≤%3.6), RSI 40-68, MA50 üstü; seçici, uzun tut; backtest-kalibre",
   "initial": 50000.0,
-  "cash": 10991.63,
-  "total_value": 48261.6,
-  "return_pct": -3.48,
+  "cash": 10955.16,
+  "total_value": 48152.94,
+  "return_pct": -3.69,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-08-31 12:38",
+  "last_updated": "2026-08-31 13:38",
   "positions": [
     {
       "ticker": "THYAO",
@@ -15,7 +15,7 @@
       "sector": "Ulaştırma",
       "entry": 323.5,
       "qty": 23,
-      "current": 303.0,
+      "current": 302.75,
       "stop": 291.15,
       "target": 452.9,
       "entry_ts": "2026-07-14 09:15",
@@ -27,7 +27,7 @@
       "sector": "Perakende",
       "entry": 381.5,
       "qty": 19,
-      "current": 404.75,
+      "current": 403.25,
       "stop": 343.35,
       "target": 534.1,
       "entry_ts": "2026-07-14 10:38",
@@ -39,7 +39,7 @@
       "sector": "Holding",
       "entry": 195.3,
       "qty": 38,
-      "current": 214.9,
+      "current": 214.1,
       "stop": 175.77,
       "target": 273.42,
       "entry_ts": "2026-07-16 08:38",
@@ -51,7 +51,7 @@
       "sector": "Bankacılık",
       "entry": 132.0,
       "qty": 55,
-      "current": 130.8,
+      "current": 130.3,
       "stop": 118.8,
       "target": 184.8,
       "entry_ts": "2026-08-04 12:39",
@@ -63,7 +63,7 @@
       "sector": "Bankacılık",
       "entry": 72.6,
       "qty": 78,
-      "current": 72.15,
+      "current": 71.9,
       "stop": 65.34,
       "target": 101.64,
       "entry_ts": "2026-08-24 07:38",
@@ -75,11 +75,23 @@
       "sector": "Bankacılık",
       "entry": 31.9,
       "qty": 51,
-      "current": 31.82,
+      "current": 31.88,
       "stop": 28.71,
       "target": 44.66,
       "entry_ts": "2026-08-31 11:38",
       "score": 65.9
+    },
+    {
+      "ticker": "YKBNK",
+      "name": "Yapı Kredi Bankası",
+      "sector": "Bankacılık",
+      "entry": 36.4,
+      "qty": 1,
+      "current": 36.4,
+      "stop": 32.76,
+      "target": 50.96,
+      "entry_ts": "2026-08-31 13:38",
+      "score": 70.0
     }
   ],
   "trades": [
@@ -190,6 +202,15 @@
       "price": 31.9,
       "amount": 1626.9,
       "reason": "Codex skoru 65 (>=62)"
+    },
+    {
+      "ts": "2026-08-31 13:38",
+      "side": "BUY",
+      "ticker": "YKBNK",
+      "qty": 1,
+      "price": 36.4,
+      "amount": 36.4,
+      "reason": "Codex skoru 70 (>=62)"
     }
   ]
 }
