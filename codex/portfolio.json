@@ -4,10 +4,10 @@
   "strategy": "Önce risk: düşük vol (ATR≤%3.6), RSI 40-68, MA50 üstü; seçici, uzun tut; backtest-kalibre",
   "initial": 50000.0,
   "cash": 5824.52,
-  "total_value": 48557.22,
-  "return_pct": -2.89,
+  "total_value": 48512.76,
+  "return_pct": -2.97,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-09-01 10:38",
+  "last_updated": "2026-09-01 11:41",
   "positions": [
     {
       "ticker": "THYAO",
@@ -15,7 +15,7 @@
       "sector": "Ulaştırma",
       "entry": 323.5,
       "qty": 23,
-      "current": 302.5,
+      "current": 301.75,
       "stop": 291.15,
       "target": 452.9,
       "entry_ts": "2026-07-14 09:15",
@@ -27,11 +27,11 @@
       "sector": "Perakende",
       "entry": 381.5,
       "qty": 19,
-      "current": 403.5,
+      "current": 405.75,
       "stop": 343.35,
       "target": 534.1,
       "entry_ts": "2026-07-14 10:38",
-      "score": 62.0
+      "score": 62.6
     },
     {
       "ticker": "KCHOL",
@@ -39,11 +39,11 @@
       "sector": "Holding",
       "entry": 195.3,
       "qty": 38,
-      "current": 217.6,
+      "current": 217.4,
       "stop": 175.77,
       "target": 273.42,
       "entry_ts": "2026-07-16 08:38",
-      "score": 59.2
+      "score": 60.4
     },
     {
       "ticker": "GARAN",
@@ -51,7 +51,7 @@
       "sector": "Bankacılık",
       "entry": 132.0,
       "qty": 55,
-      "current": 133.3,
+      "current": 133.1,
       "stop": 118.8,
       "target": 184.8,
       "entry_ts": "2026-08-04 12:39",
@@ -63,11 +63,11 @@
       "sector": "Bankacılık",
       "entry": 72.6,
       "qty": 78,
-      "current": 72.85,
+      "current": 72.65,
       "stop": 65.34,
       "target": 101.64,
       "entry_ts": "2026-08-24 07:38",
-      "score": 64.9
+      "score": 65.9
     },
     {
       "ticker": "VAKBN",
@@ -75,7 +75,7 @@
       "sector": "Bankacılık",
       "entry": 31.9,
       "qty": 51,
-      "current": 32.42,
+      "current": 32.32,
       "stop": 28.71,
       "target": 44.66,
       "entry_ts": "2026-08-31 11:38",
@@ -87,11 +87,11 @@
       "sector": "Bankacılık",
       "entry": 36.4,
       "qty": 1,
-      "current": 36.98,
+      "current": 36.92,
       "stop": 32.76,
       "target": 50.96,
       "entry_ts": "2026-08-31 13:38",
-      "score": 62.9
+      "score": 63.5
     },
     {
       "ticker": "EKGYO",
@@ -99,11 +99,11 @@
       "sector": "Gayrimenkul",
       "entry": 20.08,
       "qty": 255,
-      "current": 20.14,
+      "current": 20.02,
       "stop": 18.07,
       "target": 28.11,
       "entry_ts": "2026-09-01 09:37",
-      "score": 67.9
+      "score": 66.9
     }
   ],
   "trades": [
