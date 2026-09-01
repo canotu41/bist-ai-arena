@@ -4,10 +4,10 @@
   "strategy": "Önce risk: düşük vol (ATR≤%3.6), RSI 40-68, MA50 üstü; seçici, uzun tut; backtest-kalibre",
   "initial": 50000.0,
   "cash": 5824.52,
-  "total_value": 48358.82,
-  "return_pct": -3.28,
+  "total_value": 48399.46,
+  "return_pct": -3.2,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-09-01 13:38",
+  "last_updated": "2026-09-01 14:37",
   "positions": [
     {
       "ticker": "THYAO",
@@ -15,7 +15,7 @@
       "sector": "Ulaştırma",
       "entry": 323.5,
       "qty": 23,
-      "current": 302.0,
+      "current": 302.5,
       "stop": 291.15,
       "target": 452.9,
       "entry_ts": "2026-07-14 09:15",
@@ -27,11 +27,11 @@
       "sector": "Perakende",
       "entry": 381.5,
       "qty": 19,
-      "current": 408.75,
+      "current": 407.75,
       "stop": 343.35,
       "target": 534.1,
       "entry_ts": "2026-07-14 10:38",
-      "score": 66.2
+      "score": 62.0
     },
     {
       "ticker": "KCHOL",
@@ -51,11 +51,11 @@
       "sector": "Bankacılık",
       "entry": 132.0,
       "qty": 55,
-      "current": 132.6,
+      "current": 133.1,
       "stop": 118.8,
       "target": 184.8,
       "entry_ts": "2026-08-04 12:39",
-      "score": 69.6
+      "score": 68.1
     },
     {
       "ticker": "AKBNK",
@@ -63,11 +63,11 @@
       "sector": "Bankacılık",
       "entry": 72.6,
       "qty": 78,
-      "current": 72.05,
+      "current": 72.0,
       "stop": 65.34,
       "target": 101.64,
       "entry_ts": "2026-08-24 07:38",
-      "score": 68.6
+      "score": 68.0
     },
     {
       "ticker": "VAKBN",
@@ -75,11 +75,11 @@
       "sector": "Bankacılık",
       "entry": 31.9,
       "qty": 51,
-      "current": 32.2,
+      "current": 32.38,
       "stop": 28.71,
       "target": 44.66,
       "entry_ts": "2026-08-31 11:38",
-      "score": 66.9
+      "score": 65.4
     },
     {
       "ticker": "YKBNK",
@@ -87,7 +87,7 @@
       "sector": "Bankacılık",
       "entry": 36.4,
       "qty": 1,
-      "current": 36.6,
+      "current": 36.66,
       "stop": 32.76,
       "target": 50.96,
       "entry_ts": "2026-08-31 13:38",
@@ -99,7 +99,7 @@
       "sector": "Gayrimenkul",
       "entry": 20.08,
       "qty": 255,
-      "current": 19.77,
+      "current": 19.83,
       "stop": 18.07,
       "target": 28.11,
       "entry_ts": "2026-09-01 09:37",
