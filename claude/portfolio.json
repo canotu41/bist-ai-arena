@@ -4,10 +4,10 @@
   "strategy": "Kalite+değer, seçici al + uzun tut (ROE≥%10, F/K≤35, trend üstü); backtest-kalibre",
   "initial": 50000.0,
   "cash": 5019.86,
-  "total_value": 51145.57,
-  "return_pct": 2.29,
+  "total_value": 51133.91,
+  "return_pct": 2.27,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-09-01 12:40",
+  "last_updated": "2026-09-01 13:38",
   "positions": [
     {
       "ticker": "CCOLA",
@@ -15,11 +15,11 @@
       "sector": "Gıda",
       "entry": 83.65,
       "qty": 131,
-      "current": 77.15,
+      "current": 76.85,
       "stop": 75.29,
       "target": 166.46,
       "entry_ts": "2026-07-14 09:15",
-      "score": 48.5
+      "score": 49.2
     },
     {
       "ticker": "BIMAS",
@@ -27,11 +27,11 @@
       "sector": "Perakende",
       "entry": 384.0,
       "qty": 28,
-      "current": 407.0,
+      "current": 408.75,
       "stop": 345.6,
       "target": 764.16,
       "entry_ts": "2026-07-14 15:08",
-      "score": 64.8
+      "score": 69.7
     },
     {
       "ticker": "VAKBN",
@@ -39,11 +39,11 @@
       "sector": "Bankacılık",
       "entry": 31.58,
       "qty": 356,
-      "current": 32.26,
+      "current": 32.2,
       "stop": 28.42,
       "target": 62.84,
       "entry_ts": "2026-07-16 14:38",
-      "score": 68.4
+      "score": 69.8
     },
     {
       "ticker": "THYAO",

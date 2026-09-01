@@ -4,10 +4,10 @@
   "strategy": "Önce risk: düşük vol (ATR≤%3.6), RSI 40-68, MA50 üstü; seçici, uzun tut; backtest-kalibre",
   "initial": 50000.0,
   "cash": 5824.52,
-  "total_value": 48333.24,
-  "return_pct": -3.33,
+  "total_value": 48358.82,
+  "return_pct": -3.28,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-09-01 12:40",
+  "last_updated": "2026-09-01 13:38",
   "positions": [
     {
       "ticker": "THYAO",
@@ -27,11 +27,11 @@
       "sector": "Perakende",
       "entry": 381.5,
       "qty": 19,
-      "current": 407.0,
+      "current": 408.75,
       "stop": 343.35,
       "target": 534.1,
       "entry_ts": "2026-07-14 10:38",
-      "score": 62.0
+      "score": 66.2
     },
     {
       "ticker": "KCHOL",
@@ -39,7 +39,7 @@
       "sector": "Holding",
       "entry": 195.3,
       "qty": 38,
-      "current": 215.6,
+      "current": 215.5,
       "stop": 175.77,
       "target": 273.42,
       "entry_ts": "2026-07-16 08:38",
@@ -51,7 +51,7 @@
       "sector": "Bankacılık",
       "entry": 132.0,
       "qty": 55,
-      "current": 132.3,
+      "current": 132.6,
       "stop": 118.8,
       "target": 184.8,
       "entry_ts": "2026-08-04 12:39",
@@ -63,11 +63,11 @@
       "sector": "Bankacılık",
       "entry": 72.6,
       "qty": 78,
-      "current": 71.85,
+      "current": 72.05,
       "stop": 65.34,
       "target": 101.64,
       "entry_ts": "2026-08-24 07:38",
-      "score": 66.8
+      "score": 68.6
     },
     {
       "ticker": "VAKBN",
@@ -75,11 +75,11 @@
       "sector": "Bankacılık",
       "entry": 31.9,
       "qty": 51,
-      "current": 32.26,
+      "current": 32.2,
       "stop": 28.71,
       "target": 44.66,
       "entry_ts": "2026-08-31 11:38",
-      "score": 65.7
+      "score": 66.9
     },
     {
       "ticker": "YKBNK",
@@ -87,11 +87,11 @@
       "sector": "Bankacılık",
       "entry": 36.4,
       "qty": 1,
-      "current": 36.36,
+      "current": 36.6,
       "stop": 32.76,
       "target": 50.96,
       "entry_ts": "2026-08-31 13:38",
-      "score": 64.4
+      "score": 65.6
     },
     {
       "ticker": "EKGYO",
@@ -99,7 +99,7 @@
       "sector": "Gayrimenkul",
       "entry": 20.08,
       "qty": 255,
-      "current": 19.9,
+      "current": 19.77,
       "stop": 18.07,
       "target": 28.11,
       "entry_ts": "2026-09-01 09:37",
