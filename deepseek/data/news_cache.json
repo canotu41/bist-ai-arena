@@ -6,7 +6,7 @@
   "tickers": {
     "AKBNK": {
       "score": 50,
-      "note": "Teknik analiz başlıkları nötr"
+      "note": "Nötr haberler"
     },
     "GARAN": {
       "score": 70,
@@ -14,11 +14,11 @@
     },
     "ISCTR": {
       "score": 50,
-      "note": "Teknik analiz başlıkları nötr"
+      "note": "Teknik analiz haberleri nötr"
     },
     "YKBNK": {
       "score": 50,
-      "note": "Teknik analiz başlıkları nötr"
+      "note": "Nötr haberler"
     },
     "VAKBN": {
       "score": 75,
@@ -30,27 +30,27 @@
     },
     "SAHOL": {
       "score": 50,
-      "note": "Teknik analiz başlıkları nötr"
+      "note": "Nötr haberler"
     },
     "SISE": {
       "score": 30,
       "note": "Bilanço sonrası sert düşüş"
     },
     "THYAO": {
-      "score": 50,
-      "note": "Teknik analiz başlıkları nötr"
+      "score": 35,
+      "note": "Kritik eşik kaybedildi"
     },
     "PGSUS": {
-      "score": 60,
-      "note": "Tahvil ihracı izni pozitif"
+      "score": 65,
+      "note": "Tahvil ihracı izni, hedef fiyat yükseldi"
     },
     "TUPRS": {
-      "score": 60,
-      "note": "Yükselişte, teknik analiz pozitif"
+      "score": 30,
+      "note": "Koç Holding satışı sonrası sert düşüş"
     },
     "AKSEN": {
       "score": 60,
-      "note": "Öne çıkan hisseler arasında"
+      "note": "Güçlü göstergeler"
     },
     "EREGL": {
       "score": 40,
@@ -65,42 +65,42 @@
       "note": "Hisse neden düşüyor sorusu"
     },
     "FROTO": {
-      "score": 60,
-      "note": "Yatırım hamlesi pozitif"
+      "score": 65,
+      "note": "Yatırım hamlesi"
     },
     "TOASO": {
-      "score": 60,
-      "note": "Temettü açıklaması, hedef fiyat değişti"
+      "score": 55,
+      "note": "Temettü açıklaması"
     },
     "ASELS": {
-      "score": 55,
-      "note": "Jeopolitik destekle yükseldi, taban oldu haberleri karışık"
+      "score": 70,
+      "note": "Jeopolitik destekle yükseldi"
     },
     "TCELL": {
-      "score": 40,
+      "score": 45,
       "note": "Devre kesici çalıştı"
     },
     "TTKOM": {
       "score": 50,
-      "note": "Teknik analiz başlıkları nötr"
+      "note": "Nötr haberler"
     },
     "ULKER": {
       "score": 60,
-      "note": "Neden yükseliyor sorusu, bilanço açıklandı"
+      "note": "Bilanço açıklandı, yükseliş"
     },
     "CCOLA": {
-      "score": 50,
-      "note": "Teknik analiz başlıkları nötr"
+      "score": 65,
+      "note": "Teknik göstergeler güçlü"
     },
     "ARCLK": {
       "score": 60,
-      "note": "AL tavsiyesi, satış kararı dengeli"
+      "note": "AL tavsiyesi, Hitachi pay satışı"
     },
     "EKGYO": {
-      "score": 60,
-      "note": "SPK onayı, güçlü operasyonel"
+      "score": 65,
+      "note": "SPK onayı, hedef fiyat yükseldi"
     }
   },
-  "_ts": 1788334713,
+  "_ts": 1788349148,
   "_source": "deepseek-llm"
 }

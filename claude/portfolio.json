@@ -4,10 +4,10 @@
   "strategy": "Kalite+değer, seçici al + uzun tut (ROE≥%10, F/K≤35, trend üstü); backtest-kalibre",
   "initial": 50000.0,
   "cash": 5019.86,
-  "total_value": 50568.26,
-  "return_pct": 1.14,
+  "total_value": 50514.22,
+  "return_pct": 1.03,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-09-02 10:37",
+  "last_updated": "2026-09-02 11:39",
   "positions": [
     {
       "ticker": "CCOLA",
@@ -15,11 +15,11 @@
       "sector": "Gıda",
       "entry": 83.65,
       "qty": 131,
-      "current": 76.55,
+      "current": 76.6,
       "stop": 75.29,
       "target": 166.46,
       "entry_ts": "2026-07-14 09:15",
-      "score": 48.5
+      "score": 52.3
     },
     {
       "ticker": "BIMAS",
@@ -27,7 +27,7 @@
       "sector": "Perakende",
       "entry": 384.0,
       "qty": 28,
-      "current": 403.25,
+      "current": 401.5,
       "stop": 345.6,
       "target": 764.16,
       "entry_ts": "2026-07-14 15:08",
@@ -39,7 +39,7 @@
       "sector": "Bankacılık",
       "entry": 31.58,
       "qty": 356,
-      "current": 32.1,
+      "current": 31.96,
       "stop": 28.42,
       "target": 62.84,
       "entry_ts": "2026-07-16 14:38",
@@ -51,11 +51,11 @@
       "sector": "Ulaştırma",
       "entry": 321.0,
       "qty": 3,
-      "current": 297.25,
+      "current": 295.0,
       "stop": 288.9,
       "target": 638.79,
       "entry_ts": "2026-07-23 07:09",
-      "score": 47.6
+      "score": 52.6
     },
     {
       "ticker": "TUPRS",
@@ -63,11 +63,11 @@
       "sector": "Enerji",
       "entry": 323.75,
       "qty": 30,
-      "current": 397.0,
+      "current": 398.5,
       "stop": 291.38,
       "target": 644.26,
       "entry_ts": "2026-08-07 10:38",
-      "score": 67.1
+      "score": 52.6
     }
   ],
   "trades": [
