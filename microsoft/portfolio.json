@@ -3,11 +3,11 @@
   "name": "Microsoft Copilot Portföyü",
   "strategy": "Momentum/trend: 20g değişim≥%4, MA20>MA50 kırılım; kazananı bırak; backtest-kalibre (alfa ~%-2)",
   "initial": 50000.0,
-  "cash": 23948.0,
-  "total_value": 48060.15,
-  "return_pct": -3.88,
+  "cash": 11995.32,
+  "total_value": 47800.34,
+  "return_pct": -4.4,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-09-03 08:37",
+  "last_updated": "2026-09-03 09:37",
   "positions": [
     {
       "ticker": "TUPRS",
@@ -15,11 +15,11 @@
       "sector": "Enerji",
       "entry": 309.5,
       "qty": 30,
-      "current": 392.75,
+      "current": 391.0,
       "stop": 278.55,
       "target": 433.3,
       "entry_ts": "2026-07-22 07:10",
-      "score": 75.1
+      "score": 73.1
     },
     {
       "ticker": "KCHOL",
@@ -27,11 +27,11 @@
       "sector": "Holding",
       "entry": 204.6,
       "qty": 2,
-      "current": 214.2,
+      "current": 213.6,
       "stop": 184.14,
       "target": 286.44,
       "entry_ts": "2026-07-22 08:38",
-      "score": 64.9
+      "score": 68.8
     },
     {
       "ticker": "BIMAS",
@@ -39,7 +39,7 @@
       "sector": "Perakende",
       "entry": 379.25,
       "qty": 1,
-      "current": 411.25,
+      "current": 409.0,
       "stop": 341.32,
       "target": 530.95,
       "entry_ts": "2026-08-03 15:17",
@@ -51,11 +51,23 @@
       "sector": "Savunma",
       "entry": 402.0,
       "qty": 30,
-      "current": 383.0,
+      "current": 377.0,
       "stop": 361.8,
       "target": 562.8,
       "entry_ts": "2026-08-26 11:41",
-      "score": 63.2
+      "score": 59.1
+    },
+    {
+      "ticker": "VAKBN",
+      "name": "VakıfBank",
+      "sector": "Bankacılık",
+      "entry": 34.18,
+      "qty": 349,
+      "current": 34.18,
+      "stop": 30.76,
+      "target": 47.85,
+      "entry_ts": "2026-09-03 09:37",
+      "score": 73.4
     }
   ],
   "trades": [
@@ -148,6 +160,15 @@
       "price": 402.0,
       "amount": 12060.0,
       "reason": "Microsoft Copilot skoru 70 (>=70)"
+    },
+    {
+      "ts": "2026-09-03 09:37",
+      "side": "BUY",
+      "ticker": "VAKBN",
+      "qty": 349,
+      "price": 34.18,
+      "amount": 11928.82,
+      "reason": "Microsoft Copilot skoru 73 (>=70)"
     }
   ]
 }
