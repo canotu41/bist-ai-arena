@@ -4,10 +4,10 @@
   "strategy": "Momentum/trend: 20g değişim≥%4, MA20>MA50 kırılım; kazananı bırak; backtest-kalibre (alfa ~%-2)",
   "initial": 50000.0,
   "cash": 11995.32,
-  "total_value": 47963.12,
-  "return_pct": -4.07,
+  "total_value": 47925.92,
+  "return_pct": -4.15,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-09-03 11:38",
+  "last_updated": "2026-09-03 12:39",
   "positions": [
     {
       "ticker": "TUPRS",
@@ -15,7 +15,7 @@
       "sector": "Enerji",
       "entry": 309.5,
       "qty": 30,
-      "current": 394.75,
+      "current": 392.75,
       "stop": 278.55,
       "target": 433.3,
       "entry_ts": "2026-07-22 07:10",
@@ -27,7 +27,7 @@
       "sector": "Holding",
       "entry": 204.6,
       "qty": 2,
-      "current": 216.0,
+      "current": 214.7,
       "stop": 184.14,
       "target": 286.44,
       "entry_ts": "2026-07-22 08:38",
@@ -39,11 +39,11 @@
       "sector": "Perakende",
       "entry": 379.25,
       "qty": 1,
-      "current": 410.0,
+      "current": 408.0,
       "stop": 341.32,
       "target": 530.95,
       "entry_ts": "2026-08-03 15:17",
-      "score": 60.9
+      "score": 69.9
     },
     {
       "ticker": "ASELS",
@@ -51,7 +51,7 @@
       "sector": "Savunma",
       "entry": 402.0,
       "qty": 30,
-      "current": 378.25,
+      "current": 378.0,
       "stop": 361.8,
       "target": 562.8,
       "entry_ts": "2026-08-26 11:41",
@@ -63,11 +63,11 @@
       "sector": "Bankacılık",
       "entry": 34.18,
       "qty": 349,
-      "current": 34.2,
+      "current": 34.3,
       "stop": 30.76,
       "target": 47.85,
       "entry_ts": "2026-09-03 09:37",
-      "score": 73.4
+      "score": 75.2
     }
   ],
   "trades": [
