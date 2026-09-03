@@ -3,11 +3,11 @@
   "name": "Microsoft Copilot Portföyü",
   "strategy": "Momentum/trend: 20g değişim≥%4, MA20>MA50 kırılım; kazananı bırak; backtest-kalibre (alfa ~%-2)",
   "initial": 50000.0,
-  "cash": 11995.32,
-  "total_value": 47792.45,
-  "return_pct": -4.42,
+  "cash": 2401.87,
+  "total_value": 47646.39,
+  "return_pct": -4.71,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-09-03 13:38",
+  "last_updated": "2026-09-03 14:38",
   "positions": [
     {
       "ticker": "TUPRS",
@@ -27,7 +27,7 @@
       "sector": "Holding",
       "entry": 204.6,
       "qty": 2,
-      "current": 216.9,
+      "current": 215.9,
       "stop": 184.14,
       "target": 286.44,
       "entry_ts": "2026-07-22 08:38",
@@ -39,7 +39,7 @@
       "sector": "Perakende",
       "entry": 379.25,
       "qty": 1,
-      "current": 410.25,
+      "current": 411.5,
       "stop": 341.32,
       "target": 530.95,
       "entry_ts": "2026-08-03 15:17",
@@ -51,7 +51,7 @@
       "sector": "Savunma",
       "entry": 402.0,
       "qty": 30,
-      "current": 378.75,
+      "current": 378.5,
       "stop": 361.8,
       "target": 562.8,
       "entry_ts": "2026-08-26 11:41",
@@ -63,11 +63,23 @@
       "sector": "Bankacılık",
       "entry": 34.18,
       "qty": 349,
-      "current": 33.92,
+      "current": 33.58,
       "stop": 30.76,
       "target": 47.85,
       "entry_ts": "2026-09-03 09:37",
-      "score": 75.2
+      "score": 76.5
+    },
+    {
+      "ticker": "AKBNK",
+      "name": "Akbank",
+      "sector": "Bankacılık",
+      "entry": 71.45,
+      "qty": 134,
+      "current": 71.45,
+      "stop": 64.31,
+      "target": 100.03,
+      "entry_ts": "2026-09-03 14:38",
+      "score": 71.7
     }
   ],
   "trades": [
@@ -169,6 +181,15 @@
       "price": 34.18,
       "amount": 11928.82,
       "reason": "Microsoft Copilot skoru 73 (>=70)"
+    },
+    {
+      "ts": "2026-09-03 14:38",
+      "side": "BUY",
+      "ticker": "AKBNK",
+      "qty": 134,
+      "price": 71.45,
+      "amount": 9574.3,
+      "reason": "Microsoft Copilot skoru 72 (>=70)"
     }
   ]
 }
