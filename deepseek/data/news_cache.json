@@ -1,106 +1,106 @@
 {
   "market": {
-    "score": 25,
-    "trend": "Sert düşüş ve tedbirler"
+    "score": 35,
+    "trend": "Düşüş eğilimi"
   },
   "tickers": {
     "AKBNK": {
       "score": 50,
-      "note": "Teknik analiz ve temettü haberleri nötr"
+      "note": "Nötr teknik analizler"
     },
     "GARAN": {
-      "score": 70,
-      "note": "Kâr beklentiyi aştı, hedef fiyat güncellendi"
+      "score": 60,
+      "note": "Kâr beklentiyi aştı, hedef fiyat güncellemeleri"
     },
     "ISCTR": {
       "score": 50,
-      "note": "Teknik analizler nötr"
+      "note": "Nötr teknik analizler"
     },
     "YKBNK": {
       "score": 50,
-      "note": "Genel bilgi ve teknik analiz nötr"
+      "note": "Nötr haberler"
     },
     "VAKBN": {
-      "score": 65,
-      "note": "Güçlü kâr sonrası hedef fiyat korundu"
+      "score": 70,
+      "note": "AL sinyali, yeni kaynak"
     },
     "KCHOL": {
-      "score": 55,
-      "note": "Bilanço analizi ve pay alım satımı hafif olumlu"
+      "score": 40,
+      "note": "Tüpraş pay satışı olumsuz"
     },
     "SAHOL": {
-      "score": 70,
-      "note": "Net kâr beklentiyi aştı"
+      "score": 50,
+      "note": "Nötr teknik analizler"
     },
     "SISE": {
       "score": 60,
-      "note": "Hedef fiyat 58 TL'ye güncellendi"
+      "note": "Hedef fiyat güncellendi, temettü"
     },
     "THYAO": {
-      "score": 60,
-      "note": "Detaylı analiz ve teknik görünüm olumlu"
+      "score": 40,
+      "note": "Kritik eşik kaybedildi"
     },
     "PGSUS": {
-      "score": 70,
-      "note": "Tahvil ihracı izni ve hedef fiyat artışı"
+      "score": 60,
+      "note": "Satın alma, hedef fiyat güncellemeleri"
     },
     "TUPRS": {
-      "score": 40,
-      "note": "Sert düşüş haberleri var, teknik analizler karışık"
+      "score": 30,
+      "note": "Koç Holding satışı, sert düşüş"
     },
     "AKSEN": {
-      "score": 60,
-      "note": "Bilanço tahmini ve güçlü göstergeler"
+      "score": 55,
+      "note": "Hedef fiyat yükseldi, temettü yok"
     },
     "EREGL": {
       "score": 40,
-      "note": "BofA'dan sert satış haberi"
+      "note": "BofA satış önerisi"
     },
     "BIMAS": {
-      "score": 75,
-      "note": "Kâr ikiye katlandı, güçlü finansal sonuçlar"
+      "score": 70,
+      "note": "Kâr ikiye katlandı"
     },
     "MGROS": {
-      "score": 65,
-      "note": "Güçlü görünüm, hisse 900 TL'yi aşabilir"
+      "score": 60,
+      "note": "Güçlü görünüm"
     },
     "FROTO": {
-      "score": 65,
-      "note": "364 milyon euroluk yatırım hamlesi"
+      "score": 50,
+      "note": "Nötr teknik analizler"
     },
     "TOASO": {
       "score": 55,
-      "note": "Temettü açıklaması hafif olumlu"
+      "note": "Temettü açıklaması"
     },
     "ASELS": {
-      "score": 35,
-      "note": "Hisse taban oldu, satış baskısı"
+      "score": 65,
+      "note": "Jeopolitik destekle yükseldi"
     },
     "TCELL": {
       "score": 50,
-      "note": "Teknik analizler nötr, SEC açıklaması"
+      "note": "Nötr haberler"
     },
     "TTKOM": {
       "score": 50,
-      "note": "Teknik analizler nötr, bilanço tarihi açıklandı"
+      "note": "Nötr haberler"
     },
     "ULKER": {
       "score": 65,
-      "note": "Hisse yükseliyor, bilanço açıklandı"
+      "note": "Yükseliş, temettü"
     },
     "CCOLA": {
-      "score": 60,
-      "note": "Teknik göstergeler güçlü, lider konumda"
+      "score": 30,
+      "note": "Büyük ceza"
     },
     "ARCLK": {
-      "score": 55,
-      "note": "Satın alma ve satış kararları, AL tavsiyesi"
+      "score": 60,
+      "note": "AL tavsiyesi, satın alma"
     },
     "EKGYO": {
-      "score": 65,
-      "note": "Operasyonel güçlü, hedef fiyat 34 TL"
+      "score": 60,
+      "note": "SPK onayı, güçlü operasyon"
     }
   },
-  "_ts": 1788435507,
+  "_ts": 1788507520,
   "_source": "deepseek-llm"
 }
