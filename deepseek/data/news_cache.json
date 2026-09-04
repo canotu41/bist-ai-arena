@@ -6,7 +6,7 @@
   "tickers": {
     "AKBNK": {
       "score": 50,
-      "note": "Nötr teknik analizler"
+      "note": "Nötr haberler"
     },
     "GARAN": {
       "score": 60,
@@ -22,15 +22,15 @@
     },
     "VAKBN": {
       "score": 70,
-      "note": "AL sinyali, yeni kaynak"
+      "note": "Yeni kaynak ve güçlü kâr"
     },
     "KCHOL": {
-      "score": 40,
-      "note": "Tüpraş pay satışı olumsuz"
+      "score": 45,
+      "note": "Tüpraş pay satışı kararı"
     },
     "SAHOL": {
       "score": 50,
-      "note": "Nötr teknik analizler"
+      "note": "Nötr haberler"
     },
     "SISE": {
       "score": 60,
@@ -41,28 +41,24 @@
       "note": "Kritik eşik kaybedildi"
     },
     "PGSUS": {
-      "score": 60,
-      "note": "Satın alma, hedef fiyat güncellemeleri"
+      "score": 65,
+      "note": "Tahvil ihracı izni ve satın alma"
     },
     "TUPRS": {
       "score": 30,
-      "note": "Koç Holding satışı, sert düşüş"
-    },
-    "AKSEN": {
-      "score": 55,
-      "note": "Hedef fiyat yükseldi, temettü yok"
+      "note": "Koç Holding satışı sonrası sert düşüş"
     },
     "EREGL": {
       "score": 40,
-      "note": "BofA satış önerisi"
+      "note": "BofA'dan sert satış"
     },
     "BIMAS": {
       "score": 70,
       "note": "Kâr ikiye katlandı"
     },
     "MGROS": {
-      "score": 60,
-      "note": "Güçlü görünüm"
+      "score": 40,
+      "note": "Hisse neden düşüyor sorusu"
     },
     "FROTO": {
       "score": 50,
@@ -72,13 +68,9 @@
       "score": 55,
       "note": "Temettü açıklaması"
     },
-    "ASELS": {
-      "score": 65,
-      "note": "Jeopolitik destekle yükseldi"
-    },
     "TCELL": {
-      "score": 50,
-      "note": "Nötr haberler"
+      "score": 45,
+      "note": "Devre kesici çalıştı"
     },
     "TTKOM": {
       "score": 50,
@@ -86,21 +78,21 @@
     },
     "ULKER": {
       "score": 65,
-      "note": "Yükseliş, temettü"
+      "note": "Yükseliş ve temettü"
     },
     "CCOLA": {
-      "score": 30,
-      "note": "Büyük ceza"
+      "score": 50,
+      "note": "Nötr haberler"
     },
     "ARCLK": {
       "score": 60,
-      "note": "AL tavsiyesi, satın alma"
+      "note": "AL tavsiyesi ve hedef fiyat"
     },
     "EKGYO": {
-      "score": 60,
-      "note": "SPK onayı, güçlü operasyon"
+      "score": 55,
+      "note": "SPK onayı"
     }
   },
-  "_ts": 1788507520,
+  "_ts": 1788521890,
   "_source": "deepseek-llm"
 }

@@ -3,11 +3,11 @@
   "name": "Codex Portföyü",
   "strategy": "Önce risk: düşük vol (ATR≤%3.6), RSI 40-68, MA50 üstü; seçici, uzun tut; backtest-kalibre",
   "initial": 50000.0,
-  "cash": 12481.18,
-  "total_value": 48015.67,
-  "return_pct": -3.97,
+  "cash": 6188.82,
+  "total_value": 48073.1,
+  "return_pct": -3.85,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-09-04 10:38",
+  "last_updated": "2026-09-04 11:38",
   "positions": [
     {
       "ticker": "BIMAS",
@@ -15,11 +15,11 @@
       "sector": "Perakende",
       "entry": 381.5,
       "qty": 19,
-      "current": 413.0,
+      "current": 413.75,
       "stop": 343.35,
       "target": 534.1,
       "entry_ts": "2026-07-14 10:38",
-      "score": 63.2
+      "score": 56.3
     },
     {
       "ticker": "KCHOL",
@@ -27,11 +27,11 @@
       "sector": "Holding",
       "entry": 195.3,
       "qty": 38,
-      "current": 213.8,
+      "current": 214.1,
       "stop": 175.77,
       "target": 273.42,
       "entry_ts": "2026-07-16 08:38",
-      "score": 57.8
+      "score": 58.8
     },
     {
       "ticker": "GARAN",
@@ -39,11 +39,11 @@
       "sector": "Bankacılık",
       "entry": 132.0,
       "qty": 55,
-      "current": 132.0,
+      "current": 132.2,
       "stop": 118.8,
       "target": 184.8,
       "entry_ts": "2026-08-04 12:39",
-      "score": 64.6
+      "score": 68.2
     },
     {
       "ticker": "AKBNK",
@@ -51,7 +51,7 @@
       "sector": "Bankacılık",
       "entry": 72.6,
       "qty": 78,
-      "current": 71.9,
+      "current": 72.0,
       "stop": 65.34,
       "target": 101.64,
       "entry_ts": "2026-08-24 07:38",
@@ -63,11 +63,11 @@
       "sector": "Bankacılık",
       "entry": 31.9,
       "qty": 51,
-      "current": 33.62,
+      "current": 33.92,
       "stop": 28.71,
       "target": 44.66,
       "entry_ts": "2026-08-31 11:38",
-      "score": 66.4
+      "score": 66.7
     },
     {
       "ticker": "YKBNK",
@@ -75,11 +75,11 @@
       "sector": "Bankacılık",
       "entry": 36.4,
       "qty": 1,
-      "current": 35.82,
+      "current": 35.86,
       "stop": 32.76,
       "target": 50.96,
       "entry_ts": "2026-08-31 13:38",
-      "score": 61.6
+      "score": 65.2
     },
     {
       "ticker": "EKGYO",
@@ -87,11 +87,23 @@
       "sector": "Gayrimenkul",
       "entry": 20.08,
       "qty": 255,
-      "current": 19.39,
+      "current": 19.43,
       "stop": 18.07,
       "target": 28.11,
       "entry_ts": "2026-09-01 09:37",
-      "score": 61.3
+      "score": 63.9
+    },
+    {
+      "ticker": "SAHOL",
+      "name": "Sabancı Holding",
+      "sector": "Holding",
+      "entry": 92.35,
+      "qty": 68,
+      "current": 92.35,
+      "stop": 83.11,
+      "target": 129.29,
+      "entry_ts": "2026-09-04 11:38",
+      "score": 64.1
     }
   ],
   "trades": [
@@ -229,6 +241,15 @@
       "price": 290.0,
       "amount": 6670.0,
       "reason": "STOP-LOSS (%-10.4)"
+    },
+    {
+      "ts": "2026-09-04 11:38",
+      "side": "BUY",
+      "ticker": "SAHOL",
+      "qty": 68,
+      "price": 92.35,
+      "amount": 6279.8,
+      "reason": "Codex skoru 64 (>=62)"
     }
   ]
 }
