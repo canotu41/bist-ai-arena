@@ -1,106 +1,106 @@
 {
   "market": {
-    "score": 55,
-    "trend": "pozitif"
+    "score": 45,
+    "trend": "Karışık, hafif negatif"
   },
   "tickers": {
     "AKBNK": {
       "score": 50,
-      "note": "Nötr haberler"
+      "note": "Nötr haberler, teknik analizler"
     },
     "GARAN": {
       "score": 70,
-      "note": "Finansman atağı ve AL önerisi"
+      "note": "AL önerileri ve hedef fiyat yükseltmeleri"
     },
     "ISCTR": {
       "score": 50,
-      "note": "Teknik analiz haberleri"
+      "note": "Nötr teknik analizler"
     },
     "YKBNK": {
-      "score": 50,
-      "note": "Nötr haberler"
+      "score": 40,
+      "note": "Satış baskısı ve negatif haberler"
     },
     "VAKBN": {
-      "score": 75,
-      "note": "AL sinyali ve geri alım"
+      "score": 65,
+      "note": "AL sinyali ve portföye giriş"
     },
     "KCHOL": {
       "score": 45,
-      "note": "Tüpraş pay satışı olumsuz"
+      "note": "Pay satışı kararı, belirsizlik"
     },
     "SAHOL": {
       "score": 50,
-      "note": "Teknik analiz haberleri"
+      "note": "Nötr teknik analizler"
     },
     "SISE": {
       "score": 60,
-      "note": "Hedef fiyat güncellendi"
+      "note": "Hedef fiyat güncellemesi ve satış haberi"
     },
     "THYAO": {
-      "score": 40,
-      "note": "Kritik eşik kaybedildi"
+      "score": 45,
+      "note": "Kritik eşik kaybı, negatif"
     },
     "PGSUS": {
-      "score": 65,
-      "note": "Tahvil ihracı izni ve hedef fiyat güncellemesi"
+      "score": 60,
+      "note": "Tahvil ihracı izni ve olumlu beklentiler"
     },
     "TUPRS": {
       "score": 35,
-      "note": "Koç Holding satışı sert düşüş"
+      "note": "Koç Holding satışı, sert düşüş"
     },
     "AKSEN": {
-      "score": 60,
-      "note": "Güçlü göstergeler"
+      "score": 55,
+      "note": "Güçlenme sinyalleri"
     },
     "EREGL": {
       "score": 40,
-      "note": "BofA satış önerisi"
+      "note": "BofA satışı, negatif"
     },
     "BIMAS": {
       "score": 70,
-      "note": "Kâr ikiye katlandı"
+      "note": "Kâr artışı, güçlü bilanço"
     },
     "MGROS": {
       "score": 40,
-      "note": "Hisse neden düşüyor"
+      "note": "Düşüş nedeni sorgulanıyor"
     },
     "FROTO": {
-      "score": 50,
-      "note": "Nötr haberler"
+      "score": 55,
+      "note": "İhracat ve özel endüstri bölgesi kararı"
     },
     "TOASO": {
       "score": 60,
-      "note": "Temettü açıklaması ve hedef fiyat değişimi"
+      "note": "Temettü açıklaması ve hedef fiyat değişiklikleri"
     },
     "ASELS": {
       "score": 50,
-      "note": "Teknik analiz haberleri"
+      "note": "Nötr teknik analizler"
     },
     "TCELL": {
       "score": 60,
-      "note": "Temettü kararı"
+      "note": "Temettü kararı olumlu"
     },
     "TTKOM": {
       "score": 50,
-      "note": "Bilanço tahmini"
+      "note": "Nötr haberler"
     },
     "ULKER": {
-      "score": 75,
-      "note": "Güçlü 2Ç kazancı"
+      "score": 70,
+      "note": "Güçlü 2Ç kazancı, hisse sıçraması"
     },
     "CCOLA": {
       "score": 50,
-      "note": "Teknik analiz haberleri"
+      "note": "Nötr haberler"
     },
     "ARCLK": {
       "score": 60,
-      "note": "AL tavsiyesi ve satış"
+      "note": "AL tavsiyesi ve hedef fiyat"
     },
     "EKGYO": {
-      "score": 60,
-      "note": "İskontolu değerleme"
+      "score": 55,
+      "note": "Güçlü operasyonel, iskontolu değerleme"
     }
   },
-  "_ts": 1788766705,
+  "_ts": 1788777564,
   "_source": "deepseek-llm"
 }
