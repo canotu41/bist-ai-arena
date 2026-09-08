@@ -1,80 +1,80 @@
 {
   "market": {
     "score": 55,
-    "trend": "Karışık: pozitif açılış ve rekor denemesi, ancak sert düşüş ve yukarı adım kuralı"
+    "trend": "Karışık: rekor denemesi ve sert düşüş haberleri var"
   },
   "tickers": {
     "AKBNK": {
       "score": 50,
-      "note": "Teknik analiz başlıkları nötr; belirgin bir haber yok"
+      "note": "Teknik analiz ve tahmin haberleri nötr"
     },
     "GARAN": {
-      "score": 75,
-      "note": "Kâr beklentiyi aştı, hedef fiyat güncellemeleri ve AL önerisi"
+      "score": 70,
+      "note": "Finansman atağı ve AL önerisi pozitif"
     },
     "ISCTR": {
       "score": 50,
-      "note": "Sadece teknik analiz başlıkları, nötr"
+      "note": "Teknik analiz haberleri nötr"
     },
     "YKBNK": {
       "score": 50,
-      "note": "Teknik analiz başlıkları, belirgin bir haber yok"
+      "note": "Teknik analiz haberleri nötr"
     },
     "VAKBN": {
-      "score": 70,
-      "note": "Hedef fiyat yükseltildi, geri alım yapıldı, portföye giriş"
+      "score": 75,
+      "note": "Hedef fiyat yükseltildi, geri alım ve portföye giriş pozitif"
     },
     "KCHOL": {
-      "score": 40,
-      "note": "Tüpraş pay satışı kararı olumsuz algılanabilir"
+      "score": 50,
+      "note": "Teknik analiz ve bilanço haberleri nötr"
     },
     "SAHOL": {
       "score": 50,
-      "note": "Teknik analiz başlıkları, nötr"
+      "note": "Teknik analiz ve tahmin haberleri nötr"
     },
     "SISE": {
       "score": 60,
-      "note": "Hedef fiyat 58 TL'ye güncellendi (pozitif)"
+      "note": "Hedef fiyat güncellendi (pozitif)"
     },
     "THYAO": {
-      "score": 55,
-      "note": "Analizler ve hedef fiyat güncellemeleri, hafif pozitif"
+      "score": 40,
+      "note": "Kâr beklentiyi karşılamadı, düşüş var"
     },
     "PGSUS": {
       "score": 65,
-      "note": "Yurt dışı tahvil ihracı izni ve hedef fiyat güncellemeleri"
+      "note": "Tahvil ihracı izni ve hedef fiyat güncellemeleri pozitif"
     },
     "TUPRS": {
-      "score": 30,
-      "note": "Koç Holding satışı sonrası sert düşüş, hedef fiyat yükseltilse de"
+      "score": 35,
+      "note": "Koç Holding satışı ve sert düşüş negatif"
     },
     "AKSEN": {
       "score": 60,
-      "note": "Bilanço tahmini ve öne çıkan hisseler arasında"
+      "note": "Bilanço tahmini ve öne çıkma pozitif"
     },
     "EREGL": {
-      "score": 35,
-      "note": "BofA'dan sert satış haberi"
+      "score": 40,
+      "note": "BofA satış önerisi negatif"
     },
     "BIMAS": {
       "score": 50,
-      "note": "Teknik analiz başlıkları, nötr"
+      "note": "Teknik analiz ve tahmin haberleri nötr"
     },
     "MGROS": {
-      "score": 45,
-      "note": "Düşüş haberi var, ancak güçlü görünüm ve 900 TL hedefi"
+      "score": 55,
+      "note": "Düşüş haberi var ama güçlü görünüm pozitif"
     },
     "FROTO": {
-      "score": 55,
-      "note": "İhracat ve özel endüstri bölgesi kararı pozitif"
+      "score": 50,
+      "note": "Teknik analiz haberleri nötr"
     },
     "TOASO": {
       "score": 60,
-      "note": "Temettü açıklaması ve hedef fiyat değişiklikleri"
+      "note": "Temettü açıklaması ve hedef fiyat değişikliği pozitif"
     },
     "ASELS": {
-      "score": 50,
-      "note": "Teknik analiz başlıkları, nötr"
+      "score": 70,
+      "note": "Jeopolitik destekle güçlü yükseliş pozitif"
     },
     "TCELL": {
       "score": 60,
@@ -82,25 +82,25 @@
     },
     "TTKOM": {
       "score": 50,
-      "note": "Teknik analiz başlıkları, nötr"
+      "note": "Teknik analiz ve tahmin haberleri nötr"
     },
     "ULKER": {
       "score": 70,
-      "note": "Güçlü 2Ç kazancı, hisse %5,5 sıçradı"
+      "note": "Güçlü 2Ç kazancı ve hisse sıçraması pozitif"
     },
     "CCOLA": {
       "score": 30,
-      "note": "2,8 milyar TL ceza haberi olumsuz"
+      "note": "Büyük ceza haberi negatif"
     },
     "ARCLK": {
-      "score": 55,
-      "note": "Satın alma ve satış kararları, AL tavsiyesi"
+      "score": 60,
+      "note": "Satın alma ve satış kararları, AL tavsiyesi pozitif"
     },
     "EKGYO": {
       "score": 60,
-      "note": "Operasyonel güçlü, değerleme iskontolu"
+      "note": "Operasyonel güçlü ve iskontolu değerleme pozitif"
     }
   },
-  "_ts": 1788853097,
+  "_ts": 1788867521,
   "_source": "deepseek-llm"
 }
