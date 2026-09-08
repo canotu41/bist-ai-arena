@@ -1,72 +1,80 @@
 {
   "market": {
-    "score": 45,
-    "trend": "Karışık: pozitif başlangıç ve haftalık yükseliş, ancak sert düşüş ve yukarı adım kuralı devreye girdi"
+    "score": 55,
+    "trend": "Karışık: pozitif açılış ve rekor denemesi, ancak sert düşüş ve yukarı adım kuralı"
   },
   "tickers": {
     "AKBNK": {
       "score": 50,
-      "note": "Teknik analiz ve tahminler nötr; belirgin haber yok"
+      "note": "Teknik analiz başlıkları nötr; belirgin bir haber yok"
     },
     "GARAN": {
-      "score": 70,
-      "note": "Finansman atağı ve AL önerisi pozitif"
+      "score": 75,
+      "note": "Kâr beklentiyi aştı, hedef fiyat güncellemeleri ve AL önerisi"
     },
     "ISCTR": {
       "score": 50,
-      "note": "Teknik analizler nötr"
+      "note": "Sadece teknik analiz başlıkları, nötr"
     },
     "YKBNK": {
       "score": 50,
-      "note": "Teknik analizler nötr"
+      "note": "Teknik analiz başlıkları, belirgin bir haber yok"
     },
     "VAKBN": {
-      "score": 75,
-      "note": "AL sinyali, portföye giriş ve geri alım pozitif"
+      "score": 70,
+      "note": "Hedef fiyat yükseltildi, geri alım yapıldı, portföye giriş"
     },
     "KCHOL": {
       "score": 40,
-      "note": "Tüpraş pay satışı negatif"
+      "note": "Tüpraş pay satışı kararı olumsuz algılanabilir"
     },
     "SAHOL": {
       "score": 50,
-      "note": "Teknik analizler nötr"
+      "note": "Teknik analiz başlıkları, nötr"
     },
     "SISE": {
       "score": 60,
-      "note": "Hedef fiyat güncellemesi pozitif"
+      "note": "Hedef fiyat 58 TL'ye güncellendi (pozitif)"
     },
     "THYAO": {
-      "score": 35,
-      "note": "Bilanço beklentiyi karşılamadı, kâr düştü"
+      "score": 55,
+      "note": "Analizler ve hedef fiyat güncellemeleri, hafif pozitif"
+    },
+    "PGSUS": {
+      "score": 65,
+      "note": "Yurt dışı tahvil ihracı izni ve hedef fiyat güncellemeleri"
     },
     "TUPRS": {
       "score": 30,
-      "note": "Koç Holding satışı sonrası sert düşüş"
+      "note": "Koç Holding satışı sonrası sert düşüş, hedef fiyat yükseltilse de"
     },
     "AKSEN": {
       "score": 60,
-      "note": "Zirveye çıkan hisseler arasında, olumlu"
+      "note": "Bilanço tahmini ve öne çıkan hisseler arasında"
+    },
+    "EREGL": {
+      "score": 35,
+      "note": "BofA'dan sert satış haberi"
     },
     "BIMAS": {
-      "score": 75,
-      "note": "Kâr ikiye katlandı, güçlü bilanço"
+      "score": 50,
+      "note": "Teknik analiz başlıkları, nötr"
     },
     "MGROS": {
-      "score": 40,
-      "note": "Hisse neden düşüyor sorusu negatif"
+      "score": 45,
+      "note": "Düşüş haberi var, ancak güçlü görünüm ve 900 TL hedefi"
     },
     "FROTO": {
       "score": 55,
-      "note": "İhracat ve özel endüstri bölgesi kararı hafif pozitif"
+      "note": "İhracat ve özel endüstri bölgesi kararı pozitif"
     },
     "TOASO": {
       "score": 60,
-      "note": "Temettü açıklaması ve hedef fiyat değişikliği pozitif"
+      "note": "Temettü açıklaması ve hedef fiyat değişiklikleri"
     },
     "ASELS": {
       "score": 50,
-      "note": "Teknik analizler nötr"
+      "note": "Teknik analiz başlıkları, nötr"
     },
     "TCELL": {
       "score": 60,
@@ -74,25 +82,25 @@
     },
     "TTKOM": {
       "score": 50,
-      "note": "Bilanço tahmini nötr"
+      "note": "Teknik analiz başlıkları, nötr"
     },
     "ULKER": {
-      "score": 75,
-      "note": "Güçlü 2Ç kazancıyla hisse sıçradı"
+      "score": 70,
+      "note": "Güçlü 2Ç kazancı, hisse %5,5 sıçradı"
     },
     "CCOLA": {
       "score": 30,
-      "note": "Büyük ceza haberi negatif"
+      "note": "2,8 milyar TL ceza haberi olumsuz"
     },
     "ARCLK": {
-      "score": 60,
-      "note": "AL tavsiyesi ve satış kararı karışık, ama AL pozitif"
+      "score": 55,
+      "note": "Satın alma ve satış kararları, AL tavsiyesi"
     },
     "EKGYO": {
-      "score": 55,
+      "score": 60,
       "note": "Operasyonel güçlü, değerleme iskontolu"
     }
   },
-  "_ts": 1788791898,
+  "_ts": 1788853097,
   "_source": "deepseek-llm"
 }

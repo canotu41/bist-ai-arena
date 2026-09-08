@@ -3,11 +3,11 @@
   "name": "Claude AI Portföyü",
   "strategy": "Kalite+değer, seçici al + uzun tut (ROE≥%10, F/K≤35, trend üstü); backtest-kalibre",
   "initial": 50000.0,
-  "cash": 5904.59,
-  "total_value": 51783.69,
-  "return_pct": 3.57,
+  "cash": 5327.94,
+  "total_value": 51913.23,
+  "return_pct": 3.83,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-09-07 14:38",
+  "last_updated": "2026-09-08 07:38",
   "positions": [
     {
       "ticker": "CCOLA",
@@ -15,7 +15,7 @@
       "sector": "Gıda",
       "entry": 83.65,
       "qty": 131,
-      "current": 79.6,
+      "current": 79.35,
       "stop": 75.29,
       "target": 166.46,
       "entry_ts": "2026-07-14 09:15",
@@ -27,11 +27,11 @@
       "sector": "Perakende",
       "entry": 384.0,
       "qty": 28,
-      "current": 417.25,
+      "current": 415.75,
       "stop": 345.6,
       "target": 764.16,
       "entry_ts": "2026-07-14 15:08",
-      "score": 67.5
+      "score": 60.5
     },
     {
       "ticker": "VAKBN",
@@ -39,11 +39,11 @@
       "sector": "Bankacılık",
       "entry": 31.58,
       "qty": 356,
-      "current": 33.5,
+      "current": 33.74,
       "stop": 28.42,
       "target": 62.84,
       "entry_ts": "2026-07-16 14:38",
-      "score": 72.0
+      "score": 69.3
     },
     {
       "ticker": "TUPRS",
@@ -51,11 +51,23 @@
       "sector": "Enerji",
       "entry": 323.75,
       "qty": 30,
-      "current": 394.75,
+      "current": 398.75,
       "stop": 291.38,
       "target": 644.26,
       "entry_ts": "2026-08-07 10:38",
       "score": 59.6
+    },
+    {
+      "ticker": "TOASO",
+      "name": "Tofaş Oto Fabrika",
+      "sector": "Otomotiv",
+      "entry": 287.75,
+      "qty": 2,
+      "current": 287.75,
+      "stop": 258.98,
+      "target": 572.62,
+      "entry_ts": "2026-09-08 07:38",
+      "score": 67.0
     }
   ],
   "trades": [
@@ -130,6 +142,15 @@
       "price": 295.5,
       "amount": 886.5,
       "reason": "SKOR düştü (40 < 40)"
+    },
+    {
+      "ts": "2026-09-08 07:38",
+      "side": "BUY",
+      "ticker": "TOASO",
+      "qty": 2,
+      "price": 287.75,
+      "amount": 575.5,
+      "reason": "Claude AI skoru 67 (>=65)"
     }
   ]
 }
