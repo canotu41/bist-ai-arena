@@ -4,10 +4,10 @@
   "strategy": "Kalite+değer, seçici al + uzun tut (ROE≥%10, F/K≤35, trend üstü); backtest-kalibre",
   "initial": 50000.0,
   "cash": 5327.94,
-  "total_value": 53785.78,
-  "return_pct": 7.57,
+  "total_value": 53626.99,
+  "return_pct": 7.25,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-09-09 12:39",
+  "last_updated": "2026-09-09 13:38",
   "positions": [
     {
       "ticker": "CCOLA",
@@ -15,7 +15,7 @@
       "sector": "Gıda",
       "entry": 83.65,
       "qty": 131,
-      "current": 80.3,
+      "current": 80.35,
       "stop": 75.29,
       "target": 166.46,
       "entry_ts": "2026-07-14 09:15",
@@ -27,7 +27,7 @@
       "sector": "Perakende",
       "entry": 384.0,
       "qty": 28,
-      "current": 428.0,
+      "current": 427.0,
       "stop": 345.6,
       "target": 764.16,
       "entry_ts": "2026-07-14 15:08",
@@ -39,7 +39,7 @@
       "sector": "Bankacılık",
       "entry": 31.58,
       "qty": 356,
-      "current": 36.34,
+      "current": 36.2,
       "stop": 28.42,
       "target": 62.84,
       "entry_ts": "2026-07-16 14:38",
@@ -51,7 +51,7 @@
       "sector": "Enerji",
       "entry": 323.75,
       "qty": 30,
-      "current": 414.5,
+      "current": 411.5,
       "stop": 291.38,
       "target": 644.26,
       "entry_ts": "2026-08-07 10:38",
@@ -63,11 +63,11 @@
       "sector": "Otomotiv",
       "entry": 287.75,
       "qty": 2,
-      "current": 291.25,
+      "current": 292.5,
       "stop": 258.98,
       "target": 572.62,
       "entry_ts": "2026-09-08 07:38",
-      "score": 67.0
+      "score": 68.5
     }
   ],
   "trades": [
