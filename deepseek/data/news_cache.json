@@ -1,68 +1,68 @@
 {
   "market": {
-    "score": 65,
-    "trend": "Yükseliş eğilimi"
+    "score": 72,
+    "trend": "Pozitif"
   },
   "tickers": {
     "AKBNK": {
       "score": 55,
-      "note": "Teknik analiz ve temettü haberleri nötr-pozitif"
+      "note": "Teknik analizler ve fiyat hedefi, nötr-pozitif"
     },
     "GARAN": {
       "score": 70,
-      "note": "Finansman atağı ve AL önerisi pozitif"
+      "note": "Tahvil ihracı başvurusu ve alım fırsatı yorumları pozitif"
     },
     "ISCTR": {
-      "score": 65,
-      "note": "Yükseliş rüzgarı ve olumlu teknik analizler"
+      "score": 75,
+      "note": "Borsada rüzgar ve tavan ifadeleri güçlü pozitif"
     },
     "YKBNK": {
-      "score": 60,
-      "note": "Kar artışı ve teknik analizler nötr-pozitif"
+      "score": 55,
+      "note": "Teknik analizler, nötr"
     },
     "VAKBN": {
-      "score": 75,
-      "note": "Hedef fiyat yükseltildi, portföye giriş"
+      "score": 80,
+      "note": "Hedef fiyat artışı ve portföye giriş pozitif"
     },
     "KCHOL": {
-      "score": 55,
-      "note": "Teknik analiz ve bilanço değerlendirmesi nötr"
+      "score": 60,
+      "note": "Pay alım satım bildirimi ve bilanço analizi, nötr-pozitif"
     },
     "SAHOL": {
-      "score": 50,
-      "note": "Genel bilgi formu ve teknik analiz nötr"
+      "score": 55,
+      "note": "Teknik analiz ve fiyat hedefi, nötr"
     },
     "SISE": {
-      "score": 60,
-      "note": "Hedef fiyat güncellendi, temettü haberi pozitif"
+      "score": 65,
+      "note": "Hedef fiyat güncellemesi pozitif"
     },
     "THYAO": {
-      "score": 55,
-      "note": "KAP haberleri ve teknik analiz nötr"
+      "score": 60,
+      "note": "Detaylı analiz ve KAP haberleri, nötr-pozitif"
     },
     "PGSUS": {
       "score": 70,
-      "note": "Tahvil ihracı izni ve hedef fiyat güncellemeleri pozitif"
+      "note": "Tahvil ihracı izni ve hedef fiyat güncellemesi pozitif"
     },
     "TUPRS": {
       "score": 65,
-      "note": "Hedef fiyat yükseldi, yükselişte"
+      "note": "Yükseliş ve hedef fiyat artışı pozitif"
     },
     "AKSEN": {
-      "score": 60,
-      "note": "Bilanço tahmini ve öne çıkma pozitif"
+      "score": 70,
+      "note": "FAVÖK artışı ve zirve hisseler arasında pozitif"
     },
     "EREGL": {
       "score": 40,
-      "note": "BofA satış tavsiyesi negatif"
+      "note": "BofA satışı negatif"
     },
     "BIMAS": {
       "score": 50,
-      "note": "Teknik analiz ve grafik nötr"
+      "note": "Sadece teknik analizler, nötr"
     },
     "MGROS": {
-      "score": 45,
-      "note": "Düşüş haberi negatif"
+      "score": 70,
+      "note": "Güçlü görünüm ve hedef fiyat pozitif"
     },
     "FROTO": {
       "score": 65,
@@ -70,37 +70,37 @@
     },
     "TOASO": {
       "score": 60,
-      "note": "Temettü açıklaması ve hedef fiyat değişimi pozitif"
+      "note": "Temettü açıklaması ve hedef fiyat değişimi, nötr-pozitif"
     },
     "ASELS": {
-      "score": 70,
-      "note": "Jeopolitik destekle yükseliş"
+      "score": 75,
+      "note": "Jeopolitik destekle güçlü yükseliş pozitif"
     },
     "TCELL": {
-      "score": 60,
-      "note": "Temettü kararı ve teknik analizler pozitif"
+      "score": 50,
+      "note": "SEC açıklaması nötr"
     },
     "TTKOM": {
-      "score": 50,
-      "note": "Teknik analizler nötr"
+      "score": 55,
+      "note": "Bilanço tahmini ve teknik analiz, nötr"
     },
     "ULKER": {
       "score": 65,
-      "note": "Temettü ve bilanço haberleri pozitif"
+      "note": "Temettü dağıtımı pozitif"
     },
     "CCOLA": {
-      "score": 40,
-      "note": "Ceza haberi negatif"
+      "score": 45,
+      "note": "Ceza haberi negatif, ancak hukuki hamle ve getiri pozitif"
     },
     "ARCLK": {
       "score": 60,
-      "note": "Satış ve AL tavsiyesi karışık, hafif pozitif"
+      "note": "Satın alma ve AL tavsiyesi pozitif, hisse satışı nötr"
     },
     "EKGYO": {
-      "score": 60,
-      "note": "Güçlü operasyonel ve iskonto pozitif"
+      "score": 65,
+      "note": "Operasyonel güçlü ve iskontolu değerleme pozitif"
     }
   },
-  "_ts": 1788964708,
+  "_ts": 1789025876,
   "_source": "deepseek-llm"
 }
