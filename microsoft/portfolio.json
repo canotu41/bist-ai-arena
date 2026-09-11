@@ -4,10 +4,10 @@
   "strategy": "Momentum/trend: 20g değişim≥%4, MA20>MA50 kırılım; kazananı bırak; backtest-kalibre (alfa ~%-2)",
   "initial": 50000.0,
   "cash": 2401.87,
-  "total_value": 50178.26,
-  "return_pct": 0.36,
+  "total_value": 50211.86,
+  "return_pct": 0.42,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-09-11 10:38",
+  "last_updated": "2026-09-11 11:38",
   "positions": [
     {
       "ticker": "TUPRS",
@@ -15,11 +15,11 @@
       "sector": "Enerji",
       "entry": 309.5,
       "qty": 30,
-      "current": 411.75,
+      "current": 412.75,
       "stop": 278.55,
       "target": 433.3,
       "entry_ts": "2026-07-22 07:10",
-      "score": 73.0
+      "score": 73.7
     },
     {
       "ticker": "KCHOL",
@@ -27,11 +27,11 @@
       "sector": "Holding",
       "entry": 204.6,
       "qty": 2,
-      "current": 224.2,
+      "current": 225.4,
       "stop": 184.14,
       "target": 286.44,
       "entry_ts": "2026-07-22 08:38",
-      "score": 74.5
+      "score": 75.9
     },
     {
       "ticker": "BIMAS",
@@ -39,11 +39,11 @@
       "sector": "Perakende",
       "entry": 379.25,
       "qty": 1,
-      "current": 432.75,
+      "current": 433.75,
       "stop": 341.32,
       "target": 530.95,
       "entry_ts": "2026-08-03 15:17",
-      "score": 76.0
+      "score": 76.8
     },
     {
       "ticker": "ASELS",
@@ -51,11 +51,11 @@
       "sector": "Savunma",
       "entry": 402.0,
       "qty": 30,
-      "current": 397.0,
+      "current": 397.5,
       "stop": 361.8,
       "target": 562.8,
       "entry_ts": "2026-08-26 11:41",
-      "score": 63.0
+      "score": 63.7
     },
     {
       "ticker": "VAKBN",
@@ -63,11 +63,11 @@
       "sector": "Bankacılık",
       "entry": 34.18,
       "qty": 349,
-      "current": 36.86,
+      "current": 36.76,
       "stop": 30.76,
       "target": 47.85,
       "entry_ts": "2026-09-03 09:37",
-      "score": 67.8
+      "score": 69.3
     },
     {
       "ticker": "AKBNK",
@@ -75,7 +75,7 @@
       "sector": "Bankacılık",
       "entry": 71.45,
       "qty": 134,
-      "current": 72.9,
+      "current": 73.05,
       "stop": 64.31,
       "target": 100.03,
       "entry_ts": "2026-09-03 14:38",
