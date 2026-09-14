@@ -1,5 +1,5 @@
 {
-  "ts": "2026-09-11 14:38:38",
+  "ts": "2026-09-14 07:38:20",
   "health": {
     "ok": true,
     "live": 24,
@@ -16,29 +16,29 @@
     "TUPRS",
     "EKGYO",
     "GARAN",
-    "YKBNK",
-    "AKBNK"
+    "AKBNK",
+    "YKBNK"
   ],
   "leaderboard": [
     {
       "name": "Claude AI",
-      "return_pct": 9.31
+      "return_pct": 8.14
     },
     {
       "name": "DeepSeek AI",
-      "return_pct": 4.71
+      "return_pct": 3.73
     },
     {
       "name": "Konsensüs (Claude)",
-      "return_pct": 2.34
+      "return_pct": 1.38
     },
     {
       "name": "Microsoft Copilot",
-      "return_pct": 1.43
+      "return_pct": -0.35
     },
     {
       "name": "Codex",
-      "return_pct": 0.14
+      "return_pct": -0.55
     }
   ]
 }

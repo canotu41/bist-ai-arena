@@ -1,7 +1,7 @@
 {
   "market": {
-    "score": 55,
-    "trend": "Pozitif"
+    "score": 45,
+    "trend": "negatif"
   },
   "tickers": {
     "AKBNK": {
@@ -10,97 +10,97 @@
     },
     "GARAN": {
       "score": 65,
-      "note": "2 milyar dolarlık tahvil başvurusu ve alım fırsatı yorumları pozitif"
+      "note": "Tahvil başvurusu ve AL önerisi olumlu"
     },
     "ISCTR": {
-      "score": 70,
-      "note": "Borsada İş Bankası rüzgarı ve tavan beklentisi güçlü pozitif"
+      "score": 50,
+      "note": "Sadece teknik analiz haberleri, nötr"
     },
     "YKBNK": {
-      "score": 65,
-      "note": "Net karın ikiye katlanması ve beklenti aşımı olumlu"
+      "score": 40,
+      "note": "BofA'dan yüklü satış haberi negatif"
     },
     "VAKBN": {
-      "score": 70,
-      "note": "AL tavsiyesi ve hedef fiyat artışı pozitif"
+      "score": 65,
+      "note": "AL sinyali ve hedef fiyat artışı olumlu"
     },
     "KCHOL": {
-      "score": 45,
-      "note": "Tüpraş pay satışı kararı negatif, bilanço analizi nötr"
+      "score": 50,
+      "note": "Teknik analiz ve bilanço analizi, nötr"
     },
     "SAHOL": {
       "score": 50,
-      "note": "Teknik analiz ve fiyat hedefi, belirgin etki yok"
+      "note": "Teknik analiz ve KAP bildirimi, nötr"
     },
     "SISE": {
       "score": 60,
-      "note": "Hedef fiyat güncellemesi olumlu"
+      "note": "Hedef fiyat güncellemesi ve temettü ödemesi olumlu"
     },
     "THYAO": {
-      "score": 55,
-      "note": "Detaylı analiz ve KAP haberleri, hafif pozitif"
+      "score": 50,
+      "note": "Teknik analiz ve KAP haberleri, nötr"
     },
     "PGSUS": {
       "score": 60,
-      "note": "Tahvil ihracı izni ve hedef fiyat güncellemesi pozitif"
+      "note": "Tahvil ihracı izni ve hedef fiyat güncellemesi olumlu"
     },
     "TUPRS": {
-      "score": 60,
-      "note": "Hedef fiyat artışı ve yükseliş teknik analizi olumlu"
+      "score": 55,
+      "note": "Yükseliş ve teknik analiz haberleri hafif olumlu"
     },
     "AKSEN": {
-      "score": 55,
-      "note": "Bilanço tahmini ve zirve hisseler arasında gösterilmesi hafif pozitif"
+      "score": 60,
+      "note": "Bilanço tahmini ve zirve hisseler arasında olumlu"
     },
     "EREGL": {
       "score": 40,
       "note": "BofA'dan sert satış haberi negatif"
     },
     "BIMAS": {
-      "score": 65,
-      "note": "Karın ikiye katlanması güçlü pozitif"
+      "score": 55,
+      "note": "Bedelsiz sermaye artırımı ve hisse devri, hafif olumlu"
     },
     "MGROS": {
-      "score": 60,
-      "note": "Güçlü görünüm ve 900 TL hedefi pozitif"
+      "score": 55,
+      "note": "Güçlü görünüm ve hedef fiyat olumlu, düşüş haberi negatif"
     },
     "FROTO": {
       "score": 60,
-      "note": "364 milyon euroluk yatırım hamlesi olumlu"
+      "note": "Yatırım hamlesi olumlu"
     },
     "TOASO": {
       "score": 55,
-      "note": "Temettü açıklaması ve hedef fiyat değişiklikleri hafif pozitif"
+      "note": "Hedef fiyat değişiklikleri ve temettü, hafif olumlu"
     },
     "ASELS": {
       "score": 65,
-      "note": "Jeopolitik destekle güçlü yükseliş pozitif"
+      "note": "Jeopolitik destekle güçlü yükseliş olumlu"
     },
     "TCELL": {
       "score": 50,
-      "note": "SEC açıklaması ve KAP haberleri nötr"
+      "note": "Teknik analiz ve forum, nötr"
     },
     "TTKOM": {
       "score": 50,
-      "note": "Bilanço tahmini ve teknik analiz, belirgin etki yok"
+      "note": "Teknik analiz ve bilanço tahmini, nötr"
     },
     "ULKER": {
       "score": 60,
-      "note": "Temettü dağıtımı ve teknik radar pozitif"
+      "note": "Temettü dağıtımı ve bilanço olumlu"
     },
     "CCOLA": {
       "score": 40,
       "note": "2.8 milyar TL ceza negatif"
     },
     "ARCLK": {
-      "score": 55,
-      "note": "Satın alma ve hisse satışı kararı, AL tavsiyesi hafif pozitif"
+      "score": 50,
+      "note": "Satın alma ve satış kararı, nötr"
     },
     "EKGYO": {
       "score": 60,
-      "note": "Yeni hedef fiyat ve iskontolu değerleme pozitif"
+      "note": "Hedef fiyat artışı ve olumlu analiz"
     }
   },
-  "_ts": 1789126736,
+  "_ts": 1789371496,
   "_source": "deepseek-llm"
 }
