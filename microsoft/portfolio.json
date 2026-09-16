@@ -3,11 +3,11 @@
   "name": "Microsoft Copilot Portföyü",
   "strategy": "Momentum/trend: 20g değişim≥%4, MA20>MA50 kırılım; kazananı bırak; backtest-kalibre (alfa ~%-2)",
   "initial": 50000.0,
-  "cash": 10947.34,
-  "total_value": 45365.84,
-  "return_pct": -9.27,
+  "cash": 32004.64,
+  "total_value": 44564.49,
+  "return_pct": -10.87,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-09-16 13:37",
+  "last_updated": "2026-09-16 14:38",
   "positions": [
     {
       "ticker": "TUPRS",
@@ -15,7 +15,7 @@
       "sector": "Enerji",
       "entry": 309.5,
       "qty": 30,
-      "current": 396.75,
+      "current": 392.0,
       "stop": 278.55,
       "target": 433.3,
       "entry_ts": "2026-07-22 07:10",
@@ -27,7 +27,7 @@
       "sector": "Holding",
       "entry": 204.6,
       "qty": 2,
-      "current": 203.7,
+      "current": 201.8,
       "stop": 184.14,
       "target": 286.44,
       "entry_ts": "2026-07-22 08:38",
@@ -39,35 +39,11 @@
       "sector": "Perakende",
       "entry": 379.25,
       "qty": 1,
-      "current": 404.5,
+      "current": 396.25,
       "stop": 341.32,
       "target": 530.95,
       "entry_ts": "2026-08-03 15:17",
-      "score": 68.8
-    },
-    {
-      "ticker": "ASELS",
-      "name": "Aselsan",
-      "sector": "Savunma",
-      "entry": 402.0,
-      "qty": 30,
-      "current": 364.0,
-      "stop": 361.8,
-      "target": 562.8,
-      "entry_ts": "2026-08-26 11:41",
-      "score": 47.4
-    },
-    {
-      "ticker": "VAKBN",
-      "name": "VakıfBank",
-      "sector": "Bankacılık",
-      "entry": 34.18,
-      "qty": 349,
-      "current": 30.9,
-      "stop": 30.76,
-      "target": 47.85,
-      "entry_ts": "2026-09-03 09:37",
-      "score": 54.6
+      "score": 54.0
     }
   ],
   "trades": [
@@ -187,6 +163,24 @@
       "price": 63.9,
       "amount": 8562.6,
       "reason": "STOP-LOSS (%-10.6)"
+    },
+    {
+      "ts": "2026-09-16 14:38",
+      "side": "SELL",
+      "ticker": "ASELS",
+      "qty": 30,
+      "price": 348.5,
+      "amount": 10455.0,
+      "reason": "STOP-LOSS (%-13.3)"
+    },
+    {
+      "ts": "2026-09-16 14:38",
+      "side": "SELL",
+      "ticker": "VAKBN",
+      "qty": 349,
+      "price": 30.5,
+      "amount": 10644.5,
+      "reason": "STOP-LOSS (%-10.8)"
     }
   ]
 }
