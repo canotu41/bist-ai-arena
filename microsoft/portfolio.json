@@ -4,10 +4,10 @@
   "strategy": "Momentum/trend: 20g değişim≥%4, MA20>MA50 kırılım; kazananı bırak; backtest-kalibre (alfa ~%-2)",
   "initial": 50000.0,
   "cash": 2401.87,
-  "total_value": 47415.4,
-  "return_pct": -5.17,
+  "total_value": 46268.32,
+  "return_pct": -7.46,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-09-16 07:38",
+  "last_updated": "2026-09-16 08:38",
   "positions": [
     {
       "ticker": "TUPRS",
@@ -15,11 +15,11 @@
       "sector": "Enerji",
       "entry": 309.5,
       "qty": 30,
-      "current": 409.75,
+      "current": 400.5,
       "stop": 278.55,
       "target": 433.3,
       "entry_ts": "2026-07-22 07:10",
-      "score": 66.6
+      "score": 73.6
     },
     {
       "ticker": "KCHOL",
@@ -27,11 +27,11 @@
       "sector": "Holding",
       "entry": 204.6,
       "qty": 2,
-      "current": 213.7,
+      "current": 211.4,
       "stop": 184.14,
       "target": 286.44,
       "entry_ts": "2026-07-22 08:38",
-      "score": 67.4
+      "score": 67.3
     },
     {
       "ticker": "BIMAS",
@@ -39,11 +39,11 @@
       "sector": "Perakende",
       "entry": 379.25,
       "qty": 1,
-      "current": 414.75,
+      "current": 407.25,
       "stop": 341.32,
       "target": 530.95,
       "entry_ts": "2026-08-03 15:17",
-      "score": 75.1
+      "score": 66.7
     },
     {
       "ticker": "ASELS",
@@ -51,7 +51,7 @@
       "sector": "Savunma",
       "entry": 402.0,
       "qty": 30,
-      "current": 375.75,
+      "current": 367.25,
       "stop": 361.8,
       "target": 562.8,
       "entry_ts": "2026-08-26 11:41",
@@ -63,7 +63,7 @@
       "sector": "Bankacılık",
       "entry": 34.18,
       "qty": 349,
-      "current": 32.82,
+      "current": 31.9,
       "stop": 30.76,
       "target": 47.85,
       "entry_ts": "2026-09-03 09:37",
@@ -75,7 +75,7 @@
       "sector": "Bankacılık",
       "entry": 71.45,
       "qty": 134,
-      "current": 68.3,
+      "current": 66.2,
       "stop": 64.31,
       "target": 100.03,
       "entry_ts": "2026-09-03 14:38",
