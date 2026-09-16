@@ -3,11 +3,11 @@
   "name": "Codex Portföyü",
   "strategy": "Önce risk: düşük vol (ATR≤%3.6), RSI 40-68, MA50 üstü; seçici, uzun tut; backtest-kalibre",
   "initial": 50000.0,
-  "cash": 11289.05,
-  "total_value": 45665.76,
-  "return_pct": -8.67,
+  "cash": 15877.5,
+  "total_value": 45203.8,
+  "return_pct": -9.59,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-09-16 12:38",
+  "last_updated": "2026-09-16 13:37",
   "positions": [
     {
       "ticker": "BIMAS",
@@ -15,11 +15,11 @@
       "sector": "Perakende",
       "entry": 381.5,
       "qty": 19,
-      "current": 409.25,
+      "current": 404.5,
       "stop": 343.35,
       "target": 534.1,
       "entry_ts": "2026-07-14 10:38",
-      "score": 63.3
+      "score": 64.8
     },
     {
       "ticker": "KCHOL",
@@ -27,11 +27,11 @@
       "sector": "Holding",
       "entry": 195.3,
       "qty": 38,
-      "current": 206.3,
+      "current": 203.7,
       "stop": 175.77,
       "target": 273.42,
       "entry_ts": "2026-07-16 08:38",
-      "score": 64.0
+      "score": 56.2
     },
     {
       "ticker": "GARAN",
@@ -39,7 +39,7 @@
       "sector": "Bankacılık",
       "entry": 132.0,
       "qty": 55,
-      "current": 121.3,
+      "current": 120.1,
       "stop": 118.8,
       "target": 184.8,
       "entry_ts": "2026-08-04 12:39",
@@ -51,23 +51,11 @@
       "sector": "Bankacılık",
       "entry": 31.9,
       "qty": 51,
-      "current": 31.26,
+      "current": 30.9,
       "stop": 28.71,
       "target": 44.66,
       "entry_ts": "2026-08-31 11:38",
-      "score": 53.3
-    },
-    {
-      "ticker": "EKGYO",
-      "name": "Emlak Konut GYO",
-      "sector": "Gayrimenkul",
-      "entry": 20.08,
-      "qty": 255,
-      "current": 18.24,
-      "stop": 18.07,
-      "target": 28.11,
-      "entry_ts": "2026-09-01 09:37",
-      "score": 52.7
+      "score": 54.5
     },
     {
       "ticker": "SAHOL",
@@ -75,11 +63,11 @@
       "sector": "Holding",
       "entry": 92.35,
       "qty": 68,
-      "current": 85.95,
+      "current": 84.1,
       "stop": 83.11,
       "target": 129.29,
       "entry_ts": "2026-09-04 11:38",
-      "score": 56.9
+      "score": 56.3
     }
   ],
   "trades": [
@@ -244,6 +232,15 @@
       "price": 65.1,
       "amount": 5077.8,
       "reason": "STOP-LOSS (%-10.3)"
+    },
+    {
+      "ts": "2026-09-16 13:37",
+      "side": "SELL",
+      "ticker": "EKGYO",
+      "qty": 255,
+      "price": 18.03,
+      "amount": 4597.65,
+      "reason": "STOP-LOSS (%-10.2)"
     }
   ]
 }
