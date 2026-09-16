@@ -4,10 +4,10 @@
   "strategy": "Önce risk: düşük vol (ATR≤%3.6), RSI 40-68, MA50 üstü; seçici, uzun tut; backtest-kalibre",
   "initial": 50000.0,
   "cash": 6221.41,
-  "total_value": 46195.86,
-  "return_pct": -7.61,
+  "total_value": 46673.34,
+  "return_pct": -6.65,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-09-16 08:38",
+  "last_updated": "2026-09-16 09:37",
   "positions": [
     {
       "ticker": "BIMAS",
@@ -15,11 +15,11 @@
       "sector": "Perakende",
       "entry": 381.5,
       "qty": 19,
-      "current": 407.25,
+      "current": 414.5,
       "stop": 343.35,
       "target": 534.1,
       "entry_ts": "2026-07-14 10:38",
-      "score": 62.1
+      "score": 60.6
     },
     {
       "ticker": "KCHOL",
@@ -27,11 +27,11 @@
       "sector": "Holding",
       "entry": 195.3,
       "qty": 38,
-      "current": 211.4,
+      "current": 213.6,
       "stop": 175.77,
       "target": 273.42,
       "entry_ts": "2026-07-16 08:38",
-      "score": 63.1
+      "score": 62.5
     },
     {
       "ticker": "GARAN",
@@ -39,7 +39,7 @@
       "sector": "Bankacılık",
       "entry": 132.0,
       "qty": 55,
-      "current": 122.8,
+      "current": 123.7,
       "stop": 118.8,
       "target": 184.8,
       "entry_ts": "2026-08-04 12:39",
@@ -51,11 +51,11 @@
       "sector": "Bankacılık",
       "entry": 72.6,
       "qty": 78,
-      "current": 66.2,
+      "current": 66.65,
       "stop": 65.34,
       "target": 101.64,
       "entry_ts": "2026-08-24 07:38",
-      "score": 48.2
+      "score": 57.9
     },
     {
       "ticker": "VAKBN",
@@ -63,11 +63,11 @@
       "sector": "Bankacılık",
       "entry": 31.9,
       "qty": 51,
-      "current": 31.9,
+      "current": 32.58,
       "stop": 28.71,
       "target": 44.66,
       "entry_ts": "2026-08-31 11:38",
-      "score": 61.5
+      "score": 57.9
     },
     {
       "ticker": "EKGYO",
@@ -75,7 +75,7 @@
       "sector": "Gayrimenkul",
       "entry": 20.08,
       "qty": 255,
-      "current": 18.76,
+      "current": 18.99,
       "stop": 18.07,
       "target": 28.11,
       "entry_ts": "2026-09-01 09:37",
@@ -87,11 +87,11 @@
       "sector": "Holding",
       "entry": 92.35,
       "qty": 68,
-      "current": 86.4,
+      "current": 87.55,
       "stop": 83.11,
       "target": 129.29,
       "entry_ts": "2026-09-04 11:38",
-      "score": 48.2
+      "score": 47.3
     }
   ],
   "trades": [
