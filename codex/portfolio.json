@@ -4,10 +4,10 @@
   "strategy": "Önce risk: düşük vol (ATR≤%3.6), RSI 40-68, MA50 üstü; seçici, uzun tut; backtest-kalibre",
   "initial": 50000.0,
   "cash": 28004.5,
-  "total_value": 45553.92,
-  "return_pct": -8.89,
+  "total_value": 45564.41,
+  "return_pct": -8.87,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-09-17 07:38",
+  "last_updated": "2026-09-17 08:37",
   "positions": [
     {
       "ticker": "BIMAS",
@@ -15,7 +15,7 @@
       "sector": "Perakende",
       "entry": 381.5,
       "qty": 19,
-      "current": 413.5,
+      "current": 414.75,
       "stop": 343.35,
       "target": 534.1,
       "entry_ts": "2026-07-14 10:38",
@@ -39,11 +39,11 @@
       "sector": "Bankacılık",
       "entry": 31.9,
       "qty": 51,
-      "current": 32.32,
+      "current": 32.06,
       "stop": 28.71,
       "target": 44.66,
       "entry_ts": "2026-08-31 11:38",
-      "score": 56.0
+      "score": 56.9
     }
   ],
   "trades": [
