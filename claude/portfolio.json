@@ -4,10 +4,10 @@
   "strategy": "Kalite+değer, seçici al + uzun tut (ROE≥%10, F/K≤35, trend üstü); backtest-kalibre",
   "initial": 50000.0,
   "cash": 15100.61,
-  "total_value": 49344.61,
-  "return_pct": -1.31,
+  "total_value": 50912.03,
+  "return_pct": 1.82,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-09-16 14:38",
+  "last_updated": "2026-09-17 07:38",
   "positions": [
     {
       "ticker": "BIMAS",
@@ -15,11 +15,11 @@
       "sector": "Perakende",
       "entry": 384.0,
       "qty": 28,
-      "current": 396.25,
+      "current": 413.5,
       "stop": 345.6,
       "target": 764.16,
       "entry_ts": "2026-07-14 15:08",
-      "score": 56.6
+      "score": 62.9
     },
     {
       "ticker": "VAKBN",
@@ -27,11 +27,11 @@
       "sector": "Bankacılık",
       "entry": 31.58,
       "qty": 356,
-      "current": 30.5,
+      "current": 32.32,
       "stop": 28.42,
       "target": 62.84,
       "entry_ts": "2026-07-16 14:38",
-      "score": 63.3
+      "score": 59.4
     },
     {
       "ticker": "TUPRS",
@@ -39,11 +39,11 @@
       "sector": "Enerji",
       "entry": 323.75,
       "qty": 30,
-      "current": 392.0,
+      "current": 405.75,
       "stop": 291.38,
       "target": 644.26,
       "entry_ts": "2026-08-07 10:38",
-      "score": 64.1
+      "score": 65.3
     },
     {
       "ticker": "TOASO",
@@ -51,11 +51,11 @@
       "sector": "Otomotiv",
       "entry": 287.75,
       "qty": 2,
-      "current": 265.5,
+      "current": 277.5,
       "stop": 258.98,
       "target": 572.62,
       "entry_ts": "2026-09-08 07:38",
-      "score": 65.0
+      "score": 62.7
     }
   ],
   "trades": [
