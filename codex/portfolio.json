@@ -4,10 +4,10 @@
   "strategy": "Önce risk: düşük vol (ATR≤%3.6), RSI 40-68, MA50 üstü; seçici, uzun tut; backtest-kalibre",
   "initial": 50000.0,
   "cash": 21132.58,
-  "total_value": 45769.06,
-  "return_pct": -8.46,
+  "total_value": 46207.83,
+  "return_pct": -7.58,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-09-21 10:37",
+  "last_updated": "2026-09-21 11:38",
   "positions": [
     {
       "ticker": "BIMAS",
@@ -15,7 +15,7 @@
       "sector": "Perakende",
       "entry": 381.5,
       "qty": 19,
-      "current": 416.0,
+      "current": 421.75,
       "stop": 343.35,
       "target": 534.1,
       "entry_ts": "2026-07-14 10:38",
@@ -27,11 +27,11 @@
       "sector": "Holding",
       "entry": 195.3,
       "qty": 38,
-      "current": 213.5,
+      "current": 219.0,
       "stop": 175.77,
       "target": 273.42,
       "entry_ts": "2026-07-16 08:38",
-      "score": 61.5
+      "score": 58.0
     },
     {
       "ticker": "VAKBN",
@@ -39,11 +39,11 @@
       "sector": "Bankacılık",
       "entry": 31.9,
       "qty": 51,
-      "current": 33.08,
+      "current": 34.3,
       "stop": 28.71,
       "target": 44.66,
       "entry_ts": "2026-08-31 11:38",
-      "score": 60.3
+      "score": 61.0
     },
     {
       "ticker": "GARAN",
@@ -51,7 +51,7 @@
       "sector": "Bankacılık",
       "entry": 129.4,
       "qty": 53,
-      "current": 130.8,
+      "current": 131.9,
       "stop": 116.46,
       "target": 181.16,
       "entry_ts": "2026-09-17 09:38",
