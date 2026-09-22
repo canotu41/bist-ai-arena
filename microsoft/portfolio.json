@@ -3,11 +3,11 @@
   "name": "Microsoft Copilot Portföyü",
   "strategy": "Momentum/trend: 20g değişim≥%4, MA20>MA50 kırılım; kazananı bırak; backtest-kalibre (alfa ~%-2)",
   "initial": 50000.0,
-  "cash": 32004.64,
-  "total_value": 45402.44,
-  "return_pct": -9.2,
+  "cash": 20720.87,
+  "total_value": 45490.07,
+  "return_pct": -9.02,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-09-21 14:37",
+  "last_updated": "2026-09-22 07:38",
   "positions": [
     {
       "ticker": "TUPRS",
@@ -15,7 +15,7 @@
       "sector": "Enerji",
       "entry": 309.5,
       "qty": 30,
-      "current": 417.5,
+      "current": 420.75,
       "stop": 278.55,
       "target": 433.3,
       "entry_ts": "2026-07-22 07:10",
@@ -27,11 +27,11 @@
       "sector": "Holding",
       "entry": 204.6,
       "qty": 2,
-      "current": 220.9,
+      "current": 222.6,
       "stop": 184.14,
       "target": 286.44,
       "entry_ts": "2026-07-22 08:38",
-      "score": 64.5
+      "score": 65.5
     },
     {
       "ticker": "BIMAS",
@@ -39,11 +39,23 @@
       "sector": "Perakende",
       "entry": 379.25,
       "qty": 1,
-      "current": 431.0,
+      "current": 440.25,
       "stop": 341.32,
       "target": 530.95,
       "entry_ts": "2026-08-03 15:17",
-      "score": 69.7
+      "score": 67.9
+    },
+    {
+      "ticker": "TOASO",
+      "name": "Tofaş Oto Fabrika",
+      "sector": "Otomotiv",
+      "entry": 288.75,
+      "qty": 39,
+      "current": 288.75,
+      "stop": 259.88,
+      "target": 404.25,
+      "entry_ts": "2026-09-22 07:38",
+      "score": 71.0
     }
   ],
   "trades": [
@@ -181,6 +193,15 @@
       "price": 30.5,
       "amount": 10644.5,
       "reason": "STOP-LOSS (%-10.8)"
+    },
+    {
+      "ts": "2026-09-22 07:38",
+      "side": "BUY",
+      "ticker": "TOASO",
+      "qty": 39,
+      "price": 288.75,
+      "amount": 11261.25,
+      "reason": "Microsoft Copilot skoru 71 (>=70)"
     }
   ]
 }
