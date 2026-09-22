@@ -4,10 +4,10 @@
   "strategy": "Önce risk: düşük vol (ATR≤%3.6), RSI 40-68, MA50 üstü; seçici, uzun tut; backtest-kalibre",
   "initial": 50000.0,
   "cash": 21132.58,
-  "total_value": 46655.76,
-  "return_pct": -6.69,
+  "total_value": 46643.59,
+  "return_pct": -6.71,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-09-22 12:38",
+  "last_updated": "2026-09-22 13:38",
   "positions": [
     {
       "ticker": "BIMAS",
@@ -15,7 +15,7 @@
       "sector": "Perakende",
       "entry": 381.5,
       "qty": 19,
-      "current": 430.5,
+      "current": 431.25,
       "stop": 343.35,
       "target": 534.1,
       "entry_ts": "2026-07-14 10:38",
@@ -27,7 +27,7 @@
       "sector": "Holding",
       "entry": 195.3,
       "qty": 38,
-      "current": 221.3,
+      "current": 220.9,
       "stop": 175.77,
       "target": 273.42,
       "entry_ts": "2026-07-16 08:38",
@@ -39,11 +39,11 @@
       "sector": "Bankacılık",
       "entry": 31.9,
       "qty": 51,
-      "current": 34.68,
+      "current": 34.46,
       "stop": 28.71,
       "target": 44.66,
       "entry_ts": "2026-08-31 11:38",
-      "score": 60.3
+      "score": 61.0
     },
     {
       "ticker": "GARAN",
