@@ -1,7 +1,7 @@
 {
   "name": "DeepSeek BIST30 Portföy",
   "initial_capital": 50000.0,
-  "cash": 14333.460000000003,
+  "cash": 7120.860000000002,
   "positions": [
     {
       "ticker": "BIMAS",
@@ -15,9 +15,9 @@
       "take_profit": 532.24,
       "trailing_stop_active": false,
       "trailing_stop_level": 0.0,
-      "current_price": 440.25,
-      "unrealized_pnl": 1150.0,
-      "unrealized_pnl_pct": 11.667723525681675,
+      "current_price": 433.75,
+      "unrealized_pnl": 987.5,
+      "unrealized_pnl_pct": 10.019023462270134,
       "days_held": 0,
       "deepscore_at_entry": 62.9
     },
@@ -33,9 +33,9 @@
       "take_profit": 265.28,
       "trailing_stop_active": false,
       "trailing_stop_level": 0.0,
-      "current_price": 222.6,
-      "unrealized_pnl": 600.2999999999998,
-      "unrealized_pnl_pct": 13.282442748091599,
+      "current_price": 220.8,
+      "unrealized_pnl": 558.9000000000003,
+      "unrealized_pnl_pct": 12.366412213740464,
       "days_held": 0,
       "deepscore_at_entry": 62.4
     },
@@ -51,9 +51,9 @@
       "take_profit": 432.34,
       "trailing_stop_active": false,
       "trailing_stop_level": 0.0,
-      "current_price": 420.75,
-      "unrealized_pnl": 2814.0,
-      "unrealized_pnl_pct": 31.381733021077284,
+      "current_price": 414.75,
+      "unrealized_pnl": 2646.0,
+      "unrealized_pnl_pct": 29.508196721311474,
       "days_held": 0,
       "deepscore_at_entry": 67.4
     },
@@ -69,11 +69,29 @@
       "take_profit": 41.72,
       "trailing_stop_active": false,
       "trailing_stop_level": 0.0,
-      "current_price": 34.44,
-      "unrealized_pnl": 782.3399999999998,
-      "unrealized_pnl_pct": 11.456310679611647,
+      "current_price": 34.32,
+      "unrealized_pnl": 755.8200000000004,
+      "unrealized_pnl_pct": 11.06796116504855,
       "days_held": 0,
       "deepscore_at_entry": 63.0
+    },
+    {
+      "ticker": "GARAN",
+      "company_name": "Garanti BBVA",
+      "sector": "Bankacılık",
+      "entry_price": 133.3,
+      "quantity": 54,
+      "entry_date": "2026-09-22 08:37",
+      "cost_basis": 7198.200000000001,
+      "stop_loss": 119.97,
+      "take_profit": 179.96,
+      "trailing_stop_active": false,
+      "trailing_stop_level": 0.0,
+      "current_price": 133.3,
+      "unrealized_pnl": 0.0,
+      "unrealized_pnl_pct": 0.0,
+      "days_held": 0,
+      "deepscore_at_entry": 64.0
     }
   ],
   "transactions": [
@@ -310,17 +328,30 @@
       "reason": "STOP-LOSS tetiklendi: %-10.86 düşüş (limit: %-10.0)",
       "signal_type": "SELL",
       "deepscore": 0.0
+    },
+    {
+      "id": "5539333E",
+      "timestamp": "2026-09-22 08:37",
+      "type": "BUY",
+      "ticker": "GARAN",
+      "quantity": 54,
+      "price": 133.3,
+      "total_amount": 7198.200000000001,
+      "commission": 14.4,
+      "reason": "DeepScore™ 64.0 (BUY) | Sektör: Bankacılık",
+      "signal_type": "BUY",
+      "deepscore": 64.0
     }
   ],
-  "total_value": 49851.75,
-  "total_return_pct": -0.3,
+  "total_value": 49438.93000000001,
+  "total_return_pct": -1.12,
   "benchmark_return_pct": 0.0,
   "alpha_pct": 0.0,
   "week": 0,
-  "current_drawdown_pct": -0.3,
+  "current_drawdown_pct": -1.09,
   "max_drawdown_pct": -6.77,
   "win_rate_pct": 0.0,
   "market_regime": "HIGH_VOLATILITY",
-  "last_updated": "2026-09-22 07:38",
+  "last_updated": "2026-09-22 08:37",
   "created_date": "2026-07-06"
 }
