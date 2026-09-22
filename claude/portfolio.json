@@ -3,11 +3,11 @@
   "name": "Claude AI Portföyü",
   "strategy": "Kalite+değer, seçici al + uzun tut (ROE≥%10, F/K≤35, trend üstü); backtest-kalibre",
   "initial": 50000.0,
-  "cash": 15100.61,
-  "total_value": 51756.27,
-  "return_pct": 3.51,
+  "cash": 6662.07,
+  "total_value": 51919.85,
+  "return_pct": 3.84,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-09-22 11:37",
+  "last_updated": "2026-09-22 12:38",
   "positions": [
     {
       "ticker": "BIMAS",
@@ -15,7 +15,7 @@
       "sector": "Perakende",
       "entry": 384.0,
       "qty": 28,
-      "current": 431.75,
+      "current": 430.5,
       "stop": 345.6,
       "target": 764.16,
       "entry_ts": "2026-07-14 15:08",
@@ -27,7 +27,7 @@
       "sector": "Bankacılık",
       "entry": 31.58,
       "qty": 356,
-      "current": 34.36,
+      "current": 34.68,
       "stop": 28.42,
       "target": 62.84,
       "entry_ts": "2026-07-16 14:38",
@@ -39,7 +39,7 @@
       "sector": "Enerji",
       "entry": 323.75,
       "qty": 30,
-      "current": 392.0,
+      "current": 395.25,
       "stop": 291.38,
       "target": 644.26,
       "entry_ts": "2026-08-07 10:38",
@@ -51,11 +51,23 @@
       "sector": "Otomotiv",
       "entry": 287.75,
       "qty": 2,
-      "current": 287.25,
+      "current": 289.25,
       "stop": 258.98,
       "target": 572.62,
       "entry_ts": "2026-09-08 07:38",
       "score": 69.4
+    },
+    {
+      "ticker": "YKBNK",
+      "name": "Yapı Kredi Bankası",
+      "sector": "Bankacılık",
+      "entry": 37.1,
+      "qty": 227,
+      "current": 37.1,
+      "stop": 33.39,
+      "target": 73.83,
+      "entry_ts": "2026-09-22 12:38",
+      "score": 67.2
     }
   ],
   "trades": [
@@ -148,6 +160,15 @@
       "price": 74.75,
       "amount": 9792.25,
       "reason": "STOP-LOSS (%-10.6)"
+    },
+    {
+      "ts": "2026-09-22 12:38",
+      "side": "BUY",
+      "ticker": "YKBNK",
+      "qty": 227,
+      "price": 37.1,
+      "amount": 8421.7,
+      "reason": "Claude AI skoru 67 (>=65)"
     }
   ]
 }
