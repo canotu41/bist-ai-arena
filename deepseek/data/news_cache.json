@@ -6,7 +6,7 @@
   "tickers": {
     "AKBNK": {
       "score": 50,
-      "note": "Nötr, sadece teknik analiz ve fiyat hedefi haberleri"
+      "note": "Nötr, sadece teknik analiz ve grafik haberleri"
     },
     "GARAN": {
       "score": 65,
@@ -14,7 +14,7 @@
     },
     "ISCTR": {
       "score": 50,
-      "note": "Nötr, sadece teknik analiz haberleri"
+      "note": "Nötr, teknik analiz ve yorum haberleri"
     },
     "YKBNK": {
       "score": 50,
@@ -22,23 +22,23 @@
     },
     "VAKBN": {
       "score": 70,
-      "note": "AL sinyali, portföye giriş ve yurt dışı kaynak haberi pozitif"
+      "note": "Yurt dışı kaynak ve AL sinyali pozitif"
     },
     "KCHOL": {
       "score": 50,
-      "note": "Nötr, teknik analiz ve geçmiş performans haberi"
+      "note": "Nötr, teknik analiz ve gelir dağılımı haberleri"
     },
     "SAHOL": {
       "score": 50,
-      "note": "Nötr, teknik analiz ve bilanço haberi"
+      "note": "Nötr, teknik analiz ve bilanço haberleri"
     },
     "SISE": {
       "score": 60,
       "note": "Hedef fiyat güncellemesi pozitif"
     },
     "THYAO": {
-      "score": 55,
-      "note": "BofA alımı ve hedef fiyat güncellemesi hafif pozitif"
+      "score": 60,
+      "note": "BofA alımı ve hedef fiyat güncellemesi pozitif"
     },
     "PGSUS": {
       "score": 60,
@@ -46,7 +46,7 @@
     },
     "TUPRS": {
       "score": 45,
-      "note": "Kurumsal satışlar negatif, hedef fiyat nötr"
+      "note": "Kurumsal satışlar negatif, teknik analiz nötr"
     },
     "AKSEN": {
       "score": 50,
@@ -58,7 +58,7 @@
     },
     "BIMAS": {
       "score": 55,
-      "note": "Bedelsiz sermaye artırımı hafif pozitif"
+      "note": "Bedelsiz sermaye artırımı pozitif"
     },
     "MGROS": {
       "score": 45,
@@ -86,11 +86,11 @@
     },
     "ULKER": {
       "score": 60,
-      "note": "Temettü dağıtım kararı pozitif"
+      "note": "Temettü dağıtımı pozitif"
     },
     "CCOLA": {
       "score": 50,
-      "note": "Nötr, teknik analiz ve fiyat hedefi"
+      "note": "Nötr, teknik analiz ve hedef fiyat"
     },
     "ARCLK": {
       "score": 45,
@@ -98,9 +98,9 @@
     },
     "EKGYO": {
       "score": 65,
-      "note": "1 milyar TL geri alım kararı pozitif"
+      "note": "Geri alım kararı pozitif"
     }
   },
-  "_ts": 1790149090,
+  "_ts": 1790163477,
   "_source": "deepseek-llm"
 }
