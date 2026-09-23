@@ -1,27 +1,27 @@
 {
   "market": {
-    "score": 45,
+    "score": 40,
     "trend": "Negatif"
   },
   "tickers": {
     "AKBNK": {
       "score": 50,
-      "note": "Nötr, sadece teknik analiz ve grafik haberleri"
+      "note": "Nötr, sadece teknik analiz ve tahmin haberleri"
     },
     "GARAN": {
-      "score": 65,
+      "score": 70,
       "note": "Kâr beklentiyi aştı, hedef fiyat güncellemeleri pozitif"
     },
     "ISCTR": {
       "score": 50,
-      "note": "Nötr, teknik analiz ve yorum haberleri"
+      "note": "Nötr, sadece teknik analiz ve yorum haberleri"
     },
     "YKBNK": {
       "score": 50,
       "note": "Nötr, teknik analiz ve grafik haberleri"
     },
     "VAKBN": {
-      "score": 70,
+      "score": 65,
       "note": "Yurt dışı kaynak ve AL sinyali pozitif"
     },
     "KCHOL": {
@@ -29,16 +29,16 @@
       "note": "Nötr, teknik analiz ve gelir dağılımı haberleri"
     },
     "SAHOL": {
-      "score": 50,
-      "note": "Nötr, teknik analiz ve bilanço haberleri"
+      "score": 70,
+      "note": "Net kâr beklentiyi aştı, pozitif"
     },
     "SISE": {
       "score": 60,
       "note": "Hedef fiyat güncellemesi pozitif"
     },
     "THYAO": {
-      "score": 60,
-      "note": "BofA alımı ve hedef fiyat güncellemesi pozitif"
+      "score": 50,
+      "note": "Nötr, sadece teknik analiz haberleri"
     },
     "PGSUS": {
       "score": 60,
@@ -53,28 +53,28 @@
       "note": "Nötr, bilanço tahmini ve teknik analiz"
     },
     "EREGL": {
-      "score": 60,
-      "note": "Yabancı fonların pay artışı pozitif"
+      "score": 55,
+      "note": "Yabancı fonların pay artışı hafif pozitif"
     },
     "BIMAS": {
       "score": 55,
       "note": "Bedelsiz sermaye artırımı pozitif"
     },
     "MGROS": {
-      "score": 45,
-      "note": "Net kâr düşüşü negatif, hedef fiyat artışı pozitif"
+      "score": 60,
+      "note": "Hedef fiyat güncellemesi pozitif"
     },
     "FROTO": {
       "score": 60,
-      "note": "Yatırım hamlesi ve temettü tahmini pozitif"
+      "note": "Yatırım hamlesi pozitif"
     },
     "TOASO": {
       "score": 60,
-      "note": "Temettü açıklaması ve hedef fiyat güncellemesi pozitif"
+      "note": "Temettü açıklaması ve hedef fiyat değişikliği pozitif"
     },
     "ASELS": {
-      "score": 65,
-      "note": "Jeopolitik destekle güçlü yükseliş pozitif"
+      "score": 60,
+      "note": "Hedef fiyat açıklaması pozitif"
     },
     "TCELL": {
       "score": 50,
@@ -90,17 +90,17 @@
     },
     "CCOLA": {
       "score": 50,
-      "note": "Nötr, teknik analiz ve hedef fiyat"
+      "note": "Nötr, sadece teknik analiz ve tahmin"
     },
     "ARCLK": {
-      "score": 45,
-      "note": "Satın alma ve hisse satışı kararı belirsiz, hafif negatif"
+      "score": 50,
+      "note": "Nötr, satın alma ve satış kararı belirsiz"
     },
     "EKGYO": {
-      "score": 65,
-      "note": "Geri alım kararı pozitif"
+      "score": 60,
+      "note": "Hisse geri alım kararı pozitif"
     }
   },
-  "_ts": 1790163477,
+  "_ts": 1790174319,
   "_source": "deepseek-llm"
 }
