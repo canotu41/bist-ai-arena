@@ -4,10 +4,10 @@
   "strategy": "Momentum/trend: 20g değişim≥%4, MA20>MA50 kırılım; kazananı bırak; backtest-kalibre (alfa ~%-2)",
   "initial": 50000.0,
   "cash": 9407.01,
-  "total_value": 44834.31,
-  "return_pct": -10.33,
+  "total_value": 44484.52,
+  "return_pct": -11.03,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-09-25 14:38",
+  "last_updated": "2026-09-28 07:38",
   "positions": [
     {
       "ticker": "TUPRS",
@@ -15,11 +15,11 @@
       "sector": "Enerji",
       "entry": 309.5,
       "qty": 30,
-      "current": 404.5,
+      "current": 403.0,
       "stop": 278.55,
       "target": 433.3,
       "entry_ts": "2026-07-22 07:10",
-      "score": 65.8
+      "score": 68.7
     },
     {
       "ticker": "KCHOL",
@@ -27,11 +27,11 @@
       "sector": "Holding",
       "entry": 204.6,
       "qty": 2,
-      "current": 217.1,
+      "current": 214.0,
       "stop": 184.14,
       "target": 286.44,
       "entry_ts": "2026-07-22 08:38",
-      "score": 67.5
+      "score": 64.1
     },
     {
       "ticker": "BIMAS",
@@ -39,7 +39,7 @@
       "sector": "Perakende",
       "entry": 379.25,
       "qty": 1,
-      "current": 424.25,
+      "current": 423.25,
       "stop": 341.32,
       "target": 530.95,
       "entry_ts": "2026-08-03 15:17",
@@ -51,11 +51,11 @@
       "sector": "Otomotiv",
       "entry": 288.75,
       "qty": 39,
-      "current": 289.25,
+      "current": 285.5,
       "stop": 259.88,
       "target": 404.25,
       "entry_ts": "2026-09-22 07:38",
-      "score": 64.9
+      "score": 62.9
     },
     {
       "ticker": "VAKBN",
@@ -63,11 +63,11 @@
       "sector": "Bankacılık",
       "entry": 34.32,
       "qty": 329,
-      "current": 33.9,
+      "current": 33.44,
       "stop": 30.89,
       "target": 48.05,
       "entry_ts": "2026-09-22 08:37",
-      "score": 66.1
+      "score": 65.4
     }
   ],
   "trades": [
