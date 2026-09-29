@@ -1,12 +1,12 @@
 {
   "market": {
-    "score": 25,
+    "score": 35,
     "trend": "negatif"
   },
   "tickers": {
     "AKBNK": {
       "score": 50,
-      "note": "Nötr teknik analiz ve fiyat hedefi haberleri"
+      "note": "Nötr, sadece teknik analiz ve fiyat hedefi haberleri"
     },
     "GARAN": {
       "score": 70,
@@ -14,19 +14,19 @@
     },
     "ISCTR": {
       "score": 50,
-      "note": "Sadece teknik analiz ve yorum haberleri"
+      "note": "Nötr, teknik analiz ve yorum haberleri"
     },
     "YKBNK": {
       "score": 50,
-      "note": "Teknik analiz ve grafik haberleri"
+      "note": "Nötr, teknik analiz haberleri"
     },
     "VAKBN": {
       "score": 65,
-      "note": "Hedef fiyat tavsiyesi ve AL sinyali"
+      "note": "Hedef fiyat artırımı ve AL sinyali"
     },
     "KCHOL": {
       "score": 50,
-      "note": "Teknik analiz ve bilanço haberleri"
+      "note": "Nötr, bilanço analizi ve teknik analiz"
     },
     "SAHOL": {
       "score": 60,
@@ -34,11 +34,11 @@
     },
     "SISE": {
       "score": 60,
-      "note": "Hedef fiyat güncellemesi"
+      "note": "Hedef fiyat 58 TL'ye güncellendi"
     },
     "THYAO": {
       "score": 50,
-      "note": "Teknik analiz ve özel durum açıklaması"
+      "note": "Nötr, özel durum açıklaması ve teknik analiz"
     },
     "PGSUS": {
       "score": 60,
@@ -46,31 +46,31 @@
     },
     "TUPRS": {
       "score": 55,
-      "note": "Temettü ödemesi ve teknik analiz"
+      "note": "Temettü ödemesi olumlu, ancak diğer haberler nötr"
     },
     "AKSEN": {
       "score": 55,
-      "note": "Bilanço tahmini ve fiyat hedefi"
+      "note": "Bilanço tahmini ve güçlenen göstergeler"
     },
     "EREGL": {
       "score": 50,
-      "note": "Sadece teknik analiz haberleri"
+      "note": "Nötr, sadece teknik analiz haberleri"
     },
     "BIMAS": {
       "score": 55,
-      "note": "Bedelsiz sermaye artırımı haberi"
+      "note": "%100 bedelsiz sermaye artırımı olumlu"
     },
     "MGROS": {
       "score": 45,
-      "note": "Hisse düşüşü haberi ve hedef fiyat güncellemesi"
+      "note": "Hisse düşüşü haberi negatif, hedef fiyat artışı pozitif"
     },
     "FROTO": {
-      "score": 50,
-      "note": "Teknik analiz ve bilanço analizi"
+      "score": 60,
+      "note": "364 milyon euroluk yatırım hamlesi"
     },
     "TOASO": {
       "score": 55,
-      "note": "Hedef fiyat değişiklikleri"
+      "note": "Hedef fiyat değişiklikleri, yön belirsiz"
     },
     "ASELS": {
       "score": 60,
@@ -90,17 +90,17 @@
     },
     "CCOLA": {
       "score": 50,
-      "note": "Teknik analiz ve fiyat hedefi"
+      "note": "Nötr, teknik analiz ve fiyat hedefi"
     },
     "ARCLK": {
-      "score": 50,
-      "note": "Satın alma ve hisse satışı kararı"
+      "score": 45,
+      "note": "Satın alma ve hisse satışı kararı, Hitachi pay satışı"
     },
     "EKGYO": {
       "score": 60,
-      "note": "Hisse geri alım açıklaması"
+      "note": "Geri alım açıklaması"
     }
   },
-  "_ts": 1790667501,
+  "_ts": 1790678361,
   "_source": "deepseek-llm"
 }
