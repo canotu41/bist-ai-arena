@@ -33,9 +33,9 @@
       "take_profit": 265.28,
       "trailing_stop_active": false,
       "trailing_stop_level": 0.0,
-      "current_price": 216.8,
-      "unrealized_pnl": 466.90000000000026,
-      "unrealized_pnl_pct": 10.330788804071252,
+      "current_price": 215.9,
+      "unrealized_pnl": 446.20000000000016,
+      "unrealized_pnl_pct": 9.872773536895679,
       "days_held": 0,
       "deepscore_at_entry": 62.4
     },
@@ -51,9 +51,9 @@
       "take_profit": 432.34,
       "trailing_stop_active": false,
       "trailing_stop_level": 0.0,
-      "current_price": 395.25,
-      "unrealized_pnl": 2100.0,
-      "unrealized_pnl_pct": 23.4192037470726,
+      "current_price": 391.5,
+      "unrealized_pnl": 1995.0,
+      "unrealized_pnl_pct": 22.24824355971897,
       "days_held": 0,
       "deepscore_at_entry": 67.4
     },
@@ -69,9 +69,9 @@
       "take_profit": 41.72,
       "trailing_stop_active": false,
       "trailing_stop_level": 0.0,
-      "current_price": 33.86,
-      "unrealized_pnl": 654.1600000000002,
-      "unrealized_pnl_pct": 9.579288025889971,
+      "current_price": 33.82,
+      "unrealized_pnl": 645.3200000000004,
+      "unrealized_pnl_pct": 9.449838187702271,
       "days_held": 0,
       "deepscore_at_entry": 63.0
     },
@@ -87,9 +87,9 @@
       "take_profit": 179.96,
       "trailing_stop_active": false,
       "trailing_stop_level": 0.0,
-      "current_price": 129.8,
-      "unrealized_pnl": -189.0,
-      "unrealized_pnl_pct": -2.6256564141035255,
+      "current_price": 129.9,
+      "unrealized_pnl": -183.6000000000003,
+      "unrealized_pnl_pct": -2.550637659414858,
       "days_held": 0,
       "deepscore_at_entry": 64.0
     }
@@ -343,15 +343,15 @@
       "deepscore": 64.0
     }
   ],
-  "total_value": 48335.270000000004,
-  "total_return_pct": -3.33,
+  "total_value": 48206.13,
+  "total_return_pct": -3.59,
   "benchmark_return_pct": 0.0,
   "alpha_pct": 0.0,
   "week": 0,
-  "current_drawdown_pct": -3.33,
+  "current_drawdown_pct": -3.59,
   "max_drawdown_pct": -6.77,
   "win_rate_pct": 0.0,
   "market_regime": "HIGH_VOLATILITY",
-  "last_updated": "2026-09-29 10:38",
+  "last_updated": "2026-09-29 11:39",
   "created_date": "2026-07-06"
 }
