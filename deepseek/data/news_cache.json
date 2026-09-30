@@ -1,6 +1,6 @@
 {
   "market": {
-    "score": 35,
+    "score": 30,
     "trend": "negatif"
   },
   "tickers": {
@@ -18,27 +18,27 @@
     },
     "YKBNK": {
       "score": 50,
-      "note": "Teknik analiz, nötr"
+      "note": "Sadece teknik analiz, nötr"
     },
     "VAKBN": {
       "score": 70,
-      "note": "Hedef fiyat artışı ve AL sinyali"
+      "note": "Hedef fiyat ve AL sinyali, yurt dışı kaynak"
     },
     "KCHOL": {
       "score": 50,
-      "note": "Bilanço analizi ve teknik, nötr"
+      "note": "Teknik analiz ve bilanço, nötr"
     },
     "SAHOL": {
-      "score": 60,
+      "score": 65,
       "note": "Gerçeğe uygun değer sinyali sonrası %52 getiri"
     },
     "SISE": {
       "score": 65,
-      "note": "Hedef fiyat 58 TL'ye yükseltildi"
+      "note": "Hedef fiyat 58 TL'ye güncellendi"
     },
     "THYAO": {
       "score": 50,
-      "note": "Özel durum açıklaması ve teknik, nötr"
+      "note": "Teknik analiz ve KAP açıklaması, nötr"
     },
     "PGSUS": {
       "score": 60,
@@ -46,7 +46,7 @@
     },
     "TUPRS": {
       "score": 55,
-      "note": "Temettü ödemesi olumlu"
+      "note": "Temettü ödemesi, nötr-pozitif"
     },
     "AKSEN": {
       "score": 50,
@@ -58,49 +58,49 @@
     },
     "BIMAS": {
       "score": 60,
-      "note": "%100 bedelsiz sermaye artırımı"
+      "note": "Bedelsiz sermaye artırımı, pozitif"
     },
     "MGROS": {
       "score": 40,
-      "note": "Hisse neden düşüyor? olumsuz"
+      "note": "Hisse neden düşüyor haberi, negatif"
     },
     "FROTO": {
-      "score": 50,
-      "note": "Bilanço analizi ve teknik, nötr"
+      "score": 65,
+      "note": "364 milyon euroluk yatırım hamlesi"
     },
     "TOASO": {
       "score": 60,
-      "note": "Hedef fiyat değişiklikleri, olumlu"
+      "note": "Hedef fiyat güncellemeleri"
     },
     "ASELS": {
-      "score": 65,
-      "note": "Büyük alım haberleri"
+      "score": 30,
+      "note": "Sert düşüş ve büyük satışlar"
     },
     "TCELL": {
       "score": 50,
-      "note": "SEC açıklaması ve teknik, nötr"
+      "note": "Teknik analiz ve SEC açıklaması, nötr"
     },
     "TTKOM": {
       "score": 60,
-      "note": "Hisse geri alımı"
+      "note": "Geri alım programı sürüyor"
     },
     "ULKER": {
-      "score": 65,
-      "note": "Temettü dağıtımı ve bilanço"
+      "score": 60,
+      "note": "Temettü dağıtımı"
     },
     "CCOLA": {
-      "score": 50,
-      "note": "Teknik analiz, nötr"
+      "score": 65,
+      "note": "Gerçeğe uygun değer çağrısı sonrası %56 getiri"
     },
     "ARCLK": {
       "score": 50,
-      "note": "Satın alma ve hisse satışı, nötr"
+      "note": "KAP bildirimleri, nötr"
     },
     "EKGYO": {
       "score": 60,
-      "note": "Hisse geri alım açıklaması"
+      "note": "Geri alım açıklaması"
     }
   },
-  "_ts": 1790689178,
+  "_ts": 1790753872,
   "_source": "deepseek-llm"
 }

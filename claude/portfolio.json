@@ -3,11 +3,11 @@
   "name": "Claude AI Portföyü",
   "strategy": "Kalite+değer, seçici al + uzun tut (ROE≥%10, F/K≤35, trend üstü); backtest-kalibre",
   "initial": 50000.0,
-  "cash": 6662.07,
-  "total_value": 50663.77,
-  "return_pct": 1.33,
+  "cash": 5084.92,
+  "total_value": 50471.66,
+  "return_pct": 0.94,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-09-29 15:02",
+  "last_updated": "2026-09-30 07:38",
   "positions": [
     {
       "ticker": "BIMAS",
@@ -15,7 +15,7 @@
       "sector": "Perakende",
       "entry": 384.0,
       "qty": 28,
-      "current": 421.5,
+      "current": 422.5,
       "stop": 345.6,
       "target": 764.16,
       "entry_ts": "2026-07-14 15:08",
@@ -27,7 +27,7 @@
       "sector": "Bankacılık",
       "entry": 31.58,
       "qty": 356,
-      "current": 33.58,
+      "current": 33.54,
       "stop": 28.42,
       "target": 62.84,
       "entry_ts": "2026-07-16 14:38",
@@ -39,7 +39,7 @@
       "sector": "Enerji",
       "entry": 323.75,
       "qty": 30,
-      "current": 385.0,
+      "current": 381.0,
       "stop": 291.38,
       "target": 644.26,
       "entry_ts": "2026-08-07 10:38",
@@ -51,7 +51,7 @@
       "sector": "Otomotiv",
       "entry": 287.75,
       "qty": 2,
-      "current": 277.5,
+      "current": 277.0,
       "stop": 258.98,
       "target": 572.62,
       "entry_ts": "2026-09-08 07:38",
@@ -63,11 +63,23 @@
       "sector": "Bankacılık",
       "entry": 37.1,
       "qty": 227,
-      "current": 35.86,
+      "current": 35.5,
       "stop": 33.39,
       "target": 73.83,
       "entry_ts": "2026-09-22 12:38",
-      "score": 68.2
+      "score": 64.0
+    },
+    {
+      "ticker": "CCOLA",
+      "name": "Coca-Cola İçecek",
+      "sector": "Gıda",
+      "entry": 78.7,
+      "qty": 20,
+      "current": 78.7,
+      "stop": 70.83,
+      "target": 156.61,
+      "entry_ts": "2026-09-30 07:38",
+      "score": 67.3
     }
   ],
   "trades": [
@@ -168,6 +180,15 @@
       "qty": 227,
       "price": 37.1,
       "amount": 8421.7,
+      "reason": "Claude AI skoru 67 (>=65)"
+    },
+    {
+      "ts": "2026-09-30 07:38",
+      "side": "BUY",
+      "ticker": "CCOLA",
+      "qty": 20,
+      "price": 78.7,
+      "amount": 1574.0,
       "reason": "Claude AI skoru 67 (>=65)"
     }
   ]
