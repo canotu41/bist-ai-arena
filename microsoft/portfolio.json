@@ -4,10 +4,10 @@
   "strategy": "Momentum/trend: 20g değişim≥%4, MA20>MA50 kırılım; kazananı bırak; backtest-kalibre (alfa ~%-2)",
   "initial": 50000.0,
   "cash": 9407.01,
-  "total_value": 43459.34,
-  "return_pct": -13.08,
+  "total_value": 43347.58,
+  "return_pct": -13.3,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-10-01 13:39",
+  "last_updated": "2026-10-01 14:39",
   "positions": [
     {
       "ticker": "TUPRS",
@@ -27,11 +27,11 @@
       "sector": "Holding",
       "entry": 204.6,
       "qty": 2,
-      "current": 212.0,
+      "current": 210.4,
       "stop": 184.14,
       "target": 286.44,
       "entry_ts": "2026-07-22 08:38",
-      "score": 53.4
+      "score": 52.9
     },
     {
       "ticker": "BIMAS",
@@ -39,11 +39,11 @@
       "sector": "Perakende",
       "entry": 379.25,
       "qty": 1,
-      "current": 415.0,
+      "current": 411.0,
       "stop": 341.32,
       "target": 530.95,
       "entry_ts": "2026-08-03 15:17",
-      "score": 52.6
+      "score": 55.3
     },
     {
       "ticker": "TOASO",
@@ -51,11 +51,11 @@
       "sector": "Otomotiv",
       "entry": 288.75,
       "qty": 39,
-      "current": 266.75,
+      "current": 265.25,
       "stop": 259.88,
       "target": 404.25,
       "entry_ts": "2026-09-22 07:38",
-      "score": 40.7
+      "score": 42.1
     },
     {
       "ticker": "VAKBN",
@@ -63,7 +63,7 @@
       "sector": "Bankacılık",
       "entry": 34.32,
       "qty": 329,
-      "current": 34.02,
+      "current": 33.88,
       "stop": 30.89,
       "target": 48.05,
       "entry_ts": "2026-09-22 08:37",
