@@ -4,10 +4,10 @@
   "strategy": "Momentum/trend: 20g değişim≥%4, MA20>MA50 kırılım; kazananı bırak; backtest-kalibre (alfa ~%-2)",
   "initial": 50000.0,
   "cash": 9407.01,
-  "total_value": 42990.92,
-  "return_pct": -14.02,
+  "total_value": 43579.32,
+  "return_pct": -12.84,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-10-01 11:38",
+  "last_updated": "2026-10-01 12:38",
   "positions": [
     {
       "ticker": "TUPRS",
@@ -15,7 +15,7 @@
       "sector": "Enerji",
       "entry": 309.5,
       "qty": 30,
-      "current": 383.0,
+      "current": 384.5,
       "stop": 278.55,
       "target": 433.3,
       "entry_ts": "2026-07-22 07:10",
@@ -27,11 +27,11 @@
       "sector": "Holding",
       "entry": 204.6,
       "qty": 2,
-      "current": 208.1,
+      "current": 211.6,
       "stop": 184.14,
       "target": 286.44,
       "entry_ts": "2026-07-22 08:38",
-      "score": 48.7
+      "score": 52.0
     },
     {
       "ticker": "BIMAS",
@@ -39,7 +39,7 @@
       "sector": "Perakende",
       "entry": 379.25,
       "qty": 1,
-      "current": 415.25,
+      "current": 415.5,
       "stop": 341.32,
       "target": 530.95,
       "entry_ts": "2026-08-03 15:17",
@@ -51,7 +51,7 @@
       "sector": "Otomotiv",
       "entry": 288.75,
       "qty": 39,
-      "current": 269.0,
+      "current": 269.25,
       "stop": 259.88,
       "target": 404.25,
       "entry_ts": "2026-09-22 07:38",
@@ -63,11 +63,11 @@
       "sector": "Bankacılık",
       "entry": 34.32,
       "qty": 329,
-      "current": 32.74,
+      "current": 34.34,
       "stop": 30.89,
       "target": 48.05,
       "entry_ts": "2026-09-22 08:37",
-      "score": 50.1
+      "score": 53.5
     }
   ],
   "trades": [
