@@ -1,7 +1,7 @@
 {
   "name": "DeepSeek BIST30 Portföy",
   "initial_capital": 50000.0,
-  "cash": 7120.860000000002,
+  "cash": 2400.2900000000027,
   "positions": [
     {
       "ticker": "BIMAS",
@@ -15,9 +15,9 @@
       "take_profit": 532.24,
       "trailing_stop_active": false,
       "trailing_stop_level": 0.0,
-      "current_price": 415.5,
-      "unrealized_pnl": 531.25,
-      "unrealized_pnl_pct": 5.389980976537729,
+      "current_price": 415.0,
+      "unrealized_pnl": 518.75,
+      "unrealized_pnl_pct": 5.263157894736842,
       "days_held": 0,
       "deepscore_at_entry": 62.9
     },
@@ -33,9 +33,9 @@
       "take_profit": 265.28,
       "trailing_stop_active": false,
       "trailing_stop_level": 0.0,
-      "current_price": 211.6,
-      "unrealized_pnl": 347.29999999999984,
-      "unrealized_pnl_pct": 7.684478371501269,
+      "current_price": 212.0,
+      "unrealized_pnl": 356.5,
+      "unrealized_pnl_pct": 7.888040712468193,
       "days_held": 0,
       "deepscore_at_entry": 62.4
     },
@@ -51,9 +51,9 @@
       "take_profit": 432.34,
       "trailing_stop_active": false,
       "trailing_stop_level": 0.0,
-      "current_price": 384.5,
-      "unrealized_pnl": 1799.0,
-      "unrealized_pnl_pct": 20.062451209992194,
+      "current_price": 387.25,
+      "unrealized_pnl": 1876.0,
+      "unrealized_pnl_pct": 20.921155347384857,
       "days_held": 0,
       "deepscore_at_entry": 67.4
     },
@@ -69,9 +69,9 @@
       "take_profit": 41.72,
       "trailing_stop_active": false,
       "trailing_stop_level": 0.0,
-      "current_price": 34.34,
-      "unrealized_pnl": 760.240000000001,
-      "unrealized_pnl_pct": 11.132686084142412,
+      "current_price": 34.02,
+      "unrealized_pnl": 689.520000000001,
+      "unrealized_pnl_pct": 10.097087378640792,
       "days_held": 0,
       "deepscore_at_entry": 63.0
     },
@@ -87,11 +87,29 @@
       "take_profit": 179.96,
       "trailing_stop_active": false,
       "trailing_stop_level": 0.0,
-      "current_price": 127.1,
-      "unrealized_pnl": -334.8000000000009,
-      "unrealized_pnl_pct": -4.651162790697687,
+      "current_price": 127.3,
+      "unrealized_pnl": -324.0000000000008,
+      "unrealized_pnl_pct": -4.50112528132034,
       "days_held": 0,
       "deepscore_at_entry": 64.0
+    },
+    {
+      "ticker": "CCOLA",
+      "company_name": "Coca-Cola İçecek",
+      "sector": "Gıda",
+      "entry_price": 79.85,
+      "quantity": 59,
+      "entry_date": "2026-10-01 13:38",
+      "cost_basis": 4711.15,
+      "stop_loss": 71.86,
+      "take_profit": 107.8,
+      "trailing_stop_active": false,
+      "trailing_stop_level": 0.0,
+      "current_price": 79.85,
+      "unrealized_pnl": 0.0,
+      "unrealized_pnl_pct": 0.0,
+      "days_held": 0,
+      "deepscore_at_entry": 62.3
     }
   ],
   "transactions": [
@@ -341,17 +359,30 @@
       "reason": "DeepScore™ 64.0 (BUY) | Sektör: Bankacılık",
       "signal_type": "BUY",
       "deepscore": 64.0
+    },
+    {
+      "id": "F08EB6FA",
+      "timestamp": "2026-10-01 13:38",
+      "type": "BUY",
+      "ticker": "CCOLA",
+      "quantity": 59,
+      "price": 79.85,
+      "total_amount": 4711.15,
+      "commission": 9.42,
+      "reason": "DeepScore™ 62.3 (BUY) | Sektör: Gıda",
+      "signal_type": "BUY",
+      "deepscore": 62.3
     }
   ],
-  "total_value": 47593.700000000004,
-  "total_return_pct": -4.81,
+  "total_value": 47598.06,
+  "total_return_pct": -4.8,
   "benchmark_return_pct": 0.0,
   "alpha_pct": 0.0,
   "week": 0,
-  "current_drawdown_pct": -4.81,
+  "current_drawdown_pct": -4.79,
   "max_drawdown_pct": -6.84,
   "win_rate_pct": 0.0,
   "market_regime": "HIGH_VOLATILITY",
-  "last_updated": "2026-10-01 12:38",
+  "last_updated": "2026-10-01 13:38",
   "created_date": "2026-07-06"
 }

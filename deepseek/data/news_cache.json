@@ -1,106 +1,106 @@
 {
   "market": {
-    "score": 20,
+    "score": 10,
     "trend": "negatif"
   },
   "tickers": {
     "AKBNK": {
       "score": 50,
-      "note": "Haberler nötr, teknik analiz ve tahmin içerikli."
+      "note": "Haberler nötr, belirgin etki yok"
     },
     "GARAN": {
-      "score": 70,
-      "note": "Kâr beklentiyi aştı, hedef fiyat güncellemeleri ve yükseliş önerisi."
+      "score": 65,
+      "note": "Kâr beklentiyi aştı, hedef fiyat güncellemeleri olumlu"
     },
     "ISCTR": {
       "score": 50,
-      "note": "Sadece teknik analiz ve yorum başlıkları, belirgin etki yok."
+      "note": "Sadece teknik analiz ve yorumlar, nötr"
     },
     "YKBNK": {
       "score": 50,
-      "note": "Teknik analiz ve KAP bildirimi, nötr."
+      "note": "Teknik analiz ve grafikler, nötr"
     },
     "VAKBN": {
-      "score": 65,
-      "note": "Yurt dışı kaynak ve AL tavsiyesi olumlu."
+      "score": 70,
+      "note": "Yurt dışı kaynak ve AL tavsiyesi olumlu"
     },
     "KCHOL": {
       "score": 50,
-      "note": "Teknik analiz, sürdürülebilirlik raporu ve bilanço analizi nötr."
+      "note": "Teknik analiz ve sürdürülebilirlik raporu, nötr"
     },
     "SAHOL": {
       "score": 60,
-      "note": "Yüksek getiri sinyali olumlu."
+      "note": "Yüksek getiri ve hedef fiyat olumlu"
     },
     "SISE": {
       "score": 60,
-      "note": "Hedef fiyat güncellemesi ve temettü ödemesi olumlu."
+      "note": "Hedef fiyat güncellemesi ve temettü olumlu"
     },
     "THYAO": {
       "score": 50,
-      "note": "Sadece teknik analiz başlıkları, nötr."
+      "note": "Sadece teknik analiz, nötr"
     },
     "PGSUS": {
       "score": 60,
-      "note": "Tahvil ihracı izni ve hedef fiyat güncellemesi olumlu."
+      "note": "Tahvil ihracı izni ve hedef fiyat olumlu"
     },
     "TUPRS": {
-      "score": 60,
-      "note": "Temettü ödeme haberleri olumlu."
+      "score": 55,
+      "note": "Temettü ödemesi olumlu ancak sınırlı etki"
     },
     "AKSEN": {
-      "score": 60,
-      "note": "Bilanço sonrası hedef yükseltmeleri olumlu."
+      "score": 50,
+      "note": "Bilanço tahmini ve teknik analiz, nötr"
     },
     "EREGL": {
       "score": 50,
-      "note": "Sadece teknik analiz ve yorum başlıkları, nötr."
+      "note": "Sadece teknik analiz ve yorumlar, nötr"
     },
     "BIMAS": {
-      "score": 60,
-      "note": "Bedelsiz sermaye artırımı olumlu."
+      "score": 55,
+      "note": "Bedelsiz sermaye artırımı olumlu"
     },
     "MGROS": {
       "score": 45,
-      "note": "BofA pay azaltımı olumsuz, diğerleri nötr."
+      "note": "BofA pay azaltımı olumsuz"
     },
     "FROTO": {
       "score": 50,
-      "note": "Teknik analiz ve bilanço analizi nötr."
+      "note": "Bilanço analizi ve teknik analiz, nötr"
     },
     "TOASO": {
       "score": 50,
-      "note": "Hedef fiyat değişiklikleri belirsiz, nötr."
+      "note": "Hedef fiyat değişiklikleri, nötr"
     },
     "ASELS": {
       "score": 55,
-      "note": "Dev sözleşme olumlu ancak sert düşüş olumsuz, net hafif pozitif."
+      "note": "Dev sözleşme olumlu ancak sert düşüş olumsuz"
     },
     "TCELL": {
       "score": 50,
-      "note": "Teknik analiz ve SEC açıklaması nötr."
+      "note": "Teknik analiz ve SEC açıklaması, nötr"
     },
     "TTKOM": {
       "score": 55,
-      "note": "Geri alım programı olumlu, bilanço tahmini nötr."
+      "note": "Geri alım programı olumlu"
     },
     "ULKER": {
       "score": 60,
-      "note": "Temettü dağıtımı olumlu."
+      "note": "Temettü dağıtımı olumlu"
     },
     "CCOLA": {
       "score": 60,
-      "note": "Yüksek getiri sinyali olumlu."
+      "note": "Yüksek getiri olumlu"
     },
     "ARCLK": {
       "score": 50,
-      "note": "Satın alma ve hisse satışı kararı belirsiz, nötr."
+      "note": "Satın alma ve hisse satışı kararı, nötr"
     },
     "EKGYO": {
       "score": 60,
-      "note": "Geri alım açıklaması olumlu."
+      "note": "Geri alım açıklaması olumlu"
     }
   },
-  "_ts": 1790851147,
+  "_ts": 1790861976,
   "_source": "deepseek-llm"
 }
