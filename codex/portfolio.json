@@ -3,11 +3,11 @@
   "name": "Codex Portföyü",
   "strategy": "Önce risk: düşük vol (ATR≤%3.6), RSI 40-68, MA50 üstü; seçici, uzun tut; backtest-kalibre",
   "initial": 50000.0,
-  "cash": 14266.76,
-  "total_value": 45683.89,
-  "return_pct": -8.63,
+  "cash": 7466.09,
+  "total_value": 45714.65,
+  "return_pct": -8.57,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-10-06 08:39",
+  "last_updated": "2026-10-06 09:39",
   "positions": [
     {
       "ticker": "BIMAS",
@@ -15,7 +15,7 @@
       "sector": "Perakende",
       "entry": 381.5,
       "qty": 19,
-      "current": 410.75,
+      "current": 410.5,
       "stop": 343.35,
       "target": 534.1,
       "entry_ts": "2026-07-14 10:38",
@@ -27,7 +27,7 @@
       "sector": "Holding",
       "entry": 195.3,
       "qty": 38,
-      "current": 215.0,
+      "current": 215.5,
       "stop": 175.77,
       "target": 273.42,
       "entry_ts": "2026-07-16 08:38",
@@ -39,7 +39,7 @@
       "sector": "Bankacılık",
       "entry": 31.9,
       "qty": 51,
-      "current": 33.66,
+      "current": 33.6,
       "stop": 28.71,
       "target": 44.66,
       "entry_ts": "2026-08-31 11:38",
@@ -51,7 +51,7 @@
       "sector": "Bankacılık",
       "entry": 129.4,
       "qty": 53,
-      "current": 129.7,
+      "current": 129.8,
       "stop": 116.46,
       "target": 181.16,
       "entry_ts": "2026-09-17 09:38",
@@ -63,11 +63,23 @@
       "sector": "Gayrimenkul",
       "entry": 19.69,
       "qty": 348,
-      "current": 19.69,
+      "current": 19.77,
       "stop": 17.72,
       "target": 27.57,
       "entry_ts": "2026-10-06 08:39",
       "score": 68.5
+    },
+    {
+      "ticker": "TCELL",
+      "name": "Turkcell",
+      "sector": "Telekom",
+      "entry": 101.3,
+      "qty": 67,
+      "current": 101.3,
+      "stop": 91.17,
+      "target": 141.82,
+      "entry_ts": "2026-10-06 09:39",
+      "score": 63.4
     }
   ],
   "trades": [
@@ -277,6 +289,15 @@
       "price": 19.69,
       "amount": 6852.12,
       "reason": "Codex skoru 68 (>=62)"
+    },
+    {
+      "ts": "2026-10-06 09:39",
+      "side": "BUY",
+      "ticker": "TCELL",
+      "qty": 67,
+      "price": 101.3,
+      "amount": 6787.1,
+      "reason": "Codex skoru 63 (>=62)"
     }
   ]
 }
