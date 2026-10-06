@@ -6,67 +6,67 @@
   "tickers": {
     "AKBNK": {
       "score": 50,
-      "note": "Nötr, belirgin haber yok"
+      "note": "Nötr, teknik analiz ve hedef fiyat haberleri"
     },
     "GARAN": {
-      "score": 75,
-      "note": "Kâr beklentiyi aştı, hedef fiyat güncellemeleri ve yükseliş önerisi"
+      "score": 70,
+      "note": "Kâr beklentiyi aştı, AL önerisi"
     },
     "ISCTR": {
       "score": 50,
-      "note": "Nötr, sadece teknik analiz"
+      "note": "Nötr, teknik analiz haberleri"
     },
     "YKBNK": {
       "score": 50,
-      "note": "Nötr, belirgin haber yok"
+      "note": "Nötr, teknik analiz haberleri"
     },
     "VAKBN": {
-      "score": 70,
+      "score": 65,
       "note": "Yurt dışı kaynak ve AL sinyali"
     },
     "KCHOL": {
       "score": 50,
-      "note": "Nötr, rutin haberler"
+      "note": "Nötr, bilanço ve sürdürülebilirlik raporu"
     },
     "SAHOL": {
       "score": 50,
-      "note": "Nötr, belirgin haber yok"
+      "note": "Nötr, bilanço analizi ve hedef fiyat"
     },
     "SISE": {
       "score": 30,
-      "note": "Bilanço sonrası sert düşüş ve hedef fiyat indirimi"
+      "note": "Bilanço sonrası sert düşüş, hedef fiyat geriledi"
     },
     "THYAO": {
-      "score": 50,
-      "note": "Nötr, teknik analiz"
+      "score": 40,
+      "note": "Fon soruşturması haberi olumsuz"
     },
     "PGSUS": {
       "score": 60,
       "note": "Tahvil ihracı izni ve finansal varlık edinimi"
     },
     "TUPRS": {
-      "score": 60,
+      "score": 55,
       "note": "Temettü ödeme tarihi açıklandı"
     },
     "AKSEN": {
-      "score": 70,
-      "note": "Model portföye alındı ve hedef fiyat"
+      "score": 65,
+      "note": "İş Yatırım model portföye aldı, hedef fiyat"
     },
     "EREGL": {
       "score": 50,
-      "note": "Nötr, teknik analiz"
+      "note": "Nötr, teknik analiz haberleri"
     },
     "BIMAS": {
       "score": 60,
-      "note": "Hisse yükselişi"
+      "note": "Hisse bugün yükseldi"
     },
     "MGROS": {
-      "score": 60,
-      "note": "Güçlü görünüm ve hedef fiyat"
+      "score": 55,
+      "note": "Güçlü görünüm, hedef 900 TL"
     },
     "FROTO": {
       "score": 50,
-      "note": "Nötr, bilanço analizi"
+      "note": "Nötr, bilanço analizi ve teknik analiz"
     },
     "TOASO": {
       "score": 50,
@@ -78,29 +78,29 @@
     },
     "TCELL": {
       "score": 50,
-      "note": "Nötr, rutin açıklama"
+      "note": "Nötr, SEC açıklaması ve teknik analiz"
     },
     "TTKOM": {
-      "score": 60,
-      "note": "Geri alım programı"
+      "score": 55,
+      "note": "Geri alım programı sürüyor"
     },
     "ULKER": {
       "score": 60,
-      "note": "Hisse yükselişi"
+      "note": "Hisse bugün yükseliyor"
     },
     "CCOLA": {
       "score": 30,
-      "note": "Hisse düşüşü"
+      "note": "Hisse bugün düşüyor"
     },
     "ARCLK": {
       "score": 50,
-      "note": "Nötr, satın alma ve satış kararı"
+      "note": "Nötr, satın alma ve hisse satışı kararı"
     },
     "EKGYO": {
       "score": 60,
-      "note": "Geri alım ve hedef fiyat"
+      "note": "Geri alım ve yeni hedef fiyat"
     }
   },
-  "_ts": 1791272305,
+  "_ts": 1791283154,
   "_source": "deepseek-llm"
 }
