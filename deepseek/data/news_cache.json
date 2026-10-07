@@ -1,106 +1,106 @@
 {
   "market": {
-    "score": 55,
-    "trend": "hafif pozitif"
+    "score": 50,
+    "trend": "nötr"
   },
   "tickers": {
     "AKBNK": {
       "score": 50,
-      "note": "teknik analiz ve fiyat hedefi, belirgin haber yok"
+      "note": "Teknik analiz ve fiyat hedefi haberleri, belirgin bir yön belirtmiyor."
     },
     "GARAN": {
       "score": 70,
-      "note": "kâr beklentiyi aştı, hedef fiyat güncellemeleri"
+      "note": "Kâr beklentiyi aştı, hedef fiyat güncellemeleri ve yükseliş önerisi pozitif."
     },
     "ISCTR": {
       "score": 50,
-      "note": "teknik analiz ve yorumlar, nötr"
+      "note": "Sadece teknik analiz ve yorum haberleri, nötr."
     },
     "YKBNK": {
       "score": 50,
-      "note": "teknik analiz, belirgin haber yok"
+      "note": "Teknik analiz ve genel hisse bilgileri, nötr."
     },
     "VAKBN": {
       "score": 65,
-      "note": "yurt dışı kaynak ve AL sinyali"
+      "note": "Yurt dışı kaynak ve AL sinyali pozitif."
     },
     "KCHOL": {
       "score": 45,
-      "note": "kurumsal satışlar olumsuz"
+      "note": "Kurumsal satışlar negatif, bilanço analizi nötr."
     },
     "SAHOL": {
       "score": 50,
-      "note": "teknik analiz ve bilanço analizi, nötr"
+      "note": "Teknik analiz ve fiyat hedefi, nötr."
     },
     "SISE": {
-      "score": 40,
-      "note": "bilanço sonrası sert düşüş, hedef fiyat geriledi"
+      "score": 30,
+      "note": "Bilanço sonrası sert düşüş ve hedef fiyat gerilemesi negatif."
     },
     "THYAO": {
       "score": 45,
-      "note": "fon soruşturması olumsuz"
+      "note": "Fon soruşturması ve virman haberi negatif, teknik analiz nötr."
     },
     "PGSUS": {
       "score": 60,
-      "note": "tahvil ihracı izni ve finansal varlık edinimi"
+      "note": "Tahvil ihracı izni ve finansal varlık edinimi pozitif."
     },
     "TUPRS": {
       "score": 45,
-      "note": "kurumsal satışlar yoğunlaştı"
+      "note": "Kurumsal satışlar negatif, temettü ödemesi nötr."
     },
     "AKSEN": {
       "score": 65,
-      "note": "hedef fiyat ve model portföye alım"
+      "note": "İş Yatırım model portföye aldı, hedef fiyat pozitif."
     },
     "EREGL": {
       "score": 50,
-      "note": "teknik analiz, nötr"
+      "note": "Sadece teknik analiz haberleri, nötr."
     },
     "BIMAS": {
-      "score": 55,
-      "note": "hisse yükselişi"
+      "score": 60,
+      "note": "Hisse neden yükseldi haberi pozitif."
     },
     "MGROS": {
       "score": 65,
-      "note": "güçlü görünüm, hedef 900 TL"
+      "note": "Güçlü görünüm ve 900 TL hedefi pozitif."
     },
     "FROTO": {
       "score": 50,
-      "note": "teknik analiz ve bilanço analizi, nötr"
+      "note": "Bilanço analizi ve teknik analiz, nötr."
     },
     "TOASO": {
       "score": 55,
-      "note": "hedef fiyat değişiklikleri, belirsiz"
+      "note": "Hedef fiyat değişiklikleri, hafif pozitif."
     },
     "ASELS": {
       "score": 60,
-      "note": "yüklü alım ve fiyat hedefi"
+      "note": "Yüklü alım haberi pozitif."
     },
     "TCELL": {
       "score": 50,
-      "note": "teknik analiz, nötr"
+      "note": "Sadece teknik analiz, nötr."
     },
     "TTKOM": {
       "score": 50,
-      "note": "teknik analiz ve bilanço tarihi, nötr"
+      "note": "Teknik analiz ve bilanço tarihi, nötr."
     },
     "ULKER": {
-      "score": 55,
-      "note": "hisse yükselişi ve bilanço açıklaması"
+      "score": 60,
+      "note": "Hisse neden yükseliyor haberi pozitif."
     },
     "CCOLA": {
-      "score": 60,
-      "note": "gerçeğe uygun değer çağrısı sonrası %56 getiri"
+      "score": 50,
+      "note": "Sadece teknik analiz, nötr."
     },
     "ARCLK": {
-      "score": 50,
-      "note": "satın alma ve hisse satışı kararı, nötr"
+      "score": 45,
+      "note": "Satın alma ve hisse satışı kararı belirsiz, hafif negatif."
     },
     "EKGYO": {
       "score": 60,
-      "note": "geri alım ve yeni hedef fiyat"
+      "note": "Geri alım haberleri pozitif."
     }
   },
-  "_ts": 1791369561,
+  "_ts": 1791380391,
   "_source": "deepseek-llm"
 }
