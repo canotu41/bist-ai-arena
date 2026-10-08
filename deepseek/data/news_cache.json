@@ -1,106 +1,106 @@
 {
   "market": {
-    "score": 50,
-    "trend": "nötr"
+    "score": 30,
+    "trend": "negatif"
   },
   "tickers": {
     "AKBNK": {
       "score": 50,
-      "note": "Teknik analiz ve fiyat hedefi haberleri, belirgin bir yön belirtmiyor."
+      "note": "Nötr: KAP bildirimi ve canlı grafik, belirgin etki yok."
     },
     "GARAN": {
-      "score": 70,
-      "note": "Kâr beklentiyi aştı, hedef fiyat güncellemeleri ve yükseliş önerisi pozitif."
+      "score": 75,
+      "note": "Pozitif: Kâr beklentiyi aştı, hedef fiyat güncellemeleri ve AL önerisi."
     },
     "ISCTR": {
       "score": 50,
-      "note": "Sadece teknik analiz ve yorum haberleri, nötr."
+      "note": "Nötr: Sadece teknik analiz başlıkları."
     },
     "YKBNK": {
       "score": 50,
-      "note": "Teknik analiz ve genel hisse bilgileri, nötr."
+      "note": "Nötr: Teknik analiz ve genel bilgi."
     },
     "VAKBN": {
-      "score": 65,
-      "note": "Yurt dışı kaynak ve AL sinyali pozitif."
+      "score": 70,
+      "note": "Pozitif: Yurt dışı kaynak ve AL sinyali."
     },
     "KCHOL": {
       "score": 45,
-      "note": "Kurumsal satışlar negatif, bilanço analizi nötr."
+      "note": "Hafif negatif: Kurumsal satışlar ve bilanço analizi."
     },
     "SAHOL": {
-      "score": 50,
-      "note": "Teknik analiz ve fiyat hedefi, nötr."
+      "score": 65,
+      "note": "Pozitif: %52 getiri ve bilanço analizi."
     },
     "SISE": {
       "score": 30,
-      "note": "Bilanço sonrası sert düşüş ve hedef fiyat gerilemesi negatif."
+      "note": "Negatif: Bilanço sonrası sert düşüş ve hedef fiyat indirimi."
     },
     "THYAO": {
-      "score": 45,
-      "note": "Fon soruşturması ve virman haberi negatif, teknik analiz nötr."
+      "score": 40,
+      "note": "Negatif: Fon soruştırması ve virman haberi."
     },
     "PGSUS": {
       "score": 60,
-      "note": "Tahvil ihracı izni ve finansal varlık edinimi pozitif."
+      "note": "Pozitif: Tahvil ihracı izni ve finansal varlık edinimi."
     },
     "TUPRS": {
-      "score": 45,
-      "note": "Kurumsal satışlar negatif, temettü ödemesi nötr."
+      "score": 55,
+      "note": "Pozitif: Temettü ödeme tarihi açıklandı."
     },
     "AKSEN": {
       "score": 65,
-      "note": "İş Yatırım model portföye aldı, hedef fiyat pozitif."
+      "note": "Pozitif: Hedef fiyat ve model portföye alım."
     },
     "EREGL": {
       "score": 50,
-      "note": "Sadece teknik analiz haberleri, nötr."
+      "note": "Nötr: Sadece teknik analiz."
     },
     "BIMAS": {
       "score": 60,
-      "note": "Hisse neden yükseldi haberi pozitif."
+      "note": "Pozitif: Hisse yükselişi ve analiz."
     },
     "MGROS": {
-      "score": 65,
-      "note": "Güçlü görünüm ve 900 TL hedefi pozitif."
+      "score": 70,
+      "note": "Pozitif: Güçlü görünüm ve hedef fiyat."
     },
     "FROTO": {
       "score": 50,
-      "note": "Bilanço analizi ve teknik analiz, nötr."
+      "note": "Nötr: Bilanço analizi ve teknik analiz."
     },
     "TOASO": {
       "score": 55,
-      "note": "Hedef fiyat değişiklikleri, hafif pozitif."
+      "note": "Pozitif: Hedef fiyat güncellemeleri."
     },
     "ASELS": {
-      "score": 60,
-      "note": "Yüklü alım haberi pozitif."
+      "score": 30,
+      "note": "Negatif: Bank of America satışı ve sert düşüş."
     },
     "TCELL": {
       "score": 50,
-      "note": "Sadece teknik analiz, nötr."
+      "note": "Nötr: Sadece teknik analiz."
     },
     "TTKOM": {
-      "score": 50,
-      "note": "Teknik analiz ve bilanço tarihi, nötr."
+      "score": 60,
+      "note": "Pozitif: Geri alım programı ve bilanço tahmini."
     },
     "ULKER": {
-      "score": 60,
-      "note": "Hisse neden yükseliyor haberi pozitif."
+      "score": 65,
+      "note": "Pozitif: Hisse yükselişi ve hedef fiyat."
     },
     "CCOLA": {
       "score": 50,
-      "note": "Sadece teknik analiz, nötr."
+      "note": "Nötr: Sadece teknik analiz."
     },
     "ARCLK": {
-      "score": 45,
-      "note": "Satın alma ve hisse satışı kararı belirsiz, hafif negatif."
+      "score": 50,
+      "note": "Nötr: Satın alma ve hisse satışı kararı."
     },
     "EKGYO": {
       "score": 60,
-      "note": "Geri alım haberleri pozitif."
+      "note": "Pozitif: Geri alım ve yeni hedef fiyat."
     }
   },
-  "_ts": 1791380391,
+  "_ts": 1791445096,
   "_source": "deepseek-llm"
 }
