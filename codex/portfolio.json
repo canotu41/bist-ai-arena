@@ -4,10 +4,10 @@
   "strategy": "Önce risk: düşük vol (ATR≤%3.6), RSI 40-68, MA50 üstü; seçici, uzun tut; backtest-kalibre",
   "initial": 50000.0,
   "cash": 5451.27,
-  "total_value": 45052.77,
-  "return_pct": -9.89,
+  "total_value": 45076.07,
+  "return_pct": -9.85,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-10-08 12:39",
+  "last_updated": "2026-10-08 13:39",
   "positions": [
     {
       "ticker": "BIMAS",
@@ -15,7 +15,7 @@
       "sector": "Perakende",
       "entry": 381.5,
       "qty": 19,
-      "current": 398.0,
+      "current": 397.5,
       "stop": 343.35,
       "target": 534.1,
       "entry_ts": "2026-07-14 10:38",
@@ -27,7 +27,7 @@
       "sector": "Holding",
       "entry": 195.3,
       "qty": 38,
-      "current": 212.6,
+      "current": 212.3,
       "stop": 175.77,
       "target": 273.42,
       "entry_ts": "2026-07-16 08:38",
@@ -39,11 +39,11 @@
       "sector": "Bankacılık",
       "entry": 31.9,
       "qty": 51,
-      "current": 33.56,
+      "current": 33.8,
       "stop": 28.71,
       "target": 44.66,
       "entry_ts": "2026-08-31 11:38",
-      "score": 63.3
+      "score": 64.3
     },
     {
       "ticker": "GARAN",
@@ -55,7 +55,7 @@
       "stop": 116.46,
       "target": 181.16,
       "entry_ts": "2026-09-17 09:38",
-      "score": 67.2
+      "score": 68.2
     },
     {
       "ticker": "EKGYO",
@@ -63,11 +63,11 @@
       "sector": "Gayrimenkul",
       "entry": 19.69,
       "qty": 348,
-      "current": 19.43,
+      "current": 19.4,
       "stop": 17.72,
       "target": 27.57,
       "entry_ts": "2026-10-06 08:39",
-      "score": 68.5
+      "score": 69.5
     },
     {
       "ticker": "TCELL",
@@ -75,7 +75,7 @@
       "sector": "Telekom",
       "entry": 101.3,
       "qty": 67,
-      "current": 100.0,
+      "current": 100.6,
       "stop": 91.17,
       "target": 141.82,
       "entry_ts": "2026-10-06 09:39",
@@ -87,11 +87,11 @@
       "sector": "Bankacılık",
       "entry": 36.56,
       "qty": 55,
-      "current": 35.56,
+      "current": 35.6,
       "stop": 32.9,
       "target": 51.18,
       "entry_ts": "2026-10-07 08:39",
-      "score": 62.1
+      "score": 65.7
     }
   ],
   "trades": [
