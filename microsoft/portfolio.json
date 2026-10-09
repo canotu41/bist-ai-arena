@@ -4,10 +4,10 @@
   "strategy": "Momentum/trend: 20g değişim≥%4, MA20>MA50 kırılım; kazananı bırak; backtest-kalibre (alfa ~%-2)",
   "initial": 50000.0,
   "cash": 19526.73,
-  "total_value": 43129.13,
-  "return_pct": -13.74,
+  "total_value": 42957.45,
+  "return_pct": -14.09,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-10-09 07:39",
+  "last_updated": "2026-10-09 08:39",
   "positions": [
     {
       "ticker": "TUPRS",
@@ -15,11 +15,11 @@
       "sector": "Enerji",
       "entry": 309.5,
       "qty": 30,
-      "current": 389.5,
+      "current": 385.25,
       "stop": 278.55,
       "target": 433.3,
       "entry_ts": "2026-07-22 07:10",
-      "score": 56.2
+      "score": 53.2
     },
     {
       "ticker": "KCHOL",
@@ -27,7 +27,7 @@
       "sector": "Holding",
       "entry": 204.6,
       "qty": 2,
-      "current": 212.3,
+      "current": 210.7,
       "stop": 184.14,
       "target": 286.44,
       "entry_ts": "2026-07-22 08:38",
@@ -39,7 +39,7 @@
       "sector": "Perakende",
       "entry": 379.25,
       "qty": 1,
-      "current": 405.5,
+      "current": 404.0,
       "stop": 341.32,
       "target": 530.95,
       "entry_ts": "2026-08-03 15:17",
@@ -51,11 +51,11 @@
       "sector": "Bankacılık",
       "entry": 34.32,
       "qty": 329,
-      "current": 33.7,
+      "current": 33.58,
       "stop": 30.89,
       "target": 48.05,
       "entry_ts": "2026-09-22 08:37",
-      "score": 65.7
+      "score": 63.9
     }
   ],
   "trades": [
