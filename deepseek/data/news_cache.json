@@ -1,7 +1,7 @@
 {
   "market": {
     "score": 50,
-    "trend": "nötr"
+    "trend": "notr"
   },
   "tickers": {
     "AKBNK": {
@@ -9,98 +9,98 @@
       "note": "Rekabet Kurulu'ndan 1.7 milyar TL ceza"
     },
     "GARAN": {
-      "score": 70,
+      "score": 75,
       "note": "Kâr beklentiyi aştı, hedef fiyat güncellemeleri ve AL önerisi"
     },
     "ISCTR": {
       "score": 50,
-      "note": "Sadece teknik analiz ve yorum başlıkları"
+      "note": "Sadece teknik analiz ve yorumlar"
     },
     "YKBNK": {
       "score": 40,
       "note": "BofA'dan yüklü satış"
     },
     "VAKBN": {
-      "score": 60,
+      "score": 70,
       "note": "Hedef fiyat tavsiyesi ve yurt dışı kaynak adımı"
     },
     "KCHOL": {
       "score": 50,
-      "note": "Teknik analiz ve bilanço analizi, belirgin yön yok"
+      "note": "Teknik analiz ve bilanço analizi"
     },
     "SAHOL": {
-      "score": 45,
-      "note": "Kurumsal satışlar artışta, ancak geçmiş getiri pozitif"
+      "score": 40,
+      "note": "Kurumsal satışlar artışta"
     },
     "SISE": {
       "score": 30,
-      "note": "Bilanço sonrası sert düşüş ve hedef fiyat geriledi"
+      "note": "Bilanço sonrası sert düşüş, hedef fiyat geriledi"
     },
     "THYAO": {
       "score": 55,
-      "note": "Teknik analizde irtifa koruyor, bilanço beklentisi açıklandı"
+      "note": "İrtifa koruyor, bilanço beklentisi"
     },
     "PGSUS": {
-      "score": 60,
+      "score": 65,
       "note": "Tahvil ihracı izni ve satın alma haberi"
     },
     "TUPRS": {
       "score": 55,
-      "note": "Temettü ödeme tarihi açıklandı"
+      "note": "Temettü ödemesi olumlu"
     },
     "AKSEN": {
-      "score": 65,
-      "note": "İş Yatırım model portföye aldı, hedef fiyat dikkat çekici"
+      "score": 70,
+      "note": "İş Yatırım model portföye aldı, hedef fiyat"
     },
     "EREGL": {
-      "score": 60,
+      "score": 65,
       "note": "Yabancı yatırımcının en çok aldığı hisse"
     },
     "BIMAS": {
       "score": 60,
-      "note": "Hisse bugün neden yükseldi? Bedelsiz sermaye artırımı"
+      "note": "Hisse bugün neden yükseldi?"
     },
     "MGROS": {
       "score": 50,
-      "note": "Sadece teknik analiz ve hedef fiyat"
+      "note": "Teknik analiz ve hedef fiyat"
     },
     "FROTO": {
       "score": 50,
-      "note": "Teknik analiz ve bilanço analizi, belirgin yön yok"
+      "note": "Teknik analiz ve bilanço analizi"
     },
     "TOASO": {
-      "score": 55,
+      "score": 60,
       "note": "Temettü açıklaması ve hedef fiyat değişikliği"
     },
     "ASELS": {
       "score": 40,
-      "note": "BofA'dan 913 milyon TL satış, hisse sert düştü"
+      "note": "BofA'dan satış, hisse sert düştü"
     },
     "TCELL": {
       "score": 50,
-      "note": "Teknik analiz ve SEC açıklaması, nötr"
+      "note": "Teknik analiz ve SEC açıklaması"
     },
     "TTKOM": {
       "score": 55,
       "note": "Geri alım programı sürüyor"
     },
     "ULKER": {
-      "score": 60,
-      "note": "Hisse bugün neden yükseliyor? Bilanço açıklandı"
+      "score": 65,
+      "note": "Hedef fiyat yükseltildi ve temettü dağıtımı"
     },
     "CCOLA": {
       "score": 50,
-      "note": "Sadece teknik analiz ve yorum başlıkları"
+      "note": "Sadece teknik analiz ve yorumlar"
     },
     "ARCLK": {
       "score": 50,
-      "note": "Satın alma ve hisse satışı kararı, belirsiz etki"
+      "note": "Satın alma ve hisse satışı kararı"
     },
     "EKGYO": {
       "score": 60,
-      "note": "Geri alım yapıldı ve yeni hedef fiyat açıklandı"
+      "note": "Geri alım yapıldı ve yeni hedef fiyat"
     }
   },
-  "_ts": 1791887921,
+  "_ts": 1791898790,
   "_source": "deepseek-llm"
 }
