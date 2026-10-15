@@ -6,101 +6,101 @@
   "tickers": {
     "AKBNK": {
       "score": 50,
-      "note": "Nötr: İhraç belgesi ve fiyat hedefi haberleri, belirgin etki yok."
+      "note": "Nötr, ihraç belgesi ve hedef fiyat haberleri"
     },
     "GARAN": {
-      "score": 75,
-      "note": "Pozitif: Kâr beklentiyi aştı, hedef fiyat güncellemeleri ve AL önerisi."
+      "score": 70,
+      "note": "Kâr beklentiyi aştı, hedef fiyat güncellemeleri"
     },
     "ISCTR": {
       "score": 60,
-      "note": "Pozitif: Hedef fiyat güncellendi, teknik analizler."
+      "note": "Hedef fiyat güncellendi, teknik analiz"
     },
     "YKBNK": {
-      "score": 70,
-      "note": "Pozitif: BofA alıma döndü, Yapı Kredi Yatırım alımı."
+      "score": 65,
+      "note": "BofA alıma döndü, YKBNK listenin başında"
     },
     "VAKBN": {
       "score": 70,
-      "note": "Pozitif: AL sinyali ve hedef fiyat tavsiyeleri."
+      "note": "AL sinyali, hedef fiyat 41,80 TL"
     },
     "KCHOL": {
       "score": 55,
-      "note": "Hafif pozitif: Teknik analiz ve bilanço analizi, BofA listesinde."
+      "note": "BofA alım listesinde, bilanço analizi"
     },
     "SAHOL": {
       "score": 40,
-      "note": "Negatif: Kurumsal satışlar artışta."
+      "note": "Kurumsal satışlar artışta"
     },
     "SISE": {
       "score": 30,
-      "note": "Negatif: Bilanço sonrası sert düşüş, hedef fiyat indirildi."
+      "note": "Bilanço sonrası sert düştü, hedef fiyat indirildi"
     },
     "THYAO": {
-      "score": 65,
-      "note": "Pozitif: Citi hedef fiyat ve tavsiye, irtifa koruyor."
+      "score": 55,
+      "note": "İrtifa koruyor, bilanço beklentisi"
     },
     "PGSUS": {
       "score": 60,
-      "note": "Pozitif: Satın alma ve tahvil ihracı izni."
+      "note": "Satın alma ve tahvil ihracı izni"
     },
     "TUPRS": {
       "score": 55,
-      "note": "Hafif pozitif: Temettü ödeme tarihi açıklandı."
+      "note": "Temettü ödeme tarihi açıklandı"
     },
     "AKSEN": {
-      "score": 70,
-      "note": "Pozitif: İş Yatırım model portföye aldı, hedef fiyat."
+      "score": 65,
+      "note": "İş Yatırım model portföye aldı, hedef fiyat"
     },
     "EREGL": {
-      "score": 65,
-      "note": "Pozitif: Yabancı yatırımcının en çok aldığı hisse."
+      "score": 60,
+      "note": "Yabancı yatırımcının en çok aldığı hisse"
     },
     "BIMAS": {
-      "score": 60,
-      "note": "Pozitif: Hisse yükseliş nedeni ve teknik analizler."
+      "score": 55,
+      "note": "Hisse bugün neden yükseldi?"
     },
     "MGROS": {
-      "score": 35,
-      "note": "Negatif: Hisse neden düşüyor haberi."
+      "score": 40,
+      "note": "Hisse neden düşüyor?"
     },
     "FROTO": {
-      "score": 55,
-      "note": "Hafif pozitif: Bilanço analizi ve teknik analiz."
+      "score": 50,
+      "note": "Bilanço analizi, teknik analiz"
     },
     "TOASO": {
-      "score": 60,
-      "note": "Pozitif: Temettü açıklaması."
+      "score": 55,
+      "note": "Temettü açıklaması"
     },
     "ASELS": {
       "score": 40,
-      "note": "Negatif: BofA satışı, hisse sert düştü."
+      "note": "BofA satışı, hisse sert düştü"
     },
     "TCELL": {
       "score": 50,
-      "note": "Nötr: Teknik analiz ve SEC açıklaması."
+      "note": "SEC açıklaması, teknik analiz"
     },
     "TTKOM": {
-      "score": 60,
-      "note": "Pozitif: Hisse geri alımı."
+      "score": 55,
+      "note": "Geri alım programı sürüyor"
     },
     "ULKER": {
-      "score": 70,
-      "note": "Pozitif: Hedef fiyat yükseltildi ve temettü dağıtımı."
+      "score": 65,
+      "note": "Hedef fiyat yükseltildi, temettü dağıtımı"
     },
     "CCOLA": {
       "score": 50,
-      "note": "Nötr: Sadece teknik analiz ve yorumlar."
+      "note": "Teknik analiz"
     },
     "ARCLK": {
       "score": 50,
-      "note": "Nötr: Satın alma ve hisse satışı kararı, belirsiz etki."
+      "note": "Satın alma ve hisse satışı kararı"
     },
     "EKGYO": {
-      "score": 65,
-      "note": "Pozitif: Geri alım ve hedef fiyat artışı."
+      "score": 60,
+      "note": "Geri alım ve yeni hedef fiyat"
     }
   },
-  "_ts": 1792049922,
+  "_ts": 1792060752,
   "_source": "deepseek-llm"
 }
