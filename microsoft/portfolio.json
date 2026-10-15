@@ -4,10 +4,10 @@
   "strategy": "Momentum/trend: 20g değişim≥%4, MA20>MA50 kırılım; kazananı bırak; backtest-kalibre (alfa ~%-2)",
   "initial": 50000.0,
   "cash": 11212.66,
-  "total_value": 42983.41,
-  "return_pct": -14.03,
+  "total_value": 42887.4,
+  "return_pct": -14.23,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-10-15 12:39",
+  "last_updated": "2026-10-15 13:39",
   "positions": [
     {
       "ticker": "TUPRS",
@@ -15,7 +15,7 @@
       "sector": "Enerji",
       "entry": 309.5,
       "qty": 30,
-      "current": 383.25,
+      "current": 381.75,
       "stop": 278.55,
       "target": 433.3,
       "entry_ts": "2026-07-22 07:10",
@@ -27,7 +27,7 @@
       "sector": "Holding",
       "entry": 204.6,
       "qty": 2,
-      "current": 210.4,
+      "current": 209.7,
       "stop": 184.14,
       "target": 286.44,
       "entry_ts": "2026-07-22 08:38",
@@ -39,11 +39,11 @@
       "sector": "Perakende",
       "entry": 379.25,
       "qty": 1,
-      "current": 400.25,
+      "current": 402.0,
       "stop": 341.32,
       "target": 530.95,
       "entry_ts": "2026-08-03 15:17",
-      "score": 50.5
+      "score": 50.2
     },
     {
       "ticker": "VAKBN",
@@ -51,11 +51,11 @@
       "sector": "Bankacılık",
       "entry": 34.32,
       "qty": 329,
-      "current": 33.96,
+      "current": 33.86,
       "stop": 30.89,
       "target": 48.05,
       "entry_ts": "2026-09-22 08:37",
-      "score": 73.1
+      "score": 72.4
     },
     {
       "ticker": "YKBNK",
@@ -63,11 +63,11 @@
       "sector": "Bankacılık",
       "entry": 36.12,
       "qty": 229,
-      "current": 36.04,
+      "current": 35.96,
       "stop": 32.51,
       "target": 50.57,
       "entry_ts": "2026-10-14 08:39",
-      "score": 73.4
+      "score": 72.7
     },
     {
       "ticker": "ISCTR",
@@ -75,11 +75,11 @@
       "sector": "Bankacılık",
       "entry": 13.0,
       "qty": 2,
-      "current": 13.1,
+      "current": 13.03,
       "stop": 11.7,
       "target": 18.2,
       "entry_ts": "2026-10-14 08:39",
-      "score": 67.1
+      "score": 67.7
     }
   ],
   "trades": [
