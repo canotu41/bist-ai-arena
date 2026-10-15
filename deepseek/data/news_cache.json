@@ -1,106 +1,106 @@
 {
   "market": {
     "score": 45,
-    "trend": "negatif"
+    "trend": "Negatif"
   },
   "tickers": {
     "AKBNK": {
       "score": 50,
-      "note": "Nötr haberler"
+      "note": "Nötr: İhraç belgesi ve fiyat hedefi haberleri, belirgin etki yok."
     },
     "GARAN": {
-      "score": 70,
-      "note": "Kâr beklentiyi aştı, hedef fiyat güncellemeleri ve AL önerisi"
+      "score": 75,
+      "note": "Pozitif: Kâr beklentiyi aştı, hedef fiyat güncellemeleri ve AL önerisi."
     },
     "ISCTR": {
-      "score": 55,
-      "note": "Hedef fiyat güncellendi, teknik analiz"
+      "score": 60,
+      "note": "Pozitif: Hedef fiyat güncellendi, teknik analizler."
     },
     "YKBNK": {
-      "score": 65,
-      "note": "BofA alıma döndü, Yapı Kredi Yatırım alımı"
+      "score": 70,
+      "note": "Pozitif: BofA alıma döndü, Yapı Kredi Yatırım alımı."
     },
     "VAKBN": {
       "score": 70,
-      "note": "AL sinyali, hedef fiyat 41.80 TL"
+      "note": "Pozitif: AL sinyali ve hedef fiyat tavsiyeleri."
     },
     "KCHOL": {
       "score": 55,
-      "note": "Teknik analiz, bilanço analizi"
+      "note": "Hafif pozitif: Teknik analiz ve bilanço analizi, BofA listesinde."
     },
     "SAHOL": {
-      "score": 45,
-      "note": "Kurumsal satışlar artışta"
+      "score": 40,
+      "note": "Negatif: Kurumsal satışlar artışta."
     },
     "SISE": {
       "score": 30,
-      "note": "Bilanço sonrası sert düştü, hedef fiyat geriledi"
+      "note": "Negatif: Bilanço sonrası sert düşüş, hedef fiyat indirildi."
     },
     "THYAO": {
-      "score": 55,
-      "note": "İrtifa koruyor, bilanço beklentisi"
+      "score": 65,
+      "note": "Pozitif: Citi hedef fiyat ve tavsiye, irtifa koruyor."
     },
     "PGSUS": {
       "score": 60,
-      "note": "Tahvil ihracı izni, satın alma haberi"
+      "note": "Pozitif: Satın alma ve tahvil ihracı izni."
     },
     "TUPRS": {
-      "score": 60,
-      "note": "Temettü ödemesi, kurumsal alımlar"
+      "score": 55,
+      "note": "Hafif pozitif: Temettü ödeme tarihi açıklandı."
     },
     "AKSEN": {
-      "score": 65,
-      "note": "Hedef fiyat, model portföye alındı"
+      "score": 70,
+      "note": "Pozitif: İş Yatırım model portföye aldı, hedef fiyat."
     },
     "EREGL": {
       "score": 65,
-      "note": "Yabancı yatırımcının en çok aldığı hisse"
+      "note": "Pozitif: Yabancı yatırımcının en çok aldığı hisse."
     },
     "BIMAS": {
       "score": 60,
-      "note": "Bugün neden yükseldi?"
+      "note": "Pozitif: Hisse yükseliş nedeni ve teknik analizler."
     },
     "MGROS": {
-      "score": 55,
-      "note": "Hedef fiyat güncellendi, 800 TL'yi aşacak"
+      "score": 35,
+      "note": "Negatif: Hisse neden düşüyor haberi."
     },
     "FROTO": {
       "score": 55,
-      "note": "Bilanço analizi, teknik analiz"
+      "note": "Hafif pozitif: Bilanço analizi ve teknik analiz."
     },
     "TOASO": {
-      "score": 55,
-      "note": "Temettü açıklaması"
+      "score": 60,
+      "note": "Pozitif: Temettü açıklaması."
     },
     "ASELS": {
       "score": 40,
-      "note": "BofA satışı, hisse sert düştü"
+      "note": "Negatif: BofA satışı, hisse sert düştü."
     },
     "TCELL": {
       "score": 50,
-      "note": "Nötr haberler"
+      "note": "Nötr: Teknik analiz ve SEC açıklaması."
     },
     "TTKOM": {
-      "score": 50,
-      "note": "Nötr haberler"
+      "score": 60,
+      "note": "Pozitif: Hisse geri alımı."
     },
     "ULKER": {
-      "score": 65,
-      "note": "Hedef fiyat yükseltildi, hisse yükseliyor"
+      "score": 70,
+      "note": "Pozitif: Hedef fiyat yükseltildi ve temettü dağıtımı."
     },
     "CCOLA": {
       "score": 50,
-      "note": "Nötr haberler"
+      "note": "Nötr: Sadece teknik analiz ve yorumlar."
     },
     "ARCLK": {
       "score": 50,
-      "note": "Satın alma ve hisse satışı kararı"
+      "note": "Nötr: Satın alma ve hisse satışı kararı, belirsiz etki."
     },
     "EKGYO": {
-      "score": 60,
-      "note": "Geri alım, yeni hedef fiyat"
+      "score": 65,
+      "note": "Pozitif: Geri alım ve hedef fiyat artışı."
     }
   },
-  "_ts": 1791985189,
+  "_ts": 1792049922,
   "_source": "deepseek-llm"
 }
