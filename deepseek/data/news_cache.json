@@ -1,106 +1,106 @@
 {
   "market": {
-    "score": 45,
+    "score": 30,
     "trend": "negatif"
   },
   "tickers": {
     "AKBNK": {
       "score": 50,
-      "note": "İhraç belgesi ve fiyat hedefi haberleri nötr"
+      "note": "Nötr, belirgin etki yok"
     },
     "GARAN": {
-      "score": 65,
-      "note": "Kâr beklentiyi aştı, hedef fiyat güncellemeleri pozitif"
+      "score": 70,
+      "note": "Kâr beklentiyi aştı, hedef fiyat güncellemeleri ve AL önerisi"
     },
     "ISCTR": {
       "score": 55,
-      "note": "Hedef fiyat güncellendi, teknik analiz nötr-pozitif"
+      "note": "Hedef fiyat güncellendi, hafif pozitif"
     },
     "YKBNK": {
-      "score": 60,
-      "note": "BofA alıma döndü, Yapı Kredi Yatırım alımı pozitif"
+      "score": 65,
+      "note": "BofA alıma döndü, YKBNK listenin başında"
     },
     "VAKBN": {
-      "score": 65,
-      "note": "Deniz Yatırım hedef fiyat ve AL tavsiyesi pozitif"
+      "score": 60,
+      "note": "Hedef fiyat ve yurt dışı kaynak adımı"
     },
     "KCHOL": {
       "score": 55,
-      "note": "BofA listesinde, bilanço analizi nötr-pozitif"
+      "note": "BofA listesinde, bilanço analizi nötr"
     },
     "SAHOL": {
       "score": 50,
-      "note": "Lot satışı ve teknik analiz nötr"
+      "note": "Nötr, belirgin etki yok"
     },
     "SISE": {
       "score": 35,
-      "note": "Bilanço sonrası sert düşüş, hedef fiyat indirildi"
+      "note": "Bilanço sonrası sert düşüş, hedef fiyat geriledi"
     },
     "THYAO": {
-      "score": 55,
-      "note": "Bilanço beklentisi ve teknik analiz nötr-pozitif"
+      "score": 60,
+      "note": "Citi hedef fiyat ve tavsiye, bilanço beklentisi"
     },
     "PGSUS": {
-      "score": 60,
-      "note": "Tahvil ihracı izni ve satın alma haberi pozitif"
+      "score": 55,
+      "note": "Tahvil ihracı izni ve satın alma haberi"
     },
     "TUPRS": {
-      "score": 55,
-      "note": "Temettü ödeme tarihi açıklandı, nötr-pozitif"
+      "score": 45,
+      "note": "BofA satış hacmi etkili, temettü ödemesi"
     },
     "AKSEN": {
       "score": 65,
-      "note": "İş Yatırım model portföye aldı, hedef fiyat pozitif"
+      "note": "İş Yatırım model portföye aldı, hedef fiyat"
     },
     "EREGL": {
       "score": 60,
-      "note": "Yabancı yatırımcının en çok aldığı hisse pozitif"
+      "note": "Yabancı yatırımcının en çok aldığı hisse"
     },
     "BIMAS": {
       "score": 55,
-      "note": "Hisse yükselişi ve teknik analiz nötr-pozitif"
+      "note": "Bugün yükseliş nedeni, hafif pozitif"
     },
     "MGROS": {
-      "score": 40,
-      "note": "Hisse düşüşü ve hedef fiyat nötr-negatif"
+      "score": 50,
+      "note": "Hedef fiyat güncellendi ancak düşüş haberi"
     },
     "FROTO": {
       "score": 50,
-      "note": "Bilanço analizi ve teknik analiz nötr"
+      "note": "Nötr, belirgin etki yok"
     },
     "TOASO": {
       "score": 55,
-      "note": "Temettü açıklaması pozitif"
+      "note": "Temettü açıklaması, hafif pozitif"
     },
     "ASELS": {
-      "score": 45,
-      "note": "BofA satışı ile sert düşüş, hedef fiyat artışı dengeliyor"
+      "score": 70,
+      "note": "Hedef fiyat 580 TL'ye yükseltildi"
     },
     "TCELL": {
       "score": 50,
-      "note": "SEC açıklaması ve teknik analiz nötr"
+      "note": "Nötr, belirgin etki yok"
     },
     "TTKOM": {
       "score": 55,
-      "note": "Geri alım programı ve hedef fiyat nötr-pozitif"
+      "note": "Geri alım programı sürüyor"
     },
     "ULKER": {
-      "score": 60,
-      "note": "Hedef fiyat yükseltildi ve temettü pozitif"
+      "score": 65,
+      "note": "Hedef fiyat yükseltildi ve temettü dağıtımı"
     },
     "CCOLA": {
-      "score": 50,
-      "note": "Teknik analiz ve yorumlar nötr"
+      "score": 60,
+      "note": "Gerçeğe uygun değer çağrısı sonrası %56 getiri"
     },
     "ARCLK": {
       "score": 50,
-      "note": "Satın alma ve hisse satışı kararı nötr"
+      "note": "Satın alma ve hisse satışı kararı, nötr"
     },
     "EKGYO": {
-      "score": 55,
-      "note": "Geri alım ve hedef fiyat nötr-pozitif"
+      "score": 60,
+      "note": "Geri alım yapıldı ve yeni hedef fiyat"
     }
   },
-  "_ts": 1792071584,
+  "_ts": 1792136294,
   "_source": "deepseek-llm"
 }
