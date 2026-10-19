@@ -1,71 +1,71 @@
 {
   "market": {
-    "score": 30,
-    "trend": "negatif"
+    "score": 42,
+    "trend": "Negatif"
   },
   "tickers": {
     "AKBNK": {
-      "score": 50,
-      "note": "Nötr, belirgin haber yok"
+      "score": 35,
+      "note": "Rekabet Kurulu cezası baskı"
     },
     "GARAN": {
-      "score": 70,
-      "note": "Kâr beklentiyi aştı, hedef fiyat güncellemeleri"
+      "score": 65,
+      "note": "Kâr beklentiyi aştı, hedef yükseltildi"
     },
     "ISCTR": {
       "score": 55,
-      "note": "Hedef fiyat güncellendi, hafif pozitif"
+      "note": "Hedef fiyat güncellendi"
     },
     "YKBNK": {
-      "score": 60,
-      "note": "BofA alıma döndü, pozitif"
+      "score": 58,
+      "note": "Alım listesinde ilk sırada"
     },
     "VAKBN": {
-      "score": 65,
-      "note": "Hedef fiyat tavsiyesi, yurt dışı kaynak"
+      "score": 58,
+      "note": "Hedef fiyat tavsiyesi"
     },
     "KCHOL": {
-      "score": 55,
-      "note": "Bilanço analizi, BofA listesinde"
+      "score": 50,
+      "note": "Finansal takvim, nötr"
     },
     "SAHOL": {
-      "score": 70,
-      "note": "7 milyar TL geri alım kararı"
+      "score": 68,
+      "note": "7 milyar TL geri alım"
     },
     "SISE": {
-      "score": 30,
-      "note": "Bilanço sonrası sert düşüş, hedef fiyat indirildi"
+      "score": 35,
+      "note": "Bilanço sonrası sert düşüş"
     },
     "THYAO": {
-      "score": 65,
-      "note": "Yeni merkez ve motor anlaşması"
+      "score": 58,
+      "note": "Yeni merkez anlaşması"
     },
     "PGSUS": {
-      "score": 60,
-      "note": "Satın alma ve tahvil ihracı izni"
+      "score": 55,
+      "note": "Tahvil ihracı izni, satın alma"
     },
     "TUPRS": {
       "score": 45,
-      "note": "BofA satışı, temettü ödemesi"
+      "note": "Kurumsal satışlar etkili"
     },
     "AKSEN": {
-      "score": 65,
-      "note": "İş Yatırım model portföye aldı"
+      "score": 52,
+      "note": "Bilanço tahmini, nötr-pozitif"
     },
     "EREGL": {
-      "score": 60,
-      "note": "Yabancı yatırımcının en çok aldığı hisse"
+      "score": 50,
+      "note": "Teknik analiz, nötr"
     },
     "BIMAS": {
       "score": 60,
-      "note": "Bedelsiz sermaye artırımı, yükseliş"
+      "note": "Bedelsiz bölünme, yükseliş"
     },
     "MGROS": {
-      "score": 40,
-      "note": "Hisse neden düşüyor? Negatif"
+      "score": 38,
+      "note": "Hisse düşüyor"
     },
     "FROTO": {
-      "score": 50,
+      "score": 52,
       "note": "Bilanço analizi, nötr"
     },
     "TOASO": {
@@ -73,34 +73,34 @@
       "note": "Temettü açıklaması"
     },
     "ASELS": {
-      "score": 40,
-      "note": "BofA satışı, sert düşüş"
+      "score": 30,
+      "note": "Kurumsal satış, sert düşüş"
     },
     "TCELL": {
       "score": 50,
       "note": "SEC açıklaması, nötr"
     },
     "TTKOM": {
-      "score": 60,
-      "note": "Geri alım programı sürüyor"
+      "score": 58,
+      "note": "Geri alım programı"
     },
     "ULKER": {
-      "score": 65,
+      "score": 62,
       "note": "Hedef fiyat yükseltildi, temettü"
     },
     "CCOLA": {
-      "score": 60,
-      "note": "Gerçeğe uygun değer çağrısı sonrası getiri"
+      "score": 38,
+      "note": "Hisse düşüyor"
     },
     "ARCLK": {
-      "score": 50,
-      "note": "Satın alma ve hisse satışı, nötr"
+      "score": 48,
+      "note": "Satın alma ve hisse satışı karışık"
     },
     "EKGYO": {
       "score": 60,
-      "note": "Yeni hedef fiyat, geri alım"
+      "note": "Hedef fiyat ve geri alım"
     }
   },
-  "_ts": 1792158001,
+  "_ts": 1792395505,
   "_source": "deepseek-llm"
 }

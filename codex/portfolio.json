@@ -4,10 +4,10 @@
   "strategy": "Önce risk: düşük vol (ATR≤%3.6), RSI 40-68, MA50 üstü; seçici, uzun tut; backtest-kalibre",
   "initial": 50000.0,
   "cash": 5451.27,
-  "total_value": 44133.68,
-  "return_pct": -11.73,
+  "total_value": 44101.58,
+  "return_pct": -11.8,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-10-16 14:39",
+  "last_updated": "2026-10-19 07:39",
   "positions": [
     {
       "ticker": "BIMAS",
@@ -15,11 +15,11 @@
       "sector": "Perakende",
       "entry": 381.5,
       "qty": 19,
-      "current": 379.75,
+      "current": 379.0,
       "stop": 343.35,
       "target": 534.1,
       "entry_ts": "2026-07-14 10:38",
-      "score": 62.8
+      "score": 58.0
     },
     {
       "ticker": "KCHOL",
@@ -27,11 +27,11 @@
       "sector": "Holding",
       "entry": 195.3,
       "qty": 38,
-      "current": 203.8,
+      "current": 202.5,
       "stop": 175.77,
       "target": 273.42,
       "entry_ts": "2026-07-16 08:38",
-      "score": 48.5
+      "score": 48.7
     },
     {
       "ticker": "VAKBN",
@@ -39,11 +39,11 @@
       "sector": "Bankacılık",
       "entry": 31.9,
       "qty": 51,
-      "current": 32.88,
+      "current": 32.72,
       "stop": 28.71,
       "target": 44.66,
       "entry_ts": "2026-08-31 11:38",
-      "score": 60.3
+      "score": 58.9
     },
     {
       "ticker": "GARAN",
@@ -51,11 +51,11 @@
       "sector": "Bankacılık",
       "entry": 129.4,
       "qty": 53,
-      "current": 131.0,
+      "current": 131.9,
       "stop": 116.46,
       "target": 181.16,
       "entry_ts": "2026-09-17 09:38",
-      "score": 72.9
+      "score": 68.9
     },
     {
       "ticker": "EKGYO",
@@ -63,11 +63,11 @@
       "sector": "Gayrimenkul",
       "entry": 19.69,
       "qty": 348,
-      "current": 19.11,
+      "current": 19.03,
       "stop": 17.72,
       "target": 27.57,
       "entry_ts": "2026-10-06 08:39",
-      "score": 66.7
+      "score": 63.1
     },
     {
       "ticker": "TCELL",
@@ -75,11 +75,11 @@
       "sector": "Telekom",
       "entry": 101.3,
       "qty": 67,
-      "current": 97.0,
+      "current": 97.05,
       "stop": 91.17,
       "target": 141.82,
       "entry_ts": "2026-10-06 09:39",
-      "score": 58.9
+      "score": 57.7
     },
     {
       "ticker": "YKBNK",
@@ -87,11 +87,11 @@
       "sector": "Bankacılık",
       "entry": 36.56,
       "qty": 55,
-      "current": 35.52,
+      "current": 35.82,
       "stop": 32.9,
       "target": 51.18,
       "entry_ts": "2026-10-07 08:39",
-      "score": 64.1
+      "score": 65.5
     }
   ],
   "trades": [
