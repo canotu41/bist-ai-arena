@@ -1,106 +1,106 @@
 {
   "market": {
-    "score": 42,
-    "trend": "Negatif"
+    "score": 38,
+    "trend": "negatif"
   },
   "tickers": {
     "AKBNK": {
-      "score": 35,
-      "note": "Rekabet Kurulu'ndan 1,7 milyar TL ceza"
+      "score": 52,
+      "note": "Teknik analizler nötr, gap kapanma beklentisi hafif pozitif"
     },
     "GARAN": {
-      "score": 65,
-      "note": "Kâr beklentiyi aştı, hedef fiyat güncellemeleri"
+      "score": 55,
+      "note": "Kâr beklentiyi aştı, hedef fiyat güncellemeleri karışık"
     },
     "ISCTR": {
-      "score": 55,
-      "note": "Hedef fiyat güncellemesi, teknik analiz"
+      "score": 50,
+      "note": "Yalnızca teknik analiz ve yorum başlıkları, net sinyal yok"
     },
     "YKBNK": {
-      "score": 60,
-      "note": "BofA alıma döndü, listede başta"
+      "score": 52,
+      "note": "Portföy işlemleri ve teknik analiz, hafif pozitif"
     },
     "VAKBN": {
-      "score": 58,
-      "note": "Deniz Yatırım hedef fiyat 41,80 TL"
+      "score": 60,
+      "note": "Hedef fiyat tavsiyesi ve güçlü kâr büyüme tahmini"
     },
     "KCHOL": {
-      "score": 52,
-      "note": "Finansal takvim, nötr"
+      "score": 50,
+      "note": "Bilanço analizi ve takvim duyuruları, nötr"
     },
     "SAHOL": {
-      "score": 70,
-      "note": "7 milyar TL hisse geri alım kararı"
+      "score": 62,
+      "note": "CEO'nun 175 bin lot hisse alımı güçlü pozitif sinyal"
     },
     "SISE": {
       "score": 35,
       "note": "Bilanço sonrası sert düşüş, hedef fiyat geriledi"
     },
     "THYAO": {
-      "score": 60,
-      "note": "Dev merkez için imza, irtifa koruyor"
+      "score": 58,
+      "note": "Yeni merkez anlaşması ve grafikte irtifa koruma"
     },
     "PGSUS": {
       "score": 55,
-      "note": "Satın alma haberi, IATA başkanlığı"
+      "note": "Tahvil ihracı izni ve satın alma haberi pozitif"
     },
     "TUPRS": {
-      "score": 58,
-      "note": "Temettü ödemesi, bilanço tarihi"
+      "score": 40,
+      "note": "BofA yüklü satışları baskı yaratıyor"
     },
     "AKSEN": {
       "score": 52,
-      "note": "Bilanço tahmini, nötr"
+      "note": "Bilanço tahmini ve fiyat hedefi, hafif pozitif"
     },
     "EREGL": {
-      "score": 62,
-      "note": "Yabancı yatırımcının en çok aldığı hisse"
+      "score": 58,
+      "note": "Yabancı yatırımcının en çok aldığı hisse zirvede"
     },
     "BIMAS": {
-      "score": 60,
-      "note": "Bedelsiz sermaye artırımı, yükseliş"
+      "score": 58,
+      "note": "Hisse yükselişi ve bedelsiz sermaye artırımı"
     },
     "MGROS": {
-      "score": 40,
-      "note": "Hisse neden düşüyor haberi"
+      "score": 38,
+      "note": "Hisse düşüşü haberi baskılı görünüm"
     },
     "FROTO": {
-      "score": 52,
-      "note": "Teknik analiz, orta vade planı"
+      "score": 55,
+      "note": "364 milyon euroluk yatırım hamlesi pozitif"
     },
     "TOASO": {
-      "score": 55,
-      "note": "Temettü açıklaması"
+      "score": 52,
+      "note": "Temettü açıklaması hafif pozitif"
     },
     "ASELS": {
-      "score": 38,
-      "note": "Kurumsal satış baskısı"
+      "score": 40,
+      "note": "Kurumsal satış baskısı haberi negatif"
     },
     "TCELL": {
       "score": 50,
-      "note": "SEC açıklaması, nötr"
+      "note": "Teknik analiz ve SEC açıklaması, nötr"
     },
     "TTKOM": {
-      "score": 58,
-      "note": "Geri alım programı sürüyor"
+      "score": 55,
+      "note": "Geri alım programı sürüyor, pozitif"
     },
     "ULKER": {
-      "score": 62,
-      "note": "Hedef fiyat yükseltildi, temettü"
+      "score": 60,
+      "note": "Temettü dağıtımı ve hedef fiyat yükseltildi"
     },
     "CCOLA": {
-      "score": 52,
-      "note": "Bilanço tarihi açıklaması"
+      "score": 50,
+      "note": "Bilanço tarihi duyuruları, nötr"
     },
     "ARCLK": {
-      "score": 50,
-      "note": "Satın alma ve hisse satışı kararı, nötr"
+      "score": 48,
+      "note": "Satın alma ve hisse satışı kararı karışık sinyal"
     },
     "EKGYO": {
-      "score": 60,
-      "note": "Yeni hedef fiyat 30,96 TL, geri alım"
+      "score": 58,
+      "note": "Geri alım ve yeni hedef fiyat pozitif"
     }
   },
-  "_ts": 1792417201,
+  "_ts": 1792481909,
   "_source": "deepseek-llm"
 }
