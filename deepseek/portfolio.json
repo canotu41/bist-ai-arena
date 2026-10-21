@@ -33,9 +33,9 @@
       "take_profit": 265.28,
       "trailing_stop_active": false,
       "trailing_stop_level": 0.0,
-      "current_price": 204.4,
-      "unrealized_pnl": 181.70000000000013,
-      "unrealized_pnl_pct": 4.0203562340966945,
+      "current_price": 204.5,
+      "unrealized_pnl": 184.0,
+      "unrealized_pnl_pct": 4.071246819338422,
       "days_held": 0,
       "deepscore_at_entry": 62.4
     },
@@ -51,9 +51,9 @@
       "take_profit": 432.34,
       "trailing_stop_active": false,
       "trailing_stop_level": 0.0,
-      "current_price": 359.25,
-      "unrealized_pnl": 1092.0,
-      "unrealized_pnl_pct": 12.177985948477751,
+      "current_price": 357.75,
+      "unrealized_pnl": 1050.0,
+      "unrealized_pnl_pct": 11.7096018735363,
       "days_held": 0,
       "deepscore_at_entry": 67.4
     },
@@ -87,9 +87,9 @@
       "take_profit": 179.96,
       "trailing_stop_active": false,
       "trailing_stop_level": 0.0,
-      "current_price": 133.9,
-      "unrealized_pnl": 32.39999999999969,
-      "unrealized_pnl_pct": 0.45011252813202873,
+      "current_price": 133.5,
+      "unrealized_pnl": 10.799999999999386,
+      "unrealized_pnl_pct": 0.1500375093773358,
       "days_held": 0,
       "deepscore_at_entry": 64.0
     },
@@ -105,9 +105,9 @@
       "take_profit": 107.8,
       "trailing_stop_active": false,
       "trailing_stop_level": 0.0,
-      "current_price": 76.95,
-      "unrealized_pnl": -171.0999999999995,
-      "unrealized_pnl_pct": -3.631809643080766,
+      "current_price": 76.1,
+      "unrealized_pnl": -221.25,
+      "unrealized_pnl_pct": -4.696305572949281,
       "days_held": 0,
       "deepscore_at_entry": 62.3
     }
@@ -374,15 +374,15 @@
       "deepscore": 62.3
     }
   ],
-  "total_value": 45873.380000000005,
-  "total_return_pct": -8.25,
+  "total_value": 45761.93,
+  "total_return_pct": -8.48,
   "benchmark_return_pct": 0.0,
   "alpha_pct": 0.0,
   "week": 0,
-  "current_drawdown_pct": -8.25,
+  "current_drawdown_pct": -8.48,
   "max_drawdown_pct": -9.98,
   "win_rate_pct": 0.0,
   "market_regime": "SIDEWAYS",
-  "last_updated": "2026-10-21 11:38",
+  "last_updated": "2026-10-21 12:39",
   "created_date": "2026-07-06"
 }
