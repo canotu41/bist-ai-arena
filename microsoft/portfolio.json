@@ -4,10 +4,10 @@
   "strategy": "Momentum/trend: 20g değişim≥%4, MA20>MA50 kırılım; kazananı bırak; backtest-kalibre (alfa ~%-2)",
   "initial": 50000.0,
   "cash": 11610.66,
-  "total_value": 41962.24,
-  "return_pct": -16.08,
+  "total_value": 41983.6,
+  "return_pct": -16.03,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-10-20 14:39",
+  "last_updated": "2026-10-21 07:39",
   "positions": [
     {
       "ticker": "TUPRS",
@@ -15,7 +15,7 @@
       "sector": "Enerji",
       "entry": 309.5,
       "qty": 30,
-      "current": 363.0,
+      "current": 359.0,
       "stop": 278.55,
       "target": 433.3,
       "entry_ts": "2026-07-22 07:10",
@@ -27,11 +27,11 @@
       "sector": "Perakende",
       "entry": 379.25,
       "qty": 1,
-      "current": 385.0,
+      "current": 385.5,
       "stop": 341.32,
       "target": 530.95,
       "entry_ts": "2026-08-03 15:17",
-      "score": 42.3
+      "score": 40.5
     },
     {
       "ticker": "VAKBN",
@@ -39,11 +39,11 @@
       "sector": "Bankacılık",
       "entry": 34.32,
       "qty": 329,
-      "current": 32.68,
+      "current": 33.08,
       "stop": 30.89,
       "target": 48.05,
       "entry_ts": "2026-09-22 08:37",
-      "score": 55.2
+      "score": 58.6
     },
     {
       "ticker": "YKBNK",
@@ -51,11 +51,11 @@
       "sector": "Bankacılık",
       "entry": 36.12,
       "qty": 229,
-      "current": 36.24,
+      "current": 36.28,
       "stop": 32.51,
       "target": 50.57,
       "entry_ts": "2026-10-14 08:39",
-      "score": 69.9
+      "score": 68.1
     },
     {
       "ticker": "ISCTR",
@@ -63,7 +63,7 @@
       "sector": "Bankacılık",
       "entry": 13.0,
       "qty": 2,
-      "current": 12.95,
+      "current": 13.0,
       "stop": 11.7,
       "target": 18.2,
       "entry_ts": "2026-10-14 08:39",
