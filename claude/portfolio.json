@@ -4,10 +4,10 @@
   "strategy": "Kalite+değer, seçici al + uzun tut (ROE≥%10, F/K≤35, trend üstü); backtest-kalibre",
   "initial": 50000.0,
   "cash": 5601.39,
-  "total_value": 48711.81,
-  "return_pct": -2.58,
+  "total_value": 48565.67,
+  "return_pct": -2.87,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-10-21 13:40",
+  "last_updated": "2026-10-21 14:39",
   "positions": [
     {
       "ticker": "BIMAS",
@@ -15,11 +15,11 @@
       "sector": "Perakende",
       "entry": 384.0,
       "qty": 28,
-      "current": 386.0,
+      "current": 385.25,
       "stop": 345.6,
       "target": 764.16,
       "entry_ts": "2026-07-14 15:08",
-      "score": 57.7
+      "score": 47.2
     },
     {
       "ticker": "VAKBN",
@@ -27,11 +27,11 @@
       "sector": "Bankacılık",
       "entry": 31.58,
       "qty": 356,
-      "current": 32.84,
+      "current": 32.6,
       "stop": 28.42,
       "target": 62.84,
       "entry_ts": "2026-07-16 14:38",
-      "score": 60.9
+      "score": 51.4
     },
     {
       "ticker": "TUPRS",
@@ -39,11 +39,11 @@
       "sector": "Enerji",
       "entry": 323.75,
       "qty": 30,
-      "current": 360.25,
+      "current": 359.75,
       "stop": 291.38,
       "target": 644.26,
       "entry_ts": "2026-08-07 10:38",
-      "score": 47.6
+      "score": 48.7
     },
     {
       "ticker": "YKBNK",
@@ -51,7 +51,7 @@
       "sector": "Bankacılık",
       "entry": 37.1,
       "qty": 227,
-      "current": 36.44,
+      "current": 36.34,
       "stop": 33.39,
       "target": 73.83,
       "entry_ts": "2026-09-22 12:38",
@@ -63,7 +63,7 @@
       "sector": "Gıda",
       "entry": 78.7,
       "qty": 20,
-      "current": 76.6,
+      "current": 76.5,
       "stop": 70.83,
       "target": 156.61,
       "entry_ts": "2026-09-30 07:38",
