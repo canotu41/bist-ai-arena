@@ -5,32 +5,32 @@
   },
   "tickers": {
     "AKBNK": {
-      "score": 55,
-      "note": "Teknik analizler ve gap kapanma beklentisi hafif pozitif"
+      "score": 52,
+      "note": "Teknik analizler nötr-pozitif, gap kapanışı beklentisi"
     },
     "GARAN": {
       "score": 40,
-      "note": "Hedef fiyat düşüşü ve haftanın kaybedenleri arasında"
+      "note": "Hedef fiyat 17 TL düşürüldü, haftanın kaybedenleri arasında"
     },
     "ISCTR": {
       "score": 50,
-      "note": "Yalnızca rutin teknik analiz başlıkları, belirgin yön yok"
+      "note": "Sadece teknik analiz ve yorum başlıkları, belirgin yön yok"
     },
     "YKBNK": {
       "score": 52,
-      "note": "Portföy alımları ve teknik analizler hafif olumlu"
+      "note": "Portföy alımları ve teknik analiz, hafif pozitif"
     },
     "VAKBN": {
       "score": 68,
-      "note": "Bilanço beklentileri aşmış, kâr büyümesi güçlü"
+      "note": "2Ç26 kâr beklentisi %42 büyüme, bilanço beklentileri aştı"
     },
     "KCHOL": {
       "score": 58,
-      "note": "Dünyanın en değerli holdingleri arasında, bilanço açıklandı"
+      "note": "Dünyanın en değerli 40 holdingi arasında, bilanço açıklandı"
     },
     "SAHOL": {
       "score": 72,
-      "note": "BofA, Goldman ve CEO'dan yüklü alımlar"
+      "note": "BofA ve Goldman Sachs'tan yüklü alım, CEO hisse alımı"
     },
     "SISE": {
       "score": 35,
@@ -38,69 +38,69 @@
     },
     "THYAO": {
       "score": 55,
-      "note": "Grafikte irtifa koruyor, finansal sonuçlar açıklandı"
+      "note": "İrtifa koruyor, 3Ç26 bilanço beklentisi açıklandı"
     },
     "PGSUS": {
-      "score": 60,
-      "note": "Tahvil ihracı izni ve satın alma haberi olumlu"
+      "score": 58,
+      "note": "Tahvil ihracı izni ve satın alma haberi, IATA başkanlığı"
     },
     "TUPRS": {
-      "score": 45,
-      "note": "Temettü olumlu ancak BofA satışları baskı yaratıyor"
+      "score": 42,
+      "note": "BofA'dan yüklü satışlar baskı yarattı, temettü pozitif"
     },
     "AKSEN": {
-      "score": 55,
-      "note": "Bilanço tahmini ve fiyat hedefi haberleri hafif pozitif"
+      "score": 60,
+      "note": "İş Yatırım model portföye aldı, hedef fiyat dikkat çekici"
     },
     "EREGL": {
       "score": 62,
       "note": "Yabancı yatırımcının en çok aldığı hisse zirvesinde"
     },
     "BIMAS": {
-      "score": 58,
-      "note": "Hisse yükselişi ve bedelsiz sermaye artırımı olumlu"
+      "score": 55,
+      "note": "Hisse yükseliş nedeni haber, teknik analizler nötr"
     },
     "MGROS": {
-      "score": 52,
-      "note": "Bilanço analizi ve teknik başlıklar nötr-pozitif"
+      "score": 38,
+      "note": "Hisse neden düşüyor haberi, negatif baskı"
     },
     "FROTO": {
-      "score": 60,
-      "note": "364 milyon euroluk yatırım hamlesi olumlu"
+      "score": 58,
+      "note": "364 milyon euroluk yatırım hamlesi, orta vade planı"
     },
     "TOASO": {
       "score": 55,
-      "note": "Temettü açıklaması olumlu, belirgin negatif yok"
+      "note": "Temettü açıklaması, nötr-pozitif"
     },
     "ASELS": {
-      "score": 50,
-      "note": "Hedef fiyat artışı var ancak BofA satışı dengeliyor"
+      "score": 48,
+      "note": "Yeni hedef fiyat 560 TL pozitif, BofA satışı negatif"
     },
     "TCELL": {
       "score": 50,
-      "note": "Bilanço tarihi ve rutin açıklamalar, nötr"
+      "note": "Bilanço tarihi ve SEC açıklaması, belirgin yön yok"
     },
     "TTKOM": {
       "score": 52,
-      "note": "Bilanço tahmini ve fiyat hedefi hafif pozitif"
+      "note": "2Ç26 bilanço tahmini ve hedef fiyat, hafif pozitif"
     },
     "ULKER": {
       "score": 62,
-      "note": "Temettü dağıtımı ve hedef fiyat yükseltmesi"
+      "note": "Temettü dağıtımı ve hedef fiyat yükseltildi"
     },
     "CCOLA": {
-      "score": 42,
-      "note": "Hisse bugün neden düşüyor sorusu negatif sinyal"
+      "score": 50,
+      "note": "Bilanço tarihi ve hedef fiyat, nötr"
     },
     "ARCLK": {
-      "score": 50,
-      "note": "Satın alma ve hisse satışı kararı karışık sinyal"
+      "score": 48,
+      "note": "Satın alma ve hisse satışı kararı, karışık sinyal"
     },
     "EKGYO": {
-      "score": 58,
-      "note": "Hedef fiyat artışı ve geri alım programı olumlu"
+      "score": 60,
+      "note": "Yeni hedef fiyat 30,96 TL ve geri alım açıklaması"
     }
   },
-  "_ts": 1792568288,
+  "_ts": 1792579173,
   "_source": "deepseek-llm"
 }
