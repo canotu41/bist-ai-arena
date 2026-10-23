@@ -4,10 +4,10 @@
   "strategy": "Momentum/trend: 20g değişim≥%4, MA20>MA50 kırılım; kazananı bırak; backtest-kalibre (alfa ~%-2)",
   "initial": 50000.0,
   "cash": 21886.71,
-  "total_value": 40443.05,
-  "return_pct": -19.11,
+  "total_value": 40491.37,
+  "return_pct": -19.02,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-10-23 13:39",
+  "last_updated": "2026-10-23 14:40",
   "positions": [
     {
       "ticker": "TUPRS",
@@ -15,11 +15,11 @@
       "sector": "Enerji",
       "entry": 309.5,
       "qty": 30,
-      "current": 355.5,
+      "current": 356.5,
       "stop": 278.55,
       "target": 433.3,
       "entry_ts": "2026-07-22 07:10",
-      "score": 45.6
+      "score": 47.4
     },
     {
       "ticker": "YKBNK",
@@ -27,7 +27,7 @@
       "sector": "Bankacılık",
       "entry": 36.12,
       "qty": 229,
-      "current": 34.46,
+      "current": 34.54,
       "stop": 32.51,
       "target": 50.57,
       "entry_ts": "2026-10-14 08:39",
