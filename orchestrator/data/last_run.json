@@ -1,5 +1,5 @@
 {
-  "ts": "2026-10-23 11:40:14",
+  "ts": "2026-10-23 12:39:38",
   "health": {
     "ok": true,
     "live": 24,
@@ -10,9 +10,9 @@
   },
   "active_competitors": 5,
   "consensus_tickers": [
-    "YKBNK",
     "TUPRS",
     "VAKBN",
+    "YKBNK",
     "BIMAS",
     "KCHOL",
     "GARAN"
@@ -20,23 +20,23 @@
   "leaderboard": [
     {
       "name": "Claude AI",
-      "return_pct": -7.17
+      "return_pct": -8.16
     },
     {
       "name": "DeepSeek AI",
-      "return_pct": -13.04
+      "return_pct": -13.72
     },
     {
       "name": "Konsensüs (Claude)",
-      "return_pct": -13.06
+      "return_pct": -14.11
     },
     {
       "name": "Codex",
-      "return_pct": -16.54
+      "return_pct": -17.22
     },
     {
       "name": "Microsoft Copilot",
-      "return_pct": -19.32
+      "return_pct": -19.65
     }
   ]
 }
