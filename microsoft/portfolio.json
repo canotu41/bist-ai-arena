@@ -3,11 +3,11 @@
   "name": "Microsoft Copilot Portföyü",
   "strategy": "Momentum/trend: 20g değişim≥%4, MA20>MA50 kırılım; kazananı bırak; backtest-kalibre (alfa ~%-2)",
   "initial": 50000.0,
-  "cash": 11992.64,
-  "total_value": 41184.8,
-  "return_pct": -17.63,
+  "cash": 21862.6,
+  "total_value": 40467.24,
+  "return_pct": -19.07,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-10-22 14:39",
+  "last_updated": "2026-10-23 07:39",
   "positions": [
     {
       "ticker": "TUPRS",
@@ -15,23 +15,11 @@
       "sector": "Enerji",
       "entry": 309.5,
       "qty": 30,
-      "current": 353.75,
+      "current": 353.25,
       "stop": 278.55,
       "target": 433.3,
       "entry_ts": "2026-07-22 07:10",
-      "score": 43.7
-    },
-    {
-      "ticker": "VAKBN",
-      "name": "VakıfBank",
-      "sector": "Bankacılık",
-      "entry": 34.32,
-      "qty": 329,
-      "current": 31.52,
-      "stop": 30.89,
-      "target": 48.05,
-      "entry_ts": "2026-09-22 08:37",
-      "score": 44.6
+      "score": 45.6
     },
     {
       "ticker": "YKBNK",
@@ -39,11 +27,11 @@
       "sector": "Bankacılık",
       "entry": 36.12,
       "qty": 229,
-      "current": 35.74,
+      "current": 34.86,
       "stop": 32.51,
       "target": 50.57,
       "entry_ts": "2026-10-14 08:39",
-      "score": 68.6
+      "score": 59.5
     },
     {
       "ticker": "ISCTR",
@@ -51,11 +39,11 @@
       "sector": "Bankacılık",
       "entry": 13.0,
       "qty": 2,
-      "current": 12.56,
+      "current": 12.1,
       "stop": 11.7,
       "target": 18.2,
       "entry_ts": "2026-10-14 08:39",
-      "score": 52.3
+      "score": 53.2
     }
   ],
   "trades": [
@@ -256,6 +244,15 @@
       "price": 382.75,
       "amount": 382.75,
       "reason": "SKOR düştü (38 < 40)"
+    },
+    {
+      "ts": "2026-10-23 07:39",
+      "side": "SELL",
+      "ticker": "VAKBN",
+      "qty": 329,
+      "price": 30.06,
+      "amount": 9889.74,
+      "reason": "STOP-LOSS (%-12.4)"
     }
   ]
 }

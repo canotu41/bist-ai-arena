@@ -3,11 +3,11 @@
   "name": "Codex Portföyü",
   "strategy": "Önce risk: düşük vol (ATR≤%3.6), RSI 40-68, MA50 üstü; seçici, uzun tut; backtest-kalibre",
   "initial": 50000.0,
-  "cash": 5451.27,
-  "total_value": 42898.83,
-  "return_pct": -14.2,
+  "cash": 17332.9,
+  "total_value": 41760.56,
+  "return_pct": -16.48,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-10-22 14:39",
+  "last_updated": "2026-10-23 07:39",
   "positions": [
     {
       "ticker": "BIMAS",
@@ -15,11 +15,11 @@
       "sector": "Perakende",
       "entry": 381.5,
       "qty": 19,
-      "current": 371.75,
+      "current": 367.5,
       "stop": 343.35,
       "target": 534.1,
       "entry_ts": "2026-07-14 10:38",
-      "score": 45.6
+      "score": 46.9
     },
     {
       "ticker": "KCHOL",
@@ -27,11 +27,11 @@
       "sector": "Holding",
       "entry": 195.3,
       "qty": 38,
-      "current": 197.2,
+      "current": 194.5,
       "stop": 175.77,
       "target": 273.42,
       "entry_ts": "2026-07-16 08:38",
-      "score": 55.0
+      "score": 45.4
     },
     {
       "ticker": "VAKBN",
@@ -39,11 +39,11 @@
       "sector": "Bankacılık",
       "entry": 31.9,
       "qty": 51,
-      "current": 31.52,
+      "current": 30.06,
       "stop": 28.71,
       "target": 44.66,
       "entry_ts": "2026-08-31 11:38",
-      "score": 54.6
+      "score": 58.5
     },
     {
       "ticker": "GARAN",
@@ -51,35 +51,11 @@
       "sector": "Bankacılık",
       "entry": 129.4,
       "qty": 53,
-      "current": 129.4,
+      "current": 124.6,
       "stop": 116.46,
       "target": 181.16,
       "entry_ts": "2026-09-17 09:38",
-      "score": 64.8
-    },
-    {
-      "ticker": "EKGYO",
-      "name": "Emlak Konut GYO",
-      "sector": "Gayrimenkul",
-      "entry": 19.69,
-      "qty": 348,
-      "current": 17.83,
-      "stop": 17.72,
-      "target": 27.57,
-      "entry_ts": "2026-10-06 08:39",
-      "score": 54.0
-    },
-    {
-      "ticker": "TCELL",
-      "name": "Turkcell",
-      "sector": "Telekom",
-      "entry": 101.3,
-      "qty": 67,
-      "current": 93.35,
-      "stop": 91.17,
-      "target": 141.82,
-      "entry_ts": "2026-10-06 09:39",
-      "score": 49.6
+      "score": 61.1
     },
     {
       "ticker": "YKBNK",
@@ -87,11 +63,11 @@
       "sector": "Bankacılık",
       "entry": 36.56,
       "qty": 55,
-      "current": 35.74,
+      "current": 34.86,
       "stop": 32.9,
       "target": 51.18,
       "entry_ts": "2026-10-07 08:39",
-      "score": 66.4
+      "score": 62.2
     }
   ],
   "trades": [
@@ -319,6 +295,24 @@
       "price": 36.56,
       "amount": 2010.8,
       "reason": "Codex skoru 66 (>=62)"
+    },
+    {
+      "ts": "2026-10-23 07:39",
+      "side": "SELL",
+      "ticker": "EKGYO",
+      "qty": 348,
+      "price": 17.23,
+      "amount": 5996.04,
+      "reason": "STOP-LOSS (%-12.5)"
+    },
+    {
+      "ts": "2026-10-23 07:39",
+      "side": "SELL",
+      "ticker": "TCELL",
+      "qty": 67,
+      "price": 88.2,
+      "amount": 5909.4,
+      "reason": "STOP-LOSS (%-12.9)"
     }
   ]
 }
