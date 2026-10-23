@@ -3,11 +3,11 @@
   "name": "Microsoft Copilot Portföyü",
   "strategy": "Momentum/trend: 20g değişim≥%4, MA20>MA50 kırılım; kazananı bırak; backtest-kalibre (alfa ~%-2)",
   "initial": 50000.0,
-  "cash": 21862.6,
-  "total_value": 40534.86,
-  "return_pct": -18.93,
+  "cash": 21886.71,
+  "total_value": 40435.49,
+  "return_pct": -19.13,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-10-23 08:38",
+  "last_updated": "2026-10-23 09:39",
   "positions": [
     {
       "ticker": "TUPRS",
@@ -15,11 +15,11 @@
       "sector": "Enerji",
       "entry": 309.5,
       "qty": 30,
-      "current": 355.5,
+      "current": 352.5,
       "stop": 278.55,
       "target": 433.3,
       "entry_ts": "2026-07-22 07:10",
-      "score": 45.6
+      "score": 56.9
     },
     {
       "ticker": "YKBNK",
@@ -27,23 +27,11 @@
       "sector": "Bankacılık",
       "entry": 36.12,
       "qty": 229,
-      "current": 34.86,
+      "current": 34.82,
       "stop": 32.51,
       "target": 50.57,
       "entry_ts": "2026-10-14 08:39",
-      "score": 59.5
-    },
-    {
-      "ticker": "ISCTR",
-      "name": "İş Bankası (C)",
-      "sector": "Bankacılık",
-      "entry": 13.0,
-      "qty": 2,
-      "current": 12.16,
-      "stop": 11.7,
-      "target": 18.2,
-      "entry_ts": "2026-10-14 08:39",
-      "score": 53.2
+      "score": 60.9
     }
   ],
   "trades": [
@@ -253,6 +241,15 @@
       "price": 30.06,
       "amount": 9889.74,
       "reason": "STOP-LOSS (%-12.4)"
+    },
+    {
+      "ts": "2026-10-23 09:39",
+      "side": "SELL",
+      "ticker": "ISCTR",
+      "qty": 2,
+      "price": 12.08,
+      "amount": 24.16,
+      "reason": "SKOR düştü (40 < 40)"
     }
   ]
 }
