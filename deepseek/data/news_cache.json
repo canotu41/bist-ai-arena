@@ -5,40 +5,40 @@
   },
   "tickers": {
     "AKBNK": {
-      "score": 52,
-      "note": "Teknik analiz ve grafik haberleri; belirgin yön yok"
+      "score": 50,
+      "note": "Teknik analiz ve grafik başlıkları; net yön yok"
     },
     "GARAN": {
-      "score": 50,
-      "note": "Bilanço ve kritik seviye analizleri; nötr"
+      "score": 52,
+      "note": "Bilanço ve kritik seviye analizleri; hafif olumlu"
     },
     "ISCTR": {
       "score": 50,
-      "note": "Sadece teknik analiz ve yorum başlıkları"
+      "note": "Yalnızca teknik analiz başlıkları"
     },
     "YKBNK": {
-      "score": 52,
-      "note": "Portföy işlemleri ve teknik analiz; hafif olumlu"
+      "score": 58,
+      "note": "BofA tercih listesinde; olumlu"
     },
     "VAKBN": {
-      "score": 62,
-      "note": "Beklentileri aşan bilanço ve güçlü kâr tahmini"
+      "score": 60,
+      "note": "Hisse geri alımı haberi olumlu"
     },
     "KCHOL": {
       "score": 50,
-      "note": "Bilanço analizleri; belirgin yön yok"
+      "note": "Bilanço analizi; net yön belirsiz"
     },
     "SAHOL": {
-      "score": 62,
-      "note": "CEO ve Goldman Sachs pay alımları olumlu"
+      "score": 65,
+      "note": "CEO ve Goldman Sachs pay alımı olumlu"
     },
     "SISE": {
-      "score": 38,
-      "note": "Bilanço sonrası sert düşüş ve hedef fiyat indirimi"
+      "score": 35,
+      "note": "Bilanço sonrası sert düşüş, hedef fiyat indirimi"
     },
     "THYAO": {
       "score": 55,
-      "note": "İrtifa koruma ve bilanço beklentisi hafif olumlu"
+      "note": "İrtifa koruyor, bilanço beklentisi"
     },
     "PGSUS": {
       "score": 58,
@@ -46,31 +46,31 @@
     },
     "TUPRS": {
       "score": 55,
-      "note": "Temettü ödemesi ve bilanço tarihi; hafif olumlu"
+      "note": "Temettü ödemesi ve bilanço tarihi"
     },
     "AKSEN": {
-      "score": 60,
-      "note": "Hedef fiyat ve model portföye alım"
+      "score": 50,
+      "note": "Grafik ve hedef fiyat başlıkları; net yön yok"
     },
     "EREGL": {
-      "score": 62,
-      "note": "Kâr artışı ve yabancı alımı zirvede"
+      "score": 65,
+      "note": "Beklenti üstü bilanço, kâr artışı"
     },
     "BIMAS": {
-      "score": 58,
-      "note": "Yükseliş ve alım haberi olumlu"
+      "score": 60,
+      "note": "Alım haberi ve yükseliş nedeni"
     },
     "MGROS": {
-      "score": 50,
-      "note": "Bilanço ve teknik analiz; nötr"
+      "score": 40,
+      "note": "Düşüş sorgusu; olumsuz ton"
     },
     "FROTO": {
-      "score": 55,
-      "note": "Yatırım hamlesi olumlu, portföy satışı dengeli"
+      "score": 58,
+      "note": "364 milyon euroluk yatırım hamlesi olumlu"
     },
     "TOASO": {
-      "score": 52,
-      "note": "Temettü açıklaması; hafif olumlu"
+      "score": 55,
+      "note": "Temettü açıklaması olumlu"
     },
     "ASELS": {
       "score": 45,
@@ -82,25 +82,25 @@
     },
     "TTKOM": {
       "score": 50,
-      "note": "Bilanço tahmini ve teknik analiz; nötr"
+      "note": "Hedef fiyat ve bilanço tahmini; nötr"
     },
     "ULKER": {
       "score": 55,
-      "note": "Temettü dağıtımı ve bilanço; hafif olumlu"
+      "note": "Temettü dağıtımı olumlu"
     },
     "CCOLA": {
       "score": 50,
       "note": "Bilanço tarihi ve yorumlar; nötr"
     },
     "ARCLK": {
-      "score": 50,
-      "note": "Satın alma ve hisse satışı kararı dengeli"
+      "score": 48,
+      "note": "Satın alma ve hisse satışı kararı karışık"
     },
     "EKGYO": {
-      "score": 58,
-      "note": "Yeni hedef fiyat ve geri alım olumlu"
+      "score": 60,
+      "note": "Geri alım ve yeni hedef fiyat olumlu"
     }
   },
-  "_ts": 1792741079,
+  "_ts": 1792751928,
   "_source": "deepseek-llm"
 }
