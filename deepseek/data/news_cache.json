@@ -1,106 +1,106 @@
 {
   "market": {
-    "score": 28,
+    "score": 38,
     "trend": "negatif"
   },
   "tickers": {
     "AKBNK": {
-      "score": 58,
-      "note": "Dev kredi anlaşması olumlu, hedef fiyat haberleri destekleyici"
+      "score": 62,
+      "note": "Dev kredi anlaşması olumlu"
     },
     "GARAN": {
-      "score": 52,
-      "note": "Bilanço ve teknik analiz haberleri nötr-pozitif"
+      "score": 55,
+      "note": "Bilanço ve teknik analiz, nötr-pozitif"
     },
     "ISCTR": {
       "score": 50,
-      "note": "Yalnızca teknik analiz ve yorum başlıkları, belirgin yön yok"
+      "note": "Sadece teknik analiz, nötr"
     },
     "YKBNK": {
       "score": 60,
-      "note": "BofA tercih listesinde, alım haberi pozitif"
+      "note": "BofA tercih etti, alım"
     },
     "VAKBN": {
-      "score": 58,
-      "note": "Geri alım ve endeksten pozitif ayrışma olumlu"
+      "score": 62,
+      "note": "Geri alım, pozitif ayrışma"
     },
     "KCHOL": {
-      "score": 55,
-      "note": "Temettü kararı ve bilanço analizi ılımlı pozitif"
+      "score": 52,
+      "note": "Bilanço analizi, nötr"
     },
     "SAHOL": {
       "score": 50,
-      "note": "Lot işlemi ve teknik analiz, net yön yok"
+      "note": "Lot işlemi belirsiz, nötr"
     },
     "SISE": {
       "score": 38,
-      "note": "Bilanço sonrası sert düşüş ve hedef fiyat indirimi negatif"
+      "note": "Bilanço sonrası sert düşüş"
     },
     "THYAO": {
-      "score": 52,
-      "note": "Kredi derecelendirmesi ve teknik görünüm nötr-pozitif"
+      "score": 55,
+      "note": "İrtifa koruyor, kredi notu"
     },
     "PGSUS": {
-      "score": 58,
-      "note": "Tahvil ihracı izni ve IATA başkanlığı olumlu"
+      "score": 60,
+      "note": "Smartwings satın alımı"
     },
     "TUPRS": {
-      "score": 62,
-      "note": "Hedef fiyat yükseltme ve al tavsiyesi pozitif"
+      "score": 65,
+      "note": "Hedef fiyat yükseldi, al tavsiyesi"
     },
     "AKSEN": {
-      "score": 58,
-      "note": "Model portföye alınma ve hedef fiyat ilgisi olumlu"
+      "score": 62,
+      "note": "Model portföye alındı"
     },
     "EREGL": {
-      "score": 55,
-      "note": "Satış ve net kâr artışı, kredi notu haberi ılımlı pozitif"
+      "score": 50,
+      "note": "Kredi notu ve bilanço, nötr"
     },
     "BIMAS": {
-      "score": 60,
-      "note": "Yükseliş ve içeriden alım haberleri pozitif"
+      "score": 65,
+      "note": "Patron alımı, yükseliş"
     },
     "MGROS": {
-      "score": 40,
-      "note": "Düşüş nedeni haberleri negatif baskı"
+      "score": 35,
+      "note": "Hisse neden düşüyor, negatif"
     },
     "FROTO": {
       "score": 45,
-      "note": "Yatırım hamlesi olumlu ancak düşüş sebepleri negatif"
+      "note": "Yatırım var ama düşüş sebepleri"
     },
     "TOASO": {
-      "score": 52,
-      "note": "Temettü ve kredi anlaşması nötr-pozitif"
+      "score": 58,
+      "note": "Temettü verimi yüksek"
     },
     "ASELS": {
-      "score": 45,
-      "note": "BofA satışı negatif, hedef fiyat artışı dengeleyici"
+      "score": 30,
+      "note": "Taban oldu, negatif"
     },
     "TCELL": {
-      "score": 52,
-      "note": "Temettü kararı olumlu, SEC açıklaması nötr"
+      "score": 60,
+      "note": "Pay geri alımı"
     },
     "TTKOM": {
       "score": 50,
-      "note": "Bilanço tahmini ve teknik analiz, net yön yok"
+      "note": "Bilanço tahmini, nötr"
     },
     "ULKER": {
-      "score": 55,
-      "note": "Temettü dağıtımı ve bilanço haberi ılımlı pozitif"
+      "score": 65,
+      "note": "Temettü ve hedef fiyat artışı"
     },
     "CCOLA": {
-      "score": 50,
-      "note": "Bilanço tarihi ve teknik analiz, belirgin yön yok"
+      "score": 58,
+      "note": "%56 getiri, pozitif"
     },
     "ARCLK": {
-      "score": 32,
-      "note": "Beklentileri aşan zarar açıklaması negatif"
+      "score": 35,
+      "note": "Zarar beklentiyi aştı"
     },
     "EKGYO": {
-      "score": 55,
-      "note": "Geri alım ve hedef fiyat haberi olumlu"
+      "score": 60,
+      "note": "Geri alım ve hedef fiyat"
     }
   },
-  "_ts": 1793097590,
+  "_ts": 1793108653,
   "_source": "deepseek-llm"
 }
