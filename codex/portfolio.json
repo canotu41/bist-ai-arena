@@ -4,10 +4,10 @@
   "strategy": "Önce risk: düşük vol (ATR≤%3.6), RSI 40-68, MA50 üstü; seçici, uzun tut; backtest-kalibre",
   "initial": 50000.0,
   "cash": 17332.9,
-  "total_value": 42207.68,
-  "return_pct": -15.58,
+  "total_value": 42140.62,
+  "return_pct": -15.72,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-10-27 08:39",
+  "last_updated": "2026-10-27 09:39",
   "positions": [
     {
       "ticker": "BIMAS",
@@ -15,11 +15,11 @@
       "sector": "Perakende",
       "entry": 381.5,
       "qty": 19,
-      "current": 374.5,
+      "current": 372.5,
       "stop": 343.35,
       "target": 534.1,
       "entry_ts": "2026-07-14 10:38",
-      "score": 47.2
+      "score": 56.8
     },
     {
       "ticker": "KCHOL",
@@ -27,7 +27,7 @@
       "sector": "Holding",
       "entry": 195.3,
       "qty": 38,
-      "current": 199.9,
+      "current": 199.5,
       "stop": 175.77,
       "target": 273.42,
       "entry_ts": "2026-07-16 08:38",
@@ -39,7 +39,7 @@
       "sector": "Bankacılık",
       "entry": 31.9,
       "qty": 51,
-      "current": 29.88,
+      "current": 29.82,
       "stop": 28.71,
       "target": 44.66,
       "entry_ts": "2026-08-31 11:38",
@@ -51,7 +51,7 @@
       "sector": "Bankacılık",
       "entry": 129.4,
       "qty": 53,
-      "current": 126.6,
+      "current": 126.5,
       "stop": 116.46,
       "target": 181.16,
       "entry_ts": "2026-09-17 09:38",
@@ -63,11 +63,11 @@
       "sector": "Bankacılık",
       "entry": 36.56,
       "qty": 55,
-      "current": 35.08,
+      "current": 34.98,
       "stop": 32.9,
       "target": 51.18,
       "entry_ts": "2026-10-07 08:39",
-      "score": 62.7
+      "score": 60.9
     }
   ],
   "trades": [
