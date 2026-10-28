@@ -1,106 +1,106 @@
 {
   "market": {
-    "score": 38,
-    "trend": "negatif"
+    "score": 42,
+    "trend": "Negatif"
   },
   "tickers": {
     "AKBNK": {
-      "score": 62,
-      "note": "Dev kredi anlaşması olumlu"
+      "score": 68,
+      "note": "Net kâr %18 artışla 45,9 milyar TL"
     },
     "GARAN": {
       "score": 55,
-      "note": "Bilanço ve teknik analiz, nötr-pozitif"
+      "note": "Fon çıkışı yok, bilanço açıklaması nötr-pozitif"
     },
     "ISCTR": {
       "score": 50,
-      "note": "Sadece teknik analiz, nötr"
+      "note": "Sadece teknik analiz başlıkları, belirgin sinyal yok"
     },
     "YKBNK": {
-      "score": 60,
-      "note": "BofA tercih etti, alım"
+      "score": 58,
+      "note": "BofA alımı pozitif, hedef fiyat haberleri"
     },
     "VAKBN": {
       "score": 62,
-      "note": "Geri alım, pozitif ayrışma"
+      "note": "200 milyon euroluk finansman ve beklenti üstü bilanço"
     },
     "KCHOL": {
       "score": 52,
-      "note": "Bilanço analizi, nötr"
+      "note": "Bilanço analizi ve teknik yorum, nötr"
     },
     "SAHOL": {
-      "score": 50,
-      "note": "Lot işlemi belirsiz, nötr"
+      "score": 60,
+      "note": "Geri alım ve %55 getiri sinyali pozitif"
     },
     "SISE": {
       "score": 38,
-      "note": "Bilanço sonrası sert düşüş"
+      "note": "Bilanço sonrası sert düşüş, hedef fiyat geriledi"
     },
     "THYAO": {
-      "score": 55,
-      "note": "İrtifa koruyor, kredi notu"
+      "score": 52,
+      "note": "Kredi derecelendirme ve teknik takip, nötr"
     },
     "PGSUS": {
-      "score": 60,
-      "note": "Smartwings satın alımı"
+      "score": 58,
+      "note": "Tahvil ihracı izni ve satın alma haberi"
     },
     "TUPRS": {
       "score": 65,
-      "note": "Hedef fiyat yükseldi, al tavsiyesi"
+      "note": "Hedef fiyat yükseldi, al tavsiyesi, temettü"
     },
     "AKSEN": {
-      "score": 62,
-      "note": "Model portföye alındı"
+      "score": 60,
+      "note": "Model portföye alındı, hedef fiyat dikkat çekici"
     },
     "EREGL": {
-      "score": 50,
-      "note": "Kredi notu ve bilanço, nötr"
+      "score": 62,
+      "note": "Beklenti üstü bilanço sonrası hedef fiyatlar"
     },
     "BIMAS": {
-      "score": 65,
-      "note": "Patron alımı, yükseliş"
+      "score": 60,
+      "note": "Hisse yükselişi ve içeriden alım"
     },
     "MGROS": {
       "score": 35,
-      "note": "Hisse neden düşüyor, negatif"
+      "note": "Net kâr %42 düştü, hisse düşüşü"
     },
     "FROTO": {
-      "score": 45,
-      "note": "Yatırım var ama düşüş sebepleri"
+      "score": 58,
+      "note": "364 milyon euroluk yatırım hamlesi"
     },
     "TOASO": {
-      "score": 58,
-      "note": "Temettü verimi yüksek"
+      "score": 55,
+      "note": "Kredi anlaşması ve temettü, nötr-pozitif"
     },
     "ASELS": {
-      "score": 30,
-      "note": "Taban oldu, negatif"
+      "score": 40,
+      "note": "Hisseler taban oldu, olumsuz fiyat hareketi"
     },
     "TCELL": {
-      "score": 60,
-      "note": "Pay geri alımı"
+      "score": 58,
+      "note": "Pay geri alımı pozitif"
     },
     "TTKOM": {
       "score": 50,
-      "note": "Bilanço tahmini, nötr"
+      "note": "Bilanço tahmini ve teknik analiz, nötr"
     },
     "ULKER": {
-      "score": 65,
-      "note": "Temettü ve hedef fiyat artışı"
+      "score": 60,
+      "note": "Temettü ve hedef fiyat yükseltme"
     },
     "CCOLA": {
-      "score": 58,
-      "note": "%56 getiri, pozitif"
+      "score": 40,
+      "note": "Hisse düşüşü haberi olumsuz"
     },
     "ARCLK": {
-      "score": 35,
-      "note": "Zarar beklentiyi aştı"
+      "score": 30,
+      "note": "Beklentileri aşan zarar açıklaması"
     },
     "EKGYO": {
-      "score": 60,
-      "note": "Geri alım ve hedef fiyat"
+      "score": 55,
+      "note": "Yeni hedef fiyat 30,96 TL"
     }
   },
-  "_ts": 1793108653,
+  "_ts": 1793173096,
   "_source": "deepseek-llm"
 }
