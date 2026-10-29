@@ -5,102 +5,102 @@
   },
   "tickers": {
     "AKBNK": {
-      "score": 62,
-      "note": "Net kâr %18 artışla 45,9 milyar TL"
+      "score": 68,
+      "note": "Kâr %18 artış ve hedef fiyat güncellemeleri olumlu"
     },
     "GARAN": {
-      "score": 58,
-      "note": "3. çeyrek net kâr %16 artış"
+      "score": 62,
+      "note": "Kâr artışı ve analiz ilgisi pozitif"
     },
     "ISCTR": {
-      "score": 50,
-      "note": "Yalnızca teknik analiz/yorum başlıkları"
+      "score": 52,
+      "note": "Yalnızca teknik analiz başlıkları, nötr"
     },
     "YKBNK": {
-      "score": 58,
-      "note": "BofA'nın Yapı Kredi alımı pozitif sinyal"
+      "score": 60,
+      "note": "BofA alımı olumlu sinyal"
     },
     "VAKBN": {
-      "score": 60,
-      "note": "Geri alım haberi, endeksten pozitif ayrışma"
+      "score": 64,
+      "note": "Beklenti aşan bilanço ve euro finansman"
     },
     "KCHOL": {
-      "score": 50,
-      "note": "Bilanço ve teknik analiz, net yön yok"
+      "score": 58,
+      "note": "Temettü kararı ve bilanço analizi ılımlı pozitif"
     },
     "SAHOL": {
-      "score": 62,
-      "note": "7 milyar TL geri alım kararı ve %55 getiri"
+      "score": 52,
+      "note": "Lot hareketi ve teknik analiz, nötr"
     },
     "SISE": {
-      "score": 32,
-      "note": "Bilanço sonrası sert düşüş, hedef fiyat indirimi"
+      "score": 34,
+      "note": "Bilanço sonrası sert düşüş ve hedef fiyat indirimi"
     },
     "THYAO": {
-      "score": 50,
-      "note": "Kredi derecelendirme ve teknik analiz, nötr"
+      "score": 54,
+      "note": "Teknik görünüm olumlu, belirgin haber yok"
     },
     "PGSUS": {
-      "score": 55,
-      "note": "250 milyon dolarlık tahvil ihracı izni"
+      "score": 60,
+      "note": "Smartwings satın alımı büyüme sinyali"
     },
     "TUPRS": {
-      "score": 52,
-      "note": "Temettü ödemesi takvimi, hafif pozitif"
+      "score": 66,
+      "note": "Hedef fiyat yükseldi, al tavsiyesi ve temettü"
     },
     "AKSEN": {
-      "score": 58,
-      "note": "İş Yatırım model portföye aldı"
+      "score": 62,
+      "note": "Model portföye alım ve hedef fiyat ilgisi"
     },
     "EREGL": {
-      "score": 50,
-      "note": "Kredi notu ve yorum başlıkları, net yön yok"
+      "score": 52,
+      "note": "Kredi notu haberi, yön belirsiz"
     },
     "BIMAS": {
-      "score": 58,
-      "note": "İçeriden alım ve yükseliş haberi"
+      "score": 62,
+      "note": "İçeriden alım ve yükseliş ilgisi"
     },
     "MGROS": {
-      "score": 40,
-      "note": "Düşüş haberi, teknik analiz"
+      "score": 56,
+      "note": "Yükseliş potansiyeli var ancak düşüş haberi de mevcut"
     },
     "FROTO": {
-      "score": 58,
-      "note": "364 milyon euroluk yatırım hamlesi"
+      "score": 62,
+      "note": "364 milyon euroluk yatırım hamlesi olumlu"
     },
     "TOASO": {
-      "score": 55,
-      "note": "Kredi anlaşması ve temettü, hafif pozitif"
+      "score": 58,
+      "note": "Temettü verimi ve getiri potansiyeli"
     },
     "ASELS": {
-      "score": 62,
-      "note": "En çok yükselen hisse, yeni iş ilişkisi"
+      "score": 66,
+      "note": "En çok yükselen ve yeni iş ilişkisi"
     },
     "TCELL": {
-      "score": 55,
-      "note": "Pay geri alım bildirimi"
+      "score": 60,
+      "note": "Hisse geri alım açıklaması destekleyici"
     },
     "TTKOM": {
       "score": 50,
-      "note": "Bilanço tahmini ve teknik analiz, nötr"
+      "note": "Yalnızca teknik analiz başlıkları, nötr"
     },
     "ULKER": {
-      "score": 55,
+      "score": 58,
       "note": "Temettü dağıtımı ve bilanço"
     },
     "CCOLA": {
-      "score": 40,
-      "note": "Düşüş haberi, teknik analiz"
+      "score": 42,
+      "note": "Düşüş haberi negatif baskın"
     },
     "ARCLK": {
       "score": 30,
-      "note": "Beklentileri aşan zarar açıklaması"
+      "note": "Beklentileri aşan zarar, belirgin negatif"
     },
     "EKGYO": {
-      "score": 58,
-      "note": "Yeni hedef fiyat ve geri alım"
+      "score": 60,
+      "note": "Yeni hedef fiyat ve geri alım olumlu"
     }
   },
-  "_ts": 1793270381,
+  "_ts": 1793281914,
   "_source": "deepseek-llm"
 }
