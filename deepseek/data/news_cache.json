@@ -5,102 +5,102 @@
   },
   "tickers": {
     "AKBNK": {
-      "score": 65,
-      "note": "Net kâr %18 artış, güçlü bilanço"
+      "score": 62,
+      "note": "Net kâr %18 artışla 45,9 milyar TL"
     },
     "GARAN": {
-      "score": 65,
-      "note": "9 aylık net kâr %16 artış"
+      "score": 58,
+      "note": "3. çeyrek net kâr %16 artış"
     },
     "ISCTR": {
       "score": 50,
-      "note": "Yalnızca teknik analiz başlıkları, nötr"
+      "note": "Yalnızca teknik analiz/yorum başlıkları"
     },
     "YKBNK": {
       "score": 58,
-      "note": "BofA alımı olumlu sinyal"
+      "note": "BofA'nın Yapı Kredi alımı pozitif sinyal"
     },
     "VAKBN": {
       "score": 60,
-      "note": "Geri alım, endeksten pozitif ayrışma"
+      "note": "Geri alım haberi, endeksten pozitif ayrışma"
     },
     "KCHOL": {
       "score": 50,
-      "note": "Bilanço ve teknik başlıklar, belirgin yön yok"
+      "note": "Bilanço ve teknik analiz, net yön yok"
     },
     "SAHOL": {
-      "score": 50,
-      "note": "Nötr başlıklar, hisse hareketi belirsiz"
+      "score": 62,
+      "note": "7 milyar TL geri alım kararı ve %55 getiri"
     },
     "SISE": {
-      "score": 30,
+      "score": 32,
       "note": "Bilanço sonrası sert düşüş, hedef fiyat indirimi"
     },
     "THYAO": {
-      "score": 52,
-      "note": "Teknik başlıklar hafif olumlu, irtifa koruyor"
+      "score": 50,
+      "note": "Kredi derecelendirme ve teknik analiz, nötr"
     },
     "PGSUS": {
-      "score": 58,
-      "note": "Tahvil ihracı izni ve IATA başkanlığı olumlu"
+      "score": 55,
+      "note": "250 milyon dolarlık tahvil ihracı izni"
     },
     "TUPRS": {
-      "score": 55,
-      "note": "Temettü ödemesi pozitif"
+      "score": 52,
+      "note": "Temettü ödemesi takvimi, hafif pozitif"
     },
     "AKSEN": {
-      "score": 60,
-      "note": "İş Yatırım model portföye aldı, hedef fiyat"
+      "score": 58,
+      "note": "İş Yatırım model portföye aldı"
     },
     "EREGL": {
       "score": 50,
-      "note": "Kredi notu haberi, yön belirsiz"
+      "note": "Kredi notu ve yorum başlıkları, net yön yok"
     },
     "BIMAS": {
-      "score": 60,
-      "note": "Bedelsiz sermaye artırımı ve yükseliş"
+      "score": 58,
+      "note": "İçeriden alım ve yükseliş haberi"
     },
     "MGROS": {
-      "score": 35,
-      "note": "Hisse neden düşüyor başlığı negatif"
+      "score": 40,
+      "note": "Düşüş haberi, teknik analiz"
     },
     "FROTO": {
-      "score": 60,
+      "score": 58,
       "note": "364 milyon euroluk yatırım hamlesi"
     },
     "TOASO": {
       "score": 55,
-      "note": "Temettü verimi ve getiri potansiyeli"
+      "note": "Kredi anlaşması ve temettü, hafif pozitif"
     },
     "ASELS": {
-      "score": 70,
-      "note": "En çok yükselen, hedef fiyat yükseltildi, yeni iş ilişkisi"
+      "score": 62,
+      "note": "En çok yükselen hisse, yeni iş ilişkisi"
     },
     "TCELL": {
-      "score": 60,
-      "note": "Hisse geri alım açıklaması"
+      "score": 55,
+      "note": "Pay geri alım bildirimi"
     },
     "TTKOM": {
       "score": 50,
-      "note": "Bilanço tahmini ve teknik, nötr"
+      "note": "Bilanço tahmini ve teknik analiz, nötr"
     },
     "ULKER": {
-      "score": 58,
-      "note": "Temettü dağıtımı olumlu"
+      "score": 55,
+      "note": "Temettü dağıtımı ve bilanço"
     },
     "CCOLA": {
-      "score": 35,
-      "note": "Hisse neden düşüyor başlığı negatif"
+      "score": 40,
+      "note": "Düşüş haberi, teknik analiz"
     },
     "ARCLK": {
-      "score": 25,
-      "note": "Beklentileri aşan zarar, güçlü negatif"
+      "score": 30,
+      "note": "Beklentileri aşan zarar açıklaması"
     },
     "EKGYO": {
-      "score": 62,
-      "note": "Yeni hedef fiyat ve 1 milyar TL geri alım"
+      "score": 58,
+      "note": "Yeni hedef fiyat ve geri alım"
     }
   },
-  "_ts": 1793259532,
+  "_ts": 1793270381,
   "_source": "deepseek-llm"
 }
