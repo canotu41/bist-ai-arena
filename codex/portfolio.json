@@ -7,7 +7,7 @@
   "total_value": 42028.67,
   "return_pct": -15.94,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-10-29 08:39",
+  "last_updated": "2026-10-29 09:39",
   "positions": [
     {
       "ticker": "BIMAS",
@@ -43,7 +43,7 @@
       "stop": 28.71,
       "target": 44.66,
       "entry_ts": "2026-08-31 11:38",
-      "score": 49.1
+      "score": 57.2
     },
     {
       "ticker": "GARAN",
@@ -55,7 +55,7 @@
       "stop": 116.46,
       "target": 181.16,
       "entry_ts": "2026-09-17 09:38",
-      "score": 62.6
+      "score": 63.2
     },
     {
       "ticker": "YKBNK",
