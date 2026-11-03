@@ -4,10 +4,10 @@
   "strategy": "Önce risk: düşük vol (ATR≤%3.6), RSI 40-68, MA50 üstü; seçici, uzun tut; backtest-kalibre",
   "initial": 50000.0,
   "cash": 17332.9,
-  "total_value": 41581.66,
-  "return_pct": -16.84,
+  "total_value": 41719.98,
+  "return_pct": -16.56,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-11-03 12:39",
+  "last_updated": "2026-11-03 13:39",
   "positions": [
     {
       "ticker": "BIMAS",
@@ -27,7 +27,7 @@
       "sector": "Holding",
       "entry": 195.3,
       "qty": 38,
-      "current": 194.2,
+      "current": 195.4,
       "stop": 175.77,
       "target": 273.42,
       "entry_ts": "2026-07-16 08:38",
@@ -39,7 +39,7 @@
       "sector": "Bankacılık",
       "entry": 31.9,
       "qty": 51,
-      "current": 29.16,
+      "current": 29.58,
       "stop": 28.71,
       "target": 44.66,
       "entry_ts": "2026-08-31 11:38",
@@ -51,11 +51,11 @@
       "sector": "Bankacılık",
       "entry": 129.4,
       "qty": 53,
-      "current": 126.1,
+      "current": 127.3,
       "stop": 116.46,
       "target": 181.16,
       "entry_ts": "2026-09-17 09:38",
-      "score": 60.8
+      "score": 60.2
     },
     {
       "ticker": "YKBNK",
@@ -63,11 +63,11 @@
       "sector": "Bankacılık",
       "entry": 36.56,
       "qty": 55,
-      "current": 34.14,
+      "current": 34.28,
       "stop": 32.9,
       "target": 51.18,
       "entry_ts": "2026-10-07 08:39",
-      "score": 50.1
+      "score": 51.3
     }
   ],
   "trades": [
