@@ -5,102 +5,102 @@
   },
   "tickers": {
     "AKBNK": {
-      "score": 55,
-      "note": "Temettü kararı ve teknik analizler hafif pozitif"
+      "score": 58,
+      "note": "Hedef fiyat güncellemeleri ve teknik yükseliş beklentisi"
     },
     "GARAN": {
-      "score": 65,
-      "note": "Beklentiyi aşan kâr, hedef fiyat güncellemeleri"
+      "score": 68,
+      "note": "Beklentiyi aşan kâr, AL tavsiyesi ve hedef fiyat artışları"
     },
     "ISCTR": {
       "score": 50,
-      "note": "Sadece teknik analiz ve yorum, nötr"
+      "note": "Yalnızca teknik analiz ve yorum başlıkları, net yön yok"
     },
     "YKBNK": {
       "score": 52,
-      "note": "Hedef fiyat ve BofA haberi hafif pozitif"
+      "note": "Fiyat hedefi ve BofA akış haberi, hafif pozitif"
     },
     "VAKBN": {
       "score": 60,
-      "note": "AL sinyali ve hedef fiyatlar"
+      "note": "Geri alım ve endeksten pozitif ayrışma"
     },
     "KCHOL": {
-      "score": 50,
-      "note": "Bilanço analizi ve özel emir, nötr"
+      "score": 52,
+      "note": "Bilanço ve teknik analiz başlıkları, karışık"
     },
     "SAHOL": {
       "score": 50,
-      "note": "Teknik analiz ve lot haberi, nötr"
+      "note": "Teknik analiz ve lot hareketi, net sinyal yok"
     },
     "SISE": {
-      "score": 40,
-      "note": "Bilanço sonrası sert düşüş, hedef fiyat geriledi"
+      "score": 38,
+      "note": "Bilanço sonrası sert düşüş ve hedef fiyat indirimi"
     },
     "THYAO": {
-      "score": 60,
-      "note": "Kârda toparlanma beklentisi, adil değer yukarı"
+      "score": 62,
+      "note": "Kârda toparlanma beklentisi ve adil değerin üzerinde"
     },
     "PGSUS": {
-      "score": 55,
-      "note": "Satın alma tamamlandı, hafif pozitif"
+      "score": 58,
+      "note": "Satın alma tamamlandı, havacılık performansı olumlu"
     },
     "TUPRS": {
-      "score": 52,
-      "note": "Temettü ödemesi, hafif pozitif"
+      "score": 55,
+      "note": "Temettü ödemesi ve bilanço tarihi, nötr-pozitif"
     },
     "AKSEN": {
       "score": 60,
-      "note": "Model portföye alındı, hedef fiyat"
+      "note": "Model portföye alım ve hedef fiyat"
     },
     "EREGL": {
       "score": 50,
-      "note": "Kredi notu ve teknik analiz, nötr"
+      "note": "Teknik analiz ve hedef fiyat başlıkları, net yön yok"
     },
     "BIMAS": {
-      "score": 55,
-      "note": "Hisse alımı ve yükseliş haberi"
+      "score": 58,
+      "note": "Hisse alımı ve yükseliş nedeni haberi"
     },
     "MGROS": {
-      "score": 42,
-      "note": "Düşüş haberi, negatif"
+      "score": 40,
+      "note": "Düşüş ve teknik analiz başlıkları negatif"
     },
     "FROTO": {
-      "score": 52,
-      "note": "Temettü dağıtımı, hafif pozitif"
+      "score": 58,
+      "note": "Temettü ve 364 milyon euroluk yatırım hamlesi"
     },
     "TOASO": {
-      "score": 52,
+      "score": 55,
       "note": "Temettü ve kredi anlaşması, hafif pozitif"
     },
     "ASELS": {
-      "score": 45,
-      "note": "Hedef fiyat yükseldi ama taban oldu, karışık"
+      "score": 42,
+      "note": "Taban olma haberi negatif, diğerleri nötr"
     },
     "TCELL": {
-      "score": 50,
-      "note": "Bilanço tarihi ve SEC açıklaması, nötr"
+      "score": 55,
+      "note": "Geri alım bildirimi ve bilanço tarihi"
     },
     "TTKOM": {
       "score": 50,
-      "note": "Teknik analiz ve bilanço tahmini, nötr"
+      "note": "Teknik analiz ve bilanço tahmini, net sinyal yok"
     },
     "ULKER": {
-      "score": 55,
-      "note": "Temettü dağıtımı, hafif pozitif"
+      "score": 58,
+      "note": "Temettü dağıtımı ve hisse devri açıklaması"
     },
     "CCOLA": {
-      "score": 60,
-      "note": "%56 getiri, pozitif"
+      "score": 65,
+      "note": "Net kâr artışı ve %56 getiri"
     },
     "ARCLK": {
-      "score": 48,
-      "note": "Satın alma ve hisse satışı, karışık hafif negatif"
+      "score": 35,
+      "note": "Zarar beklentileri aştı, negatif"
     },
     "EKGYO": {
-      "score": 58,
-      "note": "Hedef fiyat ve geri alım, pozitif"
+      "score": 60,
+      "note": "Hedef fiyat ve geri alım programı"
     }
   },
-  "_ts": 1793716690,
+  "_ts": 1793777880,
   "_source": "deepseek-llm"
 }
