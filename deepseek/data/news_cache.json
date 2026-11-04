@@ -1,106 +1,106 @@
 {
   "market": {
-    "score": 38,
-    "trend": "negatif"
+    "score": 45,
+    "trend": "karisik, hafif negatif"
   },
   "tickers": {
     "AKBNK": {
-      "score": 58,
-      "note": "Hedef fiyat güncellemeleri ve teknik yükseliş beklentisi"
+      "score": 55,
+      "note": "temettu karari ve teknik analiz, hafif pozitif"
     },
     "GARAN": {
-      "score": 68,
-      "note": "Beklentiyi aşan kâr, AL tavsiyesi ve hedef fiyat artışları"
+      "score": 70,
+      "note": "kar beklentiyi asti, hedef fiyat AL"
     },
     "ISCTR": {
-      "score": 50,
-      "note": "Yalnızca teknik analiz ve yorum başlıkları, net yön yok"
+      "score": 58,
+      "note": "HSBC hedef fiyat guncellemesi"
     },
     "YKBNK": {
       "score": 52,
-      "note": "Fiyat hedefi ve BofA akış haberi, hafif pozitif"
+      "note": "karisik, belirsiz"
     },
     "VAKBN": {
       "score": 60,
-      "note": "Geri alım ve endeksten pozitif ayrışma"
+      "note": "geri alim, endeksten pozitif ayrisim"
     },
     "KCHOL": {
-      "score": 52,
-      "note": "Bilanço ve teknik analiz başlıkları, karışık"
+      "score": 55,
+      "note": "temettu ve bilanco analizi"
     },
     "SAHOL": {
       "score": 50,
-      "note": "Teknik analiz ve lot hareketi, net sinyal yok"
+      "note": "notr, teknik analiz"
     },
     "SISE": {
-      "score": 38,
-      "note": "Bilanço sonrası sert düşüş ve hedef fiyat indirimi"
+      "score": 35,
+      "note": "bilanco sonrasi sert dusus, hedef fiyat geriledi"
     },
     "THYAO": {
-      "score": 62,
-      "note": "Kârda toparlanma beklentisi ve adil değerin üzerinde"
+      "score": 65,
+      "note": "kar toparlanma beklentisi, adil deger yukari"
     },
     "PGSUS": {
-      "score": 58,
-      "note": "Satın alma tamamlandı, havacılık performansı olumlu"
+      "score": 55,
+      "note": "satin alma tamamlandi, notr-pozitif"
     },
     "TUPRS": {
       "score": 55,
-      "note": "Temettü ödemesi ve bilanço tarihi, nötr-pozitif"
+      "note": "temettu odemesi"
     },
     "AKSEN": {
       "score": 60,
-      "note": "Model portföye alım ve hedef fiyat"
+      "note": "model portfoye alindi, hedef fiyat"
     },
     "EREGL": {
       "score": 50,
-      "note": "Teknik analiz ve hedef fiyat başlıkları, net yön yok"
+      "note": "kredi notu, notr"
     },
     "BIMAS": {
       "score": 58,
-      "note": "Hisse alımı ve yükseliş nedeni haberi"
+      "note": "hisse alimi, yukselis"
     },
     "MGROS": {
-      "score": 40,
-      "note": "Düşüş ve teknik analiz başlıkları negatif"
+      "score": 45,
+      "note": "dusus ve guclu gorunum celiskili"
     },
     "FROTO": {
       "score": 58,
-      "note": "Temettü ve 364 milyon euroluk yatırım hamlesi"
+      "note": "temettu ve yatirim hamlesi"
     },
     "TOASO": {
       "score": 55,
-      "note": "Temettü ve kredi anlaşması, hafif pozitif"
+      "note": "temettu ve kredi anlasmasi"
     },
     "ASELS": {
-      "score": 42,
-      "note": "Taban olma haberi negatif, diğerleri nötr"
+      "score": 45,
+      "note": "BofA satisi, hedef fiyat artisi dengeli"
     },
     "TCELL": {
-      "score": 55,
-      "note": "Geri alım bildirimi ve bilanço tarihi"
+      "score": 60,
+      "note": "hisse geri alimi"
     },
     "TTKOM": {
       "score": 50,
-      "note": "Teknik analiz ve bilanço tahmini, net sinyal yok"
+      "note": "bilanco tahmini, notr"
     },
     "ULKER": {
-      "score": 58,
-      "note": "Temettü dağıtımı ve hisse devri açıklaması"
+      "score": 55,
+      "note": "temettu dagitimi"
     },
     "CCOLA": {
       "score": 65,
-      "note": "Net kâr artışı ve %56 getiri"
+      "note": "net kar artisi, getiri"
     },
     "ARCLK": {
       "score": 35,
-      "note": "Zarar beklentileri aştı, negatif"
+      "note": "zarar beklentileri asti"
     },
     "EKGYO": {
       "score": 60,
-      "note": "Hedef fiyat ve geri alım programı"
+      "note": "geri alim ve hedef fiyat"
     }
   },
-  "_ts": 1793777880,
+  "_ts": 1793795938,
   "_source": "deepseek-llm"
 }
