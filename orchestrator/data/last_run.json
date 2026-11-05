@@ -1,5 +1,5 @@
 {
-  "ts": "2026-11-05 09:39:14",
+  "ts": "2026-11-05 10:40:26",
   "health": {
     "ok": true,
     "live": 24,
@@ -20,23 +20,23 @@
   "leaderboard": [
     {
       "name": "Claude AI",
-      "return_pct": -6.16
+      "return_pct": -5.85
     },
     {
       "name": "Konsensüs (Claude)",
-      "return_pct": -11.46
+      "return_pct": -11.14
     },
     {
       "name": "DeepSeek AI",
-      "return_pct": -11.92
+      "return_pct": -11.77
     },
     {
       "name": "Codex",
-      "return_pct": -13.7
+      "return_pct": -13.56
     },
     {
       "name": "Microsoft Copilot",
-      "return_pct": -19.69
+      "return_pct": -19.44
     }
   ]
 }
