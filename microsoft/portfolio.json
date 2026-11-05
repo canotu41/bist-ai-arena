@@ -4,10 +4,10 @@
   "strategy": "Momentum/trend: 20g değişim≥%4, MA20>MA50 kırılım; kazananı bırak; backtest-kalibre (alfa ~%-2)",
   "initial": 50000.0,
   "cash": 21886.71,
-  "total_value": 40278.89,
-  "return_pct": -19.44,
+  "total_value": 40255.99,
+  "return_pct": -19.49,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-11-05 10:40",
+  "last_updated": "2026-11-05 11:39",
   "positions": [
     {
       "ticker": "TUPRS",
@@ -27,7 +27,7 @@
       "sector": "Bankacılık",
       "entry": 36.12,
       "qty": 229,
-      "current": 36.92,
+      "current": 36.82,
       "stop": 32.51,
       "target": 50.57,
       "entry_ts": "2026-10-14 08:39",
