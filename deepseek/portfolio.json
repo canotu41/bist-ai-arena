@@ -1,7 +1,7 @@
 {
   "name": "DeepSeek BIST30 Portföy",
   "initial_capital": 50000.0,
-  "cash": 6766.350000000004,
+  "cash": 4630.590000000004,
   "positions": [
     {
       "ticker": "KCHOL",
@@ -15,9 +15,9 @@
       "take_profit": 265.28,
       "trailing_stop_active": false,
       "trailing_stop_level": 0.0,
-      "current_price": 200.9,
-      "unrealized_pnl": 101.20000000000013,
-      "unrealized_pnl_pct": 2.2391857506361355,
+      "current_price": 203.6,
+      "unrealized_pnl": 163.29999999999987,
+      "unrealized_pnl_pct": 3.613231552162847,
       "days_held": 0,
       "deepscore_at_entry": 62.4
     },
@@ -51,9 +51,9 @@
       "take_profit": 41.72,
       "trailing_stop_active": false,
       "trailing_stop_level": 0.0,
-      "current_price": 31.48,
-      "unrealized_pnl": 128.1800000000004,
-      "unrealized_pnl_pct": 1.877022653721689,
+      "current_price": 31.92,
+      "unrealized_pnl": 225.4200000000007,
+      "unrealized_pnl_pct": 3.300970873786418,
       "days_held": 0,
       "deepscore_at_entry": 63.0
     },
@@ -69,9 +69,9 @@
       "take_profit": 179.96,
       "trailing_stop_active": false,
       "trailing_stop_level": 0.0,
-      "current_price": 140.0,
-      "unrealized_pnl": 361.7999999999994,
-      "unrealized_pnl_pct": 5.026256564141026,
+      "current_price": 143.1,
+      "unrealized_pnl": 529.1999999999991,
+      "unrealized_pnl_pct": 7.35183795948986,
       "days_held": 0,
       "deepscore_at_entry": 64.0
     },
@@ -87,11 +87,29 @@
       "take_profit": 389.48,
       "trailing_stop_active": false,
       "trailing_stop_level": 0.0,
-      "current_price": 295.0,
-      "unrealized_pnl": 195.0,
-      "unrealized_pnl_pct": 2.2530329289428077,
+      "current_price": 299.25,
+      "unrealized_pnl": 322.5,
+      "unrealized_pnl_pct": 3.726169844020797,
       "days_held": 0,
       "deepscore_at_entry": 62.4
+    },
+    {
+      "ticker": "PGSUS",
+      "company_name": "Pegasus Hava Yolları",
+      "sector": "Ulaştırma",
+      "entry_price": 142.1,
+      "quantity": 15,
+      "entry_date": "2026-11-05 14:40",
+      "cost_basis": 2131.5,
+      "stop_loss": 127.89,
+      "take_profit": 191.84,
+      "trailing_stop_active": false,
+      "trailing_stop_level": 0.0,
+      "current_price": 142.1,
+      "unrealized_pnl": 0.0,
+      "unrealized_pnl_pct": 0.0,
+      "days_held": 0,
+      "deepscore_at_entry": 63.8
     }
   ],
   "transactions": [
@@ -393,17 +411,30 @@
       "reason": "DeepScore™ 62.4 (BUY) | Sektör: Ulaştırma",
       "signal_type": "BUY",
       "deepscore": 62.4
+    },
+    {
+      "id": "B3F08FEB",
+      "timestamp": "2026-11-05 14:40",
+      "type": "BUY",
+      "ticker": "PGSUS",
+      "quantity": 15,
+      "price": 142.1,
+      "total_amount": 2131.5,
+      "commission": 4.26,
+      "reason": "DeepScore™ 63.8 (BUY) | Sektör: Ulaştırma",
+      "signal_type": "BUY",
+      "deepscore": 63.8
     }
   ],
-  "total_value": 44092.130000000005,
-  "total_return_pct": -11.82,
+  "total_value": 44542.11,
+  "total_return_pct": -10.92,
   "benchmark_return_pct": 0.0,
   "alpha_pct": 0.0,
   "week": 0,
-  "current_drawdown_pct": -11.82,
+  "current_drawdown_pct": -10.91,
   "max_drawdown_pct": -15.25,
   "win_rate_pct": 0.0,
   "market_regime": "HIGH_VOLATILITY",
-  "last_updated": "2026-11-05 13:39",
+  "last_updated": "2026-11-05 14:40",
   "created_date": "2026-07-06"
 }
