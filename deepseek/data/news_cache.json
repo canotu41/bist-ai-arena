@@ -1,106 +1,106 @@
 {
   "market": {
     "score": 22,
-    "trend": "Sert düşüş, tüm sektörler ekside, MSCI uyarısı ve büyük değer kaybı"
+    "trend": "negatif"
   },
   "tickers": {
     "AKBNK": {
       "score": 55,
-      "note": "Temettü kararı ve fiyat hedefi olumlu, teknik analiz nötr"
+      "note": "Temettü kararı olumlu, teknik analiz nötr"
     },
     "GARAN": {
       "score": 65,
-      "note": "AL tavsiyesi ve hedef fiyat korundu, güçlü kâr artışı"
+      "note": "AL tavsiyesi ve hedef fiyat korundu, kâr artışı"
     },
     "ISCTR": {
       "score": 50,
-      "note": "Yalnızca teknik analiz ve yorum başlıkları, belirgin sinyal yok"
+      "note": "Sadece teknik analiz ve yorum, belirgin sinyal yok"
     },
     "YKBNK": {
       "score": 58,
-      "note": "Çok sayıda aracı kurum hedef fiyatı ve tahmin, olumlu"
+      "note": "Aracı kurum hedef fiyatları açıklandı"
     },
     "VAKBN": {
       "score": 60,
-      "note": "AL sinyali ve hedef fiyat paylaşımı pozitif"
+      "note": "AL sinyali ve hedef fiyat paylaşıldı"
     },
     "KCHOL": {
       "score": 52,
-      "note": "Bilanço analizi ve tahminler nötr-pozitif, özel emir işlemi belirsiz"
+      "note": "Bilanço analizi ve özel emir, nötr-pozitif"
     },
     "SAHOL": {
-      "score": 62,
-      "note": "Zarardan güçlü kâra geçiş güçlü pozitif sinyal"
+      "score": 68,
+      "note": "Zarardan güçlü kâra geçiş ve geri alım"
     },
     "SISE": {
-      "score": 30,
-      "note": "Çeyrek bilançoda zarar açıklaması negatif"
+      "score": 35,
+      "note": "Çeyrek bilançoda zarar açıkladı"
     },
     "THYAO": {
-      "score": 68,
-      "note": "Kârda toparlanma beklentisi, adil değer %30 yukarı, tavan"
+      "score": 65,
+      "note": "Kârda toparlanma beklentisi, adil değer yukarıda"
     },
     "PGSUS": {
-      "score": 58,
-      "note": "Çekya Havayolları ve Smartwings satın alımı tamamlandı, büyüme pozitif"
+      "score": 55,
+      "note": "Satın alma tamamlandı, nötr-pozitif"
     },
     "TUPRS": {
       "score": 55,
-      "note": "Temettü ödemesi pozitif, tahmin başlığı nötr"
+      "note": "Temettü ödemesi olumlu, nötr"
     },
     "AKSEN": {
       "score": 62,
       "note": "İş Yatırım model portföye aldı, hedef fiyat dikkat çekici"
     },
     "EREGL": {
-      "score": 50,
-      "note": "Teknik analiz ve hedef fiyat başlıkları, belirgin yön yok"
+      "score": 60,
+      "note": "Güçlü bilanço, net kâr artışı"
     },
     "BIMAS": {
-      "score": 58,
-      "note": "Bedelsiz sermaye artırımı ve yükseliş nedeni pozitif"
+      "score": 60,
+      "note": "Bedelsiz sermaye artırımı ve yükseliş"
     },
     "MGROS": {
-      "score": 55,
-      "note": "Temettü kararı olumlu, diğer başlıklar nötr"
+      "score": 40,
+      "note": "Hisse düşüşü ve temettü kararı karışık"
     },
     "FROTO": {
-      "score": 52,
-      "note": "Bilanço sonrası karışık sinyaller, adil değer yukarı"
+      "score": 55,
+      "note": "Bilanço sonrası hedef fiyatlar, adil değer yukarıda"
     },
     "TOASO": {
       "score": 55,
-      "note": "Hedef fiyat değişimi ve temettü, adil değer %31 yukarı"
+      "note": "Hedef fiyat değişiklikleri, nötr-pozitif"
     },
     "ASELS": {
-      "score": 25,
-      "note": "BofA 1,7 milyar TL satış ve düşüş negatif"
+      "score": 30,
+      "note": "BofA 1,7 milyar TL satış, hisse düşüyor"
     },
     "TCELL": {
-      "score": 35,
-      "note": "BofA satışı negatif, diğer başlıklar nötr"
+      "score": 38,
+      "note": "BofA satışı negatif, SEC açıklaması nötr"
     },
     "TTKOM": {
       "score": 68,
-      "note": "Beklentileri aşan bilanço ve 25,8 milyar TL kâr güçlü pozitif"
+      "note": "Beklentileri aşan bilanço, 25,8 milyar TL kâr"
     },
     "ULKER": {
-      "score": 55,
-      "note": "Temettü dağıtımı ve hisse devri açıklaması, nötr-pozitif"
+      "score": 58,
+      "note": "Temettü dağıtımı ve hisse devri açıklaması"
     },
     "CCOLA": {
       "score": 35,
-      "note": "BofA satışı ve bugün neden düşüyor başlığı negatif"
+      "note": "BofA satışı ve hisse düşüşü"
     },
     "ARCLK": {
-      "score": 48,
-      "note": "Satın alma ve hisse satışı kararı karışık, nötr-altı"
+      "score": 50,
+      "note": "Satın alma ve hisse satışı kararı karışık"
     },
     "EKGYO": {
-      "score": 60,
-      "note": "1 milyar TL geri alım programı ve 5,7 milyon lot alım pozitif"
+      "score": 62,
+      "note": "Geri alım programı başlatıldı"
     }
   },
-  "_ts": 1793961553,
+  "_ts": 1793972364,
   "_source": "deepseek-llm"
 }
