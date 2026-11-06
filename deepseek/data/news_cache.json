@@ -1,106 +1,106 @@
 {
   "market": {
-    "score": 28,
-    "trend": "negatif"
+    "score": 22,
+    "trend": "Sert düşüş, tüm sektörler ekside, MSCI uyarısı ve büyük değer kaybı"
   },
   "tickers": {
     "AKBNK": {
-      "score": 58,
-      "note": "Temettü kararı ve fiyat hedefleri olumlu"
+      "score": 55,
+      "note": "Temettü kararı ve fiyat hedefi olumlu, teknik analiz nötr"
     },
     "GARAN": {
       "score": 65,
-      "note": "AL tavsiyesi ve hedef fiyat korundu, kâr artışı"
+      "note": "AL tavsiyesi ve hedef fiyat korundu, güçlü kâr artışı"
     },
     "ISCTR": {
       "score": 50,
-      "note": "Sadece teknik analiz, belirgin yön yok"
+      "note": "Yalnızca teknik analiz ve yorum başlıkları, belirgin sinyal yok"
     },
     "YKBNK": {
       "score": 58,
-      "note": "Çok sayıda kurum hedef fiyatı açıkladı"
+      "note": "Çok sayıda aracı kurum hedef fiyatı ve tahmin, olumlu"
     },
     "VAKBN": {
       "score": 60,
-      "note": "AL sinyali ve hedef fiyat paylaşımı"
+      "note": "AL sinyali ve hedef fiyat paylaşımı pozitif"
     },
     "KCHOL": {
-      "score": 55,
-      "note": "Temettü kararı olumlu, bilanço nötr"
+      "score": 52,
+      "note": "Bilanço analizi ve tahminler nötr-pozitif, özel emir işlemi belirsiz"
     },
     "SAHOL": {
       "score": 62,
-      "note": "Zarardan kâra geçiş ve geri alım"
+      "note": "Zarardan güçlü kâra geçiş güçlü pozitif sinyal"
     },
     "SISE": {
-      "score": 35,
-      "note": "Çeyrek bilançoda zarar açıkladı"
+      "score": 30,
+      "note": "Çeyrek bilançoda zarar açıklaması negatif"
     },
     "THYAO": {
       "score": 68,
-      "note": "Kârda toparlanma beklentisi, adil değer yukarı"
+      "note": "Kârda toparlanma beklentisi, adil değer %30 yukarı, tavan"
     },
     "PGSUS": {
-      "score": 55,
-      "note": "Satın alma tamamlandı, stratejik büyüme"
+      "score": 58,
+      "note": "Çekya Havayolları ve Smartwings satın alımı tamamlandı, büyüme pozitif"
     },
     "TUPRS": {
       "score": 55,
-      "note": "Temettü ödemesi olumlu, nötr etki"
+      "note": "Temettü ödemesi pozitif, tahmin başlığı nötr"
     },
     "AKSEN": {
       "score": 62,
-      "note": "Model portföye alındı, hedef fiyat dikkat çekici"
+      "note": "İş Yatırım model portföye aldı, hedef fiyat dikkat çekici"
     },
     "EREGL": {
-      "score": 60,
-      "note": "Güçlü bilanço ve hedef fiyat tavsiyeleri"
+      "score": 50,
+      "note": "Teknik analiz ve hedef fiyat başlıkları, belirgin yön yok"
     },
     "BIMAS": {
       "score": 58,
-      "note": "Bedelsiz sermaye artırımı ve yükseliş"
+      "note": "Bedelsiz sermaye artırımı ve yükseliş nedeni pozitif"
     },
     "MGROS": {
-      "score": 52,
-      "note": "Temettü kararı, sınırlı etki"
+      "score": 55,
+      "note": "Temettü kararı olumlu, diğer başlıklar nötr"
     },
     "FROTO": {
-      "score": 40,
-      "note": "9 aylık kâr %33,6 azaldı, yatırım hamlesi dengeliyor"
+      "score": 52,
+      "note": "Bilanço sonrası karışık sinyaller, adil değer yukarı"
     },
     "TOASO": {
       "score": 55,
-      "note": "Hedef fiyat güncellemeleri ve temettü"
+      "note": "Hedef fiyat değişimi ve temettü, adil değer %31 yukarı"
     },
     "ASELS": {
       "score": 25,
-      "note": "BofA satışı ve sert düşüş"
+      "note": "BofA 1,7 milyar TL satış ve düşüş negatif"
     },
     "TCELL": {
-      "score": 38,
-      "note": "BofA satışı baskı yaratıyor"
+      "score": 35,
+      "note": "BofA satışı negatif, diğer başlıklar nötr"
     },
     "TTKOM": {
-      "score": 65,
-      "note": "Beklentileri aşan bilanço, güçlü kâr"
+      "score": 68,
+      "note": "Beklentileri aşan bilanço ve 25,8 milyar TL kâr güçlü pozitif"
     },
     "ULKER": {
       "score": 55,
-      "note": "Temettü dağıtımı ve hisse devri açıklaması"
+      "note": "Temettü dağıtımı ve hisse devri açıklaması, nötr-pozitif"
     },
     "CCOLA": {
-      "score": 60,
-      "note": "Hedef fiyat ikinci kez artırıldı"
+      "score": 35,
+      "note": "BofA satışı ve bugün neden düşüyor başlığı negatif"
     },
     "ARCLK": {
-      "score": 50,
-      "note": "Satın alma ve hisse satışı karışık sinyal"
+      "score": 48,
+      "note": "Satın alma ve hisse satışı kararı karışık, nötr-altı"
     },
     "EKGYO": {
       "score": 60,
-      "note": "Geri alım programı başlatıldı"
+      "note": "1 milyar TL geri alım programı ve 5,7 milyon lot alım pozitif"
     }
   },
-  "_ts": 1793950696,
+  "_ts": 1793961553,
   "_source": "deepseek-llm"
 }
