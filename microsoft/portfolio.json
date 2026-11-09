@@ -3,35 +3,23 @@
   "name": "Microsoft Copilot Portföyü",
   "strategy": "Momentum/trend: 20g değişim≥%4, MA20>MA50 kırılım; kazananı bırak; backtest-kalibre (alfa ~%-2)",
   "initial": 50000.0,
-  "cash": 12231.84,
-  "total_value": 40652.56,
-  "return_pct": -18.69,
+  "cash": 22388.99,
+  "total_value": 40848.14,
+  "return_pct": -18.3,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-11-06 14:39",
+  "last_updated": "2026-11-09 07:39",
   "positions": [
-    {
-      "ticker": "TUPRS",
-      "name": "Tüpraş",
-      "sector": "Enerji",
-      "entry": 309.5,
-      "qty": 30,
-      "current": 339.5,
-      "stop": 278.55,
-      "target": 433.3,
-      "entry_ts": "2026-07-22 07:10",
-      "score": 41.7
-    },
     {
       "ticker": "YKBNK",
       "name": "Yapı Kredi Bankası",
       "sector": "Bankacılık",
       "entry": 36.12,
       "qty": 229,
-      "current": 37.08,
+      "current": 37.64,
       "stop": 32.51,
       "target": 50.57,
       "entry_ts": "2026-10-14 08:39",
-      "score": 73.0
+      "score": 76.5
     },
     {
       "ticker": "GARAN",
@@ -39,11 +27,11 @@
       "sector": "Bankacılık",
       "entry": 141.7,
       "qty": 68,
-      "current": 143.3,
+      "current": 144.7,
       "stop": 127.53,
       "target": 198.38,
       "entry_ts": "2026-11-06 09:39",
-      "score": 78.2
+      "score": 78.9
     }
   ],
   "trades": [
@@ -271,6 +259,15 @@
       "price": 141.7,
       "amount": 9635.6,
       "reason": "Microsoft Copilot skoru 75 (>=70)"
+    },
+    {
+      "ts": "2026-11-09 07:39",
+      "side": "SELL",
+      "ticker": "TUPRS",
+      "qty": 30,
+      "price": 339.25,
+      "amount": 10177.5,
+      "reason": "SKOR düştü (40 < 40)"
     }
   ]
 }
