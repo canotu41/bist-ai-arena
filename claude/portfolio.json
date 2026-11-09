@@ -3,11 +3,11 @@
   "name": "Claude AI Portföyü",
   "strategy": "Kalite+değer, seçici al + uzun tut (ROE≥%10, F/K≤35, trend üstü); backtest-kalibre",
   "initial": 50000.0,
-  "cash": 6992.6,
-  "total_value": 47998.18,
-  "return_pct": -4.0,
+  "cash": 4851.58,
+  "total_value": 48451.55,
+  "return_pct": -3.1,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-11-09 10:39",
+  "last_updated": "2026-11-09 11:39",
   "positions": [
     {
       "ticker": "BIMAS",
@@ -15,11 +15,11 @@
       "sector": "Perakende",
       "entry": 384.0,
       "qty": 28,
-      "current": 374.5,
+      "current": 377.75,
       "stop": 345.6,
       "target": 764.16,
       "entry_ts": "2026-07-14 15:08",
-      "score": 64.9
+      "score": 67.4
     },
     {
       "ticker": "VAKBN",
@@ -27,7 +27,7 @@
       "sector": "Bankacılık",
       "entry": 31.58,
       "qty": 356,
-      "current": 33.34,
+      "current": 33.76,
       "stop": 28.42,
       "target": 62.84,
       "entry_ts": "2026-07-16 14:38",
@@ -39,11 +39,11 @@
       "sector": "Enerji",
       "entry": 323.75,
       "qty": 30,
-      "current": 334.0,
+      "current": 337.0,
       "stop": 291.38,
       "target": 644.26,
       "entry_ts": "2026-08-07 10:38",
-      "score": 50.1
+      "score": 48.3
     },
     {
       "ticker": "YKBNK",
@@ -51,11 +51,23 @@
       "sector": "Bankacılık",
       "entry": 37.1,
       "qty": 227,
-      "current": 38.02,
+      "current": 38.58,
       "stop": 33.39,
       "target": 73.83,
       "entry_ts": "2026-09-22 12:38",
       "score": 73.6
+    },
+    {
+      "ticker": "THYAO",
+      "name": "Türk Hava Yolları",
+      "sector": "Ulaştırma",
+      "entry": 305.25,
+      "qty": 7,
+      "current": 305.25,
+      "stop": 274.73,
+      "target": 607.45,
+      "entry_ts": "2026-11-09 11:39",
+      "score": 68.6
     }
   ],
   "trades": [
@@ -184,6 +196,15 @@
       "price": 69.7,
       "amount": 1394.0,
       "reason": "STOP-LOSS (%-11.4)"
+    },
+    {
+      "ts": "2026-11-09 11:39",
+      "side": "BUY",
+      "ticker": "THYAO",
+      "qty": 7,
+      "price": 305.25,
+      "amount": 2136.75,
+      "reason": "Claude AI skoru 69 (>=65)"
     }
   ]
 }
