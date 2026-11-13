@@ -4,10 +4,10 @@
   "strategy": "Önce risk: düşük vol (ATR≤%3.6), RSI 40-68, MA50 üstü; seçici, uzun tut; backtest-kalibre",
   "initial": 50000.0,
   "cash": 9213.54,
-  "total_value": 44601.33,
-  "return_pct": -10.8,
+  "total_value": 44442.95,
+  "return_pct": -11.11,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-11-13 12:40",
+  "last_updated": "2026-11-13 14:57",
   "positions": [
     {
       "ticker": "BIMAS",
@@ -15,7 +15,7 @@
       "sector": "Perakende",
       "entry": 381.5,
       "qty": 19,
-      "current": 395.75,
+      "current": 395.25,
       "stop": 343.35,
       "target": 534.1,
       "entry_ts": "2026-07-14 10:38",
@@ -27,11 +27,11 @@
       "sector": "Holding",
       "entry": 195.3,
       "qty": 38,
-      "current": 208.8,
+      "current": 208.1,
       "stop": 175.77,
       "target": 273.42,
       "entry_ts": "2026-07-16 08:38",
-      "score": 57.7
+      "score": 59.2
     },
     {
       "ticker": "VAKBN",
@@ -39,7 +39,7 @@
       "sector": "Bankacılık",
       "entry": 31.9,
       "qty": 51,
-      "current": 33.34,
+      "current": 33.26,
       "stop": 28.71,
       "target": 44.66,
       "entry_ts": "2026-08-31 11:38",
@@ -51,11 +51,11 @@
       "sector": "Bankacılık",
       "entry": 129.4,
       "qty": 53,
-      "current": 152.5,
+      "current": 150.5,
       "stop": 116.46,
       "target": 181.16,
       "entry_ts": "2026-09-17 09:38",
-      "score": 64.0
+      "score": 64.9
     },
     {
       "ticker": "YKBNK",
@@ -63,7 +63,7 @@
       "sector": "Bankacılık",
       "entry": 36.56,
       "qty": 55,
-      "current": 37.9,
+      "current": 37.84,
       "stop": 32.9,
       "target": 51.18,
       "entry_ts": "2026-10-07 08:39",
@@ -75,11 +75,11 @@
       "sector": "Telekom",
       "entry": 97.5,
       "qty": 68,
-      "current": 96.95,
+      "current": 96.85,
       "stop": 87.75,
       "target": 136.5,
       "entry_ts": "2026-11-10 11:39",
-      "score": 58.6
+      "score": 56.8
     },
     {
       "ticker": "AKBNK",
@@ -87,7 +87,7 @@
       "sector": "Bankacılık",
       "entry": 70.15,
       "qty": 21,
-      "current": 70.2,
+      "current": 70.1,
       "stop": 63.14,
       "target": 98.21,
       "entry_ts": "2026-11-13 10:40",
