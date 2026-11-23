@@ -4,10 +4,10 @@
   "strategy": "Momentum/trend: 20g değişim≥%4, MA20>MA50 kırılım; kazananı bırak; backtest-kalibre (alfa ~%-2)",
   "initial": 50000.0,
   "cash": 22388.99,
-  "total_value": 40764.73,
-  "return_pct": -18.47,
+  "total_value": 40685.07,
+  "return_pct": -18.63,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-11-23 09:39",
+  "last_updated": "2026-11-23 10:39",
   "positions": [
     {
       "ticker": "YKBNK",
@@ -15,7 +15,7 @@
       "sector": "Bankacılık",
       "entry": 36.12,
       "qty": 229,
-      "current": 36.86,
+      "current": 36.72,
       "stop": 32.51,
       "target": 50.57,
       "entry_ts": "2026-10-14 08:39",
@@ -27,11 +27,11 @@
       "sector": "Bankacılık",
       "entry": 141.7,
       "qty": 68,
-      "current": 146.1,
+      "current": 145.4,
       "stop": 127.53,
       "target": 198.38,
       "entry_ts": "2026-11-06 09:39",
-      "score": 64.1
+      "score": 62.7
     }
   ],
   "trades": [
