@@ -4,10 +4,10 @@
   "strategy": "Momentum/trend: 20g değişim≥%4, MA20>MA50 kırılım; kazananı bırak; backtest-kalibre (alfa ~%-2)",
   "initial": 50000.0,
   "cash": 22388.99,
-  "total_value": 40662.45,
-  "return_pct": -18.68,
+  "total_value": 40784.71,
+  "return_pct": -18.43,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-11-23 14:39",
+  "last_updated": "2026-11-24 07:39",
   "positions": [
     {
       "ticker": "YKBNK",
@@ -15,11 +15,11 @@
       "sector": "Bankacılık",
       "entry": 36.12,
       "qty": 229,
-      "current": 36.74,
+      "current": 36.68,
       "stop": 32.51,
       "target": 50.57,
       "entry_ts": "2026-10-14 08:39",
-      "score": 69.9
+      "score": 68.1
     },
     {
       "ticker": "GARAN",
@@ -27,11 +27,11 @@
       "sector": "Bankacılık",
       "entry": 141.7,
       "qty": 68,
-      "current": 145.0,
+      "current": 147.0,
       "stop": 127.53,
       "target": 198.38,
       "entry_ts": "2026-11-06 09:39",
-      "score": 62.7
+      "score": 64.1
     }
   ],
   "trades": [
