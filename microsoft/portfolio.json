@@ -4,10 +4,10 @@
   "strategy": "Momentum/trend: 20g değişim≥%4, MA20>MA50 kırılım; kazananı bırak; backtest-kalibre (alfa ~%-2)",
   "initial": 50000.0,
   "cash": 12494.04,
-  "total_value": 39570.54,
-  "return_pct": -20.86,
+  "total_value": 39435.96,
+  "return_pct": -21.13,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-11-26 07:39",
+  "last_updated": "2026-11-26 08:39",
   "positions": [
     {
       "ticker": "YKBNK",
@@ -15,7 +15,7 @@
       "sector": "Bankacılık",
       "entry": 36.12,
       "qty": 229,
-      "current": 34.5,
+      "current": 34.08,
       "stop": 32.51,
       "target": 50.57,
       "entry_ts": "2026-10-14 08:39",
@@ -31,7 +31,7 @@
       "stop": 127.53,
       "target": 198.38,
       "entry_ts": "2026-11-06 09:39",
-      "score": 73.0
+      "score": 77.5
     },
     {
       "ticker": "PGSUS",
@@ -39,11 +39,11 @@
       "sector": "Ulaştırma",
       "entry": 154.3,
       "qty": 64,
-      "current": 151.3,
+      "current": 150.7,
       "stop": 138.87,
       "target": 216.02,
       "entry_ts": "2026-11-25 12:39",
-      "score": 71.0
+      "score": 69.6
     }
   ],
   "trades": [
