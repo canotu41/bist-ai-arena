@@ -4,10 +4,10 @@
   "strategy": "Önce risk: düşük vol (ATR≤%3.6), RSI 40-68, MA50 üstü; seçici, uzun tut; backtest-kalibre",
   "initial": 50000.0,
   "cash": 10530.73,
-  "total_value": 41435.66,
-  "return_pct": -17.13,
+  "total_value": 41516.5,
+  "return_pct": -16.97,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-11-26 12:39",
+  "last_updated": "2026-11-26 13:39",
   "positions": [
     {
       "ticker": "BIMAS",
@@ -15,7 +15,7 @@
       "sector": "Perakende",
       "entry": 381.5,
       "qty": 19,
-      "current": 364.0,
+      "current": 364.75,
       "stop": 343.35,
       "target": 534.1,
       "entry_ts": "2026-07-14 10:38",
@@ -27,7 +27,7 @@
       "sector": "Holding",
       "entry": 195.3,
       "qty": 38,
-      "current": 186.8,
+      "current": 187.1,
       "stop": 175.77,
       "target": 273.42,
       "entry_ts": "2026-07-16 08:38",
@@ -39,11 +39,11 @@
       "sector": "Bankacılık",
       "entry": 31.9,
       "qty": 51,
-      "current": 31.58,
+      "current": 31.82,
       "stop": 28.71,
       "target": 44.66,
       "entry_ts": "2026-08-31 11:38",
-      "score": 48.6
+      "score": 56.7
     },
     {
       "ticker": "GARAN",
@@ -51,7 +51,7 @@
       "sector": "Bankacılık",
       "entry": 129.4,
       "qty": 53,
-      "current": 140.5,
+      "current": 141.2,
       "stop": 116.46,
       "target": 181.16,
       "entry_ts": "2026-09-17 09:38",
@@ -63,11 +63,11 @@
       "sector": "Bankacılık",
       "entry": 36.56,
       "qty": 55,
-      "current": 34.04,
+      "current": 34.06,
       "stop": 32.9,
       "target": 51.18,
       "entry_ts": "2026-10-07 08:39",
-      "score": 64.4
+      "score": 56.9
     },
     {
       "ticker": "THYAO",
@@ -75,7 +75,7 @@
       "sector": "Ulaştırma",
       "entry": 312.0,
       "qty": 19,
-      "current": 313.75,
+      "current": 314.0,
       "stop": 280.8,
       "target": 436.8,
       "entry_ts": "2026-11-26 07:39",
