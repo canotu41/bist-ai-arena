@@ -4,10 +4,10 @@
   "strategy": "Momentum/trend: 20g değişim≥%4, MA20>MA50 kırılım; kazananı bırak; backtest-kalibre (alfa ~%-2)",
   "initial": 50000.0,
   "cash": 19834.81,
-  "total_value": 39032.81,
-  "return_pct": -21.93,
+  "total_value": 38914.41,
+  "return_pct": -22.17,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-11-27 10:39",
+  "last_updated": "2026-11-27 11:39",
   "positions": [
     {
       "ticker": "GARAN",
@@ -15,11 +15,11 @@
       "sector": "Bankacılık",
       "entry": 141.7,
       "qty": 68,
-      "current": 138.7,
+      "current": 137.9,
       "stop": 127.53,
       "target": 198.38,
       "entry_ts": "2026-11-06 09:39",
-      "score": 74.3
+      "score": 72.7
     },
     {
       "ticker": "PGSUS",
@@ -27,11 +27,11 @@
       "sector": "Ulaştırma",
       "entry": 154.3,
       "qty": 64,
-      "current": 152.6,
+      "current": 151.6,
       "stop": 138.87,
       "target": 216.02,
       "entry_ts": "2026-11-25 12:39",
-      "score": 71.0
+      "score": 69.6
     }
   ],
   "trades": [
