@@ -3,11 +3,11 @@
   "name": "Claude AI Portföyü",
   "strategy": "Kalite+değer, seçici al + uzun tut (ROE≥%10, F/K≤35, trend üstü); backtest-kalibre",
   "initial": 50000.0,
-  "cash": 4851.58,
-  "total_value": 45941.74,
-  "return_pct": -8.12,
+  "cash": 4764.14,
+  "total_value": 44873.86,
+  "return_pct": -10.25,
   "created": "2026-07-14 12:11",
-  "last_updated": "2026-11-26 14:39",
+  "last_updated": "2026-11-27 07:39",
   "positions": [
     {
       "ticker": "BIMAS",
@@ -15,11 +15,11 @@
       "sector": "Perakende",
       "entry": 384.0,
       "qty": 28,
-      "current": 363.5,
+      "current": 362.5,
       "stop": 345.6,
       "target": 764.16,
       "entry_ts": "2026-07-14 15:08",
-      "score": 62.5
+      "score": 61.8
     },
     {
       "ticker": "VAKBN",
@@ -27,11 +27,11 @@
       "sector": "Bankacılık",
       "entry": 31.58,
       "qty": 356,
-      "current": 31.74,
+      "current": 29.72,
       "stop": 28.42,
       "target": 62.84,
       "entry_ts": "2026-07-16 14:38",
-      "score": 57.7
+      "score": 56.3
     },
     {
       "ticker": "TUPRS",
@@ -39,23 +39,11 @@
       "sector": "Enerji",
       "entry": 323.75,
       "qty": 30,
-      "current": 324.75,
+      "current": 329.25,
       "stop": 291.38,
       "target": 644.26,
       "entry_ts": "2026-08-07 10:38",
       "score": 57.4
-    },
-    {
-      "ticker": "YKBNK",
-      "name": "Yapı Kredi Bankası",
-      "sector": "Bankacılık",
-      "entry": 37.1,
-      "qty": 227,
-      "current": 33.86,
-      "stop": 33.39,
-      "target": 73.83,
-      "entry_ts": "2026-09-22 12:38",
-      "score": 67.3
     },
     {
       "ticker": "THYAO",
@@ -63,11 +51,23 @@
       "sector": "Ulaştırma",
       "entry": 305.25,
       "qty": 7,
-      "current": 312.0,
+      "current": 307.5,
       "stop": 274.73,
       "target": 607.45,
       "entry_ts": "2026-11-09 11:39",
       "score": 67.2
+    },
+    {
+      "ticker": "GARAN",
+      "name": "Garanti BBVA",
+      "sector": "Bankacılık",
+      "entry": 136.1,
+      "qty": 54,
+      "current": 136.1,
+      "stop": 122.49,
+      "target": 270.84,
+      "entry_ts": "2026-11-27 07:39",
+      "score": 67.4
     }
   ],
   "trades": [
@@ -205,6 +205,24 @@
       "price": 305.25,
       "amount": 2136.75,
       "reason": "Claude AI skoru 69 (>=65)"
+    },
+    {
+      "ts": "2026-11-27 07:39",
+      "side": "SELL",
+      "ticker": "YKBNK",
+      "qty": 227,
+      "price": 32.12,
+      "amount": 7291.24,
+      "reason": "STOP-LOSS (%-13.4)"
+    },
+    {
+      "ts": "2026-11-27 07:39",
+      "side": "BUY",
+      "ticker": "GARAN",
+      "qty": 54,
+      "price": 136.1,
+      "amount": 7349.4,
+      "reason": "Claude AI skoru 67 (>=65)"
     }
   ]
 }
